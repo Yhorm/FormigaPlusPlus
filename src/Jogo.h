@@ -2,4 +2,4 @@
 class Jogo {
 public: 
 
-}
+};

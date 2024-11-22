@@ -1,32 +1,14 @@
-/**
- * Project Untitled
- */
-
-
-#ifndef _LISTAENTIDADES_H
-#define _LISTAENTIDADES_H
-
-#include "Conhecer.h"
-
-
-class ListaEntidades: public Conhecer {
+#pragma once
+#include "../Entidades/Entidade.h"
+#include <list>
+class ListaEntidades{
 public: 
-    void ...;
     
-void ListaEntidades();
+ListaEntidades();
     
-void ListaEntidades();
+~ListaEntidades();
     
-/**
- * @param pE
- */
-void incluir(*Entidade pE);
-    
-void percorrer();
-    
-void ...();
 private: 
-    Lista<Entidade> LEs;
+	std::list<Entidade> LEs;
 };
 
-#endif //_LISTAENTIDADES_H

@@ -1,11 +1,4 @@
-/**
- * Project Untitled
- */
-
-
-#ifndef _JOGADOR_H
-#define _JOGADOR_H
-
+#pragma once
 #include "Personagem.h"
 
 
@@ -14,11 +7,8 @@ public:
     
 void executar();
     
-void ...();
 protected: 
-    void ...;
 private: 
     int pontos;
 };
 
-#endif //_JOGADOR_H

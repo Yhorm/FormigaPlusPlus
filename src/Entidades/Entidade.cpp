@@ -5,33 +5,10 @@
 
 #include "Entidade.h"
 
-/**
- * Entidade implementation
- */
+Entidade::Entidade() {
 
-
-void Entidade::Entidade() {
+}
+Entidade::~Entidade() {
 
 }
 
-void Entidade::Entidade() {
-
-}
-
-/**
- * @return virtual void = 0
- */
-virtual virtual void = 0 Entidade::executar() {
-    return null;
-}
-
-/**
- * @return virtual void = 0
- */
-virtual virtual void = 0 Entidade::salvar() {
-    return null;
-}
-
-void Entidade::...() {
-
-}

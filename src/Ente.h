@@ -2,11 +2,9 @@
 class Ente {
 public: 
 
+Ente();
+~Ente();
 
-virtual virtual void = 0 executar() = 0;
-    
-void desenhar();
-    
 protected: 
     int id;
 };

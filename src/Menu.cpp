@@ -1,8 +1,3 @@
-/**
- * Project Untitled
- */
-
-
 #include "Menu.h"
 
 /**
@@ -10,6 +5,6 @@
  */
 
 
-void Menu::Menu() {
+Menu::Menu() {
 
 }

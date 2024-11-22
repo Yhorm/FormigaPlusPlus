@@ -1,19 +1,8 @@
-/**
- * Project Untitled
- */
-
-
-#ifndef _MENU_H
-#define _MENU_H
-
+#pragma once
 #include "Ente.h"
-
 
 class Menu: public Ente {
 public: 
-    void ...;
-    
-void ...();
+		Menu();
 };
 
-#endif //_MENU_H

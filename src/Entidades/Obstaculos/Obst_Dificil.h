@@ -1,20 +1,9 @@
-/**
- * Project Untitled
- */
-
-
-#ifndef _OBST_DIFICIL_H
-#define _OBST_DIFICIL_H
-
+#pragma once
 #include "Obstaculo.h"
-
-
 class Obst_Dificil: public Obstaculo {
-public: 
-    
-void ...();
 private: 
-    void ...;
+public: 
+		Obst_Dificil();
+		~Obst_Dificil();
 };
 
-#endif //_OBST_DIFICIL_H
