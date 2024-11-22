@@ -1,10 +1,7 @@
 /**
  * Project Untitled
  */
-
-
-#ifndef _GERENCIADOR_GRAFICO_H
-#define _GERENCIADOR_GRAFICO_H
+#pragma once
 
 class Gerenciador_Grafico {
 public: 
@@ -23,5 +20,3 @@ private:
     BiblioGrafica obj;
     void ...;
 };
-
-#endif //_GERENCIADOR_GRAFICO_H

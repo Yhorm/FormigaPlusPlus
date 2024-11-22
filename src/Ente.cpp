@@ -14,10 +14,6 @@ void Ente::Ente() {
 
 }
 
-void Ente::Ente() {
-
-}
-
 /**
  * @return virtual void = 0
  */
@@ -30,8 +26,4 @@ virtual virtual void = 0 Ente::executar() {
  */
 void Ente::desenhar() {
     return;
-}
-
-void Ente::. . .() {
-
 }

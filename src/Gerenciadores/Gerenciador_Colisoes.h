@@ -3,8 +3,7 @@
  */
 
 
-#ifndef _GERENCIADOR_COLISÕES_H
-#define _GERENCIADOR_COLISÕES_H
+#pragma once
 
 class Gerenciador_Colisões {
 public: 
@@ -18,11 +17,9 @@ void tratarColisoesJogsObstacs();
     
 void tratarColisoresJogsInimgs();
     
-void ...();
+
 private: 
     vector<*Inimigo> LIs;
     list<*Obstaculo> LOs;
-    void ...;
-};
 
-#endif //_GERENCIADOR_COLISÕES_H
+};

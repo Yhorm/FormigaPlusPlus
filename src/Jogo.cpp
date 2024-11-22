@@ -8,8 +8,3 @@
 /**
  * Jogo implementation
  */
-
-
-void Jogo::...() {
-
-}
