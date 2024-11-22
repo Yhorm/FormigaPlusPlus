@@ -307,10 +307,24 @@ CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Grafico.cpp -o CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.s
 
+CMakeFiles/game.dir/src/Janela.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/Janela.cpp.o: /home/andre/tec-prog-proj-final/src/Janela.cpp
+CMakeFiles/game.dir/src/Janela.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andre/tec-prog-proj-final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/game.dir/src/Janela.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Janela.cpp.o -MF CMakeFiles/game.dir/src/Janela.cpp.o.d -o CMakeFiles/game.dir/src/Janela.cpp.o -c /home/andre/tec-prog-proj-final/src/Janela.cpp
+
+CMakeFiles/game.dir/src/Janela.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Janela.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andre/tec-prog-proj-final/src/Janela.cpp > CMakeFiles/game.dir/src/Janela.cpp.i
+
+CMakeFiles/game.dir/src/Janela.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Janela.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andre/tec-prog-proj-final/src/Janela.cpp -o CMakeFiles/game.dir/src/Janela.cpp.s
+
 CMakeFiles/game.dir/src/Jogo.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/Jogo.cpp.o: /home/andre/tec-prog-proj-final/src/Jogo.cpp
 CMakeFiles/game.dir/src/Jogo.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andre/tec-prog-proj-final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/game.dir/src/Jogo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andre/tec-prog-proj-final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/game.dir/src/Jogo.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Jogo.cpp.o -MF CMakeFiles/game.dir/src/Jogo.cpp.o.d -o CMakeFiles/game.dir/src/Jogo.cpp.o -c /home/andre/tec-prog-proj-final/src/Jogo.cpp
 
 CMakeFiles/game.dir/src/Jogo.cpp.i: cmake_force
@@ -324,7 +338,7 @@ CMakeFiles/game.dir/src/Jogo.cpp.s: cmake_force
 CMakeFiles/game.dir/src/Listas/Elemento.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/Listas/Elemento.cpp.o: /home/andre/tec-prog-proj-final/src/Listas/Elemento.cpp
 CMakeFiles/game.dir/src/Listas/Elemento.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andre/tec-prog-proj-final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/game.dir/src/Listas/Elemento.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andre/tec-prog-proj-final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/game.dir/src/Listas/Elemento.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Listas/Elemento.cpp.o -MF CMakeFiles/game.dir/src/Listas/Elemento.cpp.o.d -o CMakeFiles/game.dir/src/Listas/Elemento.cpp.o -c /home/andre/tec-prog-proj-final/src/Listas/Elemento.cpp
 
 CMakeFiles/game.dir/src/Listas/Elemento.cpp.i: cmake_force
@@ -338,7 +352,7 @@ CMakeFiles/game.dir/src/Listas/Elemento.cpp.s: cmake_force
 CMakeFiles/game.dir/src/Listas/Lista.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/Listas/Lista.cpp.o: /home/andre/tec-prog-proj-final/src/Listas/Lista.cpp
 CMakeFiles/game.dir/src/Listas/Lista.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andre/tec-prog-proj-final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/game.dir/src/Listas/Lista.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andre/tec-prog-proj-final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/game.dir/src/Listas/Lista.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Listas/Lista.cpp.o -MF CMakeFiles/game.dir/src/Listas/Lista.cpp.o.d -o CMakeFiles/game.dir/src/Listas/Lista.cpp.o -c /home/andre/tec-prog-proj-final/src/Listas/Lista.cpp
 
 CMakeFiles/game.dir/src/Listas/Lista.cpp.i: cmake_force
@@ -352,7 +366,7 @@ CMakeFiles/game.dir/src/Listas/Lista.cpp.s: cmake_force
 CMakeFiles/game.dir/src/Listas/ListaEntidades.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/Listas/ListaEntidades.cpp.o: /home/andre/tec-prog-proj-final/src/Listas/ListaEntidades.cpp
 CMakeFiles/game.dir/src/Listas/ListaEntidades.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andre/tec-prog-proj-final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/game.dir/src/Listas/ListaEntidades.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andre/tec-prog-proj-final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/game.dir/src/Listas/ListaEntidades.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Listas/ListaEntidades.cpp.o -MF CMakeFiles/game.dir/src/Listas/ListaEntidades.cpp.o.d -o CMakeFiles/game.dir/src/Listas/ListaEntidades.cpp.o -c /home/andre/tec-prog-proj-final/src/Listas/ListaEntidades.cpp
 
 CMakeFiles/game.dir/src/Listas/ListaEntidades.cpp.i: cmake_force
@@ -366,7 +380,7 @@ CMakeFiles/game.dir/src/Listas/ListaEntidades.cpp.s: cmake_force
 CMakeFiles/game.dir/src/Menu.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/Menu.cpp.o: /home/andre/tec-prog-proj-final/src/Menu.cpp
 CMakeFiles/game.dir/src/Menu.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andre/tec-prog-proj-final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/game.dir/src/Menu.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andre/tec-prog-proj-final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/game.dir/src/Menu.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Menu.cpp.o -MF CMakeFiles/game.dir/src/Menu.cpp.o.d -o CMakeFiles/game.dir/src/Menu.cpp.o -c /home/andre/tec-prog-proj-final/src/Menu.cpp
 
 CMakeFiles/game.dir/src/Menu.cpp.i: cmake_force
@@ -380,7 +394,7 @@ CMakeFiles/game.dir/src/Menu.cpp.s: cmake_force
 CMakeFiles/game.dir/src/main.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 CMakeFiles/game.dir/src/main.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andre/tec-prog-proj-final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/game.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andre/tec-prog-proj-final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/game.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/main.cpp.o -MF CMakeFiles/game.dir/src/main.cpp.o.d -o CMakeFiles/game.dir/src/main.cpp.o -c /home/andre/tec-prog-proj-final/src/main.cpp
 
 CMakeFiles/game.dir/src/main.cpp.i: cmake_force
@@ -410,6 +424,7 @@ game_OBJECTS = \
 "CMakeFiles/game.dir/src/Fases/FaseSegunda.cpp.o" \
 "CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisoes.cpp.o" \
 "CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o" \
+"CMakeFiles/game.dir/src/Janela.cpp.o" \
 "CMakeFiles/game.dir/src/Jogo.cpp.o" \
 "CMakeFiles/game.dir/src/Listas/Elemento.cpp.o" \
 "CMakeFiles/game.dir/src/Listas/Lista.cpp.o" \
@@ -437,6 +452,7 @@ game: CMakeFiles/game.dir/src/Fases/FasePrimeira.cpp.o
 game: CMakeFiles/game.dir/src/Fases/FaseSegunda.cpp.o
 game: CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisoes.cpp.o
 game: CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o
+game: CMakeFiles/game.dir/src/Janela.cpp.o
 game: CMakeFiles/game.dir/src/Jogo.cpp.o
 game: CMakeFiles/game.dir/src/Listas/Elemento.cpp.o
 game: CMakeFiles/game.dir/src/Listas/Lista.cpp.o
@@ -450,7 +466,7 @@ game: /usr/lib/libsfml-audio.so.2.6.1
 game: /usr/lib/libsfml-window.so.2.6.1
 game: /usr/lib/libsfml-system.so.2.6.1
 game: CMakeFiles/game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/andre/tec-prog-proj-final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/andre/tec-prog-proj-final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

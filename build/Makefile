@@ -537,6 +537,30 @@ src/Gerenciadores/Gerenciador_Grafico.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.s
 .PHONY : src/Gerenciadores/Gerenciador_Grafico.cpp.s
 
+src/Janela.o: src/Janela.cpp.o
+.PHONY : src/Janela.o
+
+# target to build an object file
+src/Janela.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Janela.cpp.o
+.PHONY : src/Janela.cpp.o
+
+src/Janela.i: src/Janela.cpp.i
+.PHONY : src/Janela.i
+
+# target to preprocess a source file
+src/Janela.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Janela.cpp.i
+.PHONY : src/Janela.cpp.i
+
+src/Janela.s: src/Janela.cpp.s
+.PHONY : src/Janela.s
+
+# target to generate assembly for a file
+src/Janela.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Janela.cpp.s
+.PHONY : src/Janela.cpp.s
+
 src/Jogo.o: src/Jogo.cpp.o
 .PHONY : src/Jogo.o
 
@@ -741,6 +765,9 @@ help:
 	@echo "... src/Gerenciadores/Gerenciador_Grafico.o"
 	@echo "... src/Gerenciadores/Gerenciador_Grafico.i"
 	@echo "... src/Gerenciadores/Gerenciador_Grafico.s"
+	@echo "... src/Janela.o"
+	@echo "... src/Janela.i"
+	@echo "... src/Janela.s"
 	@echo "... src/Jogo.o"
 	@echo "... src/Jogo.i"
 	@echo "... src/Jogo.s"

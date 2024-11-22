@@ -33,6 +33,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisoes.cpp.o.d"
   "CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o"
   "CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o.d"
+  "CMakeFiles/game.dir/src/Janela.cpp.o"
+  "CMakeFiles/game.dir/src/Janela.cpp.o.d"
   "CMakeFiles/game.dir/src/Jogo.cpp.o"
   "CMakeFiles/game.dir/src/Jogo.cpp.o.d"
   "CMakeFiles/game.dir/src/Listas/Elemento.cpp.o"

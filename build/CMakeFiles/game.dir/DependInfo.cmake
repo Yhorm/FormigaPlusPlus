@@ -25,6 +25,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/andre/tec-prog-proj-final/src/Fases/FaseSegunda.cpp" "CMakeFiles/game.dir/src/Fases/FaseSegunda.cpp.o" "gcc" "CMakeFiles/game.dir/src/Fases/FaseSegunda.cpp.o.d"
   "/home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Colisoes.cpp" "CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisoes.cpp.o" "gcc" "CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisoes.cpp.o.d"
   "/home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Grafico.cpp" "CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o" "gcc" "CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o.d"
+  "/home/andre/tec-prog-proj-final/src/Janela.cpp" "CMakeFiles/game.dir/src/Janela.cpp.o" "gcc" "CMakeFiles/game.dir/src/Janela.cpp.o.d"
   "/home/andre/tec-prog-proj-final/src/Jogo.cpp" "CMakeFiles/game.dir/src/Jogo.cpp.o" "gcc" "CMakeFiles/game.dir/src/Jogo.cpp.o.d"
   "/home/andre/tec-prog-proj-final/src/Listas/Elemento.cpp" "CMakeFiles/game.dir/src/Listas/Elemento.cpp.o" "gcc" "CMakeFiles/game.dir/src/Listas/Elemento.cpp.o.d"
   "/home/andre/tec-prog-proj-final/src/Listas/Lista.cpp" "CMakeFiles/game.dir/src/Listas/Lista.cpp.o" "gcc" "CMakeFiles/game.dir/src/Listas/Lista.cpp.o.d"

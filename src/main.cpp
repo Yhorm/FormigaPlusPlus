@@ -1,5 +1,9 @@
-#include <iostream>
-
+#include "Jogo.h"
 int main(){
-    std::cout<<"teste";
+
+		Jogo jogo;
+		while(!jogo.GetJanela()->Acabou()){
+				jogo.update();
+				jogo.executar();
+		}
 }
