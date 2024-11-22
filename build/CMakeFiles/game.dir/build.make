@@ -237,38 +237,10 @@ CMakeFiles/game.dir/src/Entidades/Projetil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Entidades/Projetil.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andre/tec-prog-proj-final/src/Entidades/Projetil.cpp -o CMakeFiles/game.dir/src/Entidades/Projetil.cpp.s
 
-CMakeFiles/game.dir/src/Fases/Fase_Primeira.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/Fases/Fase_Primeira.cpp.o: /home/andre/tec-prog-proj-final/src/Fases/Fase\ Primeira.cpp
-CMakeFiles/game.dir/src/Fases/Fase_Primeira.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andre/tec-prog-proj-final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/game.dir/src/Fases/Fase_Primeira.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Fases/Fase_Primeira.cpp.o -MF CMakeFiles/game.dir/src/Fases/Fase_Primeira.cpp.o.d -o CMakeFiles/game.dir/src/Fases/Fase_Primeira.cpp.o -c "/home/andre/tec-prog-proj-final/src/Fases/Fase Primeira.cpp"
-
-CMakeFiles/game.dir/src/Fases/Fase_Primeira.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Fases/Fase_Primeira.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andre/tec-prog-proj-final/src/Fases/Fase Primeira.cpp" > CMakeFiles/game.dir/src/Fases/Fase_Primeira.cpp.i
-
-CMakeFiles/game.dir/src/Fases/Fase_Primeira.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Fases/Fase_Primeira.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andre/tec-prog-proj-final/src/Fases/Fase Primeira.cpp" -o CMakeFiles/game.dir/src/Fases/Fase_Primeira.cpp.s
-
-CMakeFiles/game.dir/src/Fases/Fase_Segunda.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/Fases/Fase_Segunda.cpp.o: /home/andre/tec-prog-proj-final/src/Fases/Fase\ Segunda.cpp
-CMakeFiles/game.dir/src/Fases/Fase_Segunda.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andre/tec-prog-proj-final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/game.dir/src/Fases/Fase_Segunda.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Fases/Fase_Segunda.cpp.o -MF CMakeFiles/game.dir/src/Fases/Fase_Segunda.cpp.o.d -o CMakeFiles/game.dir/src/Fases/Fase_Segunda.cpp.o -c "/home/andre/tec-prog-proj-final/src/Fases/Fase Segunda.cpp"
-
-CMakeFiles/game.dir/src/Fases/Fase_Segunda.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Fases/Fase_Segunda.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/andre/tec-prog-proj-final/src/Fases/Fase Segunda.cpp" > CMakeFiles/game.dir/src/Fases/Fase_Segunda.cpp.i
-
-CMakeFiles/game.dir/src/Fases/Fase_Segunda.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Fases/Fase_Segunda.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/andre/tec-prog-proj-final/src/Fases/Fase Segunda.cpp" -o CMakeFiles/game.dir/src/Fases/Fase_Segunda.cpp.s
-
 CMakeFiles/game.dir/src/Fases/Fase.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/Fases/Fase.cpp.o: /home/andre/tec-prog-proj-final/src/Fases/Fase.cpp
 CMakeFiles/game.dir/src/Fases/Fase.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andre/tec-prog-proj-final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/game.dir/src/Fases/Fase.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andre/tec-prog-proj-final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/game.dir/src/Fases/Fase.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Fases/Fase.cpp.o -MF CMakeFiles/game.dir/src/Fases/Fase.cpp.o.d -o CMakeFiles/game.dir/src/Fases/Fase.cpp.o -c /home/andre/tec-prog-proj-final/src/Fases/Fase.cpp
 
 CMakeFiles/game.dir/src/Fases/Fase.cpp.i: cmake_force
@@ -279,19 +251,47 @@ CMakeFiles/game.dir/src/Fases/Fase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Fases/Fase.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andre/tec-prog-proj-final/src/Fases/Fase.cpp -o CMakeFiles/game.dir/src/Fases/Fase.cpp.s
 
-CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisões.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisões.cpp.o: /home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Colisões.cpp
-CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisões.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andre/tec-prog-proj-final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisões.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisões.cpp.o -MF CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisões.cpp.o.d -o CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisões.cpp.o -c /home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Colisões.cpp
+CMakeFiles/game.dir/src/Fases/FasePrimeira.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/Fases/FasePrimeira.cpp.o: /home/andre/tec-prog-proj-final/src/Fases/FasePrimeira.cpp
+CMakeFiles/game.dir/src/Fases/FasePrimeira.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andre/tec-prog-proj-final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/game.dir/src/Fases/FasePrimeira.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Fases/FasePrimeira.cpp.o -MF CMakeFiles/game.dir/src/Fases/FasePrimeira.cpp.o.d -o CMakeFiles/game.dir/src/Fases/FasePrimeira.cpp.o -c /home/andre/tec-prog-proj-final/src/Fases/FasePrimeira.cpp
 
-CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisões.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisões.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Colisões.cpp > CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisões.cpp.i
+CMakeFiles/game.dir/src/Fases/FasePrimeira.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Fases/FasePrimeira.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andre/tec-prog-proj-final/src/Fases/FasePrimeira.cpp > CMakeFiles/game.dir/src/Fases/FasePrimeira.cpp.i
 
-CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisões.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisões.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Colisões.cpp -o CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisões.cpp.s
+CMakeFiles/game.dir/src/Fases/FasePrimeira.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Fases/FasePrimeira.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andre/tec-prog-proj-final/src/Fases/FasePrimeira.cpp -o CMakeFiles/game.dir/src/Fases/FasePrimeira.cpp.s
+
+CMakeFiles/game.dir/src/Fases/FaseSegunda.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/Fases/FaseSegunda.cpp.o: /home/andre/tec-prog-proj-final/src/Fases/FaseSegunda.cpp
+CMakeFiles/game.dir/src/Fases/FaseSegunda.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andre/tec-prog-proj-final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/game.dir/src/Fases/FaseSegunda.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Fases/FaseSegunda.cpp.o -MF CMakeFiles/game.dir/src/Fases/FaseSegunda.cpp.o.d -o CMakeFiles/game.dir/src/Fases/FaseSegunda.cpp.o -c /home/andre/tec-prog-proj-final/src/Fases/FaseSegunda.cpp
+
+CMakeFiles/game.dir/src/Fases/FaseSegunda.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Fases/FaseSegunda.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andre/tec-prog-proj-final/src/Fases/FaseSegunda.cpp > CMakeFiles/game.dir/src/Fases/FaseSegunda.cpp.i
+
+CMakeFiles/game.dir/src/Fases/FaseSegunda.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Fases/FaseSegunda.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andre/tec-prog-proj-final/src/Fases/FaseSegunda.cpp -o CMakeFiles/game.dir/src/Fases/FaseSegunda.cpp.s
+
+CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisoes.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisoes.cpp.o: /home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Colisoes.cpp
+CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisoes.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/andre/tec-prog-proj-final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisoes.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisoes.cpp.o -MF CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisoes.cpp.o.d -o CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisoes.cpp.o -c /home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Colisoes.cpp
+
+CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisoes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisoes.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Colisoes.cpp > CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisoes.cpp.i
+
+CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisoes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisoes.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Colisoes.cpp -o CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisoes.cpp.s
 
 CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o: /home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Grafico.cpp
@@ -405,10 +405,10 @@ game_OBJECTS = \
 "CMakeFiles/game.dir/src/Entidades/Personagens/Jogador.cpp.o" \
 "CMakeFiles/game.dir/src/Entidades/Personagens/Personagem.cpp.o" \
 "CMakeFiles/game.dir/src/Entidades/Projetil.cpp.o" \
-"CMakeFiles/game.dir/src/Fases/Fase_Primeira.cpp.o" \
-"CMakeFiles/game.dir/src/Fases/Fase_Segunda.cpp.o" \
 "CMakeFiles/game.dir/src/Fases/Fase.cpp.o" \
-"CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisões.cpp.o" \
+"CMakeFiles/game.dir/src/Fases/FasePrimeira.cpp.o" \
+"CMakeFiles/game.dir/src/Fases/FaseSegunda.cpp.o" \
+"CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisoes.cpp.o" \
 "CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o" \
 "CMakeFiles/game.dir/src/Jogo.cpp.o" \
 "CMakeFiles/game.dir/src/Listas/Elemento.cpp.o" \
@@ -432,10 +432,10 @@ game: CMakeFiles/game.dir/src/Entidades/Personagens/Inimigo.cpp.o
 game: CMakeFiles/game.dir/src/Entidades/Personagens/Jogador.cpp.o
 game: CMakeFiles/game.dir/src/Entidades/Personagens/Personagem.cpp.o
 game: CMakeFiles/game.dir/src/Entidades/Projetil.cpp.o
-game: CMakeFiles/game.dir/src/Fases/Fase_Primeira.cpp.o
-game: CMakeFiles/game.dir/src/Fases/Fase_Segunda.cpp.o
 game: CMakeFiles/game.dir/src/Fases/Fase.cpp.o
-game: CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisões.cpp.o
+game: CMakeFiles/game.dir/src/Fases/FasePrimeira.cpp.o
+game: CMakeFiles/game.dir/src/Fases/FaseSegunda.cpp.o
+game: CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisoes.cpp.o
 game: CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o
 game: CMakeFiles/game.dir/src/Jogo.cpp.o
 game: CMakeFiles/game.dir/src/Listas/Elemento.cpp.o

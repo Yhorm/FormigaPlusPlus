@@ -441,77 +441,77 @@ src/Fases/Fase.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Fases/Fase.cpp.s
 .PHONY : src/Fases/Fase.cpp.s
 
-src/Fases/Fase_Primeira.o: src/Fases/Fase_Primeira.cpp.o
-.PHONY : src/Fases/Fase_Primeira.o
+src/Fases/FasePrimeira.o: src/Fases/FasePrimeira.cpp.o
+.PHONY : src/Fases/FasePrimeira.o
 
 # target to build an object file
-src/Fases/Fase_Primeira.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Fases/Fase_Primeira.cpp.o
-.PHONY : src/Fases/Fase_Primeira.cpp.o
+src/Fases/FasePrimeira.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Fases/FasePrimeira.cpp.o
+.PHONY : src/Fases/FasePrimeira.cpp.o
 
-src/Fases/Fase_Primeira.i: src/Fases/Fase_Primeira.cpp.i
-.PHONY : src/Fases/Fase_Primeira.i
+src/Fases/FasePrimeira.i: src/Fases/FasePrimeira.cpp.i
+.PHONY : src/Fases/FasePrimeira.i
 
 # target to preprocess a source file
-src/Fases/Fase_Primeira.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Fases/Fase_Primeira.cpp.i
-.PHONY : src/Fases/Fase_Primeira.cpp.i
+src/Fases/FasePrimeira.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Fases/FasePrimeira.cpp.i
+.PHONY : src/Fases/FasePrimeira.cpp.i
 
-src/Fases/Fase_Primeira.s: src/Fases/Fase_Primeira.cpp.s
-.PHONY : src/Fases/Fase_Primeira.s
+src/Fases/FasePrimeira.s: src/Fases/FasePrimeira.cpp.s
+.PHONY : src/Fases/FasePrimeira.s
 
 # target to generate assembly for a file
-src/Fases/Fase_Primeira.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Fases/Fase_Primeira.cpp.s
-.PHONY : src/Fases/Fase_Primeira.cpp.s
+src/Fases/FasePrimeira.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Fases/FasePrimeira.cpp.s
+.PHONY : src/Fases/FasePrimeira.cpp.s
 
-src/Fases/Fase_Segunda.o: src/Fases/Fase_Segunda.cpp.o
-.PHONY : src/Fases/Fase_Segunda.o
+src/Fases/FaseSegunda.o: src/Fases/FaseSegunda.cpp.o
+.PHONY : src/Fases/FaseSegunda.o
 
 # target to build an object file
-src/Fases/Fase_Segunda.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Fases/Fase_Segunda.cpp.o
-.PHONY : src/Fases/Fase_Segunda.cpp.o
+src/Fases/FaseSegunda.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Fases/FaseSegunda.cpp.o
+.PHONY : src/Fases/FaseSegunda.cpp.o
 
-src/Fases/Fase_Segunda.i: src/Fases/Fase_Segunda.cpp.i
-.PHONY : src/Fases/Fase_Segunda.i
+src/Fases/FaseSegunda.i: src/Fases/FaseSegunda.cpp.i
+.PHONY : src/Fases/FaseSegunda.i
 
 # target to preprocess a source file
-src/Fases/Fase_Segunda.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Fases/Fase_Segunda.cpp.i
-.PHONY : src/Fases/Fase_Segunda.cpp.i
+src/Fases/FaseSegunda.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Fases/FaseSegunda.cpp.i
+.PHONY : src/Fases/FaseSegunda.cpp.i
 
-src/Fases/Fase_Segunda.s: src/Fases/Fase_Segunda.cpp.s
-.PHONY : src/Fases/Fase_Segunda.s
+src/Fases/FaseSegunda.s: src/Fases/FaseSegunda.cpp.s
+.PHONY : src/Fases/FaseSegunda.s
 
 # target to generate assembly for a file
-src/Fases/Fase_Segunda.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Fases/Fase_Segunda.cpp.s
-.PHONY : src/Fases/Fase_Segunda.cpp.s
+src/Fases/FaseSegunda.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Fases/FaseSegunda.cpp.s
+.PHONY : src/Fases/FaseSegunda.cpp.s
 
-src/Gerenciadores/Gerenciador_Colisões.o: src/Gerenciadores/Gerenciador_Colisões.cpp.o
-.PHONY : src/Gerenciadores/Gerenciador_Colisões.o
+src/Gerenciadores/Gerenciador_Colisoes.o: src/Gerenciadores/Gerenciador_Colisoes.cpp.o
+.PHONY : src/Gerenciadores/Gerenciador_Colisoes.o
 
 # target to build an object file
-src/Gerenciadores/Gerenciador_Colisões.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisões.cpp.o
-.PHONY : src/Gerenciadores/Gerenciador_Colisões.cpp.o
+src/Gerenciadores/Gerenciador_Colisoes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisoes.cpp.o
+.PHONY : src/Gerenciadores/Gerenciador_Colisoes.cpp.o
 
-src/Gerenciadores/Gerenciador_Colisões.i: src/Gerenciadores/Gerenciador_Colisões.cpp.i
-.PHONY : src/Gerenciadores/Gerenciador_Colisões.i
+src/Gerenciadores/Gerenciador_Colisoes.i: src/Gerenciadores/Gerenciador_Colisoes.cpp.i
+.PHONY : src/Gerenciadores/Gerenciador_Colisoes.i
 
 # target to preprocess a source file
-src/Gerenciadores/Gerenciador_Colisões.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisões.cpp.i
-.PHONY : src/Gerenciadores/Gerenciador_Colisões.cpp.i
+src/Gerenciadores/Gerenciador_Colisoes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisoes.cpp.i
+.PHONY : src/Gerenciadores/Gerenciador_Colisoes.cpp.i
 
-src/Gerenciadores/Gerenciador_Colisões.s: src/Gerenciadores/Gerenciador_Colisões.cpp.s
-.PHONY : src/Gerenciadores/Gerenciador_Colisões.s
+src/Gerenciadores/Gerenciador_Colisoes.s: src/Gerenciadores/Gerenciador_Colisoes.cpp.s
+.PHONY : src/Gerenciadores/Gerenciador_Colisoes.s
 
 # target to generate assembly for a file
-src/Gerenciadores/Gerenciador_Colisões.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisões.cpp.s
-.PHONY : src/Gerenciadores/Gerenciador_Colisões.cpp.s
+src/Gerenciadores/Gerenciador_Colisoes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisoes.cpp.s
+.PHONY : src/Gerenciadores/Gerenciador_Colisoes.cpp.s
 
 src/Gerenciadores/Gerenciador_Grafico.o: src/Gerenciadores/Gerenciador_Grafico.cpp.o
 .PHONY : src/Gerenciadores/Gerenciador_Grafico.o
@@ -729,15 +729,15 @@ help:
 	@echo "... src/Fases/Fase.o"
 	@echo "... src/Fases/Fase.i"
 	@echo "... src/Fases/Fase.s"
-	@echo "... src/Fases/Fase_Primeira.o"
-	@echo "... src/Fases/Fase_Primeira.i"
-	@echo "... src/Fases/Fase_Primeira.s"
-	@echo "... src/Fases/Fase_Segunda.o"
-	@echo "... src/Fases/Fase_Segunda.i"
-	@echo "... src/Fases/Fase_Segunda.s"
-	@echo "... src/Gerenciadores/Gerenciador_Colisões.o"
-	@echo "... src/Gerenciadores/Gerenciador_Colisões.i"
-	@echo "... src/Gerenciadores/Gerenciador_Colisões.s"
+	@echo "... src/Fases/FasePrimeira.o"
+	@echo "... src/Fases/FasePrimeira.i"
+	@echo "... src/Fases/FasePrimeira.s"
+	@echo "... src/Fases/FaseSegunda.o"
+	@echo "... src/Fases/FaseSegunda.i"
+	@echo "... src/Fases/FaseSegunda.s"
+	@echo "... src/Gerenciadores/Gerenciador_Colisoes.o"
+	@echo "... src/Gerenciadores/Gerenciador_Colisoes.i"
+	@echo "... src/Gerenciadores/Gerenciador_Colisoes.s"
 	@echo "... src/Gerenciadores/Gerenciador_Grafico.o"
 	@echo "... src/Gerenciadores/Gerenciador_Grafico.i"
 	@echo "... src/Gerenciadores/Gerenciador_Grafico.s"
