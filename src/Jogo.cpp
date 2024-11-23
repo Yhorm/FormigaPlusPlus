@@ -11,6 +11,6 @@ void Jogo::update(){
 }
 void Jogo::executar(){
 		janela.Limpa();
-		janela.Desenha_Objt(retangulo);
+		janela.Desenha_Objt(&retangulo);
 		janela.Desenha();
 }

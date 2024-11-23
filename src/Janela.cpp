@@ -5,7 +5,7 @@
 #include <SFML/Window/Keyboard.hpp>
 #include <SFML/Window/VideoMode.hpp>
 #include <SFML/Window/WindowStyle.hpp>
-Janela::Janela(const std::string& titulo,const sf::Vector2u &tam):nome(titulo),tamanho(tam),fullscreen(false),acabou(false),fps_limited(60){
+Janela::Janela(const std::string &titulo,const sf::Vector2u &tam):nome(titulo),tamanho(tam),fullscreen(false),acabou(false),fps_limited(60){
 		window.create({tamanho.x,tamanho.y},nome,(fullscreen? sf::Style::Fullscreen : sf::Style::Default));
 		window.setFramerateLimit(fps_limited);
 }
@@ -21,6 +21,7 @@ void Janela::TrocaFullscreen(){
 }
 void Janela::Update(){
 		sf::Event event;
+
 		while(window.pollEvent(event)){
 				if(event.type==sf::Event::Closed){
 						acabou=true;
@@ -30,7 +31,7 @@ void Janela::Update(){
 				}
 		}
 }
-void Janela::Desenha_Objt(sf::Drawable&algo){
-		window.draw(algo);
+void Janela::Desenha_Objt(sf::Drawable *algo){
+		window.draw(*algo);
 }
 

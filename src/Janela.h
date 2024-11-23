@@ -11,11 +11,11 @@ class Janela{
 				bool acabou;
 				const int fps_limited;
 		public:
-				Janela(const std::string& titulo,const sf::Vector2u &tam);
+				Janela(const std::string &titulo,const sf::Vector2u &tam);
 				~Janela();
 				void Limpa();
 				void Desenha();
-				void Desenha_Objt(sf::Drawable& algo);
+				void Desenha_Objt(sf::Drawable *algo);
 				void Update();
 				void TrocaFullscreen(); 
 				bool IsFullscreen(){return fullscreen;}
