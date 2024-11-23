@@ -1,6 +1,7 @@
 #include "Janela.h"
 #include <SFML/Graphics/Color.hpp>
 #include <SFML/Graphics/RenderTarget.hpp>
+#include <SFML/System/Vector2.hpp>
 #include <SFML/Window/Event.hpp>
 #include <SFML/Window/Keyboard.hpp>
 #include <SFML/Window/VideoMode.hpp>
@@ -35,3 +36,5 @@ void Janela::Desenha_Objt(sf::Drawable *algo){
 		window.draw(*algo);
 }
 
+void Janela::setNome(const std::string &titulo){nome=titulo;}
+void Janela::setTamnho(sf::Vector2u *tam){tamanho=*tam;}

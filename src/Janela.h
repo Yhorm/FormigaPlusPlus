@@ -4,21 +4,23 @@
 #include <SFML/Window.hpp>
 class Janela{
 		private:
-				sf::RenderWindow window;
-				sf::Vector2u tamanho;
-				std::string nome;
-				bool fullscreen;
-				bool acabou;
-				const int fps_limited;
+				sf::RenderWindow window; //criação do objeto window
+				sf::Vector2u tamanho; //vetor para o tamnaho da tela
+				std::string nome; //nome da tela 
+				bool fullscreen; //modo fullscrean, nao e importante
+				bool acabou; //verificacao se foi fechada
+				const int fps_limited; //limite de fps
 		public:
-				Janela(const std::string &titulo,const sf::Vector2u &tam);
-				~Janela();
-				void Limpa();
-				void Desenha();
-				void Desenha_Objt(sf::Drawable *algo);
-				void Update();
-				void TrocaFullscreen(); 
+				Janela(const std::string &titulo,const sf::Vector2u &tam); //Criação da tela com o nome e string *REFERENCIA ESCONDIDA*
+				~Janela(); //destrutor
+				void Limpa(); // tela preta 
+				void Desenha(); // display
+				void Desenha_Objt(sf::Drawable *algo); //draw
+				void Update(); // verifica se F5 foi clicado e se foi clicado pra fechar
+				void TrocaFullscreen(); // inverte o valor de fullscreeni (bool) 
 				bool IsFullscreen(){return fullscreen;}
 				bool Acabou(){return acabou;}
 				sf::Vector2u GetJanela(){return tamanho;}; 
+				void setNome(const std::string &titulo); // Mudar de nome
+				void setTamnho(sf::Vector2u *tam); //Mudar tamanho
 };
