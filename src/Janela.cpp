@@ -7,7 +7,8 @@
 #include <SFML/Window/VideoMode.hpp>
 #include <SFML/Window/WindowStyle.hpp>
 namespace Gerenciador{
-Janela::Janela(const std::string &titulo,const sf::Vector2u &tam):criacao(nullptr),nome(titulo),tamanho(tam),fullscreen(false),acabou(false),fps_limited(60){
+Janela Janela::*criacao(nullptr);
+Janela::Janela(const std::string &titulo,const sf::Vector2u &tam):nome(titulo),tamanho(tam),fullscreen(false),acabou(false),fps_limited(60){
 		window.create({tamanho.x,tamanho.y},nome,(fullscreen? sf::Style::Fullscreen : sf::Style::Default));
 		window.setFramerateLimit(fps_limited);
 		figuras.clear();
