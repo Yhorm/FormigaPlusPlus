@@ -4364,7 +4364,6 @@ CMakeFiles/game.dir/src/Janela.cpp.o: /home/andre/tec-prog-proj-final/src/Janela
   /usr/include/c++/14.2.1/bits/hash_bytes.h \
   /usr/include/c++/14.2.1/bits/invoke.h \
   /usr/include/c++/14.2.1/bits/ios_base.h \
-  /usr/include/c++/14.2.1/bits/istream.tcc \
   /usr/include/c++/14.2.1/bits/locale_classes.h \
   /usr/include/c++/14.2.1/bits/locale_classes.tcc \
   /usr/include/c++/14.2.1/bits/locale_conv.h \
@@ -4432,8 +4431,6 @@ CMakeFiles/game.dir/src/Janela.cpp.o: /home/andre/tec-prog-proj-final/src/Janela
   /usr/include/c++/14.2.1/initializer_list \
   /usr/include/c++/14.2.1/ios \
   /usr/include/c++/14.2.1/iosfwd \
-  /usr/include/c++/14.2.1/iostream \
-  /usr/include/c++/14.2.1/istream \
   /usr/include/c++/14.2.1/iterator \
   /usr/include/c++/14.2.1/locale \
   /usr/include/c++/14.2.1/new \
@@ -6076,9 +6073,9 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /home/andre/tec-prog-proj-final/src/Jogo.h:
 
-/home/andre/tec-prog-proj-final/src/Jogo.cpp:
-
 /usr/include/c++/14.2.1/bits/istream.tcc:
+
+/home/andre/tec-prog-proj-final/src/Jogo.cpp:
 
 /home/andre/tec-prog-proj-final/src/Janela.cpp:
 
@@ -6270,9 +6267,9 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /usr/include/bits/sched.h:
 
-/usr/include/SFML/Graphics/Font.hpp:
-
 /usr/include/c++/14.2.1/istream:
+
+/usr/include/SFML/Graphics/Font.hpp:
 
 /usr/include/SFML/Window/VideoMode.hpp:
 

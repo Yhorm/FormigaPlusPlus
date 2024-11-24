@@ -206,6 +206,4 @@ CMakeFiles/game.dir/src/Janela.cpp.o: \
  /usr/include/SFML/Window/Context.hpp /usr/include/SFML/Window/Event.hpp \
  /usr/include/SFML/Window/Joystick.hpp \
  /usr/include/SFML/Window/Keyboard.hpp /usr/include/SFML/Window/Mouse.hpp \
- /usr/include/SFML/Window/Sensor.hpp /usr/include/SFML/Window/Touch.hpp \
- /usr/include/c++/14.2.1/iostream /usr/include/c++/14.2.1/istream \
- /usr/include/c++/14.2.1/bits/istream.tcc
+ /usr/include/SFML/Window/Sensor.hpp /usr/include/SFML/Window/Touch.hpp

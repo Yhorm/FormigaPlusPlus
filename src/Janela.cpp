@@ -10,6 +10,7 @@ namespace Gerenciador{
 Janela::Janela(const std::string &titulo,const sf::Vector2u &tam):nome(titulo),tamanho(tam),fullscreen(false),acabou(false),fps_limited(60){
 		window.create({tamanho.x,tamanho.y},nome,(fullscreen? sf::Style::Fullscreen : sf::Style::Default));
 		window.setFramerateLimit(fps_limited);
+		figuras.clear();
 }
 Janela::~Janela(){
 		window.close();
@@ -37,6 +38,7 @@ void Janela::Desenha_Objt(){
 		for(const auto i:figuras){
 			window.draw(*i.second);
 		}
+		figuras.clear(); //Não aparece na tela os objetos tem que ser criados e pronto
 }
 void Janela::Adiciona_Objt(sf::Drawable *algo,const int camada){
 		figuras.push_back(std::make_pair(camada,algo));

@@ -25,7 +25,7 @@ namespace Gerenciador{
 					bool IsFullscreen(){return fullscreen;}
 					bool Acabou(){return acabou;}
 					sf::Vector2u GetJanela(){return tamanho;}; 
-					void setNome(const std::string &titulo); // Mudar de nome
+					void setNome(const std::string &titulo); // Mudar de nome *REFERENCIA ESCONDIDA* 
 					void setTamnho(sf::Vector2u *tam); //Mudar tamanho
 	};
 }
