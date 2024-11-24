@@ -10,6 +10,7 @@ namespace Gerenciador{
 Janela::Janela(const std::string &titulo,const sf::Vector2u &tam):nome(titulo),tamanho(tam),fullscreen(false),acabou(false),fps_limited(60){
 		window.create({tamanho.x,tamanho.y},nome,(fullscreen? sf::Style::Fullscreen : sf::Style::Default));
 		window.setFramerateLimit(fps_limited);
+		window.setPosition(sf::Vector2(0,0));
 		figuras.clear();
 }
 Janela::~Janela(){
@@ -44,6 +45,21 @@ void Janela::Desenha_Objt(){
 void Janela::Adiciona_Objt(sf::Drawable *algo,const int camada){
 		figuras.push_back(std::make_pair(camada,algo));
 }
-void Janela::setNome(const std::string &titulo){nome=titulo;}
-void Janela::setTamnho(sf::Vector2u *tam){tamanho=*tam;}
+void Janela::setNome(const std::string &titulo){
+		nome=titulo;
+		window.close();
+		window.create({tamanho.x,tamanho.y},nome,(fullscreen? sf::Style::Fullscreen : sf::Style::Default));
+		window.setFramerateLimit(fps_limited);
+}
+void Janela::setTamnho(sf::Vector2u *tam){
+		tamanho=*tam;
+		window.close();
+		window.create({tamanho.x,tamanho.y},nome,(fullscreen? sf::Style::Fullscreen : sf::Style::Default));
+		window.setFramerateLimit(fps_limited);
+}
+void Janela::setPosition(sf::Vector2i tam){
+		window.setPosition(tam);
+}
+int Janela::getPositionX(){return window.getPosition().x;}
+int Janela::getPositionY(){return window.getPosition().y;}
 }

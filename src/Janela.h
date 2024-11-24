@@ -28,5 +28,8 @@ namespace Gerenciador{
 					sf::Vector2u GetTamanho(){return tamanho;}; 
 					void setNome(const std::string &titulo); // Mudar de nome *REFERENCIA ESCONDIDA* 
 					void setTamnho(sf::Vector2u *tam); //Mudar tamanho
+					void setPosition(sf::Vector2i tam);
+					int getPositionX();
+					int getPositionY();
 	};
 }
