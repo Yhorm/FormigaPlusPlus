@@ -21,6 +21,7 @@ void Janela::TrocaFullscreen(){
 		fullscreen=!fullscreen; 
 		window.close();
 		window.create({tamanho.x,tamanho.y},nome,(fullscreen? sf::Style::Fullscreen : sf::Style::Default));
+		window.setFramerateLimit(fps_limited);
 }
 void Janela::Update(){
 		sf::Event event;

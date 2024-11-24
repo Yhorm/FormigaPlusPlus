@@ -15,8 +15,8 @@ Ente::~Ente(){
 }
 void Ente::desenhar(){
 		window->Adiciona_Objt(&retangolo,0);
-		if(sf::Keyboard::isKeyPressed(sf::Keyboard::D)){retangolo.setPosition(retangolo.getPosition().x+1,retangolo.getPosition().y);}
-		if(sf::Keyboard::isKeyPressed(sf::Keyboard::A)){retangolo.setPosition(retangolo.getPosition().x-1,retangolo.getPosition().y);}
-		if(sf::Keyboard::isKeyPressed(sf::Keyboard::W)){retangolo.setPosition(retangolo.getPosition().x,retangolo.getPosition().y-1);}
-		if(sf::Keyboard::isKeyPressed(sf::Keyboard::S)){retangolo.setPosition(retangolo.getPosition().x,retangolo.getPosition().y+1);}
+		if(sf::Keyboard::isKeyPressed(sf::Keyboard::D)){retangolo.setPosition(retangolo.getPosition().x+4,retangolo.getPosition().y);}
+		if(sf::Keyboard::isKeyPressed(sf::Keyboard::A)){retangolo.setPosition(retangolo.getPosition().x-4,retangolo.getPosition().y);}
+		if(sf::Keyboard::isKeyPressed(sf::Keyboard::W)){retangolo.setPosition(retangolo.getPosition().x,retangolo.getPosition().y-4);}
+		if(sf::Keyboard::isKeyPressed(sf::Keyboard::S)){retangolo.setPosition(retangolo.getPosition().x,retangolo.getPosition().y+4);}
 }
