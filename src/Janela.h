@@ -13,6 +13,7 @@ namespace Gerenciador{
 					bool acabou; //verificacao se foi fechada
 					const int fps_limited; //limite de fps
 					std::vector<std::pair<int,sf::Drawable*>> figuras; //faz um vector de figuras 
+					static Janela *criacao;
 			public:
 					Janela(const std::string &titulo,const sf::Vector2u &tam); //Criação da tela com o nome e string *REFERENCIA ESCONDIDA*
 					~Janela(); //destrutor
@@ -24,8 +25,9 @@ namespace Gerenciador{
 					void TrocaFullscreen(); // inverte o valor de fullscreeni (bool) 
 					bool IsFullscreen(){return fullscreen;}
 					bool Acabou(){return acabou;}
-					sf::Vector2u GetJanela(){return tamanho;}; 
+					sf::Vector2u GetTamanho(){return tamanho;}; 
 					void setNome(const std::string &titulo); // Mudar de nome *REFERENCIA ESCONDIDA* 
 					void setTamnho(sf::Vector2u *tam); //Mudar tamanho
+					static Janela *getJanela(const std::string &titulo,const sf::Vector2u &tam);//criacao dinamica  
 	};
 }

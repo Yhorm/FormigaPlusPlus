@@ -1,6 +1,9 @@
 #pragma once
 #include <SFML/Graphics/Color.hpp>
+#include <SFML/Graphics/Drawable.hpp>
+#include <SFML/Graphics/RectangleShape.hpp>
 #include <SFML/Graphics/RenderTarget.hpp>
+#include <SFML/Graphics/Shape.hpp>
 #include <SFML/Graphics/Sprite.hpp>
 #include <SFML/Graphics/Texture.hpp>
 #include <SFML/System/Vector2.hpp>
@@ -18,11 +21,11 @@ protected:
    	const int id;
 	static int cont;
 	static Gerenciador::Janela *window; //criação do ponteiro janela 
-	sf::Sprite sprite;
+	sf::RectangleShape retangolo;
 public: 
 	Ente();
 	Ente(sf::Texture &figure);
-	~Ente();
+	virtual ~Ente();
 	virtual void executar()=0;
 	void desenhar();
 };
