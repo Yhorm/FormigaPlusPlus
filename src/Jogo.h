@@ -8,13 +8,13 @@
 #include "Janela.h"
 class Jogo {
 private:
-		Janela janela;
+		Gerenciador::Janela janela;
 		sf::RectangleShape retangulo;
+		sf::RectangleShape retangulo3;
 public: 
 		Jogo();
 		~Jogo();
 		void executar();
 		void update();
-		Janela *GetJanela(){return &janela;}
-
+		Gerenciador::Janela *GetJanela(){return &janela;}
 };

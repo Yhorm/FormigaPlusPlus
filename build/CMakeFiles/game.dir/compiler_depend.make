@@ -3,112 +3,11 @@
 
 CMakeFiles/game.dir/src/Ente.cpp.o: /home/andre/tec-prog-proj-final/src/Ente.cpp \
   /home/andre/tec-prog-proj-final/src/Ente.h \
-  /usr/include/stdc-predef.h
-
-CMakeFiles/game.dir/src/Entidades/Entidade.cpp.o: /home/andre/tec-prog-proj-final/src/Entidades/Entidade.cpp \
-  /home/andre/tec-prog-proj-final/src/Ente.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Entidade.h \
-  /usr/include/stdc-predef.h
-
-CMakeFiles/game.dir/src/Entidades/Obstaculos/Obst_Dificil.cpp.o: /home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obst_Dificil.cpp \
-  /home/andre/tec-prog-proj-final/src/Ente.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Entidade.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obst_Dificil.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obstaculo.h \
-  /usr/include/stdc-predef.h
-
-CMakeFiles/game.dir/src/Entidades/Obstaculos/Obst_Facil.cpp.o: /home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obst_Facil.cpp \
-  /home/andre/tec-prog-proj-final/src/Ente.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Entidade.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obst_Facil.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obstaculo.h \
-  /usr/include/stdc-predef.h
-
-CMakeFiles/game.dir/src/Entidades/Obstaculos/Obst_Medio.cpp.o: /home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obst_Medio.cpp \
-  /home/andre/tec-prog-proj-final/src/Ente.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Entidade.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obst_Medio.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obstaculo.h \
-  /usr/include/stdc-predef.h
-
-CMakeFiles/game.dir/src/Entidades/Obstaculos/Obstaculo.cpp.o: /home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obstaculo.cpp \
-  /home/andre/tec-prog-proj-final/src/Ente.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Entidade.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obstaculo.h \
-  /usr/include/stdc-predef.h
-
-CMakeFiles/game.dir/src/Entidades/Personagens/Inim_Dificil.cpp.o: /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inim_Dificil.cpp \
-  /home/andre/tec-prog-proj-final/src/Ente.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Entidade.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inim_Dificil.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inimigo.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Personagem.h \
-  /usr/include/stdc-predef.h
-
-CMakeFiles/game.dir/src/Entidades/Personagens/Inim_Facil.cpp.o: /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inim_Facil.cpp \
-  /home/andre/tec-prog-proj-final/src/Ente.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Entidade.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inim_Facil.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inimigo.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Personagem.h \
-  /usr/include/stdc-predef.h
-
-CMakeFiles/game.dir/src/Entidades/Personagens/Inimigo.cpp.o: /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inimigo.cpp \
-  /home/andre/tec-prog-proj-final/src/Ente.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Entidade.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inimigo.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Personagem.h \
-  /usr/include/stdc-predef.h
-
-CMakeFiles/game.dir/src/Entidades/Personagens/Jogador.cpp.o: /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Jogador.cpp \
-  /home/andre/tec-prog-proj-final/src/Ente.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Entidade.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Jogador.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Personagem.h \
-  /usr/include/stdc-predef.h
-
-CMakeFiles/game.dir/src/Entidades/Personagens/Personagem.cpp.o: /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Personagem.cpp \
-  /home/andre/tec-prog-proj-final/src/Ente.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Entidade.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Personagem.h \
-  /usr/include/stdc-predef.h
-
-CMakeFiles/game.dir/src/Entidades/Projetil.cpp.o: /home/andre/tec-prog-proj-final/src/Entidades/Projetil.cpp \
-  /home/andre/tec-prog-proj-final/src/Ente.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Entidade.h \
-  /home/andre/tec-prog-proj-final/src/Entidades/Projetil.h \
-  /usr/include/stdc-predef.h
-
-CMakeFiles/game.dir/src/Fases/Fase.cpp.o: /home/andre/tec-prog-proj-final/src/Fases/Fase.cpp \
-  /home/andre/tec-prog-proj-final/src/Ente.h \
-  /home/andre/tec-prog-proj-final/src/Fases/Fase.h \
-  /usr/include/stdc-predef.h
-
-CMakeFiles/game.dir/src/Fases/FasePrimeira.cpp.o: /home/andre/tec-prog-proj-final/src/Fases/FasePrimeira.cpp \
-  /home/andre/tec-prog-proj-final/src/Ente.h \
-  /home/andre/tec-prog-proj-final/src/Fases/Fase.h \
-  /home/andre/tec-prog-proj-final/src/Fases/FasePrimeira.h \
-  /usr/include/stdc-predef.h
-
-CMakeFiles/game.dir/src/Fases/FaseSegunda.cpp.o: /home/andre/tec-prog-proj-final/src/Fases/FaseSegunda.cpp \
-  /home/andre/tec-prog-proj-final/src/Ente.h \
-  /home/andre/tec-prog-proj-final/src/Fases/Fase.h \
-  /home/andre/tec-prog-proj-final/src/Fases/FaseSegunda.h \
-  /usr/include/stdc-predef.h
-
-CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisoes.cpp.o: /home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Colisoes.cpp \
-  /home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Colisoes.h \
-  /usr/include/stdc-predef.h
-
-CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o: /home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Grafico.cpp \
-  /home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Grafico.h \
-  /usr/include/stdc-predef.h
-
-CMakeFiles/game.dir/src/Janela.cpp.o: /home/andre/tec-prog-proj-final/src/Janela.cpp \
   /home/andre/tec-prog-proj-final/src/Janela.h \
   /usr/include/SFML/Config.hpp \
   /usr/include/SFML/Graphics/BlendMode.hpp \
   /usr/include/SFML/Graphics/Color.hpp \
+  /usr/include/SFML/Graphics/Drawable.hpp \
   /usr/include/SFML/Graphics/Export.hpp \
   /usr/include/SFML/Graphics/Image.hpp \
   /usr/include/SFML/Graphics/PrimitiveType.hpp \
@@ -117,7 +16,10 @@ CMakeFiles/game.dir/src/Janela.cpp.o: /home/andre/tec-prog-proj-final/src/Janela
   /usr/include/SFML/Graphics/RenderStates.hpp \
   /usr/include/SFML/Graphics/RenderTarget.hpp \
   /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Sprite.hpp \
+  /usr/include/SFML/Graphics/Texture.hpp \
   /usr/include/SFML/Graphics/Transform.hpp \
+  /usr/include/SFML/Graphics/Transformable.hpp \
   /usr/include/SFML/Graphics/Vertex.hpp \
   /usr/include/SFML/Graphics/View.hpp \
   /usr/include/SFML/System.hpp \
@@ -321,6 +223,4217 @@ CMakeFiles/game.dir/src/Janela.cpp.o: /home/andre/tec-prog-proj-final/src/Janela
   /usr/include/c++/14.2.1/initializer_list \
   /usr/include/c++/14.2.1/ios \
   /usr/include/c++/14.2.1/iosfwd \
+  /usr/include/c++/14.2.1/iterator \
+  /usr/include/c++/14.2.1/locale \
+  /usr/include/c++/14.2.1/new \
+  /usr/include/c++/14.2.1/ostream \
+  /usr/include/c++/14.2.1/pstl/execution_defs.h \
+  /usr/include/c++/14.2.1/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/14.2.1/pstl/pstl_config.h \
+  /usr/include/c++/14.2.1/stdexcept \
+  /usr/include/c++/14.2.1/streambuf \
+  /usr/include/c++/14.2.1/string \
+  /usr/include/c++/14.2.1/string_view \
+  /usr/include/c++/14.2.1/system_error \
+  /usr/include/c++/14.2.1/tuple \
+  /usr/include/c++/14.2.1/type_traits \
+  /usr/include/c++/14.2.1/typeinfo \
+  /usr/include/c++/14.2.1/vector \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/single_threaded.h \
+  /usr/include/sys/types.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h
+
+CMakeFiles/game.dir/src/Entidades/Entidade.cpp.o: /home/andre/tec-prog-proj-final/src/Entidades/Entidade.cpp \
+  /home/andre/tec-prog-proj-final/src/Ente.h \
+  /home/andre/tec-prog-proj-final/src/Janela.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Entidade.h \
+  /usr/include/SFML/Config.hpp \
+  /usr/include/SFML/Graphics/BlendMode.hpp \
+  /usr/include/SFML/Graphics/Color.hpp \
+  /usr/include/SFML/Graphics/Drawable.hpp \
+  /usr/include/SFML/Graphics/Export.hpp \
+  /usr/include/SFML/Graphics/Image.hpp \
+  /usr/include/SFML/Graphics/PrimitiveType.hpp \
+  /usr/include/SFML/Graphics/Rect.hpp \
+  /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RenderStates.hpp \
+  /usr/include/SFML/Graphics/RenderTarget.hpp \
+  /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Sprite.hpp \
+  /usr/include/SFML/Graphics/Texture.hpp \
+  /usr/include/SFML/Graphics/Transform.hpp \
+  /usr/include/SFML/Graphics/Transformable.hpp \
+  /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/View.hpp \
+  /usr/include/SFML/System.hpp \
+  /usr/include/SFML/System/Clock.hpp \
+  /usr/include/SFML/System/Err.hpp \
+  /usr/include/SFML/System/Export.hpp \
+  /usr/include/SFML/System/FileInputStream.hpp \
+  /usr/include/SFML/System/InputStream.hpp \
+  /usr/include/SFML/System/Lock.hpp \
+  /usr/include/SFML/System/MemoryInputStream.hpp \
+  /usr/include/SFML/System/Mutex.hpp \
+  /usr/include/SFML/System/NonCopyable.hpp \
+  /usr/include/SFML/System/Sleep.hpp \
+  /usr/include/SFML/System/String.hpp \
+  /usr/include/SFML/System/String.inl \
+  /usr/include/SFML/System/Thread.hpp \
+  /usr/include/SFML/System/Thread.inl \
+  /usr/include/SFML/System/ThreadLocal.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.inl \
+  /usr/include/SFML/System/Time.hpp \
+  /usr/include/SFML/System/Utf.hpp \
+  /usr/include/SFML/System/Utf.inl \
+  /usr/include/SFML/System/Vector2.hpp \
+  /usr/include/SFML/System/Vector2.inl \
+  /usr/include/SFML/System/Vector3.hpp \
+  /usr/include/SFML/System/Vector3.inl \
+  /usr/include/SFML/Window.hpp \
+  /usr/include/SFML/Window/Clipboard.hpp \
+  /usr/include/SFML/Window/Context.hpp \
+  /usr/include/SFML/Window/ContextSettings.hpp \
+  /usr/include/SFML/Window/Cursor.hpp \
+  /usr/include/SFML/Window/Event.hpp \
+  /usr/include/SFML/Window/Export.hpp \
+  /usr/include/SFML/Window/GlResource.hpp \
+  /usr/include/SFML/Window/Joystick.hpp \
+  /usr/include/SFML/Window/Keyboard.hpp \
+  /usr/include/SFML/Window/Mouse.hpp \
+  /usr/include/SFML/Window/Sensor.hpp \
+  /usr/include/SFML/Window/Touch.hpp \
+  /usr/include/SFML/Window/VideoMode.hpp \
+  /usr/include/SFML/Window/Vulkan.hpp \
+  /usr/include/SFML/Window/Window.hpp \
+  /usr/include/SFML/Window/WindowBase.hpp \
+  /usr/include/SFML/Window/WindowHandle.hpp \
+  /usr/include/SFML/Window/WindowStyle.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/errno.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/locale.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/14.2.1/algorithm \
+  /usr/include/c++/14.2.1/backward/binders.h \
+  /usr/include/c++/14.2.1/bit \
+  /usr/include/c++/14.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/14.2.1/bits/alloc_traits.h \
+  /usr/include/c++/14.2.1/bits/allocator.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/14.2.1/bits/basic_string.h \
+  /usr/include/c++/14.2.1/bits/basic_string.tcc \
+  /usr/include/c++/14.2.1/bits/char_traits.h \
+  /usr/include/c++/14.2.1/bits/charconv.h \
+  /usr/include/c++/14.2.1/bits/codecvt.h \
+  /usr/include/c++/14.2.1/bits/concept_check.h \
+  /usr/include/c++/14.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/14.2.1/bits/exception.h \
+  /usr/include/c++/14.2.1/bits/exception_defines.h \
+  /usr/include/c++/14.2.1/bits/exception_ptr.h \
+  /usr/include/c++/14.2.1/bits/functexcept.h \
+  /usr/include/c++/14.2.1/bits/functional_hash.h \
+  /usr/include/c++/14.2.1/bits/hash_bytes.h \
+  /usr/include/c++/14.2.1/bits/invoke.h \
+  /usr/include/c++/14.2.1/bits/ios_base.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/14.2.1/bits/locale_conv.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/14.2.1/bits/localefwd.h \
+  /usr/include/c++/14.2.1/bits/memory_resource.h \
+  /usr/include/c++/14.2.1/bits/memoryfwd.h \
+  /usr/include/c++/14.2.1/bits/move.h \
+  /usr/include/c++/14.2.1/bits/nested_exception.h \
+  /usr/include/c++/14.2.1/bits/new_allocator.h \
+  /usr/include/c++/14.2.1/bits/ostream.tcc \
+  /usr/include/c++/14.2.1/bits/ostream_insert.h \
+  /usr/include/c++/14.2.1/bits/postypes.h \
+  /usr/include/c++/14.2.1/bits/predefined_ops.h \
+  /usr/include/c++/14.2.1/bits/ptr_traits.h \
+  /usr/include/c++/14.2.1/bits/range_access.h \
+  /usr/include/c++/14.2.1/bits/refwrap.h \
+  /usr/include/c++/14.2.1/bits/requires_hosted.h \
+  /usr/include/c++/14.2.1/bits/std_abs.h \
+  /usr/include/c++/14.2.1/bits/stl_algo.h \
+  /usr/include/c++/14.2.1/bits/stl_algobase.h \
+  /usr/include/c++/14.2.1/bits/stl_bvector.h \
+  /usr/include/c++/14.2.1/bits/stl_construct.h \
+  /usr/include/c++/14.2.1/bits/stl_function.h \
+  /usr/include/c++/14.2.1/bits/stl_heap.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/14.2.1/bits/stl_pair.h \
+  /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/14.2.1/bits/stl_vector.h \
+  /usr/include/c++/14.2.1/bits/stream_iterator.h \
+  /usr/include/c++/14.2.1/bits/streambuf.tcc \
+  /usr/include/c++/14.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/14.2.1/bits/string_view.tcc \
+  /usr/include/c++/14.2.1/bits/stringfwd.h \
+  /usr/include/c++/14.2.1/bits/uniform_int_dist.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
+  /usr/include/c++/14.2.1/bits/utility.h \
+  /usr/include/c++/14.2.1/bits/vector.tcc \
+  /usr/include/c++/14.2.1/bits/version.h \
+  /usr/include/c++/14.2.1/cctype \
+  /usr/include/c++/14.2.1/cerrno \
+  /usr/include/c++/14.2.1/clocale \
+  /usr/include/c++/14.2.1/concepts \
+  /usr/include/c++/14.2.1/cstddef \
+  /usr/include/c++/14.2.1/cstdio \
+  /usr/include/c++/14.2.1/cstdlib \
+  /usr/include/c++/14.2.1/ctime \
+  /usr/include/c++/14.2.1/cwchar \
+  /usr/include/c++/14.2.1/cwctype \
+  /usr/include/c++/14.2.1/debug/assertions.h \
+  /usr/include/c++/14.2.1/debug/debug.h \
+  /usr/include/c++/14.2.1/exception \
+  /usr/include/c++/14.2.1/ext/alloc_traits.h \
+  /usr/include/c++/14.2.1/ext/atomicity.h \
+  /usr/include/c++/14.2.1/ext/numeric_traits.h \
+  /usr/include/c++/14.2.1/ext/string_conversions.h \
+  /usr/include/c++/14.2.1/ext/type_traits.h \
+  /usr/include/c++/14.2.1/initializer_list \
+  /usr/include/c++/14.2.1/ios \
+  /usr/include/c++/14.2.1/iosfwd \
+  /usr/include/c++/14.2.1/iterator \
+  /usr/include/c++/14.2.1/locale \
+  /usr/include/c++/14.2.1/new \
+  /usr/include/c++/14.2.1/ostream \
+  /usr/include/c++/14.2.1/pstl/execution_defs.h \
+  /usr/include/c++/14.2.1/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/14.2.1/pstl/pstl_config.h \
+  /usr/include/c++/14.2.1/stdexcept \
+  /usr/include/c++/14.2.1/streambuf \
+  /usr/include/c++/14.2.1/string \
+  /usr/include/c++/14.2.1/string_view \
+  /usr/include/c++/14.2.1/system_error \
+  /usr/include/c++/14.2.1/tuple \
+  /usr/include/c++/14.2.1/type_traits \
+  /usr/include/c++/14.2.1/typeinfo \
+  /usr/include/c++/14.2.1/vector \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/single_threaded.h \
+  /usr/include/sys/types.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h
+
+CMakeFiles/game.dir/src/Entidades/Obstaculos/Obst_Dificil.cpp.o: /home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obst_Dificil.cpp \
+  /home/andre/tec-prog-proj-final/src/Ente.h \
+  /home/andre/tec-prog-proj-final/src/Janela.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Entidade.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obst_Dificil.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obstaculo.h \
+  /usr/include/SFML/Config.hpp \
+  /usr/include/SFML/Graphics/BlendMode.hpp \
+  /usr/include/SFML/Graphics/Color.hpp \
+  /usr/include/SFML/Graphics/Drawable.hpp \
+  /usr/include/SFML/Graphics/Export.hpp \
+  /usr/include/SFML/Graphics/Image.hpp \
+  /usr/include/SFML/Graphics/PrimitiveType.hpp \
+  /usr/include/SFML/Graphics/Rect.hpp \
+  /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RenderStates.hpp \
+  /usr/include/SFML/Graphics/RenderTarget.hpp \
+  /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Sprite.hpp \
+  /usr/include/SFML/Graphics/Texture.hpp \
+  /usr/include/SFML/Graphics/Transform.hpp \
+  /usr/include/SFML/Graphics/Transformable.hpp \
+  /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/View.hpp \
+  /usr/include/SFML/System.hpp \
+  /usr/include/SFML/System/Clock.hpp \
+  /usr/include/SFML/System/Err.hpp \
+  /usr/include/SFML/System/Export.hpp \
+  /usr/include/SFML/System/FileInputStream.hpp \
+  /usr/include/SFML/System/InputStream.hpp \
+  /usr/include/SFML/System/Lock.hpp \
+  /usr/include/SFML/System/MemoryInputStream.hpp \
+  /usr/include/SFML/System/Mutex.hpp \
+  /usr/include/SFML/System/NonCopyable.hpp \
+  /usr/include/SFML/System/Sleep.hpp \
+  /usr/include/SFML/System/String.hpp \
+  /usr/include/SFML/System/String.inl \
+  /usr/include/SFML/System/Thread.hpp \
+  /usr/include/SFML/System/Thread.inl \
+  /usr/include/SFML/System/ThreadLocal.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.inl \
+  /usr/include/SFML/System/Time.hpp \
+  /usr/include/SFML/System/Utf.hpp \
+  /usr/include/SFML/System/Utf.inl \
+  /usr/include/SFML/System/Vector2.hpp \
+  /usr/include/SFML/System/Vector2.inl \
+  /usr/include/SFML/System/Vector3.hpp \
+  /usr/include/SFML/System/Vector3.inl \
+  /usr/include/SFML/Window.hpp \
+  /usr/include/SFML/Window/Clipboard.hpp \
+  /usr/include/SFML/Window/Context.hpp \
+  /usr/include/SFML/Window/ContextSettings.hpp \
+  /usr/include/SFML/Window/Cursor.hpp \
+  /usr/include/SFML/Window/Event.hpp \
+  /usr/include/SFML/Window/Export.hpp \
+  /usr/include/SFML/Window/GlResource.hpp \
+  /usr/include/SFML/Window/Joystick.hpp \
+  /usr/include/SFML/Window/Keyboard.hpp \
+  /usr/include/SFML/Window/Mouse.hpp \
+  /usr/include/SFML/Window/Sensor.hpp \
+  /usr/include/SFML/Window/Touch.hpp \
+  /usr/include/SFML/Window/VideoMode.hpp \
+  /usr/include/SFML/Window/Vulkan.hpp \
+  /usr/include/SFML/Window/Window.hpp \
+  /usr/include/SFML/Window/WindowBase.hpp \
+  /usr/include/SFML/Window/WindowHandle.hpp \
+  /usr/include/SFML/Window/WindowStyle.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/errno.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/locale.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/14.2.1/algorithm \
+  /usr/include/c++/14.2.1/backward/binders.h \
+  /usr/include/c++/14.2.1/bit \
+  /usr/include/c++/14.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/14.2.1/bits/alloc_traits.h \
+  /usr/include/c++/14.2.1/bits/allocator.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/14.2.1/bits/basic_string.h \
+  /usr/include/c++/14.2.1/bits/basic_string.tcc \
+  /usr/include/c++/14.2.1/bits/char_traits.h \
+  /usr/include/c++/14.2.1/bits/charconv.h \
+  /usr/include/c++/14.2.1/bits/codecvt.h \
+  /usr/include/c++/14.2.1/bits/concept_check.h \
+  /usr/include/c++/14.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/14.2.1/bits/exception.h \
+  /usr/include/c++/14.2.1/bits/exception_defines.h \
+  /usr/include/c++/14.2.1/bits/exception_ptr.h \
+  /usr/include/c++/14.2.1/bits/functexcept.h \
+  /usr/include/c++/14.2.1/bits/functional_hash.h \
+  /usr/include/c++/14.2.1/bits/hash_bytes.h \
+  /usr/include/c++/14.2.1/bits/invoke.h \
+  /usr/include/c++/14.2.1/bits/ios_base.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/14.2.1/bits/locale_conv.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/14.2.1/bits/localefwd.h \
+  /usr/include/c++/14.2.1/bits/memory_resource.h \
+  /usr/include/c++/14.2.1/bits/memoryfwd.h \
+  /usr/include/c++/14.2.1/bits/move.h \
+  /usr/include/c++/14.2.1/bits/nested_exception.h \
+  /usr/include/c++/14.2.1/bits/new_allocator.h \
+  /usr/include/c++/14.2.1/bits/ostream.tcc \
+  /usr/include/c++/14.2.1/bits/ostream_insert.h \
+  /usr/include/c++/14.2.1/bits/postypes.h \
+  /usr/include/c++/14.2.1/bits/predefined_ops.h \
+  /usr/include/c++/14.2.1/bits/ptr_traits.h \
+  /usr/include/c++/14.2.1/bits/range_access.h \
+  /usr/include/c++/14.2.1/bits/refwrap.h \
+  /usr/include/c++/14.2.1/bits/requires_hosted.h \
+  /usr/include/c++/14.2.1/bits/std_abs.h \
+  /usr/include/c++/14.2.1/bits/stl_algo.h \
+  /usr/include/c++/14.2.1/bits/stl_algobase.h \
+  /usr/include/c++/14.2.1/bits/stl_bvector.h \
+  /usr/include/c++/14.2.1/bits/stl_construct.h \
+  /usr/include/c++/14.2.1/bits/stl_function.h \
+  /usr/include/c++/14.2.1/bits/stl_heap.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/14.2.1/bits/stl_pair.h \
+  /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/14.2.1/bits/stl_vector.h \
+  /usr/include/c++/14.2.1/bits/stream_iterator.h \
+  /usr/include/c++/14.2.1/bits/streambuf.tcc \
+  /usr/include/c++/14.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/14.2.1/bits/string_view.tcc \
+  /usr/include/c++/14.2.1/bits/stringfwd.h \
+  /usr/include/c++/14.2.1/bits/uniform_int_dist.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
+  /usr/include/c++/14.2.1/bits/utility.h \
+  /usr/include/c++/14.2.1/bits/vector.tcc \
+  /usr/include/c++/14.2.1/bits/version.h \
+  /usr/include/c++/14.2.1/cctype \
+  /usr/include/c++/14.2.1/cerrno \
+  /usr/include/c++/14.2.1/clocale \
+  /usr/include/c++/14.2.1/concepts \
+  /usr/include/c++/14.2.1/cstddef \
+  /usr/include/c++/14.2.1/cstdio \
+  /usr/include/c++/14.2.1/cstdlib \
+  /usr/include/c++/14.2.1/ctime \
+  /usr/include/c++/14.2.1/cwchar \
+  /usr/include/c++/14.2.1/cwctype \
+  /usr/include/c++/14.2.1/debug/assertions.h \
+  /usr/include/c++/14.2.1/debug/debug.h \
+  /usr/include/c++/14.2.1/exception \
+  /usr/include/c++/14.2.1/ext/alloc_traits.h \
+  /usr/include/c++/14.2.1/ext/atomicity.h \
+  /usr/include/c++/14.2.1/ext/numeric_traits.h \
+  /usr/include/c++/14.2.1/ext/string_conversions.h \
+  /usr/include/c++/14.2.1/ext/type_traits.h \
+  /usr/include/c++/14.2.1/initializer_list \
+  /usr/include/c++/14.2.1/ios \
+  /usr/include/c++/14.2.1/iosfwd \
+  /usr/include/c++/14.2.1/iterator \
+  /usr/include/c++/14.2.1/locale \
+  /usr/include/c++/14.2.1/new \
+  /usr/include/c++/14.2.1/ostream \
+  /usr/include/c++/14.2.1/pstl/execution_defs.h \
+  /usr/include/c++/14.2.1/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/14.2.1/pstl/pstl_config.h \
+  /usr/include/c++/14.2.1/stdexcept \
+  /usr/include/c++/14.2.1/streambuf \
+  /usr/include/c++/14.2.1/string \
+  /usr/include/c++/14.2.1/string_view \
+  /usr/include/c++/14.2.1/system_error \
+  /usr/include/c++/14.2.1/tuple \
+  /usr/include/c++/14.2.1/type_traits \
+  /usr/include/c++/14.2.1/typeinfo \
+  /usr/include/c++/14.2.1/vector \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/single_threaded.h \
+  /usr/include/sys/types.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h
+
+CMakeFiles/game.dir/src/Entidades/Obstaculos/Obst_Facil.cpp.o: /home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obst_Facil.cpp \
+  /home/andre/tec-prog-proj-final/src/Ente.h \
+  /home/andre/tec-prog-proj-final/src/Janela.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Entidade.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obst_Facil.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obstaculo.h \
+  /usr/include/SFML/Config.hpp \
+  /usr/include/SFML/Graphics/BlendMode.hpp \
+  /usr/include/SFML/Graphics/Color.hpp \
+  /usr/include/SFML/Graphics/Drawable.hpp \
+  /usr/include/SFML/Graphics/Export.hpp \
+  /usr/include/SFML/Graphics/Image.hpp \
+  /usr/include/SFML/Graphics/PrimitiveType.hpp \
+  /usr/include/SFML/Graphics/Rect.hpp \
+  /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RenderStates.hpp \
+  /usr/include/SFML/Graphics/RenderTarget.hpp \
+  /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Sprite.hpp \
+  /usr/include/SFML/Graphics/Texture.hpp \
+  /usr/include/SFML/Graphics/Transform.hpp \
+  /usr/include/SFML/Graphics/Transformable.hpp \
+  /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/View.hpp \
+  /usr/include/SFML/System.hpp \
+  /usr/include/SFML/System/Clock.hpp \
+  /usr/include/SFML/System/Err.hpp \
+  /usr/include/SFML/System/Export.hpp \
+  /usr/include/SFML/System/FileInputStream.hpp \
+  /usr/include/SFML/System/InputStream.hpp \
+  /usr/include/SFML/System/Lock.hpp \
+  /usr/include/SFML/System/MemoryInputStream.hpp \
+  /usr/include/SFML/System/Mutex.hpp \
+  /usr/include/SFML/System/NonCopyable.hpp \
+  /usr/include/SFML/System/Sleep.hpp \
+  /usr/include/SFML/System/String.hpp \
+  /usr/include/SFML/System/String.inl \
+  /usr/include/SFML/System/Thread.hpp \
+  /usr/include/SFML/System/Thread.inl \
+  /usr/include/SFML/System/ThreadLocal.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.inl \
+  /usr/include/SFML/System/Time.hpp \
+  /usr/include/SFML/System/Utf.hpp \
+  /usr/include/SFML/System/Utf.inl \
+  /usr/include/SFML/System/Vector2.hpp \
+  /usr/include/SFML/System/Vector2.inl \
+  /usr/include/SFML/System/Vector3.hpp \
+  /usr/include/SFML/System/Vector3.inl \
+  /usr/include/SFML/Window.hpp \
+  /usr/include/SFML/Window/Clipboard.hpp \
+  /usr/include/SFML/Window/Context.hpp \
+  /usr/include/SFML/Window/ContextSettings.hpp \
+  /usr/include/SFML/Window/Cursor.hpp \
+  /usr/include/SFML/Window/Event.hpp \
+  /usr/include/SFML/Window/Export.hpp \
+  /usr/include/SFML/Window/GlResource.hpp \
+  /usr/include/SFML/Window/Joystick.hpp \
+  /usr/include/SFML/Window/Keyboard.hpp \
+  /usr/include/SFML/Window/Mouse.hpp \
+  /usr/include/SFML/Window/Sensor.hpp \
+  /usr/include/SFML/Window/Touch.hpp \
+  /usr/include/SFML/Window/VideoMode.hpp \
+  /usr/include/SFML/Window/Vulkan.hpp \
+  /usr/include/SFML/Window/Window.hpp \
+  /usr/include/SFML/Window/WindowBase.hpp \
+  /usr/include/SFML/Window/WindowHandle.hpp \
+  /usr/include/SFML/Window/WindowStyle.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/errno.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/locale.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/14.2.1/algorithm \
+  /usr/include/c++/14.2.1/backward/binders.h \
+  /usr/include/c++/14.2.1/bit \
+  /usr/include/c++/14.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/14.2.1/bits/alloc_traits.h \
+  /usr/include/c++/14.2.1/bits/allocator.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/14.2.1/bits/basic_string.h \
+  /usr/include/c++/14.2.1/bits/basic_string.tcc \
+  /usr/include/c++/14.2.1/bits/char_traits.h \
+  /usr/include/c++/14.2.1/bits/charconv.h \
+  /usr/include/c++/14.2.1/bits/codecvt.h \
+  /usr/include/c++/14.2.1/bits/concept_check.h \
+  /usr/include/c++/14.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/14.2.1/bits/exception.h \
+  /usr/include/c++/14.2.1/bits/exception_defines.h \
+  /usr/include/c++/14.2.1/bits/exception_ptr.h \
+  /usr/include/c++/14.2.1/bits/functexcept.h \
+  /usr/include/c++/14.2.1/bits/functional_hash.h \
+  /usr/include/c++/14.2.1/bits/hash_bytes.h \
+  /usr/include/c++/14.2.1/bits/invoke.h \
+  /usr/include/c++/14.2.1/bits/ios_base.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/14.2.1/bits/locale_conv.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/14.2.1/bits/localefwd.h \
+  /usr/include/c++/14.2.1/bits/memory_resource.h \
+  /usr/include/c++/14.2.1/bits/memoryfwd.h \
+  /usr/include/c++/14.2.1/bits/move.h \
+  /usr/include/c++/14.2.1/bits/nested_exception.h \
+  /usr/include/c++/14.2.1/bits/new_allocator.h \
+  /usr/include/c++/14.2.1/bits/ostream.tcc \
+  /usr/include/c++/14.2.1/bits/ostream_insert.h \
+  /usr/include/c++/14.2.1/bits/postypes.h \
+  /usr/include/c++/14.2.1/bits/predefined_ops.h \
+  /usr/include/c++/14.2.1/bits/ptr_traits.h \
+  /usr/include/c++/14.2.1/bits/range_access.h \
+  /usr/include/c++/14.2.1/bits/refwrap.h \
+  /usr/include/c++/14.2.1/bits/requires_hosted.h \
+  /usr/include/c++/14.2.1/bits/std_abs.h \
+  /usr/include/c++/14.2.1/bits/stl_algo.h \
+  /usr/include/c++/14.2.1/bits/stl_algobase.h \
+  /usr/include/c++/14.2.1/bits/stl_bvector.h \
+  /usr/include/c++/14.2.1/bits/stl_construct.h \
+  /usr/include/c++/14.2.1/bits/stl_function.h \
+  /usr/include/c++/14.2.1/bits/stl_heap.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/14.2.1/bits/stl_pair.h \
+  /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/14.2.1/bits/stl_vector.h \
+  /usr/include/c++/14.2.1/bits/stream_iterator.h \
+  /usr/include/c++/14.2.1/bits/streambuf.tcc \
+  /usr/include/c++/14.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/14.2.1/bits/string_view.tcc \
+  /usr/include/c++/14.2.1/bits/stringfwd.h \
+  /usr/include/c++/14.2.1/bits/uniform_int_dist.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
+  /usr/include/c++/14.2.1/bits/utility.h \
+  /usr/include/c++/14.2.1/bits/vector.tcc \
+  /usr/include/c++/14.2.1/bits/version.h \
+  /usr/include/c++/14.2.1/cctype \
+  /usr/include/c++/14.2.1/cerrno \
+  /usr/include/c++/14.2.1/clocale \
+  /usr/include/c++/14.2.1/concepts \
+  /usr/include/c++/14.2.1/cstddef \
+  /usr/include/c++/14.2.1/cstdio \
+  /usr/include/c++/14.2.1/cstdlib \
+  /usr/include/c++/14.2.1/ctime \
+  /usr/include/c++/14.2.1/cwchar \
+  /usr/include/c++/14.2.1/cwctype \
+  /usr/include/c++/14.2.1/debug/assertions.h \
+  /usr/include/c++/14.2.1/debug/debug.h \
+  /usr/include/c++/14.2.1/exception \
+  /usr/include/c++/14.2.1/ext/alloc_traits.h \
+  /usr/include/c++/14.2.1/ext/atomicity.h \
+  /usr/include/c++/14.2.1/ext/numeric_traits.h \
+  /usr/include/c++/14.2.1/ext/string_conversions.h \
+  /usr/include/c++/14.2.1/ext/type_traits.h \
+  /usr/include/c++/14.2.1/initializer_list \
+  /usr/include/c++/14.2.1/ios \
+  /usr/include/c++/14.2.1/iosfwd \
+  /usr/include/c++/14.2.1/iterator \
+  /usr/include/c++/14.2.1/locale \
+  /usr/include/c++/14.2.1/new \
+  /usr/include/c++/14.2.1/ostream \
+  /usr/include/c++/14.2.1/pstl/execution_defs.h \
+  /usr/include/c++/14.2.1/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/14.2.1/pstl/pstl_config.h \
+  /usr/include/c++/14.2.1/stdexcept \
+  /usr/include/c++/14.2.1/streambuf \
+  /usr/include/c++/14.2.1/string \
+  /usr/include/c++/14.2.1/string_view \
+  /usr/include/c++/14.2.1/system_error \
+  /usr/include/c++/14.2.1/tuple \
+  /usr/include/c++/14.2.1/type_traits \
+  /usr/include/c++/14.2.1/typeinfo \
+  /usr/include/c++/14.2.1/vector \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/single_threaded.h \
+  /usr/include/sys/types.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h
+
+CMakeFiles/game.dir/src/Entidades/Obstaculos/Obst_Medio.cpp.o: /home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obst_Medio.cpp \
+  /home/andre/tec-prog-proj-final/src/Ente.h \
+  /home/andre/tec-prog-proj-final/src/Janela.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Entidade.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obst_Medio.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obstaculo.h \
+  /usr/include/SFML/Config.hpp \
+  /usr/include/SFML/Graphics/BlendMode.hpp \
+  /usr/include/SFML/Graphics/Color.hpp \
+  /usr/include/SFML/Graphics/Drawable.hpp \
+  /usr/include/SFML/Graphics/Export.hpp \
+  /usr/include/SFML/Graphics/Image.hpp \
+  /usr/include/SFML/Graphics/PrimitiveType.hpp \
+  /usr/include/SFML/Graphics/Rect.hpp \
+  /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RenderStates.hpp \
+  /usr/include/SFML/Graphics/RenderTarget.hpp \
+  /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Sprite.hpp \
+  /usr/include/SFML/Graphics/Texture.hpp \
+  /usr/include/SFML/Graphics/Transform.hpp \
+  /usr/include/SFML/Graphics/Transformable.hpp \
+  /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/View.hpp \
+  /usr/include/SFML/System.hpp \
+  /usr/include/SFML/System/Clock.hpp \
+  /usr/include/SFML/System/Err.hpp \
+  /usr/include/SFML/System/Export.hpp \
+  /usr/include/SFML/System/FileInputStream.hpp \
+  /usr/include/SFML/System/InputStream.hpp \
+  /usr/include/SFML/System/Lock.hpp \
+  /usr/include/SFML/System/MemoryInputStream.hpp \
+  /usr/include/SFML/System/Mutex.hpp \
+  /usr/include/SFML/System/NonCopyable.hpp \
+  /usr/include/SFML/System/Sleep.hpp \
+  /usr/include/SFML/System/String.hpp \
+  /usr/include/SFML/System/String.inl \
+  /usr/include/SFML/System/Thread.hpp \
+  /usr/include/SFML/System/Thread.inl \
+  /usr/include/SFML/System/ThreadLocal.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.inl \
+  /usr/include/SFML/System/Time.hpp \
+  /usr/include/SFML/System/Utf.hpp \
+  /usr/include/SFML/System/Utf.inl \
+  /usr/include/SFML/System/Vector2.hpp \
+  /usr/include/SFML/System/Vector2.inl \
+  /usr/include/SFML/System/Vector3.hpp \
+  /usr/include/SFML/System/Vector3.inl \
+  /usr/include/SFML/Window.hpp \
+  /usr/include/SFML/Window/Clipboard.hpp \
+  /usr/include/SFML/Window/Context.hpp \
+  /usr/include/SFML/Window/ContextSettings.hpp \
+  /usr/include/SFML/Window/Cursor.hpp \
+  /usr/include/SFML/Window/Event.hpp \
+  /usr/include/SFML/Window/Export.hpp \
+  /usr/include/SFML/Window/GlResource.hpp \
+  /usr/include/SFML/Window/Joystick.hpp \
+  /usr/include/SFML/Window/Keyboard.hpp \
+  /usr/include/SFML/Window/Mouse.hpp \
+  /usr/include/SFML/Window/Sensor.hpp \
+  /usr/include/SFML/Window/Touch.hpp \
+  /usr/include/SFML/Window/VideoMode.hpp \
+  /usr/include/SFML/Window/Vulkan.hpp \
+  /usr/include/SFML/Window/Window.hpp \
+  /usr/include/SFML/Window/WindowBase.hpp \
+  /usr/include/SFML/Window/WindowHandle.hpp \
+  /usr/include/SFML/Window/WindowStyle.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/errno.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/locale.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/14.2.1/algorithm \
+  /usr/include/c++/14.2.1/backward/binders.h \
+  /usr/include/c++/14.2.1/bit \
+  /usr/include/c++/14.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/14.2.1/bits/alloc_traits.h \
+  /usr/include/c++/14.2.1/bits/allocator.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/14.2.1/bits/basic_string.h \
+  /usr/include/c++/14.2.1/bits/basic_string.tcc \
+  /usr/include/c++/14.2.1/bits/char_traits.h \
+  /usr/include/c++/14.2.1/bits/charconv.h \
+  /usr/include/c++/14.2.1/bits/codecvt.h \
+  /usr/include/c++/14.2.1/bits/concept_check.h \
+  /usr/include/c++/14.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/14.2.1/bits/exception.h \
+  /usr/include/c++/14.2.1/bits/exception_defines.h \
+  /usr/include/c++/14.2.1/bits/exception_ptr.h \
+  /usr/include/c++/14.2.1/bits/functexcept.h \
+  /usr/include/c++/14.2.1/bits/functional_hash.h \
+  /usr/include/c++/14.2.1/bits/hash_bytes.h \
+  /usr/include/c++/14.2.1/bits/invoke.h \
+  /usr/include/c++/14.2.1/bits/ios_base.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/14.2.1/bits/locale_conv.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/14.2.1/bits/localefwd.h \
+  /usr/include/c++/14.2.1/bits/memory_resource.h \
+  /usr/include/c++/14.2.1/bits/memoryfwd.h \
+  /usr/include/c++/14.2.1/bits/move.h \
+  /usr/include/c++/14.2.1/bits/nested_exception.h \
+  /usr/include/c++/14.2.1/bits/new_allocator.h \
+  /usr/include/c++/14.2.1/bits/ostream.tcc \
+  /usr/include/c++/14.2.1/bits/ostream_insert.h \
+  /usr/include/c++/14.2.1/bits/postypes.h \
+  /usr/include/c++/14.2.1/bits/predefined_ops.h \
+  /usr/include/c++/14.2.1/bits/ptr_traits.h \
+  /usr/include/c++/14.2.1/bits/range_access.h \
+  /usr/include/c++/14.2.1/bits/refwrap.h \
+  /usr/include/c++/14.2.1/bits/requires_hosted.h \
+  /usr/include/c++/14.2.1/bits/std_abs.h \
+  /usr/include/c++/14.2.1/bits/stl_algo.h \
+  /usr/include/c++/14.2.1/bits/stl_algobase.h \
+  /usr/include/c++/14.2.1/bits/stl_bvector.h \
+  /usr/include/c++/14.2.1/bits/stl_construct.h \
+  /usr/include/c++/14.2.1/bits/stl_function.h \
+  /usr/include/c++/14.2.1/bits/stl_heap.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/14.2.1/bits/stl_pair.h \
+  /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/14.2.1/bits/stl_vector.h \
+  /usr/include/c++/14.2.1/bits/stream_iterator.h \
+  /usr/include/c++/14.2.1/bits/streambuf.tcc \
+  /usr/include/c++/14.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/14.2.1/bits/string_view.tcc \
+  /usr/include/c++/14.2.1/bits/stringfwd.h \
+  /usr/include/c++/14.2.1/bits/uniform_int_dist.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
+  /usr/include/c++/14.2.1/bits/utility.h \
+  /usr/include/c++/14.2.1/bits/vector.tcc \
+  /usr/include/c++/14.2.1/bits/version.h \
+  /usr/include/c++/14.2.1/cctype \
+  /usr/include/c++/14.2.1/cerrno \
+  /usr/include/c++/14.2.1/clocale \
+  /usr/include/c++/14.2.1/concepts \
+  /usr/include/c++/14.2.1/cstddef \
+  /usr/include/c++/14.2.1/cstdio \
+  /usr/include/c++/14.2.1/cstdlib \
+  /usr/include/c++/14.2.1/ctime \
+  /usr/include/c++/14.2.1/cwchar \
+  /usr/include/c++/14.2.1/cwctype \
+  /usr/include/c++/14.2.1/debug/assertions.h \
+  /usr/include/c++/14.2.1/debug/debug.h \
+  /usr/include/c++/14.2.1/exception \
+  /usr/include/c++/14.2.1/ext/alloc_traits.h \
+  /usr/include/c++/14.2.1/ext/atomicity.h \
+  /usr/include/c++/14.2.1/ext/numeric_traits.h \
+  /usr/include/c++/14.2.1/ext/string_conversions.h \
+  /usr/include/c++/14.2.1/ext/type_traits.h \
+  /usr/include/c++/14.2.1/initializer_list \
+  /usr/include/c++/14.2.1/ios \
+  /usr/include/c++/14.2.1/iosfwd \
+  /usr/include/c++/14.2.1/iterator \
+  /usr/include/c++/14.2.1/locale \
+  /usr/include/c++/14.2.1/new \
+  /usr/include/c++/14.2.1/ostream \
+  /usr/include/c++/14.2.1/pstl/execution_defs.h \
+  /usr/include/c++/14.2.1/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/14.2.1/pstl/pstl_config.h \
+  /usr/include/c++/14.2.1/stdexcept \
+  /usr/include/c++/14.2.1/streambuf \
+  /usr/include/c++/14.2.1/string \
+  /usr/include/c++/14.2.1/string_view \
+  /usr/include/c++/14.2.1/system_error \
+  /usr/include/c++/14.2.1/tuple \
+  /usr/include/c++/14.2.1/type_traits \
+  /usr/include/c++/14.2.1/typeinfo \
+  /usr/include/c++/14.2.1/vector \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/single_threaded.h \
+  /usr/include/sys/types.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h
+
+CMakeFiles/game.dir/src/Entidades/Obstaculos/Obstaculo.cpp.o: /home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obstaculo.cpp \
+  /home/andre/tec-prog-proj-final/src/Ente.h \
+  /home/andre/tec-prog-proj-final/src/Janela.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Entidade.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obstaculo.h \
+  /usr/include/SFML/Config.hpp \
+  /usr/include/SFML/Graphics/BlendMode.hpp \
+  /usr/include/SFML/Graphics/Color.hpp \
+  /usr/include/SFML/Graphics/Drawable.hpp \
+  /usr/include/SFML/Graphics/Export.hpp \
+  /usr/include/SFML/Graphics/Image.hpp \
+  /usr/include/SFML/Graphics/PrimitiveType.hpp \
+  /usr/include/SFML/Graphics/Rect.hpp \
+  /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RenderStates.hpp \
+  /usr/include/SFML/Graphics/RenderTarget.hpp \
+  /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Sprite.hpp \
+  /usr/include/SFML/Graphics/Texture.hpp \
+  /usr/include/SFML/Graphics/Transform.hpp \
+  /usr/include/SFML/Graphics/Transformable.hpp \
+  /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/View.hpp \
+  /usr/include/SFML/System.hpp \
+  /usr/include/SFML/System/Clock.hpp \
+  /usr/include/SFML/System/Err.hpp \
+  /usr/include/SFML/System/Export.hpp \
+  /usr/include/SFML/System/FileInputStream.hpp \
+  /usr/include/SFML/System/InputStream.hpp \
+  /usr/include/SFML/System/Lock.hpp \
+  /usr/include/SFML/System/MemoryInputStream.hpp \
+  /usr/include/SFML/System/Mutex.hpp \
+  /usr/include/SFML/System/NonCopyable.hpp \
+  /usr/include/SFML/System/Sleep.hpp \
+  /usr/include/SFML/System/String.hpp \
+  /usr/include/SFML/System/String.inl \
+  /usr/include/SFML/System/Thread.hpp \
+  /usr/include/SFML/System/Thread.inl \
+  /usr/include/SFML/System/ThreadLocal.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.inl \
+  /usr/include/SFML/System/Time.hpp \
+  /usr/include/SFML/System/Utf.hpp \
+  /usr/include/SFML/System/Utf.inl \
+  /usr/include/SFML/System/Vector2.hpp \
+  /usr/include/SFML/System/Vector2.inl \
+  /usr/include/SFML/System/Vector3.hpp \
+  /usr/include/SFML/System/Vector3.inl \
+  /usr/include/SFML/Window.hpp \
+  /usr/include/SFML/Window/Clipboard.hpp \
+  /usr/include/SFML/Window/Context.hpp \
+  /usr/include/SFML/Window/ContextSettings.hpp \
+  /usr/include/SFML/Window/Cursor.hpp \
+  /usr/include/SFML/Window/Event.hpp \
+  /usr/include/SFML/Window/Export.hpp \
+  /usr/include/SFML/Window/GlResource.hpp \
+  /usr/include/SFML/Window/Joystick.hpp \
+  /usr/include/SFML/Window/Keyboard.hpp \
+  /usr/include/SFML/Window/Mouse.hpp \
+  /usr/include/SFML/Window/Sensor.hpp \
+  /usr/include/SFML/Window/Touch.hpp \
+  /usr/include/SFML/Window/VideoMode.hpp \
+  /usr/include/SFML/Window/Vulkan.hpp \
+  /usr/include/SFML/Window/Window.hpp \
+  /usr/include/SFML/Window/WindowBase.hpp \
+  /usr/include/SFML/Window/WindowHandle.hpp \
+  /usr/include/SFML/Window/WindowStyle.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/errno.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/locale.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/14.2.1/algorithm \
+  /usr/include/c++/14.2.1/backward/binders.h \
+  /usr/include/c++/14.2.1/bit \
+  /usr/include/c++/14.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/14.2.1/bits/alloc_traits.h \
+  /usr/include/c++/14.2.1/bits/allocator.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/14.2.1/bits/basic_string.h \
+  /usr/include/c++/14.2.1/bits/basic_string.tcc \
+  /usr/include/c++/14.2.1/bits/char_traits.h \
+  /usr/include/c++/14.2.1/bits/charconv.h \
+  /usr/include/c++/14.2.1/bits/codecvt.h \
+  /usr/include/c++/14.2.1/bits/concept_check.h \
+  /usr/include/c++/14.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/14.2.1/bits/exception.h \
+  /usr/include/c++/14.2.1/bits/exception_defines.h \
+  /usr/include/c++/14.2.1/bits/exception_ptr.h \
+  /usr/include/c++/14.2.1/bits/functexcept.h \
+  /usr/include/c++/14.2.1/bits/functional_hash.h \
+  /usr/include/c++/14.2.1/bits/hash_bytes.h \
+  /usr/include/c++/14.2.1/bits/invoke.h \
+  /usr/include/c++/14.2.1/bits/ios_base.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/14.2.1/bits/locale_conv.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/14.2.1/bits/localefwd.h \
+  /usr/include/c++/14.2.1/bits/memory_resource.h \
+  /usr/include/c++/14.2.1/bits/memoryfwd.h \
+  /usr/include/c++/14.2.1/bits/move.h \
+  /usr/include/c++/14.2.1/bits/nested_exception.h \
+  /usr/include/c++/14.2.1/bits/new_allocator.h \
+  /usr/include/c++/14.2.1/bits/ostream.tcc \
+  /usr/include/c++/14.2.1/bits/ostream_insert.h \
+  /usr/include/c++/14.2.1/bits/postypes.h \
+  /usr/include/c++/14.2.1/bits/predefined_ops.h \
+  /usr/include/c++/14.2.1/bits/ptr_traits.h \
+  /usr/include/c++/14.2.1/bits/range_access.h \
+  /usr/include/c++/14.2.1/bits/refwrap.h \
+  /usr/include/c++/14.2.1/bits/requires_hosted.h \
+  /usr/include/c++/14.2.1/bits/std_abs.h \
+  /usr/include/c++/14.2.1/bits/stl_algo.h \
+  /usr/include/c++/14.2.1/bits/stl_algobase.h \
+  /usr/include/c++/14.2.1/bits/stl_bvector.h \
+  /usr/include/c++/14.2.1/bits/stl_construct.h \
+  /usr/include/c++/14.2.1/bits/stl_function.h \
+  /usr/include/c++/14.2.1/bits/stl_heap.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/14.2.1/bits/stl_pair.h \
+  /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/14.2.1/bits/stl_vector.h \
+  /usr/include/c++/14.2.1/bits/stream_iterator.h \
+  /usr/include/c++/14.2.1/bits/streambuf.tcc \
+  /usr/include/c++/14.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/14.2.1/bits/string_view.tcc \
+  /usr/include/c++/14.2.1/bits/stringfwd.h \
+  /usr/include/c++/14.2.1/bits/uniform_int_dist.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
+  /usr/include/c++/14.2.1/bits/utility.h \
+  /usr/include/c++/14.2.1/bits/vector.tcc \
+  /usr/include/c++/14.2.1/bits/version.h \
+  /usr/include/c++/14.2.1/cctype \
+  /usr/include/c++/14.2.1/cerrno \
+  /usr/include/c++/14.2.1/clocale \
+  /usr/include/c++/14.2.1/concepts \
+  /usr/include/c++/14.2.1/cstddef \
+  /usr/include/c++/14.2.1/cstdio \
+  /usr/include/c++/14.2.1/cstdlib \
+  /usr/include/c++/14.2.1/ctime \
+  /usr/include/c++/14.2.1/cwchar \
+  /usr/include/c++/14.2.1/cwctype \
+  /usr/include/c++/14.2.1/debug/assertions.h \
+  /usr/include/c++/14.2.1/debug/debug.h \
+  /usr/include/c++/14.2.1/exception \
+  /usr/include/c++/14.2.1/ext/alloc_traits.h \
+  /usr/include/c++/14.2.1/ext/atomicity.h \
+  /usr/include/c++/14.2.1/ext/numeric_traits.h \
+  /usr/include/c++/14.2.1/ext/string_conversions.h \
+  /usr/include/c++/14.2.1/ext/type_traits.h \
+  /usr/include/c++/14.2.1/initializer_list \
+  /usr/include/c++/14.2.1/ios \
+  /usr/include/c++/14.2.1/iosfwd \
+  /usr/include/c++/14.2.1/iterator \
+  /usr/include/c++/14.2.1/locale \
+  /usr/include/c++/14.2.1/new \
+  /usr/include/c++/14.2.1/ostream \
+  /usr/include/c++/14.2.1/pstl/execution_defs.h \
+  /usr/include/c++/14.2.1/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/14.2.1/pstl/pstl_config.h \
+  /usr/include/c++/14.2.1/stdexcept \
+  /usr/include/c++/14.2.1/streambuf \
+  /usr/include/c++/14.2.1/string \
+  /usr/include/c++/14.2.1/string_view \
+  /usr/include/c++/14.2.1/system_error \
+  /usr/include/c++/14.2.1/tuple \
+  /usr/include/c++/14.2.1/type_traits \
+  /usr/include/c++/14.2.1/typeinfo \
+  /usr/include/c++/14.2.1/vector \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/single_threaded.h \
+  /usr/include/sys/types.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h
+
+CMakeFiles/game.dir/src/Entidades/Personagens/Inim_Dificil.cpp.o: /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inim_Dificil.cpp \
+  /home/andre/tec-prog-proj-final/src/Ente.h \
+  /home/andre/tec-prog-proj-final/src/Janela.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Entidade.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inim_Dificil.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inimigo.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Personagem.h \
+  /usr/include/SFML/Config.hpp \
+  /usr/include/SFML/Graphics/BlendMode.hpp \
+  /usr/include/SFML/Graphics/Color.hpp \
+  /usr/include/SFML/Graphics/Drawable.hpp \
+  /usr/include/SFML/Graphics/Export.hpp \
+  /usr/include/SFML/Graphics/Image.hpp \
+  /usr/include/SFML/Graphics/PrimitiveType.hpp \
+  /usr/include/SFML/Graphics/Rect.hpp \
+  /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RenderStates.hpp \
+  /usr/include/SFML/Graphics/RenderTarget.hpp \
+  /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Sprite.hpp \
+  /usr/include/SFML/Graphics/Texture.hpp \
+  /usr/include/SFML/Graphics/Transform.hpp \
+  /usr/include/SFML/Graphics/Transformable.hpp \
+  /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/View.hpp \
+  /usr/include/SFML/System.hpp \
+  /usr/include/SFML/System/Clock.hpp \
+  /usr/include/SFML/System/Err.hpp \
+  /usr/include/SFML/System/Export.hpp \
+  /usr/include/SFML/System/FileInputStream.hpp \
+  /usr/include/SFML/System/InputStream.hpp \
+  /usr/include/SFML/System/Lock.hpp \
+  /usr/include/SFML/System/MemoryInputStream.hpp \
+  /usr/include/SFML/System/Mutex.hpp \
+  /usr/include/SFML/System/NonCopyable.hpp \
+  /usr/include/SFML/System/Sleep.hpp \
+  /usr/include/SFML/System/String.hpp \
+  /usr/include/SFML/System/String.inl \
+  /usr/include/SFML/System/Thread.hpp \
+  /usr/include/SFML/System/Thread.inl \
+  /usr/include/SFML/System/ThreadLocal.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.inl \
+  /usr/include/SFML/System/Time.hpp \
+  /usr/include/SFML/System/Utf.hpp \
+  /usr/include/SFML/System/Utf.inl \
+  /usr/include/SFML/System/Vector2.hpp \
+  /usr/include/SFML/System/Vector2.inl \
+  /usr/include/SFML/System/Vector3.hpp \
+  /usr/include/SFML/System/Vector3.inl \
+  /usr/include/SFML/Window.hpp \
+  /usr/include/SFML/Window/Clipboard.hpp \
+  /usr/include/SFML/Window/Context.hpp \
+  /usr/include/SFML/Window/ContextSettings.hpp \
+  /usr/include/SFML/Window/Cursor.hpp \
+  /usr/include/SFML/Window/Event.hpp \
+  /usr/include/SFML/Window/Export.hpp \
+  /usr/include/SFML/Window/GlResource.hpp \
+  /usr/include/SFML/Window/Joystick.hpp \
+  /usr/include/SFML/Window/Keyboard.hpp \
+  /usr/include/SFML/Window/Mouse.hpp \
+  /usr/include/SFML/Window/Sensor.hpp \
+  /usr/include/SFML/Window/Touch.hpp \
+  /usr/include/SFML/Window/VideoMode.hpp \
+  /usr/include/SFML/Window/Vulkan.hpp \
+  /usr/include/SFML/Window/Window.hpp \
+  /usr/include/SFML/Window/WindowBase.hpp \
+  /usr/include/SFML/Window/WindowHandle.hpp \
+  /usr/include/SFML/Window/WindowStyle.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/errno.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/locale.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/14.2.1/algorithm \
+  /usr/include/c++/14.2.1/backward/binders.h \
+  /usr/include/c++/14.2.1/bit \
+  /usr/include/c++/14.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/14.2.1/bits/alloc_traits.h \
+  /usr/include/c++/14.2.1/bits/allocator.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/14.2.1/bits/basic_string.h \
+  /usr/include/c++/14.2.1/bits/basic_string.tcc \
+  /usr/include/c++/14.2.1/bits/char_traits.h \
+  /usr/include/c++/14.2.1/bits/charconv.h \
+  /usr/include/c++/14.2.1/bits/codecvt.h \
+  /usr/include/c++/14.2.1/bits/concept_check.h \
+  /usr/include/c++/14.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/14.2.1/bits/exception.h \
+  /usr/include/c++/14.2.1/bits/exception_defines.h \
+  /usr/include/c++/14.2.1/bits/exception_ptr.h \
+  /usr/include/c++/14.2.1/bits/functexcept.h \
+  /usr/include/c++/14.2.1/bits/functional_hash.h \
+  /usr/include/c++/14.2.1/bits/hash_bytes.h \
+  /usr/include/c++/14.2.1/bits/invoke.h \
+  /usr/include/c++/14.2.1/bits/ios_base.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/14.2.1/bits/locale_conv.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/14.2.1/bits/localefwd.h \
+  /usr/include/c++/14.2.1/bits/memory_resource.h \
+  /usr/include/c++/14.2.1/bits/memoryfwd.h \
+  /usr/include/c++/14.2.1/bits/move.h \
+  /usr/include/c++/14.2.1/bits/nested_exception.h \
+  /usr/include/c++/14.2.1/bits/new_allocator.h \
+  /usr/include/c++/14.2.1/bits/ostream.tcc \
+  /usr/include/c++/14.2.1/bits/ostream_insert.h \
+  /usr/include/c++/14.2.1/bits/postypes.h \
+  /usr/include/c++/14.2.1/bits/predefined_ops.h \
+  /usr/include/c++/14.2.1/bits/ptr_traits.h \
+  /usr/include/c++/14.2.1/bits/range_access.h \
+  /usr/include/c++/14.2.1/bits/refwrap.h \
+  /usr/include/c++/14.2.1/bits/requires_hosted.h \
+  /usr/include/c++/14.2.1/bits/std_abs.h \
+  /usr/include/c++/14.2.1/bits/stl_algo.h \
+  /usr/include/c++/14.2.1/bits/stl_algobase.h \
+  /usr/include/c++/14.2.1/bits/stl_bvector.h \
+  /usr/include/c++/14.2.1/bits/stl_construct.h \
+  /usr/include/c++/14.2.1/bits/stl_function.h \
+  /usr/include/c++/14.2.1/bits/stl_heap.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/14.2.1/bits/stl_pair.h \
+  /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/14.2.1/bits/stl_vector.h \
+  /usr/include/c++/14.2.1/bits/stream_iterator.h \
+  /usr/include/c++/14.2.1/bits/streambuf.tcc \
+  /usr/include/c++/14.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/14.2.1/bits/string_view.tcc \
+  /usr/include/c++/14.2.1/bits/stringfwd.h \
+  /usr/include/c++/14.2.1/bits/uniform_int_dist.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
+  /usr/include/c++/14.2.1/bits/utility.h \
+  /usr/include/c++/14.2.1/bits/vector.tcc \
+  /usr/include/c++/14.2.1/bits/version.h \
+  /usr/include/c++/14.2.1/cctype \
+  /usr/include/c++/14.2.1/cerrno \
+  /usr/include/c++/14.2.1/clocale \
+  /usr/include/c++/14.2.1/concepts \
+  /usr/include/c++/14.2.1/cstddef \
+  /usr/include/c++/14.2.1/cstdio \
+  /usr/include/c++/14.2.1/cstdlib \
+  /usr/include/c++/14.2.1/ctime \
+  /usr/include/c++/14.2.1/cwchar \
+  /usr/include/c++/14.2.1/cwctype \
+  /usr/include/c++/14.2.1/debug/assertions.h \
+  /usr/include/c++/14.2.1/debug/debug.h \
+  /usr/include/c++/14.2.1/exception \
+  /usr/include/c++/14.2.1/ext/alloc_traits.h \
+  /usr/include/c++/14.2.1/ext/atomicity.h \
+  /usr/include/c++/14.2.1/ext/numeric_traits.h \
+  /usr/include/c++/14.2.1/ext/string_conversions.h \
+  /usr/include/c++/14.2.1/ext/type_traits.h \
+  /usr/include/c++/14.2.1/initializer_list \
+  /usr/include/c++/14.2.1/ios \
+  /usr/include/c++/14.2.1/iosfwd \
+  /usr/include/c++/14.2.1/iterator \
+  /usr/include/c++/14.2.1/locale \
+  /usr/include/c++/14.2.1/new \
+  /usr/include/c++/14.2.1/ostream \
+  /usr/include/c++/14.2.1/pstl/execution_defs.h \
+  /usr/include/c++/14.2.1/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/14.2.1/pstl/pstl_config.h \
+  /usr/include/c++/14.2.1/stdexcept \
+  /usr/include/c++/14.2.1/streambuf \
+  /usr/include/c++/14.2.1/string \
+  /usr/include/c++/14.2.1/string_view \
+  /usr/include/c++/14.2.1/system_error \
+  /usr/include/c++/14.2.1/tuple \
+  /usr/include/c++/14.2.1/type_traits \
+  /usr/include/c++/14.2.1/typeinfo \
+  /usr/include/c++/14.2.1/vector \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/single_threaded.h \
+  /usr/include/sys/types.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h
+
+CMakeFiles/game.dir/src/Entidades/Personagens/Inim_Facil.cpp.o: /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inim_Facil.cpp \
+  /home/andre/tec-prog-proj-final/src/Ente.h \
+  /home/andre/tec-prog-proj-final/src/Janela.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Entidade.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inim_Facil.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inimigo.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Personagem.h \
+  /usr/include/SFML/Config.hpp \
+  /usr/include/SFML/Graphics/BlendMode.hpp \
+  /usr/include/SFML/Graphics/Color.hpp \
+  /usr/include/SFML/Graphics/Drawable.hpp \
+  /usr/include/SFML/Graphics/Export.hpp \
+  /usr/include/SFML/Graphics/Image.hpp \
+  /usr/include/SFML/Graphics/PrimitiveType.hpp \
+  /usr/include/SFML/Graphics/Rect.hpp \
+  /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RenderStates.hpp \
+  /usr/include/SFML/Graphics/RenderTarget.hpp \
+  /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Sprite.hpp \
+  /usr/include/SFML/Graphics/Texture.hpp \
+  /usr/include/SFML/Graphics/Transform.hpp \
+  /usr/include/SFML/Graphics/Transformable.hpp \
+  /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/View.hpp \
+  /usr/include/SFML/System.hpp \
+  /usr/include/SFML/System/Clock.hpp \
+  /usr/include/SFML/System/Err.hpp \
+  /usr/include/SFML/System/Export.hpp \
+  /usr/include/SFML/System/FileInputStream.hpp \
+  /usr/include/SFML/System/InputStream.hpp \
+  /usr/include/SFML/System/Lock.hpp \
+  /usr/include/SFML/System/MemoryInputStream.hpp \
+  /usr/include/SFML/System/Mutex.hpp \
+  /usr/include/SFML/System/NonCopyable.hpp \
+  /usr/include/SFML/System/Sleep.hpp \
+  /usr/include/SFML/System/String.hpp \
+  /usr/include/SFML/System/String.inl \
+  /usr/include/SFML/System/Thread.hpp \
+  /usr/include/SFML/System/Thread.inl \
+  /usr/include/SFML/System/ThreadLocal.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.inl \
+  /usr/include/SFML/System/Time.hpp \
+  /usr/include/SFML/System/Utf.hpp \
+  /usr/include/SFML/System/Utf.inl \
+  /usr/include/SFML/System/Vector2.hpp \
+  /usr/include/SFML/System/Vector2.inl \
+  /usr/include/SFML/System/Vector3.hpp \
+  /usr/include/SFML/System/Vector3.inl \
+  /usr/include/SFML/Window.hpp \
+  /usr/include/SFML/Window/Clipboard.hpp \
+  /usr/include/SFML/Window/Context.hpp \
+  /usr/include/SFML/Window/ContextSettings.hpp \
+  /usr/include/SFML/Window/Cursor.hpp \
+  /usr/include/SFML/Window/Event.hpp \
+  /usr/include/SFML/Window/Export.hpp \
+  /usr/include/SFML/Window/GlResource.hpp \
+  /usr/include/SFML/Window/Joystick.hpp \
+  /usr/include/SFML/Window/Keyboard.hpp \
+  /usr/include/SFML/Window/Mouse.hpp \
+  /usr/include/SFML/Window/Sensor.hpp \
+  /usr/include/SFML/Window/Touch.hpp \
+  /usr/include/SFML/Window/VideoMode.hpp \
+  /usr/include/SFML/Window/Vulkan.hpp \
+  /usr/include/SFML/Window/Window.hpp \
+  /usr/include/SFML/Window/WindowBase.hpp \
+  /usr/include/SFML/Window/WindowHandle.hpp \
+  /usr/include/SFML/Window/WindowStyle.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/errno.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/locale.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/14.2.1/algorithm \
+  /usr/include/c++/14.2.1/backward/binders.h \
+  /usr/include/c++/14.2.1/bit \
+  /usr/include/c++/14.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/14.2.1/bits/alloc_traits.h \
+  /usr/include/c++/14.2.1/bits/allocator.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/14.2.1/bits/basic_string.h \
+  /usr/include/c++/14.2.1/bits/basic_string.tcc \
+  /usr/include/c++/14.2.1/bits/char_traits.h \
+  /usr/include/c++/14.2.1/bits/charconv.h \
+  /usr/include/c++/14.2.1/bits/codecvt.h \
+  /usr/include/c++/14.2.1/bits/concept_check.h \
+  /usr/include/c++/14.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/14.2.1/bits/exception.h \
+  /usr/include/c++/14.2.1/bits/exception_defines.h \
+  /usr/include/c++/14.2.1/bits/exception_ptr.h \
+  /usr/include/c++/14.2.1/bits/functexcept.h \
+  /usr/include/c++/14.2.1/bits/functional_hash.h \
+  /usr/include/c++/14.2.1/bits/hash_bytes.h \
+  /usr/include/c++/14.2.1/bits/invoke.h \
+  /usr/include/c++/14.2.1/bits/ios_base.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/14.2.1/bits/locale_conv.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/14.2.1/bits/localefwd.h \
+  /usr/include/c++/14.2.1/bits/memory_resource.h \
+  /usr/include/c++/14.2.1/bits/memoryfwd.h \
+  /usr/include/c++/14.2.1/bits/move.h \
+  /usr/include/c++/14.2.1/bits/nested_exception.h \
+  /usr/include/c++/14.2.1/bits/new_allocator.h \
+  /usr/include/c++/14.2.1/bits/ostream.tcc \
+  /usr/include/c++/14.2.1/bits/ostream_insert.h \
+  /usr/include/c++/14.2.1/bits/postypes.h \
+  /usr/include/c++/14.2.1/bits/predefined_ops.h \
+  /usr/include/c++/14.2.1/bits/ptr_traits.h \
+  /usr/include/c++/14.2.1/bits/range_access.h \
+  /usr/include/c++/14.2.1/bits/refwrap.h \
+  /usr/include/c++/14.2.1/bits/requires_hosted.h \
+  /usr/include/c++/14.2.1/bits/std_abs.h \
+  /usr/include/c++/14.2.1/bits/stl_algo.h \
+  /usr/include/c++/14.2.1/bits/stl_algobase.h \
+  /usr/include/c++/14.2.1/bits/stl_bvector.h \
+  /usr/include/c++/14.2.1/bits/stl_construct.h \
+  /usr/include/c++/14.2.1/bits/stl_function.h \
+  /usr/include/c++/14.2.1/bits/stl_heap.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/14.2.1/bits/stl_pair.h \
+  /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/14.2.1/bits/stl_vector.h \
+  /usr/include/c++/14.2.1/bits/stream_iterator.h \
+  /usr/include/c++/14.2.1/bits/streambuf.tcc \
+  /usr/include/c++/14.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/14.2.1/bits/string_view.tcc \
+  /usr/include/c++/14.2.1/bits/stringfwd.h \
+  /usr/include/c++/14.2.1/bits/uniform_int_dist.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
+  /usr/include/c++/14.2.1/bits/utility.h \
+  /usr/include/c++/14.2.1/bits/vector.tcc \
+  /usr/include/c++/14.2.1/bits/version.h \
+  /usr/include/c++/14.2.1/cctype \
+  /usr/include/c++/14.2.1/cerrno \
+  /usr/include/c++/14.2.1/clocale \
+  /usr/include/c++/14.2.1/concepts \
+  /usr/include/c++/14.2.1/cstddef \
+  /usr/include/c++/14.2.1/cstdio \
+  /usr/include/c++/14.2.1/cstdlib \
+  /usr/include/c++/14.2.1/ctime \
+  /usr/include/c++/14.2.1/cwchar \
+  /usr/include/c++/14.2.1/cwctype \
+  /usr/include/c++/14.2.1/debug/assertions.h \
+  /usr/include/c++/14.2.1/debug/debug.h \
+  /usr/include/c++/14.2.1/exception \
+  /usr/include/c++/14.2.1/ext/alloc_traits.h \
+  /usr/include/c++/14.2.1/ext/atomicity.h \
+  /usr/include/c++/14.2.1/ext/numeric_traits.h \
+  /usr/include/c++/14.2.1/ext/string_conversions.h \
+  /usr/include/c++/14.2.1/ext/type_traits.h \
+  /usr/include/c++/14.2.1/initializer_list \
+  /usr/include/c++/14.2.1/ios \
+  /usr/include/c++/14.2.1/iosfwd \
+  /usr/include/c++/14.2.1/iterator \
+  /usr/include/c++/14.2.1/locale \
+  /usr/include/c++/14.2.1/new \
+  /usr/include/c++/14.2.1/ostream \
+  /usr/include/c++/14.2.1/pstl/execution_defs.h \
+  /usr/include/c++/14.2.1/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/14.2.1/pstl/pstl_config.h \
+  /usr/include/c++/14.2.1/stdexcept \
+  /usr/include/c++/14.2.1/streambuf \
+  /usr/include/c++/14.2.1/string \
+  /usr/include/c++/14.2.1/string_view \
+  /usr/include/c++/14.2.1/system_error \
+  /usr/include/c++/14.2.1/tuple \
+  /usr/include/c++/14.2.1/type_traits \
+  /usr/include/c++/14.2.1/typeinfo \
+  /usr/include/c++/14.2.1/vector \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/single_threaded.h \
+  /usr/include/sys/types.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h
+
+CMakeFiles/game.dir/src/Entidades/Personagens/Inimigo.cpp.o: /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inimigo.cpp \
+  /home/andre/tec-prog-proj-final/src/Ente.h \
+  /home/andre/tec-prog-proj-final/src/Janela.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Entidade.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inimigo.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Personagem.h \
+  /usr/include/SFML/Config.hpp \
+  /usr/include/SFML/Graphics/BlendMode.hpp \
+  /usr/include/SFML/Graphics/Color.hpp \
+  /usr/include/SFML/Graphics/Drawable.hpp \
+  /usr/include/SFML/Graphics/Export.hpp \
+  /usr/include/SFML/Graphics/Image.hpp \
+  /usr/include/SFML/Graphics/PrimitiveType.hpp \
+  /usr/include/SFML/Graphics/Rect.hpp \
+  /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RenderStates.hpp \
+  /usr/include/SFML/Graphics/RenderTarget.hpp \
+  /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Sprite.hpp \
+  /usr/include/SFML/Graphics/Texture.hpp \
+  /usr/include/SFML/Graphics/Transform.hpp \
+  /usr/include/SFML/Graphics/Transformable.hpp \
+  /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/View.hpp \
+  /usr/include/SFML/System.hpp \
+  /usr/include/SFML/System/Clock.hpp \
+  /usr/include/SFML/System/Err.hpp \
+  /usr/include/SFML/System/Export.hpp \
+  /usr/include/SFML/System/FileInputStream.hpp \
+  /usr/include/SFML/System/InputStream.hpp \
+  /usr/include/SFML/System/Lock.hpp \
+  /usr/include/SFML/System/MemoryInputStream.hpp \
+  /usr/include/SFML/System/Mutex.hpp \
+  /usr/include/SFML/System/NonCopyable.hpp \
+  /usr/include/SFML/System/Sleep.hpp \
+  /usr/include/SFML/System/String.hpp \
+  /usr/include/SFML/System/String.inl \
+  /usr/include/SFML/System/Thread.hpp \
+  /usr/include/SFML/System/Thread.inl \
+  /usr/include/SFML/System/ThreadLocal.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.inl \
+  /usr/include/SFML/System/Time.hpp \
+  /usr/include/SFML/System/Utf.hpp \
+  /usr/include/SFML/System/Utf.inl \
+  /usr/include/SFML/System/Vector2.hpp \
+  /usr/include/SFML/System/Vector2.inl \
+  /usr/include/SFML/System/Vector3.hpp \
+  /usr/include/SFML/System/Vector3.inl \
+  /usr/include/SFML/Window.hpp \
+  /usr/include/SFML/Window/Clipboard.hpp \
+  /usr/include/SFML/Window/Context.hpp \
+  /usr/include/SFML/Window/ContextSettings.hpp \
+  /usr/include/SFML/Window/Cursor.hpp \
+  /usr/include/SFML/Window/Event.hpp \
+  /usr/include/SFML/Window/Export.hpp \
+  /usr/include/SFML/Window/GlResource.hpp \
+  /usr/include/SFML/Window/Joystick.hpp \
+  /usr/include/SFML/Window/Keyboard.hpp \
+  /usr/include/SFML/Window/Mouse.hpp \
+  /usr/include/SFML/Window/Sensor.hpp \
+  /usr/include/SFML/Window/Touch.hpp \
+  /usr/include/SFML/Window/VideoMode.hpp \
+  /usr/include/SFML/Window/Vulkan.hpp \
+  /usr/include/SFML/Window/Window.hpp \
+  /usr/include/SFML/Window/WindowBase.hpp \
+  /usr/include/SFML/Window/WindowHandle.hpp \
+  /usr/include/SFML/Window/WindowStyle.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/errno.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/locale.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/14.2.1/algorithm \
+  /usr/include/c++/14.2.1/backward/binders.h \
+  /usr/include/c++/14.2.1/bit \
+  /usr/include/c++/14.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/14.2.1/bits/alloc_traits.h \
+  /usr/include/c++/14.2.1/bits/allocator.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/14.2.1/bits/basic_string.h \
+  /usr/include/c++/14.2.1/bits/basic_string.tcc \
+  /usr/include/c++/14.2.1/bits/char_traits.h \
+  /usr/include/c++/14.2.1/bits/charconv.h \
+  /usr/include/c++/14.2.1/bits/codecvt.h \
+  /usr/include/c++/14.2.1/bits/concept_check.h \
+  /usr/include/c++/14.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/14.2.1/bits/exception.h \
+  /usr/include/c++/14.2.1/bits/exception_defines.h \
+  /usr/include/c++/14.2.1/bits/exception_ptr.h \
+  /usr/include/c++/14.2.1/bits/functexcept.h \
+  /usr/include/c++/14.2.1/bits/functional_hash.h \
+  /usr/include/c++/14.2.1/bits/hash_bytes.h \
+  /usr/include/c++/14.2.1/bits/invoke.h \
+  /usr/include/c++/14.2.1/bits/ios_base.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/14.2.1/bits/locale_conv.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/14.2.1/bits/localefwd.h \
+  /usr/include/c++/14.2.1/bits/memory_resource.h \
+  /usr/include/c++/14.2.1/bits/memoryfwd.h \
+  /usr/include/c++/14.2.1/bits/move.h \
+  /usr/include/c++/14.2.1/bits/nested_exception.h \
+  /usr/include/c++/14.2.1/bits/new_allocator.h \
+  /usr/include/c++/14.2.1/bits/ostream.tcc \
+  /usr/include/c++/14.2.1/bits/ostream_insert.h \
+  /usr/include/c++/14.2.1/bits/postypes.h \
+  /usr/include/c++/14.2.1/bits/predefined_ops.h \
+  /usr/include/c++/14.2.1/bits/ptr_traits.h \
+  /usr/include/c++/14.2.1/bits/range_access.h \
+  /usr/include/c++/14.2.1/bits/refwrap.h \
+  /usr/include/c++/14.2.1/bits/requires_hosted.h \
+  /usr/include/c++/14.2.1/bits/std_abs.h \
+  /usr/include/c++/14.2.1/bits/stl_algo.h \
+  /usr/include/c++/14.2.1/bits/stl_algobase.h \
+  /usr/include/c++/14.2.1/bits/stl_bvector.h \
+  /usr/include/c++/14.2.1/bits/stl_construct.h \
+  /usr/include/c++/14.2.1/bits/stl_function.h \
+  /usr/include/c++/14.2.1/bits/stl_heap.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/14.2.1/bits/stl_pair.h \
+  /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/14.2.1/bits/stl_vector.h \
+  /usr/include/c++/14.2.1/bits/stream_iterator.h \
+  /usr/include/c++/14.2.1/bits/streambuf.tcc \
+  /usr/include/c++/14.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/14.2.1/bits/string_view.tcc \
+  /usr/include/c++/14.2.1/bits/stringfwd.h \
+  /usr/include/c++/14.2.1/bits/uniform_int_dist.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
+  /usr/include/c++/14.2.1/bits/utility.h \
+  /usr/include/c++/14.2.1/bits/vector.tcc \
+  /usr/include/c++/14.2.1/bits/version.h \
+  /usr/include/c++/14.2.1/cctype \
+  /usr/include/c++/14.2.1/cerrno \
+  /usr/include/c++/14.2.1/clocale \
+  /usr/include/c++/14.2.1/concepts \
+  /usr/include/c++/14.2.1/cstddef \
+  /usr/include/c++/14.2.1/cstdio \
+  /usr/include/c++/14.2.1/cstdlib \
+  /usr/include/c++/14.2.1/ctime \
+  /usr/include/c++/14.2.1/cwchar \
+  /usr/include/c++/14.2.1/cwctype \
+  /usr/include/c++/14.2.1/debug/assertions.h \
+  /usr/include/c++/14.2.1/debug/debug.h \
+  /usr/include/c++/14.2.1/exception \
+  /usr/include/c++/14.2.1/ext/alloc_traits.h \
+  /usr/include/c++/14.2.1/ext/atomicity.h \
+  /usr/include/c++/14.2.1/ext/numeric_traits.h \
+  /usr/include/c++/14.2.1/ext/string_conversions.h \
+  /usr/include/c++/14.2.1/ext/type_traits.h \
+  /usr/include/c++/14.2.1/initializer_list \
+  /usr/include/c++/14.2.1/ios \
+  /usr/include/c++/14.2.1/iosfwd \
+  /usr/include/c++/14.2.1/iterator \
+  /usr/include/c++/14.2.1/locale \
+  /usr/include/c++/14.2.1/new \
+  /usr/include/c++/14.2.1/ostream \
+  /usr/include/c++/14.2.1/pstl/execution_defs.h \
+  /usr/include/c++/14.2.1/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/14.2.1/pstl/pstl_config.h \
+  /usr/include/c++/14.2.1/stdexcept \
+  /usr/include/c++/14.2.1/streambuf \
+  /usr/include/c++/14.2.1/string \
+  /usr/include/c++/14.2.1/string_view \
+  /usr/include/c++/14.2.1/system_error \
+  /usr/include/c++/14.2.1/tuple \
+  /usr/include/c++/14.2.1/type_traits \
+  /usr/include/c++/14.2.1/typeinfo \
+  /usr/include/c++/14.2.1/vector \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/single_threaded.h \
+  /usr/include/sys/types.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h
+
+CMakeFiles/game.dir/src/Entidades/Personagens/Jogador.cpp.o: /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Jogador.cpp \
+  /home/andre/tec-prog-proj-final/src/Ente.h \
+  /home/andre/tec-prog-proj-final/src/Janela.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Entidade.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Jogador.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Personagem.h \
+  /usr/include/SFML/Config.hpp \
+  /usr/include/SFML/Graphics/BlendMode.hpp \
+  /usr/include/SFML/Graphics/Color.hpp \
+  /usr/include/SFML/Graphics/Drawable.hpp \
+  /usr/include/SFML/Graphics/Export.hpp \
+  /usr/include/SFML/Graphics/Image.hpp \
+  /usr/include/SFML/Graphics/PrimitiveType.hpp \
+  /usr/include/SFML/Graphics/Rect.hpp \
+  /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RenderStates.hpp \
+  /usr/include/SFML/Graphics/RenderTarget.hpp \
+  /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Sprite.hpp \
+  /usr/include/SFML/Graphics/Texture.hpp \
+  /usr/include/SFML/Graphics/Transform.hpp \
+  /usr/include/SFML/Graphics/Transformable.hpp \
+  /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/View.hpp \
+  /usr/include/SFML/System.hpp \
+  /usr/include/SFML/System/Clock.hpp \
+  /usr/include/SFML/System/Err.hpp \
+  /usr/include/SFML/System/Export.hpp \
+  /usr/include/SFML/System/FileInputStream.hpp \
+  /usr/include/SFML/System/InputStream.hpp \
+  /usr/include/SFML/System/Lock.hpp \
+  /usr/include/SFML/System/MemoryInputStream.hpp \
+  /usr/include/SFML/System/Mutex.hpp \
+  /usr/include/SFML/System/NonCopyable.hpp \
+  /usr/include/SFML/System/Sleep.hpp \
+  /usr/include/SFML/System/String.hpp \
+  /usr/include/SFML/System/String.inl \
+  /usr/include/SFML/System/Thread.hpp \
+  /usr/include/SFML/System/Thread.inl \
+  /usr/include/SFML/System/ThreadLocal.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.inl \
+  /usr/include/SFML/System/Time.hpp \
+  /usr/include/SFML/System/Utf.hpp \
+  /usr/include/SFML/System/Utf.inl \
+  /usr/include/SFML/System/Vector2.hpp \
+  /usr/include/SFML/System/Vector2.inl \
+  /usr/include/SFML/System/Vector3.hpp \
+  /usr/include/SFML/System/Vector3.inl \
+  /usr/include/SFML/Window.hpp \
+  /usr/include/SFML/Window/Clipboard.hpp \
+  /usr/include/SFML/Window/Context.hpp \
+  /usr/include/SFML/Window/ContextSettings.hpp \
+  /usr/include/SFML/Window/Cursor.hpp \
+  /usr/include/SFML/Window/Event.hpp \
+  /usr/include/SFML/Window/Export.hpp \
+  /usr/include/SFML/Window/GlResource.hpp \
+  /usr/include/SFML/Window/Joystick.hpp \
+  /usr/include/SFML/Window/Keyboard.hpp \
+  /usr/include/SFML/Window/Mouse.hpp \
+  /usr/include/SFML/Window/Sensor.hpp \
+  /usr/include/SFML/Window/Touch.hpp \
+  /usr/include/SFML/Window/VideoMode.hpp \
+  /usr/include/SFML/Window/Vulkan.hpp \
+  /usr/include/SFML/Window/Window.hpp \
+  /usr/include/SFML/Window/WindowBase.hpp \
+  /usr/include/SFML/Window/WindowHandle.hpp \
+  /usr/include/SFML/Window/WindowStyle.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/errno.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/locale.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/14.2.1/algorithm \
+  /usr/include/c++/14.2.1/backward/binders.h \
+  /usr/include/c++/14.2.1/bit \
+  /usr/include/c++/14.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/14.2.1/bits/alloc_traits.h \
+  /usr/include/c++/14.2.1/bits/allocator.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/14.2.1/bits/basic_string.h \
+  /usr/include/c++/14.2.1/bits/basic_string.tcc \
+  /usr/include/c++/14.2.1/bits/char_traits.h \
+  /usr/include/c++/14.2.1/bits/charconv.h \
+  /usr/include/c++/14.2.1/bits/codecvt.h \
+  /usr/include/c++/14.2.1/bits/concept_check.h \
+  /usr/include/c++/14.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/14.2.1/bits/exception.h \
+  /usr/include/c++/14.2.1/bits/exception_defines.h \
+  /usr/include/c++/14.2.1/bits/exception_ptr.h \
+  /usr/include/c++/14.2.1/bits/functexcept.h \
+  /usr/include/c++/14.2.1/bits/functional_hash.h \
+  /usr/include/c++/14.2.1/bits/hash_bytes.h \
+  /usr/include/c++/14.2.1/bits/invoke.h \
+  /usr/include/c++/14.2.1/bits/ios_base.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/14.2.1/bits/locale_conv.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/14.2.1/bits/localefwd.h \
+  /usr/include/c++/14.2.1/bits/memory_resource.h \
+  /usr/include/c++/14.2.1/bits/memoryfwd.h \
+  /usr/include/c++/14.2.1/bits/move.h \
+  /usr/include/c++/14.2.1/bits/nested_exception.h \
+  /usr/include/c++/14.2.1/bits/new_allocator.h \
+  /usr/include/c++/14.2.1/bits/ostream.tcc \
+  /usr/include/c++/14.2.1/bits/ostream_insert.h \
+  /usr/include/c++/14.2.1/bits/postypes.h \
+  /usr/include/c++/14.2.1/bits/predefined_ops.h \
+  /usr/include/c++/14.2.1/bits/ptr_traits.h \
+  /usr/include/c++/14.2.1/bits/range_access.h \
+  /usr/include/c++/14.2.1/bits/refwrap.h \
+  /usr/include/c++/14.2.1/bits/requires_hosted.h \
+  /usr/include/c++/14.2.1/bits/std_abs.h \
+  /usr/include/c++/14.2.1/bits/stl_algo.h \
+  /usr/include/c++/14.2.1/bits/stl_algobase.h \
+  /usr/include/c++/14.2.1/bits/stl_bvector.h \
+  /usr/include/c++/14.2.1/bits/stl_construct.h \
+  /usr/include/c++/14.2.1/bits/stl_function.h \
+  /usr/include/c++/14.2.1/bits/stl_heap.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/14.2.1/bits/stl_pair.h \
+  /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/14.2.1/bits/stl_vector.h \
+  /usr/include/c++/14.2.1/bits/stream_iterator.h \
+  /usr/include/c++/14.2.1/bits/streambuf.tcc \
+  /usr/include/c++/14.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/14.2.1/bits/string_view.tcc \
+  /usr/include/c++/14.2.1/bits/stringfwd.h \
+  /usr/include/c++/14.2.1/bits/uniform_int_dist.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
+  /usr/include/c++/14.2.1/bits/utility.h \
+  /usr/include/c++/14.2.1/bits/vector.tcc \
+  /usr/include/c++/14.2.1/bits/version.h \
+  /usr/include/c++/14.2.1/cctype \
+  /usr/include/c++/14.2.1/cerrno \
+  /usr/include/c++/14.2.1/clocale \
+  /usr/include/c++/14.2.1/concepts \
+  /usr/include/c++/14.2.1/cstddef \
+  /usr/include/c++/14.2.1/cstdio \
+  /usr/include/c++/14.2.1/cstdlib \
+  /usr/include/c++/14.2.1/ctime \
+  /usr/include/c++/14.2.1/cwchar \
+  /usr/include/c++/14.2.1/cwctype \
+  /usr/include/c++/14.2.1/debug/assertions.h \
+  /usr/include/c++/14.2.1/debug/debug.h \
+  /usr/include/c++/14.2.1/exception \
+  /usr/include/c++/14.2.1/ext/alloc_traits.h \
+  /usr/include/c++/14.2.1/ext/atomicity.h \
+  /usr/include/c++/14.2.1/ext/numeric_traits.h \
+  /usr/include/c++/14.2.1/ext/string_conversions.h \
+  /usr/include/c++/14.2.1/ext/type_traits.h \
+  /usr/include/c++/14.2.1/initializer_list \
+  /usr/include/c++/14.2.1/ios \
+  /usr/include/c++/14.2.1/iosfwd \
+  /usr/include/c++/14.2.1/iterator \
+  /usr/include/c++/14.2.1/locale \
+  /usr/include/c++/14.2.1/new \
+  /usr/include/c++/14.2.1/ostream \
+  /usr/include/c++/14.2.1/pstl/execution_defs.h \
+  /usr/include/c++/14.2.1/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/14.2.1/pstl/pstl_config.h \
+  /usr/include/c++/14.2.1/stdexcept \
+  /usr/include/c++/14.2.1/streambuf \
+  /usr/include/c++/14.2.1/string \
+  /usr/include/c++/14.2.1/string_view \
+  /usr/include/c++/14.2.1/system_error \
+  /usr/include/c++/14.2.1/tuple \
+  /usr/include/c++/14.2.1/type_traits \
+  /usr/include/c++/14.2.1/typeinfo \
+  /usr/include/c++/14.2.1/vector \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/single_threaded.h \
+  /usr/include/sys/types.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h
+
+CMakeFiles/game.dir/src/Entidades/Personagens/Personagem.cpp.o: /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Personagem.cpp \
+  /home/andre/tec-prog-proj-final/src/Ente.h \
+  /home/andre/tec-prog-proj-final/src/Janela.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Entidade.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Personagem.h \
+  /usr/include/SFML/Config.hpp \
+  /usr/include/SFML/Graphics/BlendMode.hpp \
+  /usr/include/SFML/Graphics/Color.hpp \
+  /usr/include/SFML/Graphics/Drawable.hpp \
+  /usr/include/SFML/Graphics/Export.hpp \
+  /usr/include/SFML/Graphics/Image.hpp \
+  /usr/include/SFML/Graphics/PrimitiveType.hpp \
+  /usr/include/SFML/Graphics/Rect.hpp \
+  /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RenderStates.hpp \
+  /usr/include/SFML/Graphics/RenderTarget.hpp \
+  /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Sprite.hpp \
+  /usr/include/SFML/Graphics/Texture.hpp \
+  /usr/include/SFML/Graphics/Transform.hpp \
+  /usr/include/SFML/Graphics/Transformable.hpp \
+  /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/View.hpp \
+  /usr/include/SFML/System.hpp \
+  /usr/include/SFML/System/Clock.hpp \
+  /usr/include/SFML/System/Err.hpp \
+  /usr/include/SFML/System/Export.hpp \
+  /usr/include/SFML/System/FileInputStream.hpp \
+  /usr/include/SFML/System/InputStream.hpp \
+  /usr/include/SFML/System/Lock.hpp \
+  /usr/include/SFML/System/MemoryInputStream.hpp \
+  /usr/include/SFML/System/Mutex.hpp \
+  /usr/include/SFML/System/NonCopyable.hpp \
+  /usr/include/SFML/System/Sleep.hpp \
+  /usr/include/SFML/System/String.hpp \
+  /usr/include/SFML/System/String.inl \
+  /usr/include/SFML/System/Thread.hpp \
+  /usr/include/SFML/System/Thread.inl \
+  /usr/include/SFML/System/ThreadLocal.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.inl \
+  /usr/include/SFML/System/Time.hpp \
+  /usr/include/SFML/System/Utf.hpp \
+  /usr/include/SFML/System/Utf.inl \
+  /usr/include/SFML/System/Vector2.hpp \
+  /usr/include/SFML/System/Vector2.inl \
+  /usr/include/SFML/System/Vector3.hpp \
+  /usr/include/SFML/System/Vector3.inl \
+  /usr/include/SFML/Window.hpp \
+  /usr/include/SFML/Window/Clipboard.hpp \
+  /usr/include/SFML/Window/Context.hpp \
+  /usr/include/SFML/Window/ContextSettings.hpp \
+  /usr/include/SFML/Window/Cursor.hpp \
+  /usr/include/SFML/Window/Event.hpp \
+  /usr/include/SFML/Window/Export.hpp \
+  /usr/include/SFML/Window/GlResource.hpp \
+  /usr/include/SFML/Window/Joystick.hpp \
+  /usr/include/SFML/Window/Keyboard.hpp \
+  /usr/include/SFML/Window/Mouse.hpp \
+  /usr/include/SFML/Window/Sensor.hpp \
+  /usr/include/SFML/Window/Touch.hpp \
+  /usr/include/SFML/Window/VideoMode.hpp \
+  /usr/include/SFML/Window/Vulkan.hpp \
+  /usr/include/SFML/Window/Window.hpp \
+  /usr/include/SFML/Window/WindowBase.hpp \
+  /usr/include/SFML/Window/WindowHandle.hpp \
+  /usr/include/SFML/Window/WindowStyle.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/errno.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/locale.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/14.2.1/algorithm \
+  /usr/include/c++/14.2.1/backward/binders.h \
+  /usr/include/c++/14.2.1/bit \
+  /usr/include/c++/14.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/14.2.1/bits/alloc_traits.h \
+  /usr/include/c++/14.2.1/bits/allocator.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/14.2.1/bits/basic_string.h \
+  /usr/include/c++/14.2.1/bits/basic_string.tcc \
+  /usr/include/c++/14.2.1/bits/char_traits.h \
+  /usr/include/c++/14.2.1/bits/charconv.h \
+  /usr/include/c++/14.2.1/bits/codecvt.h \
+  /usr/include/c++/14.2.1/bits/concept_check.h \
+  /usr/include/c++/14.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/14.2.1/bits/exception.h \
+  /usr/include/c++/14.2.1/bits/exception_defines.h \
+  /usr/include/c++/14.2.1/bits/exception_ptr.h \
+  /usr/include/c++/14.2.1/bits/functexcept.h \
+  /usr/include/c++/14.2.1/bits/functional_hash.h \
+  /usr/include/c++/14.2.1/bits/hash_bytes.h \
+  /usr/include/c++/14.2.1/bits/invoke.h \
+  /usr/include/c++/14.2.1/bits/ios_base.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/14.2.1/bits/locale_conv.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/14.2.1/bits/localefwd.h \
+  /usr/include/c++/14.2.1/bits/memory_resource.h \
+  /usr/include/c++/14.2.1/bits/memoryfwd.h \
+  /usr/include/c++/14.2.1/bits/move.h \
+  /usr/include/c++/14.2.1/bits/nested_exception.h \
+  /usr/include/c++/14.2.1/bits/new_allocator.h \
+  /usr/include/c++/14.2.1/bits/ostream.tcc \
+  /usr/include/c++/14.2.1/bits/ostream_insert.h \
+  /usr/include/c++/14.2.1/bits/postypes.h \
+  /usr/include/c++/14.2.1/bits/predefined_ops.h \
+  /usr/include/c++/14.2.1/bits/ptr_traits.h \
+  /usr/include/c++/14.2.1/bits/range_access.h \
+  /usr/include/c++/14.2.1/bits/refwrap.h \
+  /usr/include/c++/14.2.1/bits/requires_hosted.h \
+  /usr/include/c++/14.2.1/bits/std_abs.h \
+  /usr/include/c++/14.2.1/bits/stl_algo.h \
+  /usr/include/c++/14.2.1/bits/stl_algobase.h \
+  /usr/include/c++/14.2.1/bits/stl_bvector.h \
+  /usr/include/c++/14.2.1/bits/stl_construct.h \
+  /usr/include/c++/14.2.1/bits/stl_function.h \
+  /usr/include/c++/14.2.1/bits/stl_heap.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/14.2.1/bits/stl_pair.h \
+  /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/14.2.1/bits/stl_vector.h \
+  /usr/include/c++/14.2.1/bits/stream_iterator.h \
+  /usr/include/c++/14.2.1/bits/streambuf.tcc \
+  /usr/include/c++/14.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/14.2.1/bits/string_view.tcc \
+  /usr/include/c++/14.2.1/bits/stringfwd.h \
+  /usr/include/c++/14.2.1/bits/uniform_int_dist.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
+  /usr/include/c++/14.2.1/bits/utility.h \
+  /usr/include/c++/14.2.1/bits/vector.tcc \
+  /usr/include/c++/14.2.1/bits/version.h \
+  /usr/include/c++/14.2.1/cctype \
+  /usr/include/c++/14.2.1/cerrno \
+  /usr/include/c++/14.2.1/clocale \
+  /usr/include/c++/14.2.1/concepts \
+  /usr/include/c++/14.2.1/cstddef \
+  /usr/include/c++/14.2.1/cstdio \
+  /usr/include/c++/14.2.1/cstdlib \
+  /usr/include/c++/14.2.1/ctime \
+  /usr/include/c++/14.2.1/cwchar \
+  /usr/include/c++/14.2.1/cwctype \
+  /usr/include/c++/14.2.1/debug/assertions.h \
+  /usr/include/c++/14.2.1/debug/debug.h \
+  /usr/include/c++/14.2.1/exception \
+  /usr/include/c++/14.2.1/ext/alloc_traits.h \
+  /usr/include/c++/14.2.1/ext/atomicity.h \
+  /usr/include/c++/14.2.1/ext/numeric_traits.h \
+  /usr/include/c++/14.2.1/ext/string_conversions.h \
+  /usr/include/c++/14.2.1/ext/type_traits.h \
+  /usr/include/c++/14.2.1/initializer_list \
+  /usr/include/c++/14.2.1/ios \
+  /usr/include/c++/14.2.1/iosfwd \
+  /usr/include/c++/14.2.1/iterator \
+  /usr/include/c++/14.2.1/locale \
+  /usr/include/c++/14.2.1/new \
+  /usr/include/c++/14.2.1/ostream \
+  /usr/include/c++/14.2.1/pstl/execution_defs.h \
+  /usr/include/c++/14.2.1/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/14.2.1/pstl/pstl_config.h \
+  /usr/include/c++/14.2.1/stdexcept \
+  /usr/include/c++/14.2.1/streambuf \
+  /usr/include/c++/14.2.1/string \
+  /usr/include/c++/14.2.1/string_view \
+  /usr/include/c++/14.2.1/system_error \
+  /usr/include/c++/14.2.1/tuple \
+  /usr/include/c++/14.2.1/type_traits \
+  /usr/include/c++/14.2.1/typeinfo \
+  /usr/include/c++/14.2.1/vector \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/single_threaded.h \
+  /usr/include/sys/types.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h
+
+CMakeFiles/game.dir/src/Entidades/Projetil.cpp.o: /home/andre/tec-prog-proj-final/src/Entidades/Projetil.cpp \
+  /home/andre/tec-prog-proj-final/src/Ente.h \
+  /home/andre/tec-prog-proj-final/src/Janela.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Entidade.h \
+  /home/andre/tec-prog-proj-final/src/Entidades/Projetil.h \
+  /usr/include/SFML/Config.hpp \
+  /usr/include/SFML/Graphics/BlendMode.hpp \
+  /usr/include/SFML/Graphics/Color.hpp \
+  /usr/include/SFML/Graphics/Drawable.hpp \
+  /usr/include/SFML/Graphics/Export.hpp \
+  /usr/include/SFML/Graphics/Image.hpp \
+  /usr/include/SFML/Graphics/PrimitiveType.hpp \
+  /usr/include/SFML/Graphics/Rect.hpp \
+  /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RenderStates.hpp \
+  /usr/include/SFML/Graphics/RenderTarget.hpp \
+  /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Sprite.hpp \
+  /usr/include/SFML/Graphics/Texture.hpp \
+  /usr/include/SFML/Graphics/Transform.hpp \
+  /usr/include/SFML/Graphics/Transformable.hpp \
+  /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/View.hpp \
+  /usr/include/SFML/System.hpp \
+  /usr/include/SFML/System/Clock.hpp \
+  /usr/include/SFML/System/Err.hpp \
+  /usr/include/SFML/System/Export.hpp \
+  /usr/include/SFML/System/FileInputStream.hpp \
+  /usr/include/SFML/System/InputStream.hpp \
+  /usr/include/SFML/System/Lock.hpp \
+  /usr/include/SFML/System/MemoryInputStream.hpp \
+  /usr/include/SFML/System/Mutex.hpp \
+  /usr/include/SFML/System/NonCopyable.hpp \
+  /usr/include/SFML/System/Sleep.hpp \
+  /usr/include/SFML/System/String.hpp \
+  /usr/include/SFML/System/String.inl \
+  /usr/include/SFML/System/Thread.hpp \
+  /usr/include/SFML/System/Thread.inl \
+  /usr/include/SFML/System/ThreadLocal.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.inl \
+  /usr/include/SFML/System/Time.hpp \
+  /usr/include/SFML/System/Utf.hpp \
+  /usr/include/SFML/System/Utf.inl \
+  /usr/include/SFML/System/Vector2.hpp \
+  /usr/include/SFML/System/Vector2.inl \
+  /usr/include/SFML/System/Vector3.hpp \
+  /usr/include/SFML/System/Vector3.inl \
+  /usr/include/SFML/Window.hpp \
+  /usr/include/SFML/Window/Clipboard.hpp \
+  /usr/include/SFML/Window/Context.hpp \
+  /usr/include/SFML/Window/ContextSettings.hpp \
+  /usr/include/SFML/Window/Cursor.hpp \
+  /usr/include/SFML/Window/Event.hpp \
+  /usr/include/SFML/Window/Export.hpp \
+  /usr/include/SFML/Window/GlResource.hpp \
+  /usr/include/SFML/Window/Joystick.hpp \
+  /usr/include/SFML/Window/Keyboard.hpp \
+  /usr/include/SFML/Window/Mouse.hpp \
+  /usr/include/SFML/Window/Sensor.hpp \
+  /usr/include/SFML/Window/Touch.hpp \
+  /usr/include/SFML/Window/VideoMode.hpp \
+  /usr/include/SFML/Window/Vulkan.hpp \
+  /usr/include/SFML/Window/Window.hpp \
+  /usr/include/SFML/Window/WindowBase.hpp \
+  /usr/include/SFML/Window/WindowHandle.hpp \
+  /usr/include/SFML/Window/WindowStyle.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/errno.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/locale.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/14.2.1/algorithm \
+  /usr/include/c++/14.2.1/backward/binders.h \
+  /usr/include/c++/14.2.1/bit \
+  /usr/include/c++/14.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/14.2.1/bits/alloc_traits.h \
+  /usr/include/c++/14.2.1/bits/allocator.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/14.2.1/bits/basic_string.h \
+  /usr/include/c++/14.2.1/bits/basic_string.tcc \
+  /usr/include/c++/14.2.1/bits/char_traits.h \
+  /usr/include/c++/14.2.1/bits/charconv.h \
+  /usr/include/c++/14.2.1/bits/codecvt.h \
+  /usr/include/c++/14.2.1/bits/concept_check.h \
+  /usr/include/c++/14.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/14.2.1/bits/exception.h \
+  /usr/include/c++/14.2.1/bits/exception_defines.h \
+  /usr/include/c++/14.2.1/bits/exception_ptr.h \
+  /usr/include/c++/14.2.1/bits/functexcept.h \
+  /usr/include/c++/14.2.1/bits/functional_hash.h \
+  /usr/include/c++/14.2.1/bits/hash_bytes.h \
+  /usr/include/c++/14.2.1/bits/invoke.h \
+  /usr/include/c++/14.2.1/bits/ios_base.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/14.2.1/bits/locale_conv.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/14.2.1/bits/localefwd.h \
+  /usr/include/c++/14.2.1/bits/memory_resource.h \
+  /usr/include/c++/14.2.1/bits/memoryfwd.h \
+  /usr/include/c++/14.2.1/bits/move.h \
+  /usr/include/c++/14.2.1/bits/nested_exception.h \
+  /usr/include/c++/14.2.1/bits/new_allocator.h \
+  /usr/include/c++/14.2.1/bits/ostream.tcc \
+  /usr/include/c++/14.2.1/bits/ostream_insert.h \
+  /usr/include/c++/14.2.1/bits/postypes.h \
+  /usr/include/c++/14.2.1/bits/predefined_ops.h \
+  /usr/include/c++/14.2.1/bits/ptr_traits.h \
+  /usr/include/c++/14.2.1/bits/range_access.h \
+  /usr/include/c++/14.2.1/bits/refwrap.h \
+  /usr/include/c++/14.2.1/bits/requires_hosted.h \
+  /usr/include/c++/14.2.1/bits/std_abs.h \
+  /usr/include/c++/14.2.1/bits/stl_algo.h \
+  /usr/include/c++/14.2.1/bits/stl_algobase.h \
+  /usr/include/c++/14.2.1/bits/stl_bvector.h \
+  /usr/include/c++/14.2.1/bits/stl_construct.h \
+  /usr/include/c++/14.2.1/bits/stl_function.h \
+  /usr/include/c++/14.2.1/bits/stl_heap.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/14.2.1/bits/stl_pair.h \
+  /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/14.2.1/bits/stl_vector.h \
+  /usr/include/c++/14.2.1/bits/stream_iterator.h \
+  /usr/include/c++/14.2.1/bits/streambuf.tcc \
+  /usr/include/c++/14.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/14.2.1/bits/string_view.tcc \
+  /usr/include/c++/14.2.1/bits/stringfwd.h \
+  /usr/include/c++/14.2.1/bits/uniform_int_dist.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
+  /usr/include/c++/14.2.1/bits/utility.h \
+  /usr/include/c++/14.2.1/bits/vector.tcc \
+  /usr/include/c++/14.2.1/bits/version.h \
+  /usr/include/c++/14.2.1/cctype \
+  /usr/include/c++/14.2.1/cerrno \
+  /usr/include/c++/14.2.1/clocale \
+  /usr/include/c++/14.2.1/concepts \
+  /usr/include/c++/14.2.1/cstddef \
+  /usr/include/c++/14.2.1/cstdio \
+  /usr/include/c++/14.2.1/cstdlib \
+  /usr/include/c++/14.2.1/ctime \
+  /usr/include/c++/14.2.1/cwchar \
+  /usr/include/c++/14.2.1/cwctype \
+  /usr/include/c++/14.2.1/debug/assertions.h \
+  /usr/include/c++/14.2.1/debug/debug.h \
+  /usr/include/c++/14.2.1/exception \
+  /usr/include/c++/14.2.1/ext/alloc_traits.h \
+  /usr/include/c++/14.2.1/ext/atomicity.h \
+  /usr/include/c++/14.2.1/ext/numeric_traits.h \
+  /usr/include/c++/14.2.1/ext/string_conversions.h \
+  /usr/include/c++/14.2.1/ext/type_traits.h \
+  /usr/include/c++/14.2.1/initializer_list \
+  /usr/include/c++/14.2.1/ios \
+  /usr/include/c++/14.2.1/iosfwd \
+  /usr/include/c++/14.2.1/iterator \
+  /usr/include/c++/14.2.1/locale \
+  /usr/include/c++/14.2.1/new \
+  /usr/include/c++/14.2.1/ostream \
+  /usr/include/c++/14.2.1/pstl/execution_defs.h \
+  /usr/include/c++/14.2.1/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/14.2.1/pstl/pstl_config.h \
+  /usr/include/c++/14.2.1/stdexcept \
+  /usr/include/c++/14.2.1/streambuf \
+  /usr/include/c++/14.2.1/string \
+  /usr/include/c++/14.2.1/string_view \
+  /usr/include/c++/14.2.1/system_error \
+  /usr/include/c++/14.2.1/tuple \
+  /usr/include/c++/14.2.1/type_traits \
+  /usr/include/c++/14.2.1/typeinfo \
+  /usr/include/c++/14.2.1/vector \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/single_threaded.h \
+  /usr/include/sys/types.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h
+
+CMakeFiles/game.dir/src/Fases/Fase.cpp.o: /home/andre/tec-prog-proj-final/src/Fases/Fase.cpp \
+  /home/andre/tec-prog-proj-final/src/Ente.h \
+  /home/andre/tec-prog-proj-final/src/Janela.h \
+  /home/andre/tec-prog-proj-final/src/Fases/Fase.h \
+  /usr/include/SFML/Config.hpp \
+  /usr/include/SFML/Graphics/BlendMode.hpp \
+  /usr/include/SFML/Graphics/Color.hpp \
+  /usr/include/SFML/Graphics/Drawable.hpp \
+  /usr/include/SFML/Graphics/Export.hpp \
+  /usr/include/SFML/Graphics/Image.hpp \
+  /usr/include/SFML/Graphics/PrimitiveType.hpp \
+  /usr/include/SFML/Graphics/Rect.hpp \
+  /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RenderStates.hpp \
+  /usr/include/SFML/Graphics/RenderTarget.hpp \
+  /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Sprite.hpp \
+  /usr/include/SFML/Graphics/Texture.hpp \
+  /usr/include/SFML/Graphics/Transform.hpp \
+  /usr/include/SFML/Graphics/Transformable.hpp \
+  /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/View.hpp \
+  /usr/include/SFML/System.hpp \
+  /usr/include/SFML/System/Clock.hpp \
+  /usr/include/SFML/System/Err.hpp \
+  /usr/include/SFML/System/Export.hpp \
+  /usr/include/SFML/System/FileInputStream.hpp \
+  /usr/include/SFML/System/InputStream.hpp \
+  /usr/include/SFML/System/Lock.hpp \
+  /usr/include/SFML/System/MemoryInputStream.hpp \
+  /usr/include/SFML/System/Mutex.hpp \
+  /usr/include/SFML/System/NonCopyable.hpp \
+  /usr/include/SFML/System/Sleep.hpp \
+  /usr/include/SFML/System/String.hpp \
+  /usr/include/SFML/System/String.inl \
+  /usr/include/SFML/System/Thread.hpp \
+  /usr/include/SFML/System/Thread.inl \
+  /usr/include/SFML/System/ThreadLocal.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.inl \
+  /usr/include/SFML/System/Time.hpp \
+  /usr/include/SFML/System/Utf.hpp \
+  /usr/include/SFML/System/Utf.inl \
+  /usr/include/SFML/System/Vector2.hpp \
+  /usr/include/SFML/System/Vector2.inl \
+  /usr/include/SFML/System/Vector3.hpp \
+  /usr/include/SFML/System/Vector3.inl \
+  /usr/include/SFML/Window.hpp \
+  /usr/include/SFML/Window/Clipboard.hpp \
+  /usr/include/SFML/Window/Context.hpp \
+  /usr/include/SFML/Window/ContextSettings.hpp \
+  /usr/include/SFML/Window/Cursor.hpp \
+  /usr/include/SFML/Window/Event.hpp \
+  /usr/include/SFML/Window/Export.hpp \
+  /usr/include/SFML/Window/GlResource.hpp \
+  /usr/include/SFML/Window/Joystick.hpp \
+  /usr/include/SFML/Window/Keyboard.hpp \
+  /usr/include/SFML/Window/Mouse.hpp \
+  /usr/include/SFML/Window/Sensor.hpp \
+  /usr/include/SFML/Window/Touch.hpp \
+  /usr/include/SFML/Window/VideoMode.hpp \
+  /usr/include/SFML/Window/Vulkan.hpp \
+  /usr/include/SFML/Window/Window.hpp \
+  /usr/include/SFML/Window/WindowBase.hpp \
+  /usr/include/SFML/Window/WindowHandle.hpp \
+  /usr/include/SFML/Window/WindowStyle.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/errno.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/locale.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/14.2.1/algorithm \
+  /usr/include/c++/14.2.1/backward/binders.h \
+  /usr/include/c++/14.2.1/bit \
+  /usr/include/c++/14.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/14.2.1/bits/alloc_traits.h \
+  /usr/include/c++/14.2.1/bits/allocator.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/14.2.1/bits/basic_string.h \
+  /usr/include/c++/14.2.1/bits/basic_string.tcc \
+  /usr/include/c++/14.2.1/bits/char_traits.h \
+  /usr/include/c++/14.2.1/bits/charconv.h \
+  /usr/include/c++/14.2.1/bits/codecvt.h \
+  /usr/include/c++/14.2.1/bits/concept_check.h \
+  /usr/include/c++/14.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/14.2.1/bits/exception.h \
+  /usr/include/c++/14.2.1/bits/exception_defines.h \
+  /usr/include/c++/14.2.1/bits/exception_ptr.h \
+  /usr/include/c++/14.2.1/bits/functexcept.h \
+  /usr/include/c++/14.2.1/bits/functional_hash.h \
+  /usr/include/c++/14.2.1/bits/hash_bytes.h \
+  /usr/include/c++/14.2.1/bits/invoke.h \
+  /usr/include/c++/14.2.1/bits/ios_base.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/14.2.1/bits/locale_conv.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/14.2.1/bits/localefwd.h \
+  /usr/include/c++/14.2.1/bits/memory_resource.h \
+  /usr/include/c++/14.2.1/bits/memoryfwd.h \
+  /usr/include/c++/14.2.1/bits/move.h \
+  /usr/include/c++/14.2.1/bits/nested_exception.h \
+  /usr/include/c++/14.2.1/bits/new_allocator.h \
+  /usr/include/c++/14.2.1/bits/ostream.tcc \
+  /usr/include/c++/14.2.1/bits/ostream_insert.h \
+  /usr/include/c++/14.2.1/bits/postypes.h \
+  /usr/include/c++/14.2.1/bits/predefined_ops.h \
+  /usr/include/c++/14.2.1/bits/ptr_traits.h \
+  /usr/include/c++/14.2.1/bits/range_access.h \
+  /usr/include/c++/14.2.1/bits/refwrap.h \
+  /usr/include/c++/14.2.1/bits/requires_hosted.h \
+  /usr/include/c++/14.2.1/bits/std_abs.h \
+  /usr/include/c++/14.2.1/bits/stl_algo.h \
+  /usr/include/c++/14.2.1/bits/stl_algobase.h \
+  /usr/include/c++/14.2.1/bits/stl_bvector.h \
+  /usr/include/c++/14.2.1/bits/stl_construct.h \
+  /usr/include/c++/14.2.1/bits/stl_function.h \
+  /usr/include/c++/14.2.1/bits/stl_heap.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/14.2.1/bits/stl_pair.h \
+  /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/14.2.1/bits/stl_vector.h \
+  /usr/include/c++/14.2.1/bits/stream_iterator.h \
+  /usr/include/c++/14.2.1/bits/streambuf.tcc \
+  /usr/include/c++/14.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/14.2.1/bits/string_view.tcc \
+  /usr/include/c++/14.2.1/bits/stringfwd.h \
+  /usr/include/c++/14.2.1/bits/uniform_int_dist.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
+  /usr/include/c++/14.2.1/bits/utility.h \
+  /usr/include/c++/14.2.1/bits/vector.tcc \
+  /usr/include/c++/14.2.1/bits/version.h \
+  /usr/include/c++/14.2.1/cctype \
+  /usr/include/c++/14.2.1/cerrno \
+  /usr/include/c++/14.2.1/clocale \
+  /usr/include/c++/14.2.1/concepts \
+  /usr/include/c++/14.2.1/cstddef \
+  /usr/include/c++/14.2.1/cstdio \
+  /usr/include/c++/14.2.1/cstdlib \
+  /usr/include/c++/14.2.1/ctime \
+  /usr/include/c++/14.2.1/cwchar \
+  /usr/include/c++/14.2.1/cwctype \
+  /usr/include/c++/14.2.1/debug/assertions.h \
+  /usr/include/c++/14.2.1/debug/debug.h \
+  /usr/include/c++/14.2.1/exception \
+  /usr/include/c++/14.2.1/ext/alloc_traits.h \
+  /usr/include/c++/14.2.1/ext/atomicity.h \
+  /usr/include/c++/14.2.1/ext/numeric_traits.h \
+  /usr/include/c++/14.2.1/ext/string_conversions.h \
+  /usr/include/c++/14.2.1/ext/type_traits.h \
+  /usr/include/c++/14.2.1/initializer_list \
+  /usr/include/c++/14.2.1/ios \
+  /usr/include/c++/14.2.1/iosfwd \
+  /usr/include/c++/14.2.1/iterator \
+  /usr/include/c++/14.2.1/locale \
+  /usr/include/c++/14.2.1/new \
+  /usr/include/c++/14.2.1/ostream \
+  /usr/include/c++/14.2.1/pstl/execution_defs.h \
+  /usr/include/c++/14.2.1/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/14.2.1/pstl/pstl_config.h \
+  /usr/include/c++/14.2.1/stdexcept \
+  /usr/include/c++/14.2.1/streambuf \
+  /usr/include/c++/14.2.1/string \
+  /usr/include/c++/14.2.1/string_view \
+  /usr/include/c++/14.2.1/system_error \
+  /usr/include/c++/14.2.1/tuple \
+  /usr/include/c++/14.2.1/type_traits \
+  /usr/include/c++/14.2.1/typeinfo \
+  /usr/include/c++/14.2.1/vector \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/single_threaded.h \
+  /usr/include/sys/types.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h
+
+CMakeFiles/game.dir/src/Fases/FasePrimeira.cpp.o: /home/andre/tec-prog-proj-final/src/Fases/FasePrimeira.cpp \
+  /home/andre/tec-prog-proj-final/src/Ente.h \
+  /home/andre/tec-prog-proj-final/src/Janela.h \
+  /home/andre/tec-prog-proj-final/src/Fases/Fase.h \
+  /home/andre/tec-prog-proj-final/src/Fases/FasePrimeira.h \
+  /usr/include/SFML/Config.hpp \
+  /usr/include/SFML/Graphics/BlendMode.hpp \
+  /usr/include/SFML/Graphics/Color.hpp \
+  /usr/include/SFML/Graphics/Drawable.hpp \
+  /usr/include/SFML/Graphics/Export.hpp \
+  /usr/include/SFML/Graphics/Image.hpp \
+  /usr/include/SFML/Graphics/PrimitiveType.hpp \
+  /usr/include/SFML/Graphics/Rect.hpp \
+  /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RenderStates.hpp \
+  /usr/include/SFML/Graphics/RenderTarget.hpp \
+  /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Sprite.hpp \
+  /usr/include/SFML/Graphics/Texture.hpp \
+  /usr/include/SFML/Graphics/Transform.hpp \
+  /usr/include/SFML/Graphics/Transformable.hpp \
+  /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/View.hpp \
+  /usr/include/SFML/System.hpp \
+  /usr/include/SFML/System/Clock.hpp \
+  /usr/include/SFML/System/Err.hpp \
+  /usr/include/SFML/System/Export.hpp \
+  /usr/include/SFML/System/FileInputStream.hpp \
+  /usr/include/SFML/System/InputStream.hpp \
+  /usr/include/SFML/System/Lock.hpp \
+  /usr/include/SFML/System/MemoryInputStream.hpp \
+  /usr/include/SFML/System/Mutex.hpp \
+  /usr/include/SFML/System/NonCopyable.hpp \
+  /usr/include/SFML/System/Sleep.hpp \
+  /usr/include/SFML/System/String.hpp \
+  /usr/include/SFML/System/String.inl \
+  /usr/include/SFML/System/Thread.hpp \
+  /usr/include/SFML/System/Thread.inl \
+  /usr/include/SFML/System/ThreadLocal.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.inl \
+  /usr/include/SFML/System/Time.hpp \
+  /usr/include/SFML/System/Utf.hpp \
+  /usr/include/SFML/System/Utf.inl \
+  /usr/include/SFML/System/Vector2.hpp \
+  /usr/include/SFML/System/Vector2.inl \
+  /usr/include/SFML/System/Vector3.hpp \
+  /usr/include/SFML/System/Vector3.inl \
+  /usr/include/SFML/Window.hpp \
+  /usr/include/SFML/Window/Clipboard.hpp \
+  /usr/include/SFML/Window/Context.hpp \
+  /usr/include/SFML/Window/ContextSettings.hpp \
+  /usr/include/SFML/Window/Cursor.hpp \
+  /usr/include/SFML/Window/Event.hpp \
+  /usr/include/SFML/Window/Export.hpp \
+  /usr/include/SFML/Window/GlResource.hpp \
+  /usr/include/SFML/Window/Joystick.hpp \
+  /usr/include/SFML/Window/Keyboard.hpp \
+  /usr/include/SFML/Window/Mouse.hpp \
+  /usr/include/SFML/Window/Sensor.hpp \
+  /usr/include/SFML/Window/Touch.hpp \
+  /usr/include/SFML/Window/VideoMode.hpp \
+  /usr/include/SFML/Window/Vulkan.hpp \
+  /usr/include/SFML/Window/Window.hpp \
+  /usr/include/SFML/Window/WindowBase.hpp \
+  /usr/include/SFML/Window/WindowHandle.hpp \
+  /usr/include/SFML/Window/WindowStyle.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/errno.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/locale.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/14.2.1/algorithm \
+  /usr/include/c++/14.2.1/backward/binders.h \
+  /usr/include/c++/14.2.1/bit \
+  /usr/include/c++/14.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/14.2.1/bits/alloc_traits.h \
+  /usr/include/c++/14.2.1/bits/allocator.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/14.2.1/bits/basic_string.h \
+  /usr/include/c++/14.2.1/bits/basic_string.tcc \
+  /usr/include/c++/14.2.1/bits/char_traits.h \
+  /usr/include/c++/14.2.1/bits/charconv.h \
+  /usr/include/c++/14.2.1/bits/codecvt.h \
+  /usr/include/c++/14.2.1/bits/concept_check.h \
+  /usr/include/c++/14.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/14.2.1/bits/exception.h \
+  /usr/include/c++/14.2.1/bits/exception_defines.h \
+  /usr/include/c++/14.2.1/bits/exception_ptr.h \
+  /usr/include/c++/14.2.1/bits/functexcept.h \
+  /usr/include/c++/14.2.1/bits/functional_hash.h \
+  /usr/include/c++/14.2.1/bits/hash_bytes.h \
+  /usr/include/c++/14.2.1/bits/invoke.h \
+  /usr/include/c++/14.2.1/bits/ios_base.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/14.2.1/bits/locale_conv.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/14.2.1/bits/localefwd.h \
+  /usr/include/c++/14.2.1/bits/memory_resource.h \
+  /usr/include/c++/14.2.1/bits/memoryfwd.h \
+  /usr/include/c++/14.2.1/bits/move.h \
+  /usr/include/c++/14.2.1/bits/nested_exception.h \
+  /usr/include/c++/14.2.1/bits/new_allocator.h \
+  /usr/include/c++/14.2.1/bits/ostream.tcc \
+  /usr/include/c++/14.2.1/bits/ostream_insert.h \
+  /usr/include/c++/14.2.1/bits/postypes.h \
+  /usr/include/c++/14.2.1/bits/predefined_ops.h \
+  /usr/include/c++/14.2.1/bits/ptr_traits.h \
+  /usr/include/c++/14.2.1/bits/range_access.h \
+  /usr/include/c++/14.2.1/bits/refwrap.h \
+  /usr/include/c++/14.2.1/bits/requires_hosted.h \
+  /usr/include/c++/14.2.1/bits/std_abs.h \
+  /usr/include/c++/14.2.1/bits/stl_algo.h \
+  /usr/include/c++/14.2.1/bits/stl_algobase.h \
+  /usr/include/c++/14.2.1/bits/stl_bvector.h \
+  /usr/include/c++/14.2.1/bits/stl_construct.h \
+  /usr/include/c++/14.2.1/bits/stl_function.h \
+  /usr/include/c++/14.2.1/bits/stl_heap.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/14.2.1/bits/stl_pair.h \
+  /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/14.2.1/bits/stl_vector.h \
+  /usr/include/c++/14.2.1/bits/stream_iterator.h \
+  /usr/include/c++/14.2.1/bits/streambuf.tcc \
+  /usr/include/c++/14.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/14.2.1/bits/string_view.tcc \
+  /usr/include/c++/14.2.1/bits/stringfwd.h \
+  /usr/include/c++/14.2.1/bits/uniform_int_dist.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
+  /usr/include/c++/14.2.1/bits/utility.h \
+  /usr/include/c++/14.2.1/bits/vector.tcc \
+  /usr/include/c++/14.2.1/bits/version.h \
+  /usr/include/c++/14.2.1/cctype \
+  /usr/include/c++/14.2.1/cerrno \
+  /usr/include/c++/14.2.1/clocale \
+  /usr/include/c++/14.2.1/concepts \
+  /usr/include/c++/14.2.1/cstddef \
+  /usr/include/c++/14.2.1/cstdio \
+  /usr/include/c++/14.2.1/cstdlib \
+  /usr/include/c++/14.2.1/ctime \
+  /usr/include/c++/14.2.1/cwchar \
+  /usr/include/c++/14.2.1/cwctype \
+  /usr/include/c++/14.2.1/debug/assertions.h \
+  /usr/include/c++/14.2.1/debug/debug.h \
+  /usr/include/c++/14.2.1/exception \
+  /usr/include/c++/14.2.1/ext/alloc_traits.h \
+  /usr/include/c++/14.2.1/ext/atomicity.h \
+  /usr/include/c++/14.2.1/ext/numeric_traits.h \
+  /usr/include/c++/14.2.1/ext/string_conversions.h \
+  /usr/include/c++/14.2.1/ext/type_traits.h \
+  /usr/include/c++/14.2.1/initializer_list \
+  /usr/include/c++/14.2.1/ios \
+  /usr/include/c++/14.2.1/iosfwd \
+  /usr/include/c++/14.2.1/iterator \
+  /usr/include/c++/14.2.1/locale \
+  /usr/include/c++/14.2.1/new \
+  /usr/include/c++/14.2.1/ostream \
+  /usr/include/c++/14.2.1/pstl/execution_defs.h \
+  /usr/include/c++/14.2.1/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/14.2.1/pstl/pstl_config.h \
+  /usr/include/c++/14.2.1/stdexcept \
+  /usr/include/c++/14.2.1/streambuf \
+  /usr/include/c++/14.2.1/string \
+  /usr/include/c++/14.2.1/string_view \
+  /usr/include/c++/14.2.1/system_error \
+  /usr/include/c++/14.2.1/tuple \
+  /usr/include/c++/14.2.1/type_traits \
+  /usr/include/c++/14.2.1/typeinfo \
+  /usr/include/c++/14.2.1/vector \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/single_threaded.h \
+  /usr/include/sys/types.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h
+
+CMakeFiles/game.dir/src/Fases/FaseSegunda.cpp.o: /home/andre/tec-prog-proj-final/src/Fases/FaseSegunda.cpp \
+  /home/andre/tec-prog-proj-final/src/Ente.h \
+  /home/andre/tec-prog-proj-final/src/Janela.h \
+  /home/andre/tec-prog-proj-final/src/Fases/Fase.h \
+  /home/andre/tec-prog-proj-final/src/Fases/FaseSegunda.h \
+  /usr/include/SFML/Config.hpp \
+  /usr/include/SFML/Graphics/BlendMode.hpp \
+  /usr/include/SFML/Graphics/Color.hpp \
+  /usr/include/SFML/Graphics/Drawable.hpp \
+  /usr/include/SFML/Graphics/Export.hpp \
+  /usr/include/SFML/Graphics/Image.hpp \
+  /usr/include/SFML/Graphics/PrimitiveType.hpp \
+  /usr/include/SFML/Graphics/Rect.hpp \
+  /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RenderStates.hpp \
+  /usr/include/SFML/Graphics/RenderTarget.hpp \
+  /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Sprite.hpp \
+  /usr/include/SFML/Graphics/Texture.hpp \
+  /usr/include/SFML/Graphics/Transform.hpp \
+  /usr/include/SFML/Graphics/Transformable.hpp \
+  /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/View.hpp \
+  /usr/include/SFML/System.hpp \
+  /usr/include/SFML/System/Clock.hpp \
+  /usr/include/SFML/System/Err.hpp \
+  /usr/include/SFML/System/Export.hpp \
+  /usr/include/SFML/System/FileInputStream.hpp \
+  /usr/include/SFML/System/InputStream.hpp \
+  /usr/include/SFML/System/Lock.hpp \
+  /usr/include/SFML/System/MemoryInputStream.hpp \
+  /usr/include/SFML/System/Mutex.hpp \
+  /usr/include/SFML/System/NonCopyable.hpp \
+  /usr/include/SFML/System/Sleep.hpp \
+  /usr/include/SFML/System/String.hpp \
+  /usr/include/SFML/System/String.inl \
+  /usr/include/SFML/System/Thread.hpp \
+  /usr/include/SFML/System/Thread.inl \
+  /usr/include/SFML/System/ThreadLocal.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.inl \
+  /usr/include/SFML/System/Time.hpp \
+  /usr/include/SFML/System/Utf.hpp \
+  /usr/include/SFML/System/Utf.inl \
+  /usr/include/SFML/System/Vector2.hpp \
+  /usr/include/SFML/System/Vector2.inl \
+  /usr/include/SFML/System/Vector3.hpp \
+  /usr/include/SFML/System/Vector3.inl \
+  /usr/include/SFML/Window.hpp \
+  /usr/include/SFML/Window/Clipboard.hpp \
+  /usr/include/SFML/Window/Context.hpp \
+  /usr/include/SFML/Window/ContextSettings.hpp \
+  /usr/include/SFML/Window/Cursor.hpp \
+  /usr/include/SFML/Window/Event.hpp \
+  /usr/include/SFML/Window/Export.hpp \
+  /usr/include/SFML/Window/GlResource.hpp \
+  /usr/include/SFML/Window/Joystick.hpp \
+  /usr/include/SFML/Window/Keyboard.hpp \
+  /usr/include/SFML/Window/Mouse.hpp \
+  /usr/include/SFML/Window/Sensor.hpp \
+  /usr/include/SFML/Window/Touch.hpp \
+  /usr/include/SFML/Window/VideoMode.hpp \
+  /usr/include/SFML/Window/Vulkan.hpp \
+  /usr/include/SFML/Window/Window.hpp \
+  /usr/include/SFML/Window/WindowBase.hpp \
+  /usr/include/SFML/Window/WindowHandle.hpp \
+  /usr/include/SFML/Window/WindowStyle.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/errno.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/locale.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/14.2.1/algorithm \
+  /usr/include/c++/14.2.1/backward/binders.h \
+  /usr/include/c++/14.2.1/bit \
+  /usr/include/c++/14.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/14.2.1/bits/alloc_traits.h \
+  /usr/include/c++/14.2.1/bits/allocator.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/14.2.1/bits/basic_string.h \
+  /usr/include/c++/14.2.1/bits/basic_string.tcc \
+  /usr/include/c++/14.2.1/bits/char_traits.h \
+  /usr/include/c++/14.2.1/bits/charconv.h \
+  /usr/include/c++/14.2.1/bits/codecvt.h \
+  /usr/include/c++/14.2.1/bits/concept_check.h \
+  /usr/include/c++/14.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/14.2.1/bits/exception.h \
+  /usr/include/c++/14.2.1/bits/exception_defines.h \
+  /usr/include/c++/14.2.1/bits/exception_ptr.h \
+  /usr/include/c++/14.2.1/bits/functexcept.h \
+  /usr/include/c++/14.2.1/bits/functional_hash.h \
+  /usr/include/c++/14.2.1/bits/hash_bytes.h \
+  /usr/include/c++/14.2.1/bits/invoke.h \
+  /usr/include/c++/14.2.1/bits/ios_base.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/14.2.1/bits/locale_conv.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/14.2.1/bits/localefwd.h \
+  /usr/include/c++/14.2.1/bits/memory_resource.h \
+  /usr/include/c++/14.2.1/bits/memoryfwd.h \
+  /usr/include/c++/14.2.1/bits/move.h \
+  /usr/include/c++/14.2.1/bits/nested_exception.h \
+  /usr/include/c++/14.2.1/bits/new_allocator.h \
+  /usr/include/c++/14.2.1/bits/ostream.tcc \
+  /usr/include/c++/14.2.1/bits/ostream_insert.h \
+  /usr/include/c++/14.2.1/bits/postypes.h \
+  /usr/include/c++/14.2.1/bits/predefined_ops.h \
+  /usr/include/c++/14.2.1/bits/ptr_traits.h \
+  /usr/include/c++/14.2.1/bits/range_access.h \
+  /usr/include/c++/14.2.1/bits/refwrap.h \
+  /usr/include/c++/14.2.1/bits/requires_hosted.h \
+  /usr/include/c++/14.2.1/bits/std_abs.h \
+  /usr/include/c++/14.2.1/bits/stl_algo.h \
+  /usr/include/c++/14.2.1/bits/stl_algobase.h \
+  /usr/include/c++/14.2.1/bits/stl_bvector.h \
+  /usr/include/c++/14.2.1/bits/stl_construct.h \
+  /usr/include/c++/14.2.1/bits/stl_function.h \
+  /usr/include/c++/14.2.1/bits/stl_heap.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/14.2.1/bits/stl_pair.h \
+  /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/14.2.1/bits/stl_vector.h \
+  /usr/include/c++/14.2.1/bits/stream_iterator.h \
+  /usr/include/c++/14.2.1/bits/streambuf.tcc \
+  /usr/include/c++/14.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/14.2.1/bits/string_view.tcc \
+  /usr/include/c++/14.2.1/bits/stringfwd.h \
+  /usr/include/c++/14.2.1/bits/uniform_int_dist.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
+  /usr/include/c++/14.2.1/bits/utility.h \
+  /usr/include/c++/14.2.1/bits/vector.tcc \
+  /usr/include/c++/14.2.1/bits/version.h \
+  /usr/include/c++/14.2.1/cctype \
+  /usr/include/c++/14.2.1/cerrno \
+  /usr/include/c++/14.2.1/clocale \
+  /usr/include/c++/14.2.1/concepts \
+  /usr/include/c++/14.2.1/cstddef \
+  /usr/include/c++/14.2.1/cstdio \
+  /usr/include/c++/14.2.1/cstdlib \
+  /usr/include/c++/14.2.1/ctime \
+  /usr/include/c++/14.2.1/cwchar \
+  /usr/include/c++/14.2.1/cwctype \
+  /usr/include/c++/14.2.1/debug/assertions.h \
+  /usr/include/c++/14.2.1/debug/debug.h \
+  /usr/include/c++/14.2.1/exception \
+  /usr/include/c++/14.2.1/ext/alloc_traits.h \
+  /usr/include/c++/14.2.1/ext/atomicity.h \
+  /usr/include/c++/14.2.1/ext/numeric_traits.h \
+  /usr/include/c++/14.2.1/ext/string_conversions.h \
+  /usr/include/c++/14.2.1/ext/type_traits.h \
+  /usr/include/c++/14.2.1/initializer_list \
+  /usr/include/c++/14.2.1/ios \
+  /usr/include/c++/14.2.1/iosfwd \
+  /usr/include/c++/14.2.1/iterator \
+  /usr/include/c++/14.2.1/locale \
+  /usr/include/c++/14.2.1/new \
+  /usr/include/c++/14.2.1/ostream \
+  /usr/include/c++/14.2.1/pstl/execution_defs.h \
+  /usr/include/c++/14.2.1/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/14.2.1/pstl/pstl_config.h \
+  /usr/include/c++/14.2.1/stdexcept \
+  /usr/include/c++/14.2.1/streambuf \
+  /usr/include/c++/14.2.1/string \
+  /usr/include/c++/14.2.1/string_view \
+  /usr/include/c++/14.2.1/system_error \
+  /usr/include/c++/14.2.1/tuple \
+  /usr/include/c++/14.2.1/type_traits \
+  /usr/include/c++/14.2.1/typeinfo \
+  /usr/include/c++/14.2.1/vector \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/single_threaded.h \
+  /usr/include/sys/types.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h
+
+CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Colisoes.cpp.o: /home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Colisoes.cpp \
+  /home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Colisoes.h \
+  /usr/include/stdc-predef.h
+
+CMakeFiles/game.dir/src/Gerenciadores/Gerenciador_Grafico.cpp.o: /home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Grafico.cpp \
+  /home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Grafico.h \
+  /usr/include/stdc-predef.h
+
+CMakeFiles/game.dir/src/Janela.cpp.o: /home/andre/tec-prog-proj-final/src/Janela.cpp \
+  /home/andre/tec-prog-proj-final/src/Janela.h \
+  /usr/include/SFML/Config.hpp \
+  /usr/include/SFML/Graphics/BlendMode.hpp \
+  /usr/include/SFML/Graphics/Color.hpp \
+  /usr/include/SFML/Graphics/Export.hpp \
+  /usr/include/SFML/Graphics/Image.hpp \
+  /usr/include/SFML/Graphics/PrimitiveType.hpp \
+  /usr/include/SFML/Graphics/Rect.hpp \
+  /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RenderStates.hpp \
+  /usr/include/SFML/Graphics/RenderTarget.hpp \
+  /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Transform.hpp \
+  /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/View.hpp \
+  /usr/include/SFML/System.hpp \
+  /usr/include/SFML/System/Clock.hpp \
+  /usr/include/SFML/System/Err.hpp \
+  /usr/include/SFML/System/Export.hpp \
+  /usr/include/SFML/System/FileInputStream.hpp \
+  /usr/include/SFML/System/InputStream.hpp \
+  /usr/include/SFML/System/Lock.hpp \
+  /usr/include/SFML/System/MemoryInputStream.hpp \
+  /usr/include/SFML/System/Mutex.hpp \
+  /usr/include/SFML/System/NonCopyable.hpp \
+  /usr/include/SFML/System/Sleep.hpp \
+  /usr/include/SFML/System/String.hpp \
+  /usr/include/SFML/System/String.inl \
+  /usr/include/SFML/System/Thread.hpp \
+  /usr/include/SFML/System/Thread.inl \
+  /usr/include/SFML/System/ThreadLocal.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.inl \
+  /usr/include/SFML/System/Time.hpp \
+  /usr/include/SFML/System/Utf.hpp \
+  /usr/include/SFML/System/Utf.inl \
+  /usr/include/SFML/System/Vector2.hpp \
+  /usr/include/SFML/System/Vector2.inl \
+  /usr/include/SFML/System/Vector3.hpp \
+  /usr/include/SFML/System/Vector3.inl \
+  /usr/include/SFML/Window.hpp \
+  /usr/include/SFML/Window/Clipboard.hpp \
+  /usr/include/SFML/Window/Context.hpp \
+  /usr/include/SFML/Window/ContextSettings.hpp \
+  /usr/include/SFML/Window/Cursor.hpp \
+  /usr/include/SFML/Window/Event.hpp \
+  /usr/include/SFML/Window/Export.hpp \
+  /usr/include/SFML/Window/GlResource.hpp \
+  /usr/include/SFML/Window/Joystick.hpp \
+  /usr/include/SFML/Window/Keyboard.hpp \
+  /usr/include/SFML/Window/Mouse.hpp \
+  /usr/include/SFML/Window/Sensor.hpp \
+  /usr/include/SFML/Window/Touch.hpp \
+  /usr/include/SFML/Window/VideoMode.hpp \
+  /usr/include/SFML/Window/Vulkan.hpp \
+  /usr/include/SFML/Window/Window.hpp \
+  /usr/include/SFML/Window/WindowBase.hpp \
+  /usr/include/SFML/Window/WindowHandle.hpp \
+  /usr/include/SFML/Window/WindowStyle.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/errno.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/locale.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/14.2.1/algorithm \
+  /usr/include/c++/14.2.1/backward/binders.h \
+  /usr/include/c++/14.2.1/bit \
+  /usr/include/c++/14.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/14.2.1/bits/alloc_traits.h \
+  /usr/include/c++/14.2.1/bits/allocator.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/14.2.1/bits/basic_string.h \
+  /usr/include/c++/14.2.1/bits/basic_string.tcc \
+  /usr/include/c++/14.2.1/bits/char_traits.h \
+  /usr/include/c++/14.2.1/bits/charconv.h \
+  /usr/include/c++/14.2.1/bits/codecvt.h \
+  /usr/include/c++/14.2.1/bits/concept_check.h \
+  /usr/include/c++/14.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/14.2.1/bits/exception.h \
+  /usr/include/c++/14.2.1/bits/exception_defines.h \
+  /usr/include/c++/14.2.1/bits/exception_ptr.h \
+  /usr/include/c++/14.2.1/bits/functexcept.h \
+  /usr/include/c++/14.2.1/bits/functional_hash.h \
+  /usr/include/c++/14.2.1/bits/hash_bytes.h \
+  /usr/include/c++/14.2.1/bits/invoke.h \
+  /usr/include/c++/14.2.1/bits/ios_base.h \
+  /usr/include/c++/14.2.1/bits/istream.tcc \
+  /usr/include/c++/14.2.1/bits/locale_classes.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/14.2.1/bits/locale_conv.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/14.2.1/bits/localefwd.h \
+  /usr/include/c++/14.2.1/bits/memory_resource.h \
+  /usr/include/c++/14.2.1/bits/memoryfwd.h \
+  /usr/include/c++/14.2.1/bits/move.h \
+  /usr/include/c++/14.2.1/bits/nested_exception.h \
+  /usr/include/c++/14.2.1/bits/new_allocator.h \
+  /usr/include/c++/14.2.1/bits/ostream.tcc \
+  /usr/include/c++/14.2.1/bits/ostream_insert.h \
+  /usr/include/c++/14.2.1/bits/postypes.h \
+  /usr/include/c++/14.2.1/bits/predefined_ops.h \
+  /usr/include/c++/14.2.1/bits/ptr_traits.h \
+  /usr/include/c++/14.2.1/bits/range_access.h \
+  /usr/include/c++/14.2.1/bits/refwrap.h \
+  /usr/include/c++/14.2.1/bits/requires_hosted.h \
+  /usr/include/c++/14.2.1/bits/std_abs.h \
+  /usr/include/c++/14.2.1/bits/stl_algo.h \
+  /usr/include/c++/14.2.1/bits/stl_algobase.h \
+  /usr/include/c++/14.2.1/bits/stl_bvector.h \
+  /usr/include/c++/14.2.1/bits/stl_construct.h \
+  /usr/include/c++/14.2.1/bits/stl_function.h \
+  /usr/include/c++/14.2.1/bits/stl_heap.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/14.2.1/bits/stl_pair.h \
+  /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/14.2.1/bits/stl_vector.h \
+  /usr/include/c++/14.2.1/bits/stream_iterator.h \
+  /usr/include/c++/14.2.1/bits/streambuf.tcc \
+  /usr/include/c++/14.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/14.2.1/bits/string_view.tcc \
+  /usr/include/c++/14.2.1/bits/stringfwd.h \
+  /usr/include/c++/14.2.1/bits/uniform_int_dist.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
+  /usr/include/c++/14.2.1/bits/utility.h \
+  /usr/include/c++/14.2.1/bits/vector.tcc \
+  /usr/include/c++/14.2.1/bits/version.h \
+  /usr/include/c++/14.2.1/cctype \
+  /usr/include/c++/14.2.1/cerrno \
+  /usr/include/c++/14.2.1/clocale \
+  /usr/include/c++/14.2.1/concepts \
+  /usr/include/c++/14.2.1/cstddef \
+  /usr/include/c++/14.2.1/cstdio \
+  /usr/include/c++/14.2.1/cstdlib \
+  /usr/include/c++/14.2.1/ctime \
+  /usr/include/c++/14.2.1/cwchar \
+  /usr/include/c++/14.2.1/cwctype \
+  /usr/include/c++/14.2.1/debug/assertions.h \
+  /usr/include/c++/14.2.1/debug/debug.h \
+  /usr/include/c++/14.2.1/exception \
+  /usr/include/c++/14.2.1/ext/alloc_traits.h \
+  /usr/include/c++/14.2.1/ext/atomicity.h \
+  /usr/include/c++/14.2.1/ext/numeric_traits.h \
+  /usr/include/c++/14.2.1/ext/string_conversions.h \
+  /usr/include/c++/14.2.1/ext/type_traits.h \
+  /usr/include/c++/14.2.1/initializer_list \
+  /usr/include/c++/14.2.1/ios \
+  /usr/include/c++/14.2.1/iosfwd \
+  /usr/include/c++/14.2.1/iostream \
+  /usr/include/c++/14.2.1/istream \
   /usr/include/c++/14.2.1/iterator \
   /usr/include/c++/14.2.1/locale \
   /usr/include/c++/14.2.1/new \
@@ -1059,71 +5172,567 @@ CMakeFiles/game.dir/src/Listas/Lista.cpp.o: /home/andre/tec-prog-proj-final/src/
 
 CMakeFiles/game.dir/src/Listas/ListaEntidades.cpp.o: /home/andre/tec-prog-proj-final/src/Listas/ListaEntidades.cpp \
   /home/andre/tec-prog-proj-final/src/Ente.h \
+  /home/andre/tec-prog-proj-final/src/Janela.h \
   /home/andre/tec-prog-proj-final/src/Entidades/Entidade.h \
   /home/andre/tec-prog-proj-final/src/Listas/ListaEntidades.h \
+  /usr/include/SFML/Config.hpp \
+  /usr/include/SFML/Graphics/BlendMode.hpp \
+  /usr/include/SFML/Graphics/Color.hpp \
+  /usr/include/SFML/Graphics/Drawable.hpp \
+  /usr/include/SFML/Graphics/Export.hpp \
+  /usr/include/SFML/Graphics/Image.hpp \
+  /usr/include/SFML/Graphics/PrimitiveType.hpp \
+  /usr/include/SFML/Graphics/Rect.hpp \
+  /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RenderStates.hpp \
+  /usr/include/SFML/Graphics/RenderTarget.hpp \
+  /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Sprite.hpp \
+  /usr/include/SFML/Graphics/Texture.hpp \
+  /usr/include/SFML/Graphics/Transform.hpp \
+  /usr/include/SFML/Graphics/Transformable.hpp \
+  /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/View.hpp \
+  /usr/include/SFML/System.hpp \
+  /usr/include/SFML/System/Clock.hpp \
+  /usr/include/SFML/System/Err.hpp \
+  /usr/include/SFML/System/Export.hpp \
+  /usr/include/SFML/System/FileInputStream.hpp \
+  /usr/include/SFML/System/InputStream.hpp \
+  /usr/include/SFML/System/Lock.hpp \
+  /usr/include/SFML/System/MemoryInputStream.hpp \
+  /usr/include/SFML/System/Mutex.hpp \
+  /usr/include/SFML/System/NonCopyable.hpp \
+  /usr/include/SFML/System/Sleep.hpp \
+  /usr/include/SFML/System/String.hpp \
+  /usr/include/SFML/System/String.inl \
+  /usr/include/SFML/System/Thread.hpp \
+  /usr/include/SFML/System/Thread.inl \
+  /usr/include/SFML/System/ThreadLocal.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.inl \
+  /usr/include/SFML/System/Time.hpp \
+  /usr/include/SFML/System/Utf.hpp \
+  /usr/include/SFML/System/Utf.inl \
+  /usr/include/SFML/System/Vector2.hpp \
+  /usr/include/SFML/System/Vector2.inl \
+  /usr/include/SFML/System/Vector3.hpp \
+  /usr/include/SFML/System/Vector3.inl \
+  /usr/include/SFML/Window.hpp \
+  /usr/include/SFML/Window/Clipboard.hpp \
+  /usr/include/SFML/Window/Context.hpp \
+  /usr/include/SFML/Window/ContextSettings.hpp \
+  /usr/include/SFML/Window/Cursor.hpp \
+  /usr/include/SFML/Window/Event.hpp \
+  /usr/include/SFML/Window/Export.hpp \
+  /usr/include/SFML/Window/GlResource.hpp \
+  /usr/include/SFML/Window/Joystick.hpp \
+  /usr/include/SFML/Window/Keyboard.hpp \
+  /usr/include/SFML/Window/Mouse.hpp \
+  /usr/include/SFML/Window/Sensor.hpp \
+  /usr/include/SFML/Window/Touch.hpp \
+  /usr/include/SFML/Window/VideoMode.hpp \
+  /usr/include/SFML/Window/Vulkan.hpp \
+  /usr/include/SFML/Window/Window.hpp \
+  /usr/include/SFML/Window/WindowBase.hpp \
+  /usr/include/SFML/Window/WindowHandle.hpp \
+  /usr/include/SFML/Window/WindowStyle.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/errno.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/time64.h \
   /usr/include/bits/timesize.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/c++/14.2.1/algorithm \
+  /usr/include/c++/14.2.1/backward/binders.h \
   /usr/include/c++/14.2.1/bit \
+  /usr/include/c++/14.2.1/bits/algorithmfwd.h \
   /usr/include/c++/14.2.1/bits/alloc_traits.h \
   /usr/include/c++/14.2.1/bits/allocated_ptr.h \
   /usr/include/c++/14.2.1/bits/allocator.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/14.2.1/bits/basic_string.h \
+  /usr/include/c++/14.2.1/bits/basic_string.tcc \
+  /usr/include/c++/14.2.1/bits/char_traits.h \
+  /usr/include/c++/14.2.1/bits/charconv.h \
+  /usr/include/c++/14.2.1/bits/codecvt.h \
   /usr/include/c++/14.2.1/bits/concept_check.h \
   /usr/include/c++/14.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_init_exception.h \
   /usr/include/c++/14.2.1/bits/exception.h \
   /usr/include/c++/14.2.1/bits/exception_defines.h \
+  /usr/include/c++/14.2.1/bits/exception_ptr.h \
   /usr/include/c++/14.2.1/bits/functexcept.h \
+  /usr/include/c++/14.2.1/bits/functional_hash.h \
+  /usr/include/c++/14.2.1/bits/hash_bytes.h \
   /usr/include/c++/14.2.1/bits/invoke.h \
+  /usr/include/c++/14.2.1/bits/ios_base.h \
   /usr/include/c++/14.2.1/bits/list.tcc \
+  /usr/include/c++/14.2.1/bits/locale_classes.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/14.2.1/bits/locale_conv.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/14.2.1/bits/localefwd.h \
   /usr/include/c++/14.2.1/bits/memory_resource.h \
   /usr/include/c++/14.2.1/bits/memoryfwd.h \
   /usr/include/c++/14.2.1/bits/move.h \
+  /usr/include/c++/14.2.1/bits/nested_exception.h \
   /usr/include/c++/14.2.1/bits/new_allocator.h \
+  /usr/include/c++/14.2.1/bits/ostream.tcc \
+  /usr/include/c++/14.2.1/bits/ostream_insert.h \
+  /usr/include/c++/14.2.1/bits/postypes.h \
   /usr/include/c++/14.2.1/bits/predefined_ops.h \
   /usr/include/c++/14.2.1/bits/ptr_traits.h \
   /usr/include/c++/14.2.1/bits/range_access.h \
+  /usr/include/c++/14.2.1/bits/refwrap.h \
   /usr/include/c++/14.2.1/bits/requires_hosted.h \
+  /usr/include/c++/14.2.1/bits/std_abs.h \
+  /usr/include/c++/14.2.1/bits/stl_algo.h \
   /usr/include/c++/14.2.1/bits/stl_algobase.h \
+  /usr/include/c++/14.2.1/bits/stl_bvector.h \
   /usr/include/c++/14.2.1/bits/stl_construct.h \
+  /usr/include/c++/14.2.1/bits/stl_function.h \
+  /usr/include/c++/14.2.1/bits/stl_heap.h \
   /usr/include/c++/14.2.1/bits/stl_iterator.h \
   /usr/include/c++/14.2.1/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/14.2.1/bits/stl_iterator_base_types.h \
   /usr/include/c++/14.2.1/bits/stl_list.h \
   /usr/include/c++/14.2.1/bits/stl_pair.h \
+  /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/14.2.1/bits/stl_vector.h \
+  /usr/include/c++/14.2.1/bits/stream_iterator.h \
+  /usr/include/c++/14.2.1/bits/streambuf.tcc \
+  /usr/include/c++/14.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/14.2.1/bits/string_view.tcc \
+  /usr/include/c++/14.2.1/bits/stringfwd.h \
+  /usr/include/c++/14.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/14.2.1/bits/uses_allocator.h \
   /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
   /usr/include/c++/14.2.1/bits/utility.h \
+  /usr/include/c++/14.2.1/bits/vector.tcc \
   /usr/include/c++/14.2.1/bits/version.h \
+  /usr/include/c++/14.2.1/cctype \
+  /usr/include/c++/14.2.1/cerrno \
+  /usr/include/c++/14.2.1/clocale \
   /usr/include/c++/14.2.1/concepts \
   /usr/include/c++/14.2.1/cstddef \
+  /usr/include/c++/14.2.1/cstdio \
+  /usr/include/c++/14.2.1/cstdlib \
+  /usr/include/c++/14.2.1/ctime \
+  /usr/include/c++/14.2.1/cwchar \
+  /usr/include/c++/14.2.1/cwctype \
   /usr/include/c++/14.2.1/debug/assertions.h \
   /usr/include/c++/14.2.1/debug/debug.h \
+  /usr/include/c++/14.2.1/exception \
   /usr/include/c++/14.2.1/ext/aligned_buffer.h \
   /usr/include/c++/14.2.1/ext/alloc_traits.h \
+  /usr/include/c++/14.2.1/ext/atomicity.h \
   /usr/include/c++/14.2.1/ext/numeric_traits.h \
+  /usr/include/c++/14.2.1/ext/string_conversions.h \
   /usr/include/c++/14.2.1/ext/type_traits.h \
   /usr/include/c++/14.2.1/initializer_list \
+  /usr/include/c++/14.2.1/ios \
+  /usr/include/c++/14.2.1/iosfwd \
+  /usr/include/c++/14.2.1/iterator \
   /usr/include/c++/14.2.1/list \
+  /usr/include/c++/14.2.1/locale \
   /usr/include/c++/14.2.1/new \
+  /usr/include/c++/14.2.1/ostream \
+  /usr/include/c++/14.2.1/pstl/execution_defs.h \
+  /usr/include/c++/14.2.1/pstl/glue_algorithm_defs.h \
   /usr/include/c++/14.2.1/pstl/pstl_config.h \
+  /usr/include/c++/14.2.1/stdexcept \
+  /usr/include/c++/14.2.1/streambuf \
+  /usr/include/c++/14.2.1/string \
+  /usr/include/c++/14.2.1/string_view \
+  /usr/include/c++/14.2.1/system_error \
   /usr/include/c++/14.2.1/tuple \
   /usr/include/c++/14.2.1/type_traits \
+  /usr/include/c++/14.2.1/typeinfo \
+  /usr/include/c++/14.2.1/vector \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
   /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
   /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
   /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
   /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
   /usr/include/sys/cdefs.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h
+  /usr/include/sys/select.h \
+  /usr/include/sys/single_threaded.h \
+  /usr/include/sys/types.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h
 
 CMakeFiles/game.dir/src/Menu.cpp.o: /home/andre/tec-prog-proj-final/src/Menu.cpp \
   /home/andre/tec-prog-proj-final/src/Ente.h \
+  /home/andre/tec-prog-proj-final/src/Janela.h \
   /home/andre/tec-prog-proj-final/src/Menu.h \
-  /usr/include/stdc-predef.h
+  /usr/include/SFML/Config.hpp \
+  /usr/include/SFML/Graphics/BlendMode.hpp \
+  /usr/include/SFML/Graphics/Color.hpp \
+  /usr/include/SFML/Graphics/Drawable.hpp \
+  /usr/include/SFML/Graphics/Export.hpp \
+  /usr/include/SFML/Graphics/Image.hpp \
+  /usr/include/SFML/Graphics/PrimitiveType.hpp \
+  /usr/include/SFML/Graphics/Rect.hpp \
+  /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RenderStates.hpp \
+  /usr/include/SFML/Graphics/RenderTarget.hpp \
+  /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Sprite.hpp \
+  /usr/include/SFML/Graphics/Texture.hpp \
+  /usr/include/SFML/Graphics/Transform.hpp \
+  /usr/include/SFML/Graphics/Transformable.hpp \
+  /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/View.hpp \
+  /usr/include/SFML/System.hpp \
+  /usr/include/SFML/System/Clock.hpp \
+  /usr/include/SFML/System/Err.hpp \
+  /usr/include/SFML/System/Export.hpp \
+  /usr/include/SFML/System/FileInputStream.hpp \
+  /usr/include/SFML/System/InputStream.hpp \
+  /usr/include/SFML/System/Lock.hpp \
+  /usr/include/SFML/System/MemoryInputStream.hpp \
+  /usr/include/SFML/System/Mutex.hpp \
+  /usr/include/SFML/System/NonCopyable.hpp \
+  /usr/include/SFML/System/Sleep.hpp \
+  /usr/include/SFML/System/String.hpp \
+  /usr/include/SFML/System/String.inl \
+  /usr/include/SFML/System/Thread.hpp \
+  /usr/include/SFML/System/Thread.inl \
+  /usr/include/SFML/System/ThreadLocal.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.hpp \
+  /usr/include/SFML/System/ThreadLocalPtr.inl \
+  /usr/include/SFML/System/Time.hpp \
+  /usr/include/SFML/System/Utf.hpp \
+  /usr/include/SFML/System/Utf.inl \
+  /usr/include/SFML/System/Vector2.hpp \
+  /usr/include/SFML/System/Vector2.inl \
+  /usr/include/SFML/System/Vector3.hpp \
+  /usr/include/SFML/System/Vector3.inl \
+  /usr/include/SFML/Window.hpp \
+  /usr/include/SFML/Window/Clipboard.hpp \
+  /usr/include/SFML/Window/Context.hpp \
+  /usr/include/SFML/Window/ContextSettings.hpp \
+  /usr/include/SFML/Window/Cursor.hpp \
+  /usr/include/SFML/Window/Event.hpp \
+  /usr/include/SFML/Window/Export.hpp \
+  /usr/include/SFML/Window/GlResource.hpp \
+  /usr/include/SFML/Window/Joystick.hpp \
+  /usr/include/SFML/Window/Keyboard.hpp \
+  /usr/include/SFML/Window/Mouse.hpp \
+  /usr/include/SFML/Window/Sensor.hpp \
+  /usr/include/SFML/Window/Touch.hpp \
+  /usr/include/SFML/Window/VideoMode.hpp \
+  /usr/include/SFML/Window/Vulkan.hpp \
+  /usr/include/SFML/Window/Window.hpp \
+  /usr/include/SFML/Window/WindowBase.hpp \
+  /usr/include/SFML/Window/WindowHandle.hpp \
+  /usr/include/SFML/Window/WindowStyle.hpp \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/errno.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/locale.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/14.2.1/algorithm \
+  /usr/include/c++/14.2.1/backward/binders.h \
+  /usr/include/c++/14.2.1/bit \
+  /usr/include/c++/14.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/14.2.1/bits/alloc_traits.h \
+  /usr/include/c++/14.2.1/bits/allocator.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.h \
+  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
+  /usr/include/c++/14.2.1/bits/basic_string.h \
+  /usr/include/c++/14.2.1/bits/basic_string.tcc \
+  /usr/include/c++/14.2.1/bits/char_traits.h \
+  /usr/include/c++/14.2.1/bits/charconv.h \
+  /usr/include/c++/14.2.1/bits/codecvt.h \
+  /usr/include/c++/14.2.1/bits/concept_check.h \
+  /usr/include/c++/14.2.1/bits/cpp_type_traits.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_forced.h \
+  /usr/include/c++/14.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/14.2.1/bits/exception.h \
+  /usr/include/c++/14.2.1/bits/exception_defines.h \
+  /usr/include/c++/14.2.1/bits/exception_ptr.h \
+  /usr/include/c++/14.2.1/bits/functexcept.h \
+  /usr/include/c++/14.2.1/bits/functional_hash.h \
+  /usr/include/c++/14.2.1/bits/hash_bytes.h \
+  /usr/include/c++/14.2.1/bits/invoke.h \
+  /usr/include/c++/14.2.1/bits/ios_base.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.h \
+  /usr/include/c++/14.2.1/bits/locale_classes.tcc \
+  /usr/include/c++/14.2.1/bits/locale_conv.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.h \
+  /usr/include/c++/14.2.1/bits/locale_facets.tcc \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/14.2.1/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/14.2.1/bits/localefwd.h \
+  /usr/include/c++/14.2.1/bits/memory_resource.h \
+  /usr/include/c++/14.2.1/bits/memoryfwd.h \
+  /usr/include/c++/14.2.1/bits/move.h \
+  /usr/include/c++/14.2.1/bits/nested_exception.h \
+  /usr/include/c++/14.2.1/bits/new_allocator.h \
+  /usr/include/c++/14.2.1/bits/ostream.tcc \
+  /usr/include/c++/14.2.1/bits/ostream_insert.h \
+  /usr/include/c++/14.2.1/bits/postypes.h \
+  /usr/include/c++/14.2.1/bits/predefined_ops.h \
+  /usr/include/c++/14.2.1/bits/ptr_traits.h \
+  /usr/include/c++/14.2.1/bits/range_access.h \
+  /usr/include/c++/14.2.1/bits/refwrap.h \
+  /usr/include/c++/14.2.1/bits/requires_hosted.h \
+  /usr/include/c++/14.2.1/bits/std_abs.h \
+  /usr/include/c++/14.2.1/bits/stl_algo.h \
+  /usr/include/c++/14.2.1/bits/stl_algobase.h \
+  /usr/include/c++/14.2.1/bits/stl_bvector.h \
+  /usr/include/c++/14.2.1/bits/stl_construct.h \
+  /usr/include/c++/14.2.1/bits/stl_function.h \
+  /usr/include/c++/14.2.1/bits/stl_heap.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/14.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/c++/14.2.1/bits/stl_pair.h \
+  /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/14.2.1/bits/stl_vector.h \
+  /usr/include/c++/14.2.1/bits/stream_iterator.h \
+  /usr/include/c++/14.2.1/bits/streambuf.tcc \
+  /usr/include/c++/14.2.1/bits/streambuf_iterator.h \
+  /usr/include/c++/14.2.1/bits/string_view.tcc \
+  /usr/include/c++/14.2.1/bits/stringfwd.h \
+  /usr/include/c++/14.2.1/bits/uniform_int_dist.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator.h \
+  /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
+  /usr/include/c++/14.2.1/bits/utility.h \
+  /usr/include/c++/14.2.1/bits/vector.tcc \
+  /usr/include/c++/14.2.1/bits/version.h \
+  /usr/include/c++/14.2.1/cctype \
+  /usr/include/c++/14.2.1/cerrno \
+  /usr/include/c++/14.2.1/clocale \
+  /usr/include/c++/14.2.1/concepts \
+  /usr/include/c++/14.2.1/cstddef \
+  /usr/include/c++/14.2.1/cstdio \
+  /usr/include/c++/14.2.1/cstdlib \
+  /usr/include/c++/14.2.1/ctime \
+  /usr/include/c++/14.2.1/cwchar \
+  /usr/include/c++/14.2.1/cwctype \
+  /usr/include/c++/14.2.1/debug/assertions.h \
+  /usr/include/c++/14.2.1/debug/debug.h \
+  /usr/include/c++/14.2.1/exception \
+  /usr/include/c++/14.2.1/ext/alloc_traits.h \
+  /usr/include/c++/14.2.1/ext/atomicity.h \
+  /usr/include/c++/14.2.1/ext/numeric_traits.h \
+  /usr/include/c++/14.2.1/ext/string_conversions.h \
+  /usr/include/c++/14.2.1/ext/type_traits.h \
+  /usr/include/c++/14.2.1/initializer_list \
+  /usr/include/c++/14.2.1/ios \
+  /usr/include/c++/14.2.1/iosfwd \
+  /usr/include/c++/14.2.1/iterator \
+  /usr/include/c++/14.2.1/locale \
+  /usr/include/c++/14.2.1/new \
+  /usr/include/c++/14.2.1/ostream \
+  /usr/include/c++/14.2.1/pstl/execution_defs.h \
+  /usr/include/c++/14.2.1/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/14.2.1/pstl/pstl_config.h \
+  /usr/include/c++/14.2.1/stdexcept \
+  /usr/include/c++/14.2.1/streambuf \
+  /usr/include/c++/14.2.1/string \
+  /usr/include/c++/14.2.1/string_view \
+  /usr/include/c++/14.2.1/system_error \
+  /usr/include/c++/14.2.1/tuple \
+  /usr/include/c++/14.2.1/type_traits \
+  /usr/include/c++/14.2.1/typeinfo \
+  /usr/include/c++/14.2.1/vector \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/single_threaded.h \
+  /usr/include/sys/types.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h
 
 CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp \
   /home/andre/tec-prog-proj-final/src/Janela.h \
@@ -1447,10 +6056,6 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /usr/include/SFML/Graphics/VertexArray.hpp:
 
-/usr/include/SFML/Graphics/Texture.hpp:
-
-/usr/include/SFML/Graphics/Sprite.hpp:
-
 /usr/include/SFML/Graphics/Shape.hpp:
 
 /usr/include/c++/14.2.1/bits/erase_if.h:
@@ -1471,9 +6076,55 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /home/andre/tec-prog-proj-final/src/Jogo.h:
 
+/home/andre/tec-prog-proj-final/src/Jogo.cpp:
+
 /usr/include/c++/14.2.1/bits/istream.tcc:
 
-/home/andre/tec-prog-proj-final/src/Jogo.cpp:
+/home/andre/tec-prog-proj-final/src/Janela.cpp:
+
+/home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Grafico.h:
+
+/home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Colisoes.cpp:
+
+/home/andre/tec-prog-proj-final/src/Listas/Lista.h:
+
+/home/andre/tec-prog-proj-final/src/Fases/FaseSegunda.h:
+
+/home/andre/tec-prog-proj-final/src/Fases/FasePrimeira.h:
+
+/home/andre/tec-prog-proj-final/src/Fases/FasePrimeira.cpp:
+
+/home/andre/tec-prog-proj-final/src/Fases/Fase.h:
+
+/home/andre/tec-prog-proj-final/src/Fases/Fase.cpp:
+
+/home/andre/tec-prog-proj-final/src/Entidades/Projetil.h:
+
+/home/andre/tec-prog-proj-final/src/Entidades/Projetil.cpp:
+
+/home/andre/tec-prog-proj-final/src/Entidades/Personagens/Personagem.cpp:
+
+/home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inim_Facil.h:
+
+/home/andre/tec-prog-proj-final/src/Entidades/Personagens/Personagem.h:
+
+/home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inimigo.h:
+
+/home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inim_Dificil.h:
+
+/home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obstaculo.cpp:
+
+/home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obst_Facil.h:
+
+/home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obst_Facil.cpp:
+
+/home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obstaculo.h:
+
+/home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obst_Dificil.cpp:
+
+/home/andre/tec-prog-proj-final/src/Entidades/Entidade.h:
+
+/home/andre/tec-prog-proj-final/src/Entidades/Entidade.cpp:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h:
 
@@ -1495,6 +6146,8 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /usr/include/stdlib.h:
 
+/usr/include/stdc-predef.h:
+
 /usr/include/wctype.h:
 
 /usr/include/sched.h:
@@ -1503,45 +6156,39 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /usr/include/linux/errno.h:
 
-/usr/include/gnu/stubs-64.h:
+/usr/include/c++/14.2.1/list:
+
+/usr/include/bits/timesize.h:
 
 /usr/include/ctype.h:
 
-/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/time_members.h:
-
-/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h:
-
-/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
-
-/usr/include/errno.h:
-
-/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h:
-
-/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h:
-
-/usr/include/SFML/Graphics/Drawable.hpp:
-
-/usr/include/c++/14.2.1/type_traits:
-
-/usr/include/c++/14.2.1/string_view:
-
-/usr/include/pthread.h:
-
-/usr/include/c++/14.2.1/string:
-
-/usr/include/c++/14.2.1/stdexcept:
-
-/usr/include/c++/14.2.1/pstl/pstl_config.h:
-
-/usr/include/bits/stdio_lim.h:
-
-/usr/include/bits/types/__mbstate_t.h:
-
-/usr/include/bits/thread-shared-types.h:
+/usr/include/bits/types/struct_itimerspec.h:
 
 /usr/include/bits/struct_rwlock.h:
 
-/usr/include/bits/types/struct_itimerspec.h:
+/usr/include/bits/types/struct_FILE.h:
+
+/usr/include/c++/14.2.1/initializer_list:
+
+/usr/include/bits/types/locale_t.h:
+
+/usr/include/bits/types/clock_t.h:
+
+/usr/include/bits/types/__fpos_t.h:
+
+/usr/include/bits/types/__sigset_t.h:
+
+/usr/include/bits/types/__mbstate_t.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/bits/thread-shared-types.h:
+
+/usr/include/bits/types/time_t.h:
+
+/usr/include/c++/14.2.1/stdexcept:
 
 /usr/include/bits/stdlib-float.h:
 
@@ -1555,9 +6202,15 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /usr/include/bits/pthreadtypes.h:
 
+/home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inim_Facil.cpp:
+
+/usr/include/SFML/Window/Vulkan.hpp:
+
 /usr/include/c++/14.2.1/bits/basic_string.h:
 
 /usr/include/c++/14.2.1/bits/stl_iterator_base_funcs.h:
+
+/usr/include/bits/pthreadtypes-arch.h:
 
 /usr/include/SFML/Graphics/Glsl.hpp:
 
@@ -1567,17 +6220,23 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /usr/include/bits/locale.h:
 
-/usr/include/SFML/Window/Vulkan.hpp:
+/usr/include/c++/14.2.1/ext/aligned_buffer.h:
 
-/home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inim_Facil.cpp:
+/home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Grafico.cpp:
 
-/usr/include/bits/errno.h:
+/usr/include/bits/libc-header-start.h:
 
-/usr/include/c++/14.2.1/tuple:
-
-/usr/include/bits/timex.h:
+/usr/include/SFML/Graphics/PrimitiveType.hpp:
 
 /usr/include/bits/byteswap.h:
+
+/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/c++/14.2.1/concepts:
+
+/usr/include/c++/14.2.1/bits/locale_facets.tcc:
 
 /usr/include/asm-generic/errno-base.h:
 
@@ -1589,171 +6248,91 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /usr/include/SFML/System/ThreadLocalPtr.inl:
 
-/home/andre/tec-prog-proj-final/src/Fases/Fase.h:
-
-/usr/include/c++/14.2.1/iterator:
-
-/usr/include/c++/14.2.1/istream:
-
-/usr/include/SFML/Graphics/Font.hpp:
-
-/usr/include/SFML/Window/VideoMode.hpp:
-
-/home/andre/tec-prog-proj-final/src/Fases/Fase.cpp:
-
-/usr/include/SFML/Window/Mouse.hpp:
-
-/usr/include/SFML/Window/Keyboard.hpp:
-
-/usr/include/c++/14.2.1/ext/type_traits.h:
-
-/home/andre/tec-prog-proj-final/src/Listas/Elemento.cpp:
-
-/usr/include/SFML/Window/Joystick.hpp:
-
-/usr/include/bits/cpu-set.h:
-
-/usr/include/SFML/Window/Export.hpp:
-
-/usr/include/c++/14.2.1/bits/stl_iterator_base_types.h:
-
-/usr/include/SFML/Window/Context.hpp:
-
-/usr/include/bits/floatn.h:
-
-/usr/include/c++/14.2.1/bits/locale_facets_nonio.tcc:
-
-/home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obst_Medio.h:
-
-/usr/include/c++/14.2.1/bits/cxxabi_init_exception.h:
-
-/usr/include/bits/pthreadtypes-arch.h:
-
-/usr/include/sys/types.h:
-
-/usr/include/c++/14.2.1/exception:
+/home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inim_Dificil.cpp:
 
 /usr/include/c++/14.2.1/bits/move.h:
 
-/home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inim_Dificil.cpp:
+/usr/include/pthread.h:
 
-/usr/include/SFML/System/Vector2.hpp:
+/usr/include/c++/14.2.1/string:
 
-/usr/include/SFML/System/ThreadLocalPtr.hpp:
+/usr/include/bits/types/cookie_io_functions_t.h:
 
-/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr.h:
+/usr/include/bits/types/struct_sched_param.h:
 
-/usr/include/bits/stdint-least.h:
+/usr/include/c++/14.2.1/bits/stl_uninitialized.h:
 
-/usr/include/SFML/System/ThreadLocal.hpp:
+/usr/include/c++/14.2.1/iterator:
 
-/usr/include/c++/14.2.1/bits/codecvt.h:
+/usr/include/bits/types/__FILE.h:
 
-/usr/include/c++/14.2.1/bits/stl_iterator.h:
+/usr/include/features.h:
 
-/usr/include/SFML/System/Vector2.inl:
+/usr/include/bits/sched.h:
 
-/usr/include/SFML/System/Thread.inl:
+/usr/include/SFML/Graphics/Font.hpp:
 
-/usr/include/stdio.h:
+/usr/include/c++/14.2.1/istream:
 
-/usr/include/bits/wordsize.h:
+/usr/include/SFML/Window/VideoMode.hpp:
 
-/usr/include/c++/14.2.1/ext/string_conversions.h:
+/usr/include/SFML/System/Err.hpp:
+
+/usr/include/SFML/System/MemoryInputStream.hpp:
+
+/usr/include/c++/14.2.1/bits/predefined_ops.h:
+
+/usr/include/SFML/Graphics/RenderStates.hpp:
 
 /usr/include/SFML/System/Thread.hpp:
 
 /usr/include/SFML/System/Export.hpp:
 
+/usr/include/bits/types/wint_t.h:
+
+/home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obst_Dificil.h:
+
+/usr/include/c++/14.2.1/bits/basic_ios.h:
+
+/usr/include/SFML/Graphics/Transformable.hpp:
+
+/usr/include/SFML/Graphics/View.hpp:
+
+/usr/include/SFML/Graphics/Texture.hpp:
+
+/usr/include/bits/types/mbstate_t.h:
+
+/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
+
+/usr/include/c++/14.2.1/bits/version.h:
+
 /home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obst_Medio.cpp:
 
 /usr/include/c++/14.2.1/bits/exception.h:
 
-/home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inim_Dificil.h:
+/usr/include/SFML/Window/Export.hpp:
 
-/home/andre/tec-prog-proj-final/src/Listas/ListaEntidades.h:
+/usr/include/SFML/Graphics/Sprite.hpp:
 
-/usr/include/libintl.h:
+/usr/include/SFML/Graphics/Export.hpp:
 
-/usr/include/c++/14.2.1/typeinfo:
+/home/andre/tec-prog-proj-final/src/Listas/Elemento.h:
 
-/usr/include/SFML/System/String.hpp:
+/usr/include/bits/uintn-identity.h:
 
-/usr/include/bits/endianness.h:
+/usr/include/c++/14.2.1/bits/char_traits.h:
 
-/usr/include/SFML/Graphics/PrimitiveType.hpp:
+/usr/include/SFML/Graphics/Glsl.inl:
 
-/usr/include/SFML/Window/Clipboard.hpp:
+/usr/include/bits/typesizes.h:
 
-/home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inim_Facil.h:
+/usr/include/SFML/Graphics/BlendMode.hpp:
 
-/home/andre/tec-prog-proj-final/src/Entidades/Projetil.h:
+/usr/include/bits/cpu-set.h:
 
-/usr/include/SFML/System.hpp:
+/home/andre/tec-prog-proj-final/src/Listas/Elemento.cpp:
 
-/usr/include/SFML/Graphics/Color.hpp:
-
-/usr/include/wchar.h:
-
-/usr/include/c++/14.2.1/clocale:
-
-/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/error_constants.h:
-
-/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
-
-/usr/include/c++/14.2.1/system_error:
-
-/usr/include/SFML/System/Mutex.hpp:
-
-/usr/include/c++/14.2.1/streambuf:
-
-/home/andre/tec-prog-proj-final/src/Entidades/Personagens/Jogador.h:
-
-/usr/include/c++/14.2.1/list:
-
-/usr/include/bits/timesize.h:
-
-/usr/include/bits/endian.h:
-
-/home/andre/tec-prog-proj-final/src/Entidades/Personagens/Personagem.cpp:
-
-/usr/include/c++/14.2.1/concepts:
-
-/usr/include/c++/14.2.1/iostream:
-
-/usr/include/bits/stdint-uintn.h:
-
-/home/andre/tec-prog-proj-final/src/Ente.h:
-
-/usr/include/asm/errno.h:
-
-/usr/include/c++/14.2.1/bits/locale_facets.tcc:
-
-/home/andre/tec-prog-proj-final/src/Entidades/Personagens/Personagem.h:
-
-/usr/include/c++/14.2.1/bits/ptr_traits.h:
-
-/usr/include/SFML/System/NonCopyable.hpp:
-
-/home/andre/tec-prog-proj-final/src/Janela.h:
-
-/home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obstaculo.h:
-
-/usr/include/stdc-predef.h:
-
-/home/andre/tec-prog-proj-final/src/Entidades/Projetil.cpp:
-
-/usr/include/SFML/Window/WindowBase.hpp:
-
-/home/andre/tec-prog-proj-final/src/Entidades/Entidade.cpp:
-
-/usr/include/c++/14.2.1/cwctype:
-
-/home/andre/tec-prog-proj-final/src/Fases/FasePrimeira.h:
-
-/home/andre/tec-prog-proj-final/src/Entidades/Entidade.h:
-
-/usr/include/SFML/Config.hpp:
+/usr/include/SFML/Window/Joystick.hpp:
 
 /usr/include/SFML/Graphics/RenderTarget.hpp:
 
@@ -1761,99 +6340,57 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /usr/include/c++/14.2.1/bits/stream_iterator.h:
 
-/usr/include/SFML/Window/Window.hpp:
-
-/home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Grafico.h:
-
 /usr/include/bits/types/timer_t.h:
 
 /usr/include/gnu/stubs.h:
 
 /usr/include/c++/14.2.1/bits/localefwd.h:
 
-/home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obst_Dificil.cpp:
+/usr/include/SFML/Config.hpp:
 
-/usr/include/SFML/Graphics/Transformable.hpp:
+/usr/include/bits/types/struct_timeval.h:
 
-/usr/include/SFML/Graphics/View.hpp:
+/usr/include/bits/types/__fpos64_t.h:
 
-/home/andre/tec-prog-proj-final/src/Listas/Lista.h:
+/usr/include/c++/14.2.1/pstl/glue_algorithm_defs.h:
 
-/home/andre/tec-prog-proj-final/src/Fases/FaseSegunda.h:
+/usr/include/c++/14.2.1/type_traits:
 
-/usr/include/c++/14.2.1/bits/stl_algo.h:
+/usr/include/SFML/Graphics/Drawable.hpp:
 
-/home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Colisoes.cpp:
+/usr/include/SFML/Window/Context.hpp:
 
-/usr/include/SFML/Window/Sensor.hpp:
+/home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obst_Medio.h:
 
-/usr/include/bits/types/struct_timespec.h:
+/usr/include/c++/14.2.1/bits/locale_facets_nonio.tcc:
 
-/usr/include/SFML/System/Vector3.hpp:
+/usr/include/c++/14.2.1/string_view:
 
-/home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obst_Facil.h:
+/usr/include/bits/atomic_wide_counter.h:
 
-/home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obst_Facil.cpp:
-
-/home/andre/tec-prog-proj-final/src/Fases/FasePrimeira.cpp:
-
-/usr/include/c++/14.2.1/bits/exception_defines.h:
-
-/usr/include/SFML/Graphics/Export.hpp:
-
-/home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obstaculo.cpp:
-
-/usr/include/SFML/System/Time.hpp:
-
-/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h:
-
-/usr/include/SFML/Graphics/RenderWindow.hpp:
-
-/usr/include/bits/types/sigset_t.h:
+/home/andre/tec-prog-proj-final/src/Fases/FaseSegunda.cpp:
 
 /usr/include/SFML/System/Lock.hpp:
 
-/home/andre/tec-prog-proj-final/src/Fases/FaseSegunda.cpp:
+/usr/include/bits/floatn.h:
+
+/usr/include/c++/14.2.1/bits/cxxabi_init_exception.h:
+
+/usr/include/SFML/Window/WindowBase.hpp:
+
+/usr/include/c++/14.2.1/iostream:
+
+/usr/include/asm/errno.h:
+
+/usr/include/bits/stdint-uintn.h:
+
+/home/andre/tec-prog-proj-final/src/Ente.h:
+
+/usr/include/bits/types/sigset_t.h:
 
 /usr/include/SFML/Graphics/Rect.hpp:
 
 /usr/include/bits/types/struct_tm.h:
-
-/usr/include/c++/14.2.1/ext/aligned_buffer.h:
-
-/usr/include/bits/libc-header-start.h:
-
-/home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Grafico.cpp:
-
-/usr/include/SFML/Graphics/Rect.inl:
-
-/usr/include/SFML/System/Err.hpp:
-
-/usr/include/bits/types/struct_FILE.h:
-
-/usr/include/c++/14.2.1/initializer_list:
-
-/usr/include/SFML/System/Utf.hpp:
-
-/usr/include/c++/14.2.1/bits/concept_check.h:
-
-/usr/include/SFML/Graphics/BlendMode.hpp:
-
-/usr/include/SFML/Graphics/Glsl.inl:
-
-/usr/include/bits/typesizes.h:
-
-/usr/include/SFML/Graphics/Vertex.hpp:
-
-/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/messages_members.h:
-
-/home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Colisoes.h:
-
-/usr/include/c++/14.2.1/bits/new_allocator.h:
-
-/usr/include/SFML/System/Clock.hpp:
-
-/usr/include/asm-generic/errno.h:
 
 /usr/include/c++/14.2.1/vector:
 
@@ -1863,51 +6400,63 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /usr/include/SFML/Graphics/Image.hpp:
 
-/home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inimigo.h:
-
-/home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inimigo.cpp:
-
-/usr/include/SFML/Window/ContextSettings.hpp:
-
-/usr/include/bits/waitflags.h:
-
 /usr/include/SFML/Window.hpp:
 
 /usr/include/SFML/System/FileInputStream.hpp:
 
-/usr/include/bits/atomic_wide_counter.h:
+/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/time_members.h:
 
-/home/andre/tec-prog-proj-final/src/Janela.cpp:
+/usr/include/wchar.h:
 
-/usr/include/c++/14.2.1/bits/predefined_ops.h:
+/usr/include/c++/14.2.1/clocale:
 
-/usr/include/SFML/Graphics/RenderStates.hpp:
+/usr/include/SFML/Graphics/Rect.inl:
 
-/usr/include/SFML/System/MemoryInputStream.hpp:
+/usr/include/asm-generic/errno.h:
+
+/usr/include/SFML/Graphics/Color.hpp:
+
+/usr/include/SFML/System.hpp:
+
+/usr/include/stdio.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/c++/14.2.1/ext/string_conversions.h:
+
+/usr/include/SFML/Window/Clipboard.hpp:
+
+/home/andre/tec-prog-proj-final/src/Janela.h:
+
+/usr/include/SFML/System/NonCopyable.hpp:
+
+/usr/include/SFML/System/ThreadLocal.hpp:
+
+/usr/include/c++/14.2.1/bits/codecvt.h:
+
+/usr/include/c++/14.2.1/bits/stl_iterator.h:
+
+/home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inimigo.cpp:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/SFML/Window/ContextSettings.hpp:
+
+/usr/include/c++/14.2.1/bits/stl_iterator_base_types.h:
 
 /usr/include/bits/types.h:
 
-/usr/include/features.h:
+/usr/include/bits/stdint-least.h:
 
-/usr/include/bits/sched.h:
+/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr.h:
 
-/usr/include/bits/types/__FILE.h:
+/usr/include/SFML/System/ThreadLocalPtr.hpp:
 
-/usr/include/c++/14.2.1/pstl/glue_algorithm_defs.h:
+/usr/include/SFML/Window/Window.hpp:
 
-/usr/include/bits/types/__fpos64_t.h:
+/usr/include/SFML/System/Time.hpp:
 
-/usr/include/bits/types/__fpos_t.h:
-
-/usr/include/bits/types/clock_t.h:
-
-/usr/include/bits/types/__sigset_t.h:
-
-/usr/include/bits/stdint-intn.h:
-
-/usr/include/bits/types/clockid_t.h:
-
-/usr/include/bits/types/cookie_io_functions_t.h:
+/usr/include/SFML/System/Vector2.hpp:
 
 /usr/include/bits/types/error_t.h:
 
@@ -1915,33 +6464,41 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /usr/include/c++/14.2.1/new:
 
-/usr/include/bits/types/locale_t.h:
+/usr/include/bits/types/clockid_t.h:
 
-/usr/include/bits/types/mbstate_t.h:
+/usr/include/bits/stdint-intn.h:
 
-/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
+/usr/include/sys/types.h:
 
-/usr/include/c++/14.2.1/bits/version.h:
+/usr/include/c++/14.2.1/exception:
 
-/usr/include/c++/14.2.1/bits/stl_uninitialized.h:
+/usr/include/SFML/System/Thread.inl:
 
-/usr/include/bits/types/struct_sched_param.h:
+/usr/include/SFML/System/Vector2.inl:
 
-/usr/include/bits/types/struct_timeval.h:
+/usr/include/SFML/System/Vector3.hpp:
 
-/usr/include/bits/types/time_t.h:
+/usr/include/errno.h:
 
-/usr/include/bits/types/wint_t.h:
+/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h:
 
-/home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obst_Dificil.h:
+/usr/include/SFML/Graphics/Vertex.hpp:
 
-/usr/include/c++/14.2.1/bits/basic_ios.h:
+/usr/include/SFML/System/Utf.hpp:
 
-/home/andre/tec-prog-proj-final/src/Listas/Elemento.h:
+/usr/include/c++/14.2.1/bits/concept_check.h:
 
-/usr/include/bits/uintn-identity.h:
+/usr/include/SFML/Window/Keyboard.hpp:
 
-/usr/include/c++/14.2.1/bits/char_traits.h:
+/usr/include/c++/14.2.1/ext/type_traits.h:
+
+/usr/include/SFML/Window/Mouse.hpp:
+
+/usr/include/bits/types/struct_timespec.h:
+
+/usr/include/SFML/Window/Sensor.hpp:
+
+/usr/include/SFML/System/Clock.hpp:
 
 /usr/include/bits/waitstatus.h:
 
@@ -1985,6 +6542,8 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /usr/include/c++/14.2.1/bits/cxxabi_forced.h:
 
+/usr/include/c++/14.2.1/bits/exception_defines.h:
+
 /usr/include/c++/14.2.1/bits/exception_ptr.h:
 
 /usr/include/c++/14.2.1/bits/functexcept.h:
@@ -2007,35 +6566,25 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /usr/include/c++/14.2.1/bits/nested_exception.h:
 
-/usr/include/stdint.h:
-
-/usr/include/endian.h:
-
-/usr/include/c++/14.2.1/bits/ostream.tcc:
+/usr/include/c++/14.2.1/bits/new_allocator.h:
 
 /usr/include/c++/14.2.1/bits/ostream_insert.h:
 
-/usr/include/SFML/Window/Event.hpp:
-
 /usr/include/SFML/System/String.inl:
+
+/usr/include/SFML/Window/Event.hpp:
 
 /usr/include/c++/14.2.1/algorithm:
 
 /usr/include/c++/14.2.1/bits/postypes.h:
 
-/usr/include/features-time64.h:
-
-/usr/include/c++/14.2.1/bits/range_access.h:
+/usr/include/c++/14.2.1/bits/ptr_traits.h:
 
 /usr/include/c++/14.2.1/bits/stl_function.h:
 
 /usr/include/c++/14.2.1/bits/refwrap.h:
 
-/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
-
-/usr/include/c++/14.2.1/bits/stl_bvector.h:
-
-/usr/include/c++/14.2.1/bits/std_abs.h:
+/usr/include/c++/14.2.1/bits/stl_algo.h:
 
 /usr/include/c++/14.2.1/bits/stl_heap.h:
 
@@ -2089,6 +6638,8 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /usr/include/c++/14.2.1/cwchar:
 
+/usr/include/c++/14.2.1/cwctype:
+
 /usr/include/bits/time.h:
 
 /usr/include/c++/14.2.1/debug/assertions.h:
@@ -2097,6 +6648,10 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /usr/include/c++/14.2.1/debug/debug.h:
 
+/home/andre/tec-prog-proj-final/src/Entidades/Personagens/Jogador.h:
+
+/usr/include/c++/14.2.1/streambuf:
+
 /home/andre/tec-prog-proj-final/src/Entidades/Personagens/Jogador.cpp:
 
 /usr/include/bits/types/__locale_t.h:
@@ -2104,6 +6659,16 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 /usr/include/c++/14.2.1/bits/functional_hash.h:
 
 /usr/include/c++/14.2.1/ext/alloc_traits.h:
+
+/home/andre/tec-prog-proj-final/src/Listas/ListaEntidades.h:
+
+/usr/include/libintl.h:
+
+/usr/include/bits/endianness.h:
+
+/usr/include/SFML/System/String.hpp:
+
+/usr/include/c++/14.2.1/typeinfo:
 
 /usr/include/c++/14.2.1/ext/numeric_traits.h:
 
@@ -2119,6 +6684,50 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /usr/include/c++/14.2.1/ostream:
 
+/usr/include/c++/14.2.1/bits/range_access.h:
+
+/usr/include/features-time64.h:
+
 /usr/include/c++/14.2.1/bits/locale_facets.h:
 
 /usr/include/c++/14.2.1/pstl/execution_defs.h:
+
+/usr/include/c++/14.2.1/pstl/pstl_config.h:
+
+/usr/include/bits/timex.h:
+
+/usr/include/c++/14.2.1/tuple:
+
+/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/error_constants.h:
+
+/usr/include/SFML/System/Mutex.hpp:
+
+/usr/include/c++/14.2.1/system_error:
+
+/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
+
+/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h:
+
+/usr/include/c++/14.2.1/bits/stl_bvector.h:
+
+/usr/include/c++/14.2.1/bits/std_abs.h:
+
+/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
+
+/usr/include/SFML/Graphics/RenderWindow.hpp:
+
+/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h:
+
+/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
+
+/home/andre/tec-prog-proj-final/src/Gerenciadores/Gerenciador_Colisoes.h:
+
+/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/messages_members.h:
+
+/usr/include/stdint.h:
+
+/usr/include/c++/14.2.1/bits/ostream.tcc:
+
+/usr/include/endian.h:
+
+/usr/include/gnu/stubs-64.h:
