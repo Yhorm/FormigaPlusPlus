@@ -22,7 +22,7 @@ public:
 			if(tipo){
 					Elemento<T> *pElemento=nullptr;
 					pElemento= new Elemento<T>;
-					pElemento.setElemento(tipo);
+					pElemento->setElemento(tipo);
 					if(pPrimeiro==nullptr){
 							pPrimeiro=pElemento;
 							pUltimo=pElemento;
@@ -39,7 +39,7 @@ public:
 	void Remover(T* tipo){
 			if(tipo){
 					Elemento<T> *pElemento=nullptr;
-					pElemento.setElemento(tipo);
+					pElemento->setElemento(tipo);
 			}
 	}
 	Elemento <T> getPrim()const {return pPrimeiro;}
