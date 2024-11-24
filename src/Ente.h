@@ -24,8 +24,6 @@ protected:
 	sf::RectangleShape retangolo;
 public: 
 	Ente();
-	Ente(sf::Texture &figure);
-	virtual ~Ente();
-	virtual void executar()=0;
+    ~Ente();
 	void desenhar();
 };

@@ -14,14 +14,17 @@ CMakeFiles/game.dir/src/Ente.cpp.o
  /usr/include/SFML/Graphics/PrimitiveType.hpp
  /usr/include/SFML/Graphics/Rect.hpp
  /usr/include/SFML/Graphics/Rect.inl
+ /usr/include/SFML/Graphics/RectangleShape.hpp
  /usr/include/SFML/Graphics/RenderStates.hpp
  /usr/include/SFML/Graphics/RenderTarget.hpp
  /usr/include/SFML/Graphics/RenderWindow.hpp
+ /usr/include/SFML/Graphics/Shape.hpp
  /usr/include/SFML/Graphics/Sprite.hpp
  /usr/include/SFML/Graphics/Texture.hpp
  /usr/include/SFML/Graphics/Transform.hpp
  /usr/include/SFML/Graphics/Transformable.hpp
  /usr/include/SFML/Graphics/Vertex.hpp
+ /usr/include/SFML/Graphics/VertexArray.hpp
  /usr/include/SFML/Graphics/View.hpp
  /usr/include/SFML/System.hpp
  /usr/include/SFML/System/Clock.hpp
@@ -294,14 +297,17 @@ CMakeFiles/game.dir/src/Entidades/Entidade.cpp.o
  /usr/include/SFML/Graphics/PrimitiveType.hpp
  /usr/include/SFML/Graphics/Rect.hpp
  /usr/include/SFML/Graphics/Rect.inl
+ /usr/include/SFML/Graphics/RectangleShape.hpp
  /usr/include/SFML/Graphics/RenderStates.hpp
  /usr/include/SFML/Graphics/RenderTarget.hpp
  /usr/include/SFML/Graphics/RenderWindow.hpp
+ /usr/include/SFML/Graphics/Shape.hpp
  /usr/include/SFML/Graphics/Sprite.hpp
  /usr/include/SFML/Graphics/Texture.hpp
  /usr/include/SFML/Graphics/Transform.hpp
  /usr/include/SFML/Graphics/Transformable.hpp
  /usr/include/SFML/Graphics/Vertex.hpp
+ /usr/include/SFML/Graphics/VertexArray.hpp
  /usr/include/SFML/Graphics/View.hpp
  /usr/include/SFML/System.hpp
  /usr/include/SFML/System/Clock.hpp
@@ -576,14 +582,17 @@ CMakeFiles/game.dir/src/Entidades/Obstaculos/Obst_Dificil.cpp.o
  /usr/include/SFML/Graphics/PrimitiveType.hpp
  /usr/include/SFML/Graphics/Rect.hpp
  /usr/include/SFML/Graphics/Rect.inl
+ /usr/include/SFML/Graphics/RectangleShape.hpp
  /usr/include/SFML/Graphics/RenderStates.hpp
  /usr/include/SFML/Graphics/RenderTarget.hpp
  /usr/include/SFML/Graphics/RenderWindow.hpp
+ /usr/include/SFML/Graphics/Shape.hpp
  /usr/include/SFML/Graphics/Sprite.hpp
  /usr/include/SFML/Graphics/Texture.hpp
  /usr/include/SFML/Graphics/Transform.hpp
  /usr/include/SFML/Graphics/Transformable.hpp
  /usr/include/SFML/Graphics/Vertex.hpp
+ /usr/include/SFML/Graphics/VertexArray.hpp
  /usr/include/SFML/Graphics/View.hpp
  /usr/include/SFML/System.hpp
  /usr/include/SFML/System/Clock.hpp
@@ -858,14 +867,17 @@ CMakeFiles/game.dir/src/Entidades/Obstaculos/Obst_Facil.cpp.o
  /usr/include/SFML/Graphics/PrimitiveType.hpp
  /usr/include/SFML/Graphics/Rect.hpp
  /usr/include/SFML/Graphics/Rect.inl
+ /usr/include/SFML/Graphics/RectangleShape.hpp
  /usr/include/SFML/Graphics/RenderStates.hpp
  /usr/include/SFML/Graphics/RenderTarget.hpp
  /usr/include/SFML/Graphics/RenderWindow.hpp
+ /usr/include/SFML/Graphics/Shape.hpp
  /usr/include/SFML/Graphics/Sprite.hpp
  /usr/include/SFML/Graphics/Texture.hpp
  /usr/include/SFML/Graphics/Transform.hpp
  /usr/include/SFML/Graphics/Transformable.hpp
  /usr/include/SFML/Graphics/Vertex.hpp
+ /usr/include/SFML/Graphics/VertexArray.hpp
  /usr/include/SFML/Graphics/View.hpp
  /usr/include/SFML/System.hpp
  /usr/include/SFML/System/Clock.hpp
@@ -1140,14 +1152,17 @@ CMakeFiles/game.dir/src/Entidades/Obstaculos/Obst_Medio.cpp.o
  /usr/include/SFML/Graphics/PrimitiveType.hpp
  /usr/include/SFML/Graphics/Rect.hpp
  /usr/include/SFML/Graphics/Rect.inl
+ /usr/include/SFML/Graphics/RectangleShape.hpp
  /usr/include/SFML/Graphics/RenderStates.hpp
  /usr/include/SFML/Graphics/RenderTarget.hpp
  /usr/include/SFML/Graphics/RenderWindow.hpp
+ /usr/include/SFML/Graphics/Shape.hpp
  /usr/include/SFML/Graphics/Sprite.hpp
  /usr/include/SFML/Graphics/Texture.hpp
  /usr/include/SFML/Graphics/Transform.hpp
  /usr/include/SFML/Graphics/Transformable.hpp
  /usr/include/SFML/Graphics/Vertex.hpp
+ /usr/include/SFML/Graphics/VertexArray.hpp
  /usr/include/SFML/Graphics/View.hpp
  /usr/include/SFML/System.hpp
  /usr/include/SFML/System/Clock.hpp
@@ -1421,14 +1436,17 @@ CMakeFiles/game.dir/src/Entidades/Obstaculos/Obstaculo.cpp.o
  /usr/include/SFML/Graphics/PrimitiveType.hpp
  /usr/include/SFML/Graphics/Rect.hpp
  /usr/include/SFML/Graphics/Rect.inl
+ /usr/include/SFML/Graphics/RectangleShape.hpp
  /usr/include/SFML/Graphics/RenderStates.hpp
  /usr/include/SFML/Graphics/RenderTarget.hpp
  /usr/include/SFML/Graphics/RenderWindow.hpp
+ /usr/include/SFML/Graphics/Shape.hpp
  /usr/include/SFML/Graphics/Sprite.hpp
  /usr/include/SFML/Graphics/Texture.hpp
  /usr/include/SFML/Graphics/Transform.hpp
  /usr/include/SFML/Graphics/Transformable.hpp
  /usr/include/SFML/Graphics/Vertex.hpp
+ /usr/include/SFML/Graphics/VertexArray.hpp
  /usr/include/SFML/Graphics/View.hpp
  /usr/include/SFML/System.hpp
  /usr/include/SFML/System/Clock.hpp
@@ -1704,14 +1722,17 @@ CMakeFiles/game.dir/src/Entidades/Personagens/Inim_Dificil.cpp.o
  /usr/include/SFML/Graphics/PrimitiveType.hpp
  /usr/include/SFML/Graphics/Rect.hpp
  /usr/include/SFML/Graphics/Rect.inl
+ /usr/include/SFML/Graphics/RectangleShape.hpp
  /usr/include/SFML/Graphics/RenderStates.hpp
  /usr/include/SFML/Graphics/RenderTarget.hpp
  /usr/include/SFML/Graphics/RenderWindow.hpp
+ /usr/include/SFML/Graphics/Shape.hpp
  /usr/include/SFML/Graphics/Sprite.hpp
  /usr/include/SFML/Graphics/Texture.hpp
  /usr/include/SFML/Graphics/Transform.hpp
  /usr/include/SFML/Graphics/Transformable.hpp
  /usr/include/SFML/Graphics/Vertex.hpp
+ /usr/include/SFML/Graphics/VertexArray.hpp
  /usr/include/SFML/Graphics/View.hpp
  /usr/include/SFML/System.hpp
  /usr/include/SFML/System/Clock.hpp
@@ -1987,14 +2008,17 @@ CMakeFiles/game.dir/src/Entidades/Personagens/Inim_Facil.cpp.o
  /usr/include/SFML/Graphics/PrimitiveType.hpp
  /usr/include/SFML/Graphics/Rect.hpp
  /usr/include/SFML/Graphics/Rect.inl
+ /usr/include/SFML/Graphics/RectangleShape.hpp
  /usr/include/SFML/Graphics/RenderStates.hpp
  /usr/include/SFML/Graphics/RenderTarget.hpp
  /usr/include/SFML/Graphics/RenderWindow.hpp
+ /usr/include/SFML/Graphics/Shape.hpp
  /usr/include/SFML/Graphics/Sprite.hpp
  /usr/include/SFML/Graphics/Texture.hpp
  /usr/include/SFML/Graphics/Transform.hpp
  /usr/include/SFML/Graphics/Transformable.hpp
  /usr/include/SFML/Graphics/Vertex.hpp
+ /usr/include/SFML/Graphics/VertexArray.hpp
  /usr/include/SFML/Graphics/View.hpp
  /usr/include/SFML/System.hpp
  /usr/include/SFML/System/Clock.hpp
@@ -2269,14 +2293,17 @@ CMakeFiles/game.dir/src/Entidades/Personagens/Inimigo.cpp.o
  /usr/include/SFML/Graphics/PrimitiveType.hpp
  /usr/include/SFML/Graphics/Rect.hpp
  /usr/include/SFML/Graphics/Rect.inl
+ /usr/include/SFML/Graphics/RectangleShape.hpp
  /usr/include/SFML/Graphics/RenderStates.hpp
  /usr/include/SFML/Graphics/RenderTarget.hpp
  /usr/include/SFML/Graphics/RenderWindow.hpp
+ /usr/include/SFML/Graphics/Shape.hpp
  /usr/include/SFML/Graphics/Sprite.hpp
  /usr/include/SFML/Graphics/Texture.hpp
  /usr/include/SFML/Graphics/Transform.hpp
  /usr/include/SFML/Graphics/Transformable.hpp
  /usr/include/SFML/Graphics/Vertex.hpp
+ /usr/include/SFML/Graphics/VertexArray.hpp
  /usr/include/SFML/Graphics/View.hpp
  /usr/include/SFML/System.hpp
  /usr/include/SFML/System/Clock.hpp
@@ -2551,14 +2578,17 @@ CMakeFiles/game.dir/src/Entidades/Personagens/Jogador.cpp.o
  /usr/include/SFML/Graphics/PrimitiveType.hpp
  /usr/include/SFML/Graphics/Rect.hpp
  /usr/include/SFML/Graphics/Rect.inl
+ /usr/include/SFML/Graphics/RectangleShape.hpp
  /usr/include/SFML/Graphics/RenderStates.hpp
  /usr/include/SFML/Graphics/RenderTarget.hpp
  /usr/include/SFML/Graphics/RenderWindow.hpp
+ /usr/include/SFML/Graphics/Shape.hpp
  /usr/include/SFML/Graphics/Sprite.hpp
  /usr/include/SFML/Graphics/Texture.hpp
  /usr/include/SFML/Graphics/Transform.hpp
  /usr/include/SFML/Graphics/Transformable.hpp
  /usr/include/SFML/Graphics/Vertex.hpp
+ /usr/include/SFML/Graphics/VertexArray.hpp
  /usr/include/SFML/Graphics/View.hpp
  /usr/include/SFML/System.hpp
  /usr/include/SFML/System/Clock.hpp
@@ -2832,14 +2862,17 @@ CMakeFiles/game.dir/src/Entidades/Personagens/Personagem.cpp.o
  /usr/include/SFML/Graphics/PrimitiveType.hpp
  /usr/include/SFML/Graphics/Rect.hpp
  /usr/include/SFML/Graphics/Rect.inl
+ /usr/include/SFML/Graphics/RectangleShape.hpp
  /usr/include/SFML/Graphics/RenderStates.hpp
  /usr/include/SFML/Graphics/RenderTarget.hpp
  /usr/include/SFML/Graphics/RenderWindow.hpp
+ /usr/include/SFML/Graphics/Shape.hpp
  /usr/include/SFML/Graphics/Sprite.hpp
  /usr/include/SFML/Graphics/Texture.hpp
  /usr/include/SFML/Graphics/Transform.hpp
  /usr/include/SFML/Graphics/Transformable.hpp
  /usr/include/SFML/Graphics/Vertex.hpp
+ /usr/include/SFML/Graphics/VertexArray.hpp
  /usr/include/SFML/Graphics/View.hpp
  /usr/include/SFML/System.hpp
  /usr/include/SFML/System/Clock.hpp
@@ -3113,14 +3146,17 @@ CMakeFiles/game.dir/src/Entidades/Projetil.cpp.o
  /usr/include/SFML/Graphics/PrimitiveType.hpp
  /usr/include/SFML/Graphics/Rect.hpp
  /usr/include/SFML/Graphics/Rect.inl
+ /usr/include/SFML/Graphics/RectangleShape.hpp
  /usr/include/SFML/Graphics/RenderStates.hpp
  /usr/include/SFML/Graphics/RenderTarget.hpp
  /usr/include/SFML/Graphics/RenderWindow.hpp
+ /usr/include/SFML/Graphics/Shape.hpp
  /usr/include/SFML/Graphics/Sprite.hpp
  /usr/include/SFML/Graphics/Texture.hpp
  /usr/include/SFML/Graphics/Transform.hpp
  /usr/include/SFML/Graphics/Transformable.hpp
  /usr/include/SFML/Graphics/Vertex.hpp
+ /usr/include/SFML/Graphics/VertexArray.hpp
  /usr/include/SFML/Graphics/View.hpp
  /usr/include/SFML/System.hpp
  /usr/include/SFML/System/Clock.hpp
@@ -3393,14 +3429,17 @@ CMakeFiles/game.dir/src/Fases/Fase.cpp.o
  /usr/include/SFML/Graphics/PrimitiveType.hpp
  /usr/include/SFML/Graphics/Rect.hpp
  /usr/include/SFML/Graphics/Rect.inl
+ /usr/include/SFML/Graphics/RectangleShape.hpp
  /usr/include/SFML/Graphics/RenderStates.hpp
  /usr/include/SFML/Graphics/RenderTarget.hpp
  /usr/include/SFML/Graphics/RenderWindow.hpp
+ /usr/include/SFML/Graphics/Shape.hpp
  /usr/include/SFML/Graphics/Sprite.hpp
  /usr/include/SFML/Graphics/Texture.hpp
  /usr/include/SFML/Graphics/Transform.hpp
  /usr/include/SFML/Graphics/Transformable.hpp
  /usr/include/SFML/Graphics/Vertex.hpp
+ /usr/include/SFML/Graphics/VertexArray.hpp
  /usr/include/SFML/Graphics/View.hpp
  /usr/include/SFML/System.hpp
  /usr/include/SFML/System/Clock.hpp
@@ -3674,14 +3713,17 @@ CMakeFiles/game.dir/src/Fases/FasePrimeira.cpp.o
  /usr/include/SFML/Graphics/PrimitiveType.hpp
  /usr/include/SFML/Graphics/Rect.hpp
  /usr/include/SFML/Graphics/Rect.inl
+ /usr/include/SFML/Graphics/RectangleShape.hpp
  /usr/include/SFML/Graphics/RenderStates.hpp
  /usr/include/SFML/Graphics/RenderTarget.hpp
  /usr/include/SFML/Graphics/RenderWindow.hpp
+ /usr/include/SFML/Graphics/Shape.hpp
  /usr/include/SFML/Graphics/Sprite.hpp
  /usr/include/SFML/Graphics/Texture.hpp
  /usr/include/SFML/Graphics/Transform.hpp
  /usr/include/SFML/Graphics/Transformable.hpp
  /usr/include/SFML/Graphics/Vertex.hpp
+ /usr/include/SFML/Graphics/VertexArray.hpp
  /usr/include/SFML/Graphics/View.hpp
  /usr/include/SFML/System.hpp
  /usr/include/SFML/System/Clock.hpp
@@ -3955,14 +3997,17 @@ CMakeFiles/game.dir/src/Fases/FaseSegunda.cpp.o
  /usr/include/SFML/Graphics/PrimitiveType.hpp
  /usr/include/SFML/Graphics/Rect.hpp
  /usr/include/SFML/Graphics/Rect.inl
+ /usr/include/SFML/Graphics/RectangleShape.hpp
  /usr/include/SFML/Graphics/RenderStates.hpp
  /usr/include/SFML/Graphics/RenderTarget.hpp
  /usr/include/SFML/Graphics/RenderWindow.hpp
+ /usr/include/SFML/Graphics/Shape.hpp
  /usr/include/SFML/Graphics/Sprite.hpp
  /usr/include/SFML/Graphics/Texture.hpp
  /usr/include/SFML/Graphics/Transform.hpp
  /usr/include/SFML/Graphics/Transformable.hpp
  /usr/include/SFML/Graphics/Vertex.hpp
+ /usr/include/SFML/Graphics/VertexArray.hpp
  /usr/include/SFML/Graphics/View.hpp
  /usr/include/SFML/System.hpp
  /usr/include/SFML/System/Clock.hpp
@@ -4382,6 +4427,7 @@ CMakeFiles/game.dir/src/Janela.cpp.o
  /usr/include/c++/14.2.1/bits/hash_bytes.h
  /usr/include/c++/14.2.1/bits/invoke.h
  /usr/include/c++/14.2.1/bits/ios_base.h
+ /usr/include/c++/14.2.1/bits/istream.tcc
  /usr/include/c++/14.2.1/bits/locale_classes.h
  /usr/include/c++/14.2.1/bits/locale_classes.tcc
  /usr/include/c++/14.2.1/bits/locale_conv.h
@@ -4449,6 +4495,8 @@ CMakeFiles/game.dir/src/Janela.cpp.o
  /usr/include/c++/14.2.1/initializer_list
  /usr/include/c++/14.2.1/ios
  /usr/include/c++/14.2.1/iosfwd
+ /usr/include/c++/14.2.1/iostream
+ /usr/include/c++/14.2.1/istream
  /usr/include/c++/14.2.1/iterator
  /usr/include/c++/14.2.1/locale
  /usr/include/c++/14.2.1/new
@@ -4507,6 +4555,7 @@ CMakeFiles/game.dir/src/Janela.cpp.o
 
 CMakeFiles/game.dir/src/Jogo.cpp.o
  /home/andre/tec-prog-proj-final/src/Jogo.cpp
+ /home/andre/tec-prog-proj-final/src/Ente.h
  /home/andre/tec-prog-proj-final/src/Janela.h
  /home/andre/tec-prog-proj-final/src/Jogo.h
  /usr/include/SFML/Config.hpp
@@ -5203,14 +5252,17 @@ CMakeFiles/game.dir/src/Listas/ListaEntidades.cpp.o
  /usr/include/SFML/Graphics/PrimitiveType.hpp
  /usr/include/SFML/Graphics/Rect.hpp
  /usr/include/SFML/Graphics/Rect.inl
+ /usr/include/SFML/Graphics/RectangleShape.hpp
  /usr/include/SFML/Graphics/RenderStates.hpp
  /usr/include/SFML/Graphics/RenderTarget.hpp
  /usr/include/SFML/Graphics/RenderWindow.hpp
+ /usr/include/SFML/Graphics/Shape.hpp
  /usr/include/SFML/Graphics/Sprite.hpp
  /usr/include/SFML/Graphics/Texture.hpp
  /usr/include/SFML/Graphics/Transform.hpp
  /usr/include/SFML/Graphics/Transformable.hpp
  /usr/include/SFML/Graphics/Vertex.hpp
+ /usr/include/SFML/Graphics/VertexArray.hpp
  /usr/include/SFML/Graphics/View.hpp
  /usr/include/SFML/System.hpp
  /usr/include/SFML/System/Clock.hpp
@@ -5488,14 +5540,17 @@ CMakeFiles/game.dir/src/Menu.cpp.o
  /usr/include/SFML/Graphics/PrimitiveType.hpp
  /usr/include/SFML/Graphics/Rect.hpp
  /usr/include/SFML/Graphics/Rect.inl
+ /usr/include/SFML/Graphics/RectangleShape.hpp
  /usr/include/SFML/Graphics/RenderStates.hpp
  /usr/include/SFML/Graphics/RenderTarget.hpp
  /usr/include/SFML/Graphics/RenderWindow.hpp
+ /usr/include/SFML/Graphics/Shape.hpp
  /usr/include/SFML/Graphics/Sprite.hpp
  /usr/include/SFML/Graphics/Texture.hpp
  /usr/include/SFML/Graphics/Transform.hpp
  /usr/include/SFML/Graphics/Transformable.hpp
  /usr/include/SFML/Graphics/Vertex.hpp
+ /usr/include/SFML/Graphics/VertexArray.hpp
  /usr/include/SFML/Graphics/View.hpp
  /usr/include/SFML/System.hpp
  /usr/include/SFML/System/Clock.hpp
@@ -5756,6 +5811,7 @@ CMakeFiles/game.dir/src/Menu.cpp.o
 
 CMakeFiles/game.dir/src/main.cpp.o
  /home/andre/tec-prog-proj-final/src/main.cpp
+ /home/andre/tec-prog-proj-final/src/Ente.h
  /home/andre/tec-prog-proj-final/src/Janela.h
  /home/andre/tec-prog-proj-final/src/Jogo.h
  /usr/include/SFML/Config.hpp

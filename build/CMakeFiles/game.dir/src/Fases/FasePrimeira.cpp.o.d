@@ -6,7 +6,10 @@ CMakeFiles/game.dir/src/Fases/FasePrimeira.cpp.o: \
  /home/andre/tec-prog-proj-final/src/Fases/../Ente.h \
  /usr/include/SFML/Graphics/Color.hpp \
  /usr/include/SFML/Graphics/Export.hpp /usr/include/SFML/Config.hpp \
- /usr/include/SFML/Graphics/RenderTarget.hpp \
+ /usr/include/SFML/Graphics/Drawable.hpp \
+ /usr/include/SFML/Graphics/RenderStates.hpp \
+ /usr/include/SFML/Graphics/BlendMode.hpp \
+ /usr/include/SFML/Graphics/Transform.hpp \
  /usr/include/SFML/Graphics/Rect.hpp /usr/include/SFML/System/Vector2.hpp \
  /usr/include/SFML/System/Vector2.inl /usr/include/c++/14.2.1/algorithm \
  /usr/include/c++/14.2.1/bits/stl_algobase.h \
@@ -69,22 +72,45 @@ CMakeFiles/game.dir/src/Fases/FasePrimeira.cpp.o: \
  /usr/include/bits/stdlib-float.h /usr/include/c++/14.2.1/bits/std_abs.h \
  /usr/include/c++/14.2.1/pstl/glue_algorithm_defs.h \
  /usr/include/c++/14.2.1/pstl/execution_defs.h \
- /usr/include/SFML/Graphics/Rect.inl /usr/include/SFML/Graphics/View.hpp \
- /usr/include/SFML/Graphics/Transform.hpp \
- /usr/include/SFML/Graphics/BlendMode.hpp \
- /usr/include/SFML/Graphics/RenderStates.hpp \
- /usr/include/SFML/Graphics/PrimitiveType.hpp \
+ /usr/include/SFML/Graphics/Rect.inl \
+ /usr/include/SFML/Graphics/RectangleShape.hpp \
+ /usr/include/SFML/Graphics/Shape.hpp \
+ /usr/include/SFML/Graphics/Transformable.hpp \
+ /usr/include/SFML/Graphics/VertexArray.hpp \
  /usr/include/SFML/Graphics/Vertex.hpp \
+ /usr/include/SFML/Graphics/PrimitiveType.hpp \
+ /usr/include/c++/14.2.1/vector \
+ /usr/include/c++/14.2.1/bits/requires_hosted.h \
+ /usr/include/c++/14.2.1/bits/allocator.h \
+ /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+ /usr/include/c++/14.2.1/bits/new_allocator.h \
+ /usr/include/c++/14.2.1/bits/memoryfwd.h \
+ /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
+ /usr/include/c++/14.2.1/ext/alloc_traits.h \
+ /usr/include/c++/14.2.1/bits/alloc_traits.h \
+ /usr/include/c++/14.2.1/bits/stl_vector.h \
+ /usr/include/c++/14.2.1/bits/stl_bvector.h \
+ /usr/include/c++/14.2.1/bits/functional_hash.h \
+ /usr/include/c++/14.2.1/bits/hash_bytes.h \
+ /usr/include/c++/14.2.1/bits/refwrap.h \
+ /usr/include/c++/14.2.1/bits/invoke.h \
+ /usr/include/c++/14.2.1/bits/stl_function.h \
+ /usr/include/c++/14.2.1/backward/binders.h \
+ /usr/include/c++/14.2.1/bits/range_access.h \
+ /usr/include/c++/14.2.1/bits/vector.tcc \
+ /usr/include/c++/14.2.1/bits/memory_resource.h \
+ /usr/include/c++/14.2.1/cstddef \
+ /usr/include/c++/14.2.1/bits/uses_allocator.h \
+ /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
+ /usr/include/c++/14.2.1/tuple \
+ /usr/include/SFML/Graphics/RenderTarget.hpp \
+ /usr/include/SFML/Graphics/View.hpp \
  /usr/include/SFML/System/NonCopyable.hpp \
  /usr/include/SFML/System/Export.hpp \
  /usr/include/SFML/Graphics/Sprite.hpp \
- /usr/include/SFML/Graphics/Drawable.hpp \
- /usr/include/SFML/Graphics/Transformable.hpp \
  /usr/include/SFML/Graphics/Texture.hpp \
  /usr/include/SFML/Graphics/Image.hpp /usr/include/c++/14.2.1/string \
- /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/bits/stringfwd.h \
- /usr/include/c++/14.2.1/bits/memoryfwd.h \
  /usr/include/c++/14.2.1/bits/char_traits.h \
  /usr/include/c++/14.2.1/bits/postypes.h /usr/include/c++/14.2.1/cwchar \
  /usr/include/wchar.h \
@@ -92,27 +118,15 @@ CMakeFiles/game.dir/src/Fases/FasePrimeira.cpp.o: \
  /usr/include/bits/wchar.h /usr/include/bits/types/wint_t.h \
  /usr/include/bits/types/mbstate_t.h \
  /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
- /usr/include/bits/types/FILE.h /usr/include/c++/14.2.1/bits/allocator.h \
- /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
- /usr/include/c++/14.2.1/bits/new_allocator.h \
- /usr/include/c++/14.2.1/bits/localefwd.h \
+ /usr/include/bits/types/FILE.h /usr/include/c++/14.2.1/bits/localefwd.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
  /usr/include/c++/14.2.1/clocale /usr/include/locale.h \
  /usr/include/bits/locale.h /usr/include/c++/14.2.1/iosfwd \
  /usr/include/c++/14.2.1/cctype /usr/include/ctype.h \
  /usr/include/c++/14.2.1/bits/ostream_insert.h \
  /usr/include/c++/14.2.1/bits/cxxabi_forced.h \
- /usr/include/c++/14.2.1/bits/stl_function.h \
- /usr/include/c++/14.2.1/backward/binders.h \
- /usr/include/c++/14.2.1/bits/refwrap.h \
- /usr/include/c++/14.2.1/bits/invoke.h \
- /usr/include/c++/14.2.1/bits/range_access.h \
  /usr/include/c++/14.2.1/bits/basic_string.h \
- /usr/include/c++/14.2.1/ext/alloc_traits.h \
- /usr/include/c++/14.2.1/bits/alloc_traits.h \
  /usr/include/c++/14.2.1/string_view \
- /usr/include/c++/14.2.1/bits/functional_hash.h \
- /usr/include/c++/14.2.1/bits/hash_bytes.h \
  /usr/include/c++/14.2.1/bits/string_view.tcc \
  /usr/include/c++/14.2.1/ext/string_conversions.h \
  /usr/include/c++/14.2.1/cstdio /usr/include/stdio.h \
@@ -126,15 +140,6 @@ CMakeFiles/game.dir/src/Fases/FasePrimeira.cpp.o: \
  /usr/include/bits/types/error_t.h \
  /usr/include/c++/14.2.1/bits/charconv.h \
  /usr/include/c++/14.2.1/bits/basic_string.tcc \
- /usr/include/c++/14.2.1/bits/memory_resource.h \
- /usr/include/c++/14.2.1/cstddef \
- /usr/include/c++/14.2.1/bits/uses_allocator.h \
- /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
- /usr/include/c++/14.2.1/tuple /usr/include/c++/14.2.1/vector \
- /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
- /usr/include/c++/14.2.1/bits/stl_vector.h \
- /usr/include/c++/14.2.1/bits/stl_bvector.h \
- /usr/include/c++/14.2.1/bits/vector.tcc \
  /usr/include/SFML/Window/GlResource.hpp \
  /usr/include/SFML/Window/Export.hpp /usr/include/SFML/Window/Event.hpp \
  /usr/include/SFML/Window/Joystick.hpp \

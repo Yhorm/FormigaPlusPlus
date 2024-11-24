@@ -6,15 +6,18 @@
 #include <SFML/Window.hpp>
 #include <SFML/Window/VideoMode.hpp>
 #include "Janela.h"
+#include "Ente.h"
 class Jogo {
 private:
-		Gerenciador::Janela janela;
+		static Gerenciador::Janela janela;
 		sf::RectangleShape retangulo;
 		sf::RectangleShape retangulo3;
+		Ente t;
 public: 
 		Jogo();
 		~Jogo();
 		void executar();
 		void update();
-		Gerenciador::Janela *GetJanela(){return &janela;}
+		static Gerenciador::Janela *GetJanela(){return &janela;}
+
 };

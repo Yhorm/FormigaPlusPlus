@@ -7,15 +7,12 @@
 #include <SFML/Window/VideoMode.hpp>
 #include <SFML/Window/WindowStyle.hpp>
 namespace Gerenciador{
-Janela Janela::*criacao(nullptr);
 Janela::Janela(const std::string &titulo,const sf::Vector2u &tam):nome(titulo),tamanho(tam),fullscreen(false),acabou(false),fps_limited(60){
 		window.create({tamanho.x,tamanho.y},nome,(fullscreen? sf::Style::Fullscreen : sf::Style::Default));
 		window.setFramerateLimit(fps_limited);
 		figuras.clear();
 }
 Janela::~Janela(){
-		if(criacao)
-			delete criacao;
 		window.close();
 }
 void Janela::Limpa(){window.clear(sf::Color::Black);}
@@ -48,10 +45,4 @@ void Janela::Adiciona_Objt(sf::Drawable *algo,const int camada){
 }
 void Janela::setNome(const std::string &titulo){nome=titulo;}
 void Janela::setTamnho(sf::Vector2u *tam){tamanho=*tam;}
-Janela *Janela::getJanela(const std::string &titulo,const sf::Vector2u &tam){
-		if(criacao)
-				return criacao;
-		else 
-				return criacao = new Janela(titulo,tam);
-	}
 }

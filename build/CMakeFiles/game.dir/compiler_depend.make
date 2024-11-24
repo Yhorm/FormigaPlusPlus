@@ -13,14 +13,17 @@ CMakeFiles/game.dir/src/Ente.cpp.o: /home/andre/tec-prog-proj-final/src/Ente.cpp
   /usr/include/SFML/Graphics/PrimitiveType.hpp \
   /usr/include/SFML/Graphics/Rect.hpp \
   /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RectangleShape.hpp \
   /usr/include/SFML/Graphics/RenderStates.hpp \
   /usr/include/SFML/Graphics/RenderTarget.hpp \
   /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Shape.hpp \
   /usr/include/SFML/Graphics/Sprite.hpp \
   /usr/include/SFML/Graphics/Texture.hpp \
   /usr/include/SFML/Graphics/Transform.hpp \
   /usr/include/SFML/Graphics/Transformable.hpp \
   /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/VertexArray.hpp \
   /usr/include/SFML/Graphics/View.hpp \
   /usr/include/SFML/System.hpp \
   /usr/include/SFML/System/Clock.hpp \
@@ -292,14 +295,17 @@ CMakeFiles/game.dir/src/Entidades/Entidade.cpp.o: /home/andre/tec-prog-proj-fina
   /usr/include/SFML/Graphics/PrimitiveType.hpp \
   /usr/include/SFML/Graphics/Rect.hpp \
   /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RectangleShape.hpp \
   /usr/include/SFML/Graphics/RenderStates.hpp \
   /usr/include/SFML/Graphics/RenderTarget.hpp \
   /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Shape.hpp \
   /usr/include/SFML/Graphics/Sprite.hpp \
   /usr/include/SFML/Graphics/Texture.hpp \
   /usr/include/SFML/Graphics/Transform.hpp \
   /usr/include/SFML/Graphics/Transformable.hpp \
   /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/VertexArray.hpp \
   /usr/include/SFML/Graphics/View.hpp \
   /usr/include/SFML/System.hpp \
   /usr/include/SFML/System/Clock.hpp \
@@ -573,14 +579,17 @@ CMakeFiles/game.dir/src/Entidades/Obstaculos/Obst_Dificil.cpp.o: /home/andre/tec
   /usr/include/SFML/Graphics/PrimitiveType.hpp \
   /usr/include/SFML/Graphics/Rect.hpp \
   /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RectangleShape.hpp \
   /usr/include/SFML/Graphics/RenderStates.hpp \
   /usr/include/SFML/Graphics/RenderTarget.hpp \
   /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Shape.hpp \
   /usr/include/SFML/Graphics/Sprite.hpp \
   /usr/include/SFML/Graphics/Texture.hpp \
   /usr/include/SFML/Graphics/Transform.hpp \
   /usr/include/SFML/Graphics/Transformable.hpp \
   /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/VertexArray.hpp \
   /usr/include/SFML/Graphics/View.hpp \
   /usr/include/SFML/System.hpp \
   /usr/include/SFML/System/Clock.hpp \
@@ -854,14 +863,17 @@ CMakeFiles/game.dir/src/Entidades/Obstaculos/Obst_Facil.cpp.o: /home/andre/tec-p
   /usr/include/SFML/Graphics/PrimitiveType.hpp \
   /usr/include/SFML/Graphics/Rect.hpp \
   /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RectangleShape.hpp \
   /usr/include/SFML/Graphics/RenderStates.hpp \
   /usr/include/SFML/Graphics/RenderTarget.hpp \
   /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Shape.hpp \
   /usr/include/SFML/Graphics/Sprite.hpp \
   /usr/include/SFML/Graphics/Texture.hpp \
   /usr/include/SFML/Graphics/Transform.hpp \
   /usr/include/SFML/Graphics/Transformable.hpp \
   /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/VertexArray.hpp \
   /usr/include/SFML/Graphics/View.hpp \
   /usr/include/SFML/System.hpp \
   /usr/include/SFML/System/Clock.hpp \
@@ -1135,14 +1147,17 @@ CMakeFiles/game.dir/src/Entidades/Obstaculos/Obst_Medio.cpp.o: /home/andre/tec-p
   /usr/include/SFML/Graphics/PrimitiveType.hpp \
   /usr/include/SFML/Graphics/Rect.hpp \
   /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RectangleShape.hpp \
   /usr/include/SFML/Graphics/RenderStates.hpp \
   /usr/include/SFML/Graphics/RenderTarget.hpp \
   /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Shape.hpp \
   /usr/include/SFML/Graphics/Sprite.hpp \
   /usr/include/SFML/Graphics/Texture.hpp \
   /usr/include/SFML/Graphics/Transform.hpp \
   /usr/include/SFML/Graphics/Transformable.hpp \
   /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/VertexArray.hpp \
   /usr/include/SFML/Graphics/View.hpp \
   /usr/include/SFML/System.hpp \
   /usr/include/SFML/System/Clock.hpp \
@@ -1415,14 +1430,17 @@ CMakeFiles/game.dir/src/Entidades/Obstaculos/Obstaculo.cpp.o: /home/andre/tec-pr
   /usr/include/SFML/Graphics/PrimitiveType.hpp \
   /usr/include/SFML/Graphics/Rect.hpp \
   /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RectangleShape.hpp \
   /usr/include/SFML/Graphics/RenderStates.hpp \
   /usr/include/SFML/Graphics/RenderTarget.hpp \
   /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Shape.hpp \
   /usr/include/SFML/Graphics/Sprite.hpp \
   /usr/include/SFML/Graphics/Texture.hpp \
   /usr/include/SFML/Graphics/Transform.hpp \
   /usr/include/SFML/Graphics/Transformable.hpp \
   /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/VertexArray.hpp \
   /usr/include/SFML/Graphics/View.hpp \
   /usr/include/SFML/System.hpp \
   /usr/include/SFML/System/Clock.hpp \
@@ -1697,14 +1715,17 @@ CMakeFiles/game.dir/src/Entidades/Personagens/Inim_Dificil.cpp.o: /home/andre/te
   /usr/include/SFML/Graphics/PrimitiveType.hpp \
   /usr/include/SFML/Graphics/Rect.hpp \
   /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RectangleShape.hpp \
   /usr/include/SFML/Graphics/RenderStates.hpp \
   /usr/include/SFML/Graphics/RenderTarget.hpp \
   /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Shape.hpp \
   /usr/include/SFML/Graphics/Sprite.hpp \
   /usr/include/SFML/Graphics/Texture.hpp \
   /usr/include/SFML/Graphics/Transform.hpp \
   /usr/include/SFML/Graphics/Transformable.hpp \
   /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/VertexArray.hpp \
   /usr/include/SFML/Graphics/View.hpp \
   /usr/include/SFML/System.hpp \
   /usr/include/SFML/System/Clock.hpp \
@@ -1979,14 +2000,17 @@ CMakeFiles/game.dir/src/Entidades/Personagens/Inim_Facil.cpp.o: /home/andre/tec-
   /usr/include/SFML/Graphics/PrimitiveType.hpp \
   /usr/include/SFML/Graphics/Rect.hpp \
   /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RectangleShape.hpp \
   /usr/include/SFML/Graphics/RenderStates.hpp \
   /usr/include/SFML/Graphics/RenderTarget.hpp \
   /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Shape.hpp \
   /usr/include/SFML/Graphics/Sprite.hpp \
   /usr/include/SFML/Graphics/Texture.hpp \
   /usr/include/SFML/Graphics/Transform.hpp \
   /usr/include/SFML/Graphics/Transformable.hpp \
   /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/VertexArray.hpp \
   /usr/include/SFML/Graphics/View.hpp \
   /usr/include/SFML/System.hpp \
   /usr/include/SFML/System/Clock.hpp \
@@ -2260,14 +2284,17 @@ CMakeFiles/game.dir/src/Entidades/Personagens/Inimigo.cpp.o: /home/andre/tec-pro
   /usr/include/SFML/Graphics/PrimitiveType.hpp \
   /usr/include/SFML/Graphics/Rect.hpp \
   /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RectangleShape.hpp \
   /usr/include/SFML/Graphics/RenderStates.hpp \
   /usr/include/SFML/Graphics/RenderTarget.hpp \
   /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Shape.hpp \
   /usr/include/SFML/Graphics/Sprite.hpp \
   /usr/include/SFML/Graphics/Texture.hpp \
   /usr/include/SFML/Graphics/Transform.hpp \
   /usr/include/SFML/Graphics/Transformable.hpp \
   /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/VertexArray.hpp \
   /usr/include/SFML/Graphics/View.hpp \
   /usr/include/SFML/System.hpp \
   /usr/include/SFML/System/Clock.hpp \
@@ -2541,14 +2568,17 @@ CMakeFiles/game.dir/src/Entidades/Personagens/Jogador.cpp.o: /home/andre/tec-pro
   /usr/include/SFML/Graphics/PrimitiveType.hpp \
   /usr/include/SFML/Graphics/Rect.hpp \
   /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RectangleShape.hpp \
   /usr/include/SFML/Graphics/RenderStates.hpp \
   /usr/include/SFML/Graphics/RenderTarget.hpp \
   /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Shape.hpp \
   /usr/include/SFML/Graphics/Sprite.hpp \
   /usr/include/SFML/Graphics/Texture.hpp \
   /usr/include/SFML/Graphics/Transform.hpp \
   /usr/include/SFML/Graphics/Transformable.hpp \
   /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/VertexArray.hpp \
   /usr/include/SFML/Graphics/View.hpp \
   /usr/include/SFML/System.hpp \
   /usr/include/SFML/System/Clock.hpp \
@@ -2821,14 +2851,17 @@ CMakeFiles/game.dir/src/Entidades/Personagens/Personagem.cpp.o: /home/andre/tec-
   /usr/include/SFML/Graphics/PrimitiveType.hpp \
   /usr/include/SFML/Graphics/Rect.hpp \
   /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RectangleShape.hpp \
   /usr/include/SFML/Graphics/RenderStates.hpp \
   /usr/include/SFML/Graphics/RenderTarget.hpp \
   /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Shape.hpp \
   /usr/include/SFML/Graphics/Sprite.hpp \
   /usr/include/SFML/Graphics/Texture.hpp \
   /usr/include/SFML/Graphics/Transform.hpp \
   /usr/include/SFML/Graphics/Transformable.hpp \
   /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/VertexArray.hpp \
   /usr/include/SFML/Graphics/View.hpp \
   /usr/include/SFML/System.hpp \
   /usr/include/SFML/System/Clock.hpp \
@@ -3101,14 +3134,17 @@ CMakeFiles/game.dir/src/Entidades/Projetil.cpp.o: /home/andre/tec-prog-proj-fina
   /usr/include/SFML/Graphics/PrimitiveType.hpp \
   /usr/include/SFML/Graphics/Rect.hpp \
   /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RectangleShape.hpp \
   /usr/include/SFML/Graphics/RenderStates.hpp \
   /usr/include/SFML/Graphics/RenderTarget.hpp \
   /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Shape.hpp \
   /usr/include/SFML/Graphics/Sprite.hpp \
   /usr/include/SFML/Graphics/Texture.hpp \
   /usr/include/SFML/Graphics/Transform.hpp \
   /usr/include/SFML/Graphics/Transformable.hpp \
   /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/VertexArray.hpp \
   /usr/include/SFML/Graphics/View.hpp \
   /usr/include/SFML/System.hpp \
   /usr/include/SFML/System/Clock.hpp \
@@ -3380,14 +3416,17 @@ CMakeFiles/game.dir/src/Fases/Fase.cpp.o: /home/andre/tec-prog-proj-final/src/Fa
   /usr/include/SFML/Graphics/PrimitiveType.hpp \
   /usr/include/SFML/Graphics/Rect.hpp \
   /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RectangleShape.hpp \
   /usr/include/SFML/Graphics/RenderStates.hpp \
   /usr/include/SFML/Graphics/RenderTarget.hpp \
   /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Shape.hpp \
   /usr/include/SFML/Graphics/Sprite.hpp \
   /usr/include/SFML/Graphics/Texture.hpp \
   /usr/include/SFML/Graphics/Transform.hpp \
   /usr/include/SFML/Graphics/Transformable.hpp \
   /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/VertexArray.hpp \
   /usr/include/SFML/Graphics/View.hpp \
   /usr/include/SFML/System.hpp \
   /usr/include/SFML/System/Clock.hpp \
@@ -3660,14 +3699,17 @@ CMakeFiles/game.dir/src/Fases/FasePrimeira.cpp.o: /home/andre/tec-prog-proj-fina
   /usr/include/SFML/Graphics/PrimitiveType.hpp \
   /usr/include/SFML/Graphics/Rect.hpp \
   /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RectangleShape.hpp \
   /usr/include/SFML/Graphics/RenderStates.hpp \
   /usr/include/SFML/Graphics/RenderTarget.hpp \
   /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Shape.hpp \
   /usr/include/SFML/Graphics/Sprite.hpp \
   /usr/include/SFML/Graphics/Texture.hpp \
   /usr/include/SFML/Graphics/Transform.hpp \
   /usr/include/SFML/Graphics/Transformable.hpp \
   /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/VertexArray.hpp \
   /usr/include/SFML/Graphics/View.hpp \
   /usr/include/SFML/System.hpp \
   /usr/include/SFML/System/Clock.hpp \
@@ -3940,14 +3982,17 @@ CMakeFiles/game.dir/src/Fases/FaseSegunda.cpp.o: /home/andre/tec-prog-proj-final
   /usr/include/SFML/Graphics/PrimitiveType.hpp \
   /usr/include/SFML/Graphics/Rect.hpp \
   /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RectangleShape.hpp \
   /usr/include/SFML/Graphics/RenderStates.hpp \
   /usr/include/SFML/Graphics/RenderTarget.hpp \
   /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Shape.hpp \
   /usr/include/SFML/Graphics/Sprite.hpp \
   /usr/include/SFML/Graphics/Texture.hpp \
   /usr/include/SFML/Graphics/Transform.hpp \
   /usr/include/SFML/Graphics/Transformable.hpp \
   /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/VertexArray.hpp \
   /usr/include/SFML/Graphics/View.hpp \
   /usr/include/SFML/System.hpp \
   /usr/include/SFML/System/Clock.hpp \
@@ -4364,6 +4409,7 @@ CMakeFiles/game.dir/src/Janela.cpp.o: /home/andre/tec-prog-proj-final/src/Janela
   /usr/include/c++/14.2.1/bits/hash_bytes.h \
   /usr/include/c++/14.2.1/bits/invoke.h \
   /usr/include/c++/14.2.1/bits/ios_base.h \
+  /usr/include/c++/14.2.1/bits/istream.tcc \
   /usr/include/c++/14.2.1/bits/locale_classes.h \
   /usr/include/c++/14.2.1/bits/locale_classes.tcc \
   /usr/include/c++/14.2.1/bits/locale_conv.h \
@@ -4431,6 +4477,8 @@ CMakeFiles/game.dir/src/Janela.cpp.o: /home/andre/tec-prog-proj-final/src/Janela
   /usr/include/c++/14.2.1/initializer_list \
   /usr/include/c++/14.2.1/ios \
   /usr/include/c++/14.2.1/iosfwd \
+  /usr/include/c++/14.2.1/iostream \
+  /usr/include/c++/14.2.1/istream \
   /usr/include/c++/14.2.1/iterator \
   /usr/include/c++/14.2.1/locale \
   /usr/include/c++/14.2.1/new \
@@ -4488,6 +4536,7 @@ CMakeFiles/game.dir/src/Janela.cpp.o: /home/andre/tec-prog-proj-final/src/Janela
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h
 
 CMakeFiles/game.dir/src/Jogo.cpp.o: /home/andre/tec-prog-proj-final/src/Jogo.cpp \
+  /home/andre/tec-prog-proj-final/src/Ente.h \
   /home/andre/tec-prog-proj-final/src/Janela.h \
   /home/andre/tec-prog-proj-final/src/Jogo.h \
   /usr/include/SFML/Config.hpp \
@@ -5181,14 +5230,17 @@ CMakeFiles/game.dir/src/Listas/ListaEntidades.cpp.o: /home/andre/tec-prog-proj-f
   /usr/include/SFML/Graphics/PrimitiveType.hpp \
   /usr/include/SFML/Graphics/Rect.hpp \
   /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RectangleShape.hpp \
   /usr/include/SFML/Graphics/RenderStates.hpp \
   /usr/include/SFML/Graphics/RenderTarget.hpp \
   /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Shape.hpp \
   /usr/include/SFML/Graphics/Sprite.hpp \
   /usr/include/SFML/Graphics/Texture.hpp \
   /usr/include/SFML/Graphics/Transform.hpp \
   /usr/include/SFML/Graphics/Transformable.hpp \
   /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/VertexArray.hpp \
   /usr/include/SFML/Graphics/View.hpp \
   /usr/include/SFML/System.hpp \
   /usr/include/SFML/System/Clock.hpp \
@@ -5465,14 +5517,17 @@ CMakeFiles/game.dir/src/Menu.cpp.o: /home/andre/tec-prog-proj-final/src/Menu.cpp
   /usr/include/SFML/Graphics/PrimitiveType.hpp \
   /usr/include/SFML/Graphics/Rect.hpp \
   /usr/include/SFML/Graphics/Rect.inl \
+  /usr/include/SFML/Graphics/RectangleShape.hpp \
   /usr/include/SFML/Graphics/RenderStates.hpp \
   /usr/include/SFML/Graphics/RenderTarget.hpp \
   /usr/include/SFML/Graphics/RenderWindow.hpp \
+  /usr/include/SFML/Graphics/Shape.hpp \
   /usr/include/SFML/Graphics/Sprite.hpp \
   /usr/include/SFML/Graphics/Texture.hpp \
   /usr/include/SFML/Graphics/Transform.hpp \
   /usr/include/SFML/Graphics/Transformable.hpp \
   /usr/include/SFML/Graphics/Vertex.hpp \
+  /usr/include/SFML/Graphics/VertexArray.hpp \
   /usr/include/SFML/Graphics/View.hpp \
   /usr/include/SFML/System.hpp \
   /usr/include/SFML/System/Clock.hpp \
@@ -5732,6 +5787,7 @@ CMakeFiles/game.dir/src/Menu.cpp.o: /home/andre/tec-prog-proj-final/src/Menu.cpp
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h
 
 CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp \
+  /home/andre/tec-prog-proj-final/src/Ente.h \
   /home/andre/tec-prog-proj-final/src/Janela.h \
   /home/andre/tec-prog-proj-final/src/Jogo.h \
   /usr/include/SFML/Config.hpp \
@@ -6051,15 +6107,9 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /usr/include/SFML/Graphics/VertexBuffer.hpp:
 
-/usr/include/SFML/Graphics/VertexArray.hpp:
-
-/usr/include/SFML/Graphics/Shape.hpp:
-
 /usr/include/c++/14.2.1/bits/erase_if.h:
 
 /usr/include/SFML/Graphics/Shader.hpp:
-
-/usr/include/SFML/Graphics/RectangleShape.hpp:
 
 /usr/include/SFML/Graphics/Glyph.hpp:
 
@@ -6073,9 +6123,9 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /home/andre/tec-prog-proj-final/src/Jogo.h:
 
-/usr/include/c++/14.2.1/bits/istream.tcc:
-
 /home/andre/tec-prog-proj-final/src/Jogo.cpp:
+
+/usr/include/c++/14.2.1/bits/istream.tcc:
 
 /home/andre/tec-prog-proj-final/src/Janela.cpp:
 
@@ -6153,11 +6203,7 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /usr/include/linux/errno.h:
 
-/usr/include/c++/14.2.1/list:
-
-/usr/include/bits/timesize.h:
-
-/usr/include/ctype.h:
+/usr/include/gnu/stubs-64.h:
 
 /usr/include/bits/types/struct_itimerspec.h:
 
@@ -6184,6 +6230,8 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 /usr/include/bits/thread-shared-types.h:
 
 /usr/include/bits/types/time_t.h:
+
+/usr/include/SFML/Graphics/RectangleShape.hpp:
 
 /usr/include/c++/14.2.1/stdexcept:
 
@@ -6229,9 +6277,15 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h:
 
+/usr/include/c++/14.2.1/list:
+
+/usr/include/bits/timesize.h:
+
 /usr/include/bits/endian.h:
 
 /usr/include/c++/14.2.1/concepts:
+
+/usr/include/SFML/Graphics/Shape.hpp:
 
 /usr/include/c++/14.2.1/bits/locale_facets.tcc:
 
@@ -6261,29 +6315,33 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /usr/include/c++/14.2.1/iterator:
 
-/usr/include/bits/types/__FILE.h:
-
 /usr/include/features.h:
+
+/usr/include/bits/types/__FILE.h:
 
 /usr/include/bits/sched.h:
 
-/usr/include/c++/14.2.1/istream:
-
 /usr/include/SFML/Graphics/Font.hpp:
+
+/usr/include/c++/14.2.1/istream:
 
 /usr/include/SFML/Window/VideoMode.hpp:
 
+/usr/include/bits/types/struct_timespec.h:
+
+/usr/include/SFML/Window/Sensor.hpp:
+
+/usr/include/SFML/Window/Mouse.hpp:
+
 /usr/include/SFML/System/Err.hpp:
 
-/usr/include/SFML/System/MemoryInputStream.hpp:
+/usr/include/SFML/Graphics/RenderTarget.hpp:
 
-/usr/include/c++/14.2.1/bits/predefined_ops.h:
+/usr/include/SFML/Window/Touch.hpp:
 
-/usr/include/SFML/Graphics/RenderStates.hpp:
+/usr/include/c++/14.2.1/bits/stream_iterator.h:
 
-/usr/include/SFML/System/Thread.hpp:
-
-/usr/include/SFML/System/Export.hpp:
+/usr/include/SFML/System/Clock.hpp:
 
 /usr/include/bits/types/wint_t.h:
 
@@ -6294,6 +6352,18 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 /usr/include/SFML/Graphics/Transformable.hpp:
 
 /usr/include/SFML/Graphics/View.hpp:
+
+/usr/include/SFML/System/Thread.hpp:
+
+/usr/include/SFML/System/Export.hpp:
+
+/usr/include/SFML/Graphics/VertexArray.hpp:
+
+/usr/include/c++/14.2.1/bits/predefined_ops.h:
+
+/usr/include/SFML/Graphics/RenderStates.hpp:
+
+/usr/include/SFML/System/MemoryInputStream.hpp:
 
 /usr/include/SFML/Graphics/Texture.hpp:
 
@@ -6313,12 +6383,6 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /usr/include/SFML/Graphics/Export.hpp:
 
-/home/andre/tec-prog-proj-final/src/Listas/Elemento.h:
-
-/usr/include/bits/uintn-identity.h:
-
-/usr/include/c++/14.2.1/bits/char_traits.h:
-
 /usr/include/SFML/Graphics/Glsl.inl:
 
 /usr/include/bits/typesizes.h:
@@ -6330,12 +6394,6 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 /home/andre/tec-prog-proj-final/src/Listas/Elemento.cpp:
 
 /usr/include/SFML/Window/Joystick.hpp:
-
-/usr/include/SFML/Graphics/RenderTarget.hpp:
-
-/usr/include/SFML/Window/Touch.hpp:
-
-/usr/include/c++/14.2.1/bits/stream_iterator.h:
 
 /usr/include/bits/types/timer_t.h:
 
@@ -6360,28 +6418,6 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 /home/andre/tec-prog-proj-final/src/Entidades/Obstaculos/Obst_Medio.h:
 
 /usr/include/c++/14.2.1/bits/locale_facets_nonio.tcc:
-
-/usr/include/c++/14.2.1/string_view:
-
-/usr/include/bits/atomic_wide_counter.h:
-
-/home/andre/tec-prog-proj-final/src/Fases/FaseSegunda.cpp:
-
-/usr/include/SFML/System/Lock.hpp:
-
-/usr/include/bits/floatn.h:
-
-/usr/include/c++/14.2.1/bits/cxxabi_init_exception.h:
-
-/usr/include/SFML/Window/WindowBase.hpp:
-
-/usr/include/c++/14.2.1/iostream:
-
-/usr/include/asm/errno.h:
-
-/usr/include/bits/stdint-uintn.h:
-
-/home/andre/tec-prog-proj-final/src/Ente.h:
 
 /usr/include/bits/types/sigset_t.h:
 
@@ -6423,6 +6459,36 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /usr/include/SFML/Window/Clipboard.hpp:
 
+/usr/include/SFML/System/Vector3.hpp:
+
+/usr/include/errno.h:
+
+/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h:
+
+/usr/include/SFML/System/ThreadLocalPtr.hpp:
+
+/usr/include/SFML/Window/WindowBase.hpp:
+
+/usr/include/c++/14.2.1/iostream:
+
+/usr/include/asm/errno.h:
+
+/usr/include/bits/stdint-uintn.h:
+
+/home/andre/tec-prog-proj-final/src/Ente.h:
+
+/usr/include/c++/14.2.1/string_view:
+
+/usr/include/bits/atomic_wide_counter.h:
+
+/home/andre/tec-prog-proj-final/src/Fases/FaseSegunda.cpp:
+
+/usr/include/SFML/System/Lock.hpp:
+
+/usr/include/bits/floatn.h:
+
+/usr/include/c++/14.2.1/bits/cxxabi_init_exception.h:
+
 /home/andre/tec-prog-proj-final/src/Janela.h:
 
 /usr/include/SFML/System/NonCopyable.hpp:
@@ -6433,12 +6499,6 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /usr/include/c++/14.2.1/bits/stl_iterator.h:
 
-/home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inimigo.cpp:
-
-/usr/include/bits/waitflags.h:
-
-/usr/include/SFML/Window/ContextSettings.hpp:
-
 /usr/include/c++/14.2.1/bits/stl_iterator_base_types.h:
 
 /usr/include/bits/types.h:
@@ -6446,8 +6506,6 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 /usr/include/bits/stdint-least.h:
 
 /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr.h:
-
-/usr/include/SFML/System/ThreadLocalPtr.hpp:
 
 /usr/include/SFML/Window/Window.hpp:
 
@@ -6473,12 +6531,6 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /usr/include/SFML/System/Vector2.inl:
 
-/usr/include/SFML/System/Vector3.hpp:
-
-/usr/include/errno.h:
-
-/usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h:
-
 /usr/include/SFML/Graphics/Vertex.hpp:
 
 /usr/include/SFML/System/Utf.hpp:
@@ -6489,13 +6541,19 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /usr/include/c++/14.2.1/ext/type_traits.h:
 
-/usr/include/SFML/Window/Mouse.hpp:
+/home/andre/tec-prog-proj-final/src/Listas/Elemento.h:
 
-/usr/include/bits/types/struct_timespec.h:
+/usr/include/bits/uintn-identity.h:
 
-/usr/include/SFML/Window/Sensor.hpp:
+/usr/include/c++/14.2.1/bits/char_traits.h:
 
-/usr/include/SFML/System/Clock.hpp:
+/home/andre/tec-prog-proj-final/src/Entidades/Personagens/Inimigo.cpp:
+
+/usr/include/SFML/Window/ContextSettings.hpp:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/ctype.h:
 
 /usr/include/bits/waitstatus.h:
 
@@ -6525,9 +6583,9 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /usr/include/c++/14.2.1/bits/basic_string.tcc:
 
-/usr/include/SFML/System/Utf.inl:
-
 /usr/include/bits/setjmp.h:
+
+/usr/include/SFML/System/Utf.inl:
 
 /usr/include/c++/14.2.1/bits/charconv.h:
 
@@ -6576,6 +6634,10 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 /usr/include/c++/14.2.1/bits/postypes.h:
 
 /usr/include/c++/14.2.1/bits/ptr_traits.h:
+
+/usr/include/features-time64.h:
+
+/usr/include/c++/14.2.1/bits/range_access.h:
 
 /usr/include/c++/14.2.1/bits/stl_function.h:
 
@@ -6681,10 +6743,6 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 
 /usr/include/c++/14.2.1/ostream:
 
-/usr/include/c++/14.2.1/bits/range_access.h:
-
-/usr/include/features-time64.h:
-
 /usr/include/c++/14.2.1/bits/locale_facets.h:
 
 /usr/include/c++/14.2.1/pstl/execution_defs.h:
@@ -6726,5 +6784,3 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/andre/tec-prog-proj-final/src/main.cpp
 /usr/include/c++/14.2.1/bits/ostream.tcc:
 
 /usr/include/endian.h:
-
-/usr/include/gnu/stubs-64.h:
