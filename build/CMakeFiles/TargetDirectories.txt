@@ -1,3 +1,0 @@
-/home/andre/tec-prog-proj-final/build/CMakeFiles/game.dir
-/home/andre/tec-prog-proj-final/build/CMakeFiles/edit_cache.dir
-/home/andre/tec-prog-proj-final/build/CMakeFiles/rebuild_cache.dir
