@@ -21,9 +21,9 @@ protected:
    	const int id;
 	static int cont;
 	static Gerenciador::Janela *window; //criação do ponteiro janela 
-	sf::RectangleShape retangolo;
 public: 
 	Ente();
-    ~Ente();
-	void desenhar();
+    virtual ~Ente();
+	void desenhar(sf::Drawable *algo,const int camada);
+	virtual void executar() = 0;
 };

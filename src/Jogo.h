@@ -12,7 +12,6 @@ private:
 		static Gerenciador::Janela janela;
 		sf::RectangleShape retangulo;
 		sf::RectangleShape retangulo3;
-		Ente t;
 public: 
 		Jogo();
 		~Jogo();
