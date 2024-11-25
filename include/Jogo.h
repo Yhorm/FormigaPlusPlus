@@ -1,8 +1,7 @@
 #pragma once
 
 #include <iostream>
-#include <SFML/graphics.hpp>
-
+#include <SFML/Graphics.hpp>
 #include "GerenciadorEventos.h"
 #include "GerenciadorGrafico.h"
 #include "GerenciadorColisoes.h"

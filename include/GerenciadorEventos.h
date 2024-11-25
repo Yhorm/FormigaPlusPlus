@@ -1,7 +1,7 @@
 #pragma once
 
 #include <iostream>
-#include <SFML/graphics.hpp>
+#include <SFML/Graphics.hpp>
 #include "GerenciadorGrafico.h"
 #include "Jogador.h"
 
