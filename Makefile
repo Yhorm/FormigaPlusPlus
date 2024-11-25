@@ -1,12 +1,11 @@
 # Diretório de destino para os arquivos .o
 OBJ_DIR = obj
-SRC_DIR = src
 
 # Lista de todos os arquivos .cpp no diretório src
-CPP_FILES := $(wildcard $(SRC_DIR)/*.cpp)
+CPP_FILES := $(wildcard src/*.cpp)
 
 # Lista de arquivos .o gerados a partir dos arquivos .cpp
-OBJ_FILES := $(patsubst $(SRC_DIR)/%.cpp,$(OBJ_DIR)/%.o,$(CPP_FILES))
+OBJ_FILES := $(patsubst src/%.cpp,$(OBJ_DIR)/%.o,$(CPP_FILES))
 
 
 # Regra para criar o diretório de objetos
@@ -24,7 +23,7 @@ OBJ_FILES := $(patsubst $(SRC_DIR)/%.cpp,$(OBJ_DIR)/%.o,$(CPP_FILES))
 
 
 # Compilação dos arquivos .cpp para arquivos .o 
-$(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp
+$(OBJ_DIR)/%.o: src/%.cpp
 	g++ -c	-Iinclude \
 	-ISFML/include \
     $< -o $@
