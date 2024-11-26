@@ -13,12 +13,9 @@ GerenciadorColisoes::GerenciadorColisoes(Listas::listEntidade *listaPersonagens,
 
 GerenciadorColisoes::~GerenciadorColisoes()
 {
-    if(listObstaculo)
-        delete listObstaculo;
-    if (listPers)
-        delete listPers;
-    if (listEnemies)
-        delete listEnemies;
+		
+		//Não faz sentido deletar era o problema de FREE()
+		// Era um objeto estatico não teria necessidade
 }
 
 const sf::Vector2f GerenciadorColisoes::calcColission(Entidades::Entidade *char1, Entidades::Entidade *char2)

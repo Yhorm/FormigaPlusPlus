@@ -11,7 +11,7 @@ listEntidade::listEntidade() :
 
 listEntidade::~listEntidade()
 {
-        // Usar EntityObjList.clear() ? 
+        EntityObjList.clear();//mudei 
 }
 
 
