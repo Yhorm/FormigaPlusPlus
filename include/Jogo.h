@@ -1,5 +1,5 @@
 #pragma once
-
+#include "Menu.h"
 #include <iostream>
 #include <SFML/Graphics.hpp>
 #include "GerenciadorEventos.h"
@@ -27,14 +27,13 @@ private:
     Gerenciadores::GerenciadorColisoes ColMngr; // PROBLEMA ESTA NO GERENCIADOR DE COLISOES
     Gerenciadores::GerenciadorGrafico *pGerGraf;
     Gerenciadores::GerenciadorEventos *EventManager;
+	Menu menu;
 public:
     Jogo();
 
     ~Jogo();
 
     void instanceEntities();
-
     void executar();
-
 };
 

@@ -6,7 +6,8 @@ Jogo::Jogo() :
         listaPersonagens(),
         listaObstaculos(),
         listaInimigos(),
-        ColMngr(&listaPersonagens, &listaInimigos, &listaObstaculos)
+        ColMngr(&listaPersonagens, &listaInimigos, &listaObstaculos),
+		menu()
         {
 			executar();
         }
@@ -64,13 +65,7 @@ void Jogo::executar()
 
         EventManager->executar();
         pGerGraf->clean();
-
-        listaObstaculos.execute();
-        listaPersonagens.execute();
-        listaInimigos.execute();
-
-        ColMngr.execute();
-
+		menu.draw();
         pGerGraf->display();
     }
 }
