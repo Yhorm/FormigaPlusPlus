@@ -92,7 +92,7 @@ namespace Listas
         unsigned int tamanho;
     public:
         Iterator<TYPE> getPrim() { return Iterator<TYPE>(pPrim); }
-        void clear()
+        void clear() // Clear não é usado em nenhum momento
         {
             Elemento<TYPE>* aux = nullptr;
 

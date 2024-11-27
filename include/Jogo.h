@@ -24,7 +24,7 @@ private:
     Listas::listEntidade listaInimigos;
     Listas::listEntidade listaObstaculos;
 
-    Gerenciadores::GerenciadorColisoes ColMngr;
+    Gerenciadores::GerenciadorColisoes ColMngr; // PROBLEMA ESTA NO GERENCIADOR DE COLISOES
     Gerenciadores::GerenciadorGrafico *pGerGraf;
     Gerenciadores::GerenciadorEventos *EventManager;
 public:

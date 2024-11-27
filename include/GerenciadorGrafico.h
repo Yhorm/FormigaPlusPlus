@@ -22,7 +22,7 @@ namespace Gerenciadores
 		
 		const bool getOpen() const { return window->isOpen(); }
 
-		void draw(RectangleShape entity) { window->draw(entity); }
+		void draw(RectangleShape entity) { window->draw(entity); } // não é uma boa ideia deixar como RectangleShape, usar Drawble &entity 
 		void close() { window->close(); }
 		void display() { window->display(); }
 		void clean() { window->clear(); }
