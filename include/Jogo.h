@@ -10,6 +10,7 @@
 #include "listEntidade.h"
 
 
+
 using namespace std;
 using namespace sf;
 

@@ -1,5 +1,6 @@
 #include "../include/Jogo.h"
 
+
 Jogo::Jogo() :
         pGerGraf(pGerGraf->getGerGraf()),
         EventManager(EventManager->getGerEvent()),
@@ -57,13 +58,11 @@ void Jogo::instanceEntities()
 }
 void Jogo::executar()
 {
-
     instanceEntities();
-
     while (pGerGraf->getOpen())
     {
-
         EventManager->executar();
+
         pGerGraf->clean();
 		menu.draw();
         pGerGraf->display();
