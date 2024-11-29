@@ -17,7 +17,6 @@ void Jogo::executar(){
 		while(!GetJanela()->Acabou()){
 				update();
 				janela.Limpa();
-				t.desenhar();
 				janela.Desenha_Objt();
 				janela.Desenha();
 		}
