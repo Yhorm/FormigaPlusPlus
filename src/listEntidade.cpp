@@ -33,8 +33,7 @@ const unsigned int listEntidade::getNumKilled()
 
 void listEntidade::execute()
 {
-    Listas::List<Entidades::Entidade>::Iterator<Entidades::Entidade> aux = EntityObjList.getPrim();
-
+    Listas::List<Entidades::Entidade>::Iterator<Entidades::Entidade> aux = EntityObjList.getPrim();//auto 
     while(aux != nullptr)
     {
         (*aux)->draw();
