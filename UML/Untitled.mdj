@@ -16287,34 +16287,6 @@
 								"$ref": "AAAAAAGThxnmwxHF8bM="
 							},
 							"points": "1032:2176;1122:2176;1122:2128"
-						},
-						{
-							"_type": "UMLNoteView",
-							"_id": "AAAAAAGThyEwymBXTUA=",
-							"_parent": {
-								"$ref": "O5eFn4h62kaG+YUl4qXABgAA"
-							},
-							"font": "Arial;13;0",
-							"left": 2856,
-							"top": 1472,
-							"width": 70,
-							"height": 77,
-							"text": "Onde tem a vida do jogador ?"
-						},
-						{
-							"_type": "UMLNoteLinkView",
-							"_id": "AAAAAAGThyF/wXpzkho=",
-							"_parent": {
-								"$ref": "O5eFn4h62kaG+YUl4qXABgAA"
-							},
-							"font": "Arial;13;0",
-							"head": {
-								"$ref": "AAAAAAGThyEwymBXTUA="
-							},
-							"tail": {
-								"$ref": "+sk7CpvBPUqdgZSuwoXOwgAA"
-							},
-							"points": "2782:1497;2856:1497"
 						}
 					]
 				},
