@@ -133,6 +133,7 @@ namespace Listas
                         pAtual = aux;
                     }
                 }
+				tamanho++; //retornar tamanho
             }
         }
     };
