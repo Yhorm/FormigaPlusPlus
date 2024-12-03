@@ -1,6 +1,7 @@
-CMakeFiles/game.dir/src/Jogo.cpp.o: /home/andre/Nova\ pasta/src/Jogo.cpp \
- /usr/include/stdc-predef.h /home/andre/Nova\ pasta/src/Jogo.h \
- /usr/include/c++/14.2.1/iostream \
+CMakeFiles/game.dir/src/ListPersongem.cpp.o: \
+ /home/andre/Nova\ pasta/src/ListPersongem.cpp /usr/include/stdc-predef.h \
+ /home/andre/Nova\ pasta/src/ListPersonagem.h \
+ /home/andre/Nova\ pasta/src/list.h /usr/include/c++/14.2.1/iostream \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -230,6 +231,4 @@ CMakeFiles/game.dir/src/Jogo.cpp.o: /home/andre/Nova\ pasta/src/Jogo.cpp \
  /usr/include/SFML/Graphics/Glsl.hpp /usr/include/SFML/Graphics/Glsl.inl \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
- /usr/include/SFML/Graphics/VertexBuffer.hpp \
- /home/andre/Nova\ pasta/src/list.h \
- /home/andre/Nova\ pasta/src/ListPersonagem.h
+ /usr/include/SFML/Graphics/VertexBuffer.hpp

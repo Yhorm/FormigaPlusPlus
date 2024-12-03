@@ -1,23 +1,27 @@
 #include "Jogo.h"
-#include "Janela.h"
 #include <SFML/Graphics/Color.hpp>
-#include <SFML/System/Vector2.hpp>
-Gerenciador::Janela Jogo::janela("Menu",sf::Vector2u(200,200));
-Gerenciador::Janela* Ente::window = Jogo::GetJanela();
-Jogo::Jogo(){
+#include <SFML/Graphics/RenderWindow.hpp>
+#include <SFML/Window/Event.hpp>
+#include <SFML/Window/VideoMode.hpp>
+Jogo::Jogo():window(new sf::RenderWindow(sf::VideoMode(800,800),"joguin")),terminar(false){
+		for(int i=0;i<100;i++){
+		lista.addEntity(new Personagem(window,rand()%100,rand()%100,sf::Color(rand()%255,rand()%255,rand()%255)));
+		}
 }
 Jogo::~Jogo(){
-}
-
-void Jogo::update(){
-		janela.Update();
-
+		if(window)
+				delete window;
 }
 void Jogo::executar(){
-		while(!GetJanela()->Acabou()){
-				update();
-				janela.Limpa();
-				janela.Desenha_Objt();
-				janela.Desenha();
-		}
+		sf::Event e;
+		while(!terminar){
+				window->clear();
+				if(window->pollEvent(e)){
+					if(e.type == sf::Event::Closed){
+							terminar=true;
+						} 
+				}
+				lista.execute(e);
+				window->display();
+				}
 }

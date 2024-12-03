@@ -1,22 +1,18 @@
-#pragma once
+#pragma once 
+#include <iostream>
+#include "Personagem.h"
 #include <SFML/Graphics.hpp>
-#include <SFML/Graphics/RectangleShape.hpp>
-#include <SFML/Graphics/RenderWindow.hpp>
-#include <SFML/System/Vector2.hpp>
 #include <SFML/Window.hpp>
-#include <SFML/Window/VideoMode.hpp>
-#include "Janela.h"
-#include "Ente.h"
-class Jogo {
-private:
-		static Gerenciador::Janela janela;
-		sf::RectangleShape retangulo;
-		sf::RectangleShape retangulo3;
-public: 
-		Jogo();
-		~Jogo();
-		void executar();
-		void update();
-		static Gerenciador::Janela *GetJanela(){return &janela;}
+#include "list.h"
+#include "ListPersonagem.h"
+class Jogo{
+		private:
+			sf::RenderWindow *window;
+			bool terminar;
+			Listas::listEntidade lista;
 
+		public:
+				Jogo();
+				~Jogo();
+				void executar();
 };
