@@ -4,7 +4,7 @@
 #include <SFML/System/Vector2.hpp>
 #include <SFML/Window/Event.hpp>
 #include <SFML/Window/Keyboard.hpp>
-Personagem::Personagem(sf::RenderWindow *w,float xI,float yI,sf::Color color):posicao(sf::Vector2f(xI,yI)){
+Personagem::Personagem(Gerenciadores::GerenciadorGrafico *w,float xI,float yI,sf::Color color):posicao(sf::Vector2f(xI,yI)){
 		corpo.setSize(sf::Vector2f(rand()%60,20.f));
 		corpo.setPosition(posicao);
 		corpo.setFillColor(color);
@@ -24,6 +24,8 @@ void Personagem::atualizar(sf::Event event){
 					if(sf::Keyboard::isKeyPressed(sf::Keyboard::S))
 								posicao.y+=1.5;
 				}
+		window->centralize(Vector2f(corpo.getPosition().x,corpo.getPosition().y));
+		window->size(Vector2f(corpo.getSize().x+100,corpo.getSize().y+100));
 		corpo.setPosition(posicao);
 }
 void Personagem::desenhar(){

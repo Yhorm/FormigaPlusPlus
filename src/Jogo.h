@@ -1,5 +1,6 @@
 #pragma once 
 #include <iostream>
+#include "GerenciadorGrafico.h"
 #include "Personagem.h"
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
@@ -7,8 +8,7 @@
 #include "ListPersonagem.h"
 class Jogo{
 		private:
-			sf::RenderWindow *window;
-			bool terminar;
+			Gerenciadores::GerenciadorGrafico *pGerGraf;
 			Listas::listEntidade lista;
 
 		public:
