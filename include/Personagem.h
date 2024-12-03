@@ -36,7 +36,7 @@ namespace Entidades
             void setDirection(const short dir = -1) {direction = dir;}
             void setInAir(const bool in) {inAir = in;}
 
-            void refresh();
+            void refresh(); //virtual void para camera
             virtual void colision(Entidades::Entidade* entity, sf::Vector2f distance) = 0;
 
 
