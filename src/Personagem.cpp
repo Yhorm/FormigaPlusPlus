@@ -37,6 +37,8 @@ void Personagens::Personagem::refresh()
 
     velFinal.x = Constants::VEL_PLAYER_X;
 
+	pGerGraf->centralize(getPosition());
+	pGerGraf->size(Vector2f(((float)pGerGraf->getWindow()->getSize().x)/3,((float)pGerGraf->getWindow()->getSize().x)/3)); //TESTE DE CAMERA VALORES ARBITRARIOS
     draw();
 }
 
