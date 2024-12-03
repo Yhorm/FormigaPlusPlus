@@ -1,5 +1,4 @@
 #include "../include/Personagem.h"
-
 Entidades::Personagens::Personagem::Personagem(const sf::Vector2f pos, const sf::Vector2f size, const sf::Vector2f vel, const int hp, const Identifier::ID i) :
 	Entidade(pos, size, i),
 	velFinal(vel),
@@ -13,11 +12,13 @@ Entidades::Personagens::Personagem::Personagem(const sf::Vector2f pos, const sf:
 
 Entidades::Personagens::Personagem::~Personagem()
 {
+	pGerGraf->size(Vector2f(((float)pGerGraf->getWindow()->getSize().x),((float)pGerGraf->getWindow()->getSize().x))); 
 }
 
 void Personagens::Personagem::refresh()
 {
 
+	pGerGraf->size(Vector2f(((float)pGerGraf->getWindow()->getSize().x)/Constants::SCALE_CAM,((float)pGerGraf->getWindow()->getSize().x)/Constants::SCALE_CAM)); //TESTE DE CAMERA VALORES ARBITRARIOS
     sf::Vector2f deltaSpeed(0.0f, 0.0f);
 
     if(inMovement)
@@ -38,7 +39,6 @@ void Personagens::Personagem::refresh()
     velFinal.x = Constants::VEL_PLAYER_X;
 
 	pGerGraf->centralize(getPosition());
-	pGerGraf->size(Vector2f(((float)pGerGraf->getWindow()->getSize().x)/3,((float)pGerGraf->getWindow()->getSize().x)/3)); //TESTE DE CAMERA VALORES ARBITRARIOS
     draw();
 }
 
