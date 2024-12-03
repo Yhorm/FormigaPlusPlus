@@ -15,30 +15,4 @@ Entidades::Personagens::Personagem::~Personagem()
 	pGerGraf->size(Vector2f(((float)pGerGraf->getWindow()->getSize().x),((float)pGerGraf->getWindow()->getSize().x))); 
 }
 
-void Personagens::Personagem::refresh()
-{
-
-	pGerGraf->size(Vector2f(((float)pGerGraf->getWindow()->getSize().x)/Constants::SCALE_CAM,((float)pGerGraf->getWindow()->getSize().x)/Constants::SCALE_CAM)); //TESTE DE CAMERA VALORES ARBITRARIOS
-    sf::Vector2f deltaSpeed(0.0f, 0.0f);
-
-    if(inMovement)
-    {
-        deltaSpeed.x = velFinal.x * Constants::DELTATIME;
-        if(direction == left)
-        {
-            deltaSpeed.x *= -1;
-        }
-    }
-
-    const float velY = velFinal.y;
-    velFinal.y = velFinal.y + Constants::GRAVITY * Constants::DELTATIME;
-    deltaSpeed.y = velY * Constants::DELTATIME + (Constants::GRAVITY * Constants::DELTATIME * Constants::DELTATIME) / 2.0f;
-
-    setPosition(sf::Vector2f(getPosition().x + deltaSpeed.x, getPosition().y + deltaSpeed.y));
-
-    velFinal.x = Constants::VEL_PLAYER_X;
-
-	pGerGraf->centralize(getPosition());
-    draw();
-}
 
