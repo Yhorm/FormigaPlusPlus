@@ -13,6 +13,7 @@ namespace Gerenciadores
 	{
 	private:
 		RenderWindow* window;
+		View cam;
 		static GerenciadorGrafico* pGerGraf;
 		GerenciadorGrafico();
 	public:
@@ -26,6 +27,8 @@ namespace Gerenciadores
 		void close() { window->close(); }
 		void display() { window->display(); }
 		void clean() { window->clear(); }
+		void centralize(const Vector2f pos);
+		void size(const Vector2f tam);
 	};
 
 
