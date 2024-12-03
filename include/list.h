@@ -128,11 +128,13 @@ namespace Listas
                     else
                     {
                         aux->setInfo(Element);
-                        aux->setProx(NULL);
+						pAtual->setProx(aux);// FALTAVA DEFINIR LISTA COMO pAtual->setProx
                         aux->setAnt(pAtual);
+                        aux->setProx(NULL); 
                         pAtual = aux;
                     }
                 }
+				tamanho++; //retornar tamanho
             }
         }
     };
