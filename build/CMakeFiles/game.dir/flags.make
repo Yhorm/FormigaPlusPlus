@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/andre/Nova pasta/include" -I"/home/andre/Nova pasta/libs/SFML-2.6.1/include"
+CXX_INCLUDES = -I/home/andre/tec-prog-proj-final/include -I/home/andre/tec-prog-proj-final/libs/SFML-2.6.1/include
 
 CXX_FLAGS = -std=gnu++17
 

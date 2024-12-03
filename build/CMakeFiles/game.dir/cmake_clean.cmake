@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/game.dir/link.d"
+  "CMakeFiles/game.dir/src/GerenciadorGrafico.cpp.o"
+  "CMakeFiles/game.dir/src/GerenciadorGrafico.cpp.o.d"
   "CMakeFiles/game.dir/src/Jogo.cpp.o"
   "CMakeFiles/game.dir/src/Jogo.cpp.o.d"
   "CMakeFiles/game.dir/src/ListPersongem.cpp.o"

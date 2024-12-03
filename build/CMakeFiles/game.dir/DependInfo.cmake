@@ -8,10 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/andre/Nova pasta/src/Jogo.cpp" "CMakeFiles/game.dir/src/Jogo.cpp.o" "gcc" "CMakeFiles/game.dir/src/Jogo.cpp.o.d"
-  "/home/andre/Nova pasta/src/ListPersongem.cpp" "CMakeFiles/game.dir/src/ListPersongem.cpp.o" "gcc" "CMakeFiles/game.dir/src/ListPersongem.cpp.o.d"
-  "/home/andre/Nova pasta/src/Personagem.cpp" "CMakeFiles/game.dir/src/Personagem.cpp.o" "gcc" "CMakeFiles/game.dir/src/Personagem.cpp.o.d"
-  "/home/andre/Nova pasta/src/main.cpp" "CMakeFiles/game.dir/src/main.cpp.o" "gcc" "CMakeFiles/game.dir/src/main.cpp.o.d"
+  "/home/andre/tec-prog-proj-final/src/GerenciadorGrafico.cpp" "CMakeFiles/game.dir/src/GerenciadorGrafico.cpp.o" "gcc" "CMakeFiles/game.dir/src/GerenciadorGrafico.cpp.o.d"
+  "/home/andre/tec-prog-proj-final/src/Jogo.cpp" "CMakeFiles/game.dir/src/Jogo.cpp.o" "gcc" "CMakeFiles/game.dir/src/Jogo.cpp.o.d"
+  "/home/andre/tec-prog-proj-final/src/ListPersongem.cpp" "CMakeFiles/game.dir/src/ListPersongem.cpp.o" "gcc" "CMakeFiles/game.dir/src/ListPersongem.cpp.o.d"
+  "/home/andre/tec-prog-proj-final/src/Personagem.cpp" "CMakeFiles/game.dir/src/Personagem.cpp.o" "gcc" "CMakeFiles/game.dir/src/Personagem.cpp.o.d"
+  "/home/andre/tec-prog-proj-final/src/main.cpp" "CMakeFiles/game.dir/src/main.cpp.o" "gcc" "CMakeFiles/game.dir/src/main.cpp.o.d"
   "" "game" "gcc" "CMakeFiles/game.dir/link.d"
   )
 

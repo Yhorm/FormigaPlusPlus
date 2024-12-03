@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/andre/Nova pasta"
+CMAKE_SOURCE_DIR = /home/andre/tec-prog-proj-final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/andre/Nova pasta/build"
+CMAKE_BINARY_DIR = /home/andre/tec-prog-proj-final/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/andre/Nova pasta/build/CMakeFiles" "/home/andre/Nova pasta/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andre/tec-prog-proj-final/build/CMakeFiles /home/andre/tec-prog-proj-final/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/andre/Nova pasta/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andre/tec-prog-proj-final/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,6 +128,30 @@ game: cmake_check_build_system
 game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/build
 .PHONY : game/fast
+
+src/GerenciadorGrafico.o: src/GerenciadorGrafico.cpp.o
+.PHONY : src/GerenciadorGrafico.o
+
+# target to build an object file
+src/GerenciadorGrafico.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/GerenciadorGrafico.cpp.o
+.PHONY : src/GerenciadorGrafico.cpp.o
+
+src/GerenciadorGrafico.i: src/GerenciadorGrafico.cpp.i
+.PHONY : src/GerenciadorGrafico.i
+
+# target to preprocess a source file
+src/GerenciadorGrafico.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/GerenciadorGrafico.cpp.i
+.PHONY : src/GerenciadorGrafico.cpp.i
+
+src/GerenciadorGrafico.s: src/GerenciadorGrafico.cpp.s
+.PHONY : src/GerenciadorGrafico.s
+
+# target to generate assembly for a file
+src/GerenciadorGrafico.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/GerenciadorGrafico.cpp.s
+.PHONY : src/GerenciadorGrafico.cpp.s
 
 src/Jogo.o: src/Jogo.cpp.o
 .PHONY : src/Jogo.o
@@ -234,6 +258,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... game"
+	@echo "... src/GerenciadorGrafico.o"
+	@echo "... src/GerenciadorGrafico.i"
+	@echo "... src/GerenciadorGrafico.s"
 	@echo "... src/Jogo.o"
 	@echo "... src/Jogo.i"
 	@echo "... src/Jogo.s"
