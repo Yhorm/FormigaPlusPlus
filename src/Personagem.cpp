@@ -1,6 +1,7 @@
-#include "../include/Personagem.h"
+#include "Personagem.h"
 Entidades::Personagens::Personagem::Personagem(const sf::Vector2f pos, const sf::Vector2f size, const sf::Vector2f vel, const int hp, const Identifier::ID i) :
 	Entidade(pos, size, i),
+	alive(true),
 	velFinal(vel),
 	hitpoints(hp),
 	inMovement(false),

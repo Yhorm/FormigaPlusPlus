@@ -1,4 +1,4 @@
-#include "../include/Ente.h"
+#include "Ente.h"
 
 Ente::Ente()
 {

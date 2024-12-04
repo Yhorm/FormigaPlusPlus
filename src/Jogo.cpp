@@ -4,7 +4,7 @@
 #include <SFML/Window/Event.hpp>
 #include <SFML/Window/VideoMode.hpp>
 Jogo::Jogo():pGerGraf(pGerGraf->getGerGraf()){
-		lista.addEntity(new Personagem(pGerGraf,rand()%100,rand()%100,sf::Color(rand()%255,rand()%255,rand()%255)));
+		lista.addEntity(new Personagens::Personagem(pGerGraf,rand()%100,rand()%100,sf::Color(rand()%255,rand()%255,rand()%255)));
 }
 Jogo::~Jogo(){
 }

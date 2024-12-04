@@ -7,13 +7,13 @@ namespace Listas
     class listEntidade
     {   
     private:
-        List<Personagem> EntityObjList;
+        List<Personagens::Personagem> EntityObjList;
     public:
         listEntidade();
         ~listEntidade();
  
         //Adicionar na lista:
-        void addEntity(Personagem* pEntity) {EntityObjList.push(pEntity);}
+        void addEntity(Entidades::Personagens::Personagem* pEntity) {EntityObjList.push(pEntity);}
  
         //retorna seu tamanho
         const int getSize() const {return EntityObjList.getTamanho();};
@@ -24,7 +24,7 @@ namespace Listas
         //executar chama o draw de cada entidade, o que faz com que todos se movam e se desenhem.
  
         void execute(sf::Event event);
-        Listas::List<Personagem>::Iterator <Personagem> getPrim() { return EntityObjList.getPrim(); }
+        Listas::List<Personagens::Personagem>::Iterator <Personagens::Personagem> getPrim() { return EntityObjList.getPrim(); }
     };  
 }
  
