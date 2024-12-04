@@ -1,7 +1,7 @@
 CMakeFiles/game.dir/src/GerenciadorEventos.cpp.o: \
  /home/andre/tec-prog-proj-final/src/GerenciadorEventos.cpp \
  /usr/include/stdc-predef.h \
- /home/andre/tec-prog-proj-final/src/../include/GerenciadorEventos.h \
+ /home/andre/tec-prog-proj-final/src/GerenciadorEventos.h \
  /usr/include/c++/14.2.1/iostream \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -232,13 +232,13 @@ CMakeFiles/game.dir/src/GerenciadorEventos.cpp.o: \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp \
- /home/andre/tec-prog-proj-final/src/../include/GerenciadorGrafico.h \
- /home/andre/tec-prog-proj-final/src/../include/Jogador.h \
- /home/andre/tec-prog-proj-final/src/../include/Personagem.h \
- /home/andre/tec-prog-proj-final/src/../include/Entidade.h \
- /home/andre/tec-prog-proj-final/src/../include/Ente.h \
- /home/andre/tec-prog-proj-final/src/../include/ID.h \
- /home/andre/tec-prog-proj-final/src/../include/Constants.h \
+ /home/andre/tec-prog-proj-final/src/GerenciadorGrafico.h \
+ /home/andre/tec-prog-proj-final/src/Jogador.h \
+ /home/andre/tec-prog-proj-final/src/Personagem.h \
+ /home/andre/tec-prog-proj-final/src/Entidade.h \
+ /home/andre/tec-prog-proj-final/src/Ente.h \
+ /home/andre/tec-prog-proj-final/src/ID.h \
+ /home/andre/tec-prog-proj-final/src/Constants.h \
  /usr/include/c++/14.2.1/cmath /usr/include/math.h \
  /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
  /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \

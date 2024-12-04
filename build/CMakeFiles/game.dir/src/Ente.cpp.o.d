@@ -1,6 +1,6 @@
 CMakeFiles/game.dir/src/Ente.cpp.o: \
  /home/andre/tec-prog-proj-final/src/Ente.cpp /usr/include/stdc-predef.h \
- /home/andre/tec-prog-proj-final/src/../include/Ente.h \
+ /home/andre/tec-prog-proj-final/src/Ente.h \
  /usr/include/SFML/Graphics.hpp /usr/include/SFML/Window.hpp \
  /usr/include/SFML/System.hpp /usr/include/SFML/Config.hpp \
  /usr/include/SFML/System/Clock.hpp /usr/include/SFML/System/Export.hpp \
@@ -231,5 +231,5 @@ CMakeFiles/game.dir/src/Ente.cpp.o: \
  /usr/include/SFML/Graphics/VertexBuffer.hpp \
  /usr/include/c++/14.2.1/iostream /usr/include/c++/14.2.1/istream \
  /usr/include/c++/14.2.1/bits/istream.tcc \
- /home/andre/tec-prog-proj-final/src/../include/GerenciadorGrafico.h \
- /home/andre/tec-prog-proj-final/src/../include/ID.h
+ /home/andre/tec-prog-proj-final/src/GerenciadorGrafico.h \
+ /home/andre/tec-prog-proj-final/src/ID.h

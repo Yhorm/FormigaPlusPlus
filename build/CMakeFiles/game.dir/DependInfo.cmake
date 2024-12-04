@@ -8,7 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/andre/tec-prog-proj-final/src/Ente.cpp" "CMakeFiles/game.dir/src/Ente.cpp.o" "gcc" "CMakeFiles/game.dir/src/Ente.cpp.o.d"
+  "/home/andre/tec-prog-proj-final/src/Entidade.cpp" "CMakeFiles/game.dir/src/Entidade.cpp.o" "gcc" "CMakeFiles/game.dir/src/Entidade.cpp.o.d"
+  "/home/andre/tec-prog-proj-final/src/GerenciadorEventos.cpp" "CMakeFiles/game.dir/src/GerenciadorEventos.cpp.o" "gcc" "CMakeFiles/game.dir/src/GerenciadorEventos.cpp.o.d"
   "/home/andre/tec-prog-proj-final/src/GerenciadorGrafico.cpp" "CMakeFiles/game.dir/src/GerenciadorGrafico.cpp.o" "gcc" "CMakeFiles/game.dir/src/GerenciadorGrafico.cpp.o.d"
+  "/home/andre/tec-prog-proj-final/src/Jogador.cpp" "CMakeFiles/game.dir/src/Jogador.cpp.o" "gcc" "CMakeFiles/game.dir/src/Jogador.cpp.o.d"
   "/home/andre/tec-prog-proj-final/src/Jogo.cpp" "CMakeFiles/game.dir/src/Jogo.cpp.o" "gcc" "CMakeFiles/game.dir/src/Jogo.cpp.o.d"
   "/home/andre/tec-prog-proj-final/src/ListPersongem.cpp" "CMakeFiles/game.dir/src/ListPersongem.cpp.o" "gcc" "CMakeFiles/game.dir/src/ListPersongem.cpp.o.d"
   "/home/andre/tec-prog-proj-final/src/Personagem.cpp" "CMakeFiles/game.dir/src/Personagem.cpp.o" "gcc" "CMakeFiles/game.dir/src/Personagem.cpp.o.d"

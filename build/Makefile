@@ -129,6 +129,78 @@ game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/build
 .PHONY : game/fast
 
+src/Ente.o: src/Ente.cpp.o
+.PHONY : src/Ente.o
+
+# target to build an object file
+src/Ente.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Ente.cpp.o
+.PHONY : src/Ente.cpp.o
+
+src/Ente.i: src/Ente.cpp.i
+.PHONY : src/Ente.i
+
+# target to preprocess a source file
+src/Ente.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Ente.cpp.i
+.PHONY : src/Ente.cpp.i
+
+src/Ente.s: src/Ente.cpp.s
+.PHONY : src/Ente.s
+
+# target to generate assembly for a file
+src/Ente.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Ente.cpp.s
+.PHONY : src/Ente.cpp.s
+
+src/Entidade.o: src/Entidade.cpp.o
+.PHONY : src/Entidade.o
+
+# target to build an object file
+src/Entidade.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Entidade.cpp.o
+.PHONY : src/Entidade.cpp.o
+
+src/Entidade.i: src/Entidade.cpp.i
+.PHONY : src/Entidade.i
+
+# target to preprocess a source file
+src/Entidade.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Entidade.cpp.i
+.PHONY : src/Entidade.cpp.i
+
+src/Entidade.s: src/Entidade.cpp.s
+.PHONY : src/Entidade.s
+
+# target to generate assembly for a file
+src/Entidade.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Entidade.cpp.s
+.PHONY : src/Entidade.cpp.s
+
+src/GerenciadorEventos.o: src/GerenciadorEventos.cpp.o
+.PHONY : src/GerenciadorEventos.o
+
+# target to build an object file
+src/GerenciadorEventos.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/GerenciadorEventos.cpp.o
+.PHONY : src/GerenciadorEventos.cpp.o
+
+src/GerenciadorEventos.i: src/GerenciadorEventos.cpp.i
+.PHONY : src/GerenciadorEventos.i
+
+# target to preprocess a source file
+src/GerenciadorEventos.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/GerenciadorEventos.cpp.i
+.PHONY : src/GerenciadorEventos.cpp.i
+
+src/GerenciadorEventos.s: src/GerenciadorEventos.cpp.s
+.PHONY : src/GerenciadorEventos.s
+
+# target to generate assembly for a file
+src/GerenciadorEventos.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/GerenciadorEventos.cpp.s
+.PHONY : src/GerenciadorEventos.cpp.s
+
 src/GerenciadorGrafico.o: src/GerenciadorGrafico.cpp.o
 .PHONY : src/GerenciadorGrafico.o
 
@@ -152,6 +224,30 @@ src/GerenciadorGrafico.s: src/GerenciadorGrafico.cpp.s
 src/GerenciadorGrafico.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/GerenciadorGrafico.cpp.s
 .PHONY : src/GerenciadorGrafico.cpp.s
+
+src/Jogador.o: src/Jogador.cpp.o
+.PHONY : src/Jogador.o
+
+# target to build an object file
+src/Jogador.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Jogador.cpp.o
+.PHONY : src/Jogador.cpp.o
+
+src/Jogador.i: src/Jogador.cpp.i
+.PHONY : src/Jogador.i
+
+# target to preprocess a source file
+src/Jogador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Jogador.cpp.i
+.PHONY : src/Jogador.cpp.i
+
+src/Jogador.s: src/Jogador.cpp.s
+.PHONY : src/Jogador.s
+
+# target to generate assembly for a file
+src/Jogador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Jogador.cpp.s
+.PHONY : src/Jogador.cpp.s
 
 src/Jogo.o: src/Jogo.cpp.o
 .PHONY : src/Jogo.o
@@ -258,9 +354,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... game"
+	@echo "... src/Ente.o"
+	@echo "... src/Ente.i"
+	@echo "... src/Ente.s"
+	@echo "... src/Entidade.o"
+	@echo "... src/Entidade.i"
+	@echo "... src/Entidade.s"
+	@echo "... src/GerenciadorEventos.o"
+	@echo "... src/GerenciadorEventos.i"
+	@echo "... src/GerenciadorEventos.s"
 	@echo "... src/GerenciadorGrafico.o"
 	@echo "... src/GerenciadorGrafico.i"
 	@echo "... src/GerenciadorGrafico.s"
+	@echo "... src/Jogador.o"
+	@echo "... src/Jogador.i"
+	@echo "... src/Jogador.s"
 	@echo "... src/Jogo.o"
 	@echo "... src/Jogo.i"
 	@echo "... src/Jogo.s"

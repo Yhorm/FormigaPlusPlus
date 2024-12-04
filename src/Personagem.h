@@ -12,13 +12,16 @@ namespace Entidades
 		{
 		protected:
 			int hitpoints;
+
 			sf::Vector2f velFinal;
             sf::Clock timer;
+
+
 			bool inAir;
 			bool inMovement;
+			bool alive;
 
             short direction;
-        	bool alive;
             enum {left = 1, right = 0, not_move = -1};
 
 		public:
@@ -28,14 +31,14 @@ namespace Entidades
 
 			void setHP(const int hp) { hitpoints = hp; }
 			const int getHP() const { return hitpoints; }
-
 			void setVelFinal(const sf::Vector2f vel) { velFinal = vel; }
 			const sf::Vector2f getvelFinal() const { return velFinal; }
             void setDirection(const short dir = -1) {direction = dir;}
             void setInAir(const bool in) {inAir = in;}
-
-        	void setAlive(const bool a) { alive = a; }
+		    void setAlive(const bool a) { alive = a; }
         	const bool getAlive() const { return alive; }
+
+
             virtual void refresh()=0; 
             virtual void colision(Entidades::Entidade* entity, sf::Vector2f distance) = 0;
 
@@ -44,3 +47,5 @@ namespace Entidades
 
 	}
 }
+
+

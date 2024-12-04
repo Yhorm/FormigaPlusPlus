@@ -1,7 +1,7 @@
 CMakeFiles/game.dir/src/Entidade.cpp.o: \
  /home/andre/tec-prog-proj-final/src/Entidade.cpp \
  /usr/include/stdc-predef.h \
- /home/andre/tec-prog-proj-final/src/../include/Entidade.h \
+ /home/andre/tec-prog-proj-final/src/Entidade.h \
  /usr/include/c++/14.2.1/iostream \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -140,7 +140,7 @@ CMakeFiles/game.dir/src/Entidade.cpp.o: \
  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
  /usr/include/c++/14.2.1/bits/ostream.tcc /usr/include/c++/14.2.1/istream \
  /usr/include/c++/14.2.1/bits/istream.tcc \
- /home/andre/tec-prog-proj-final/src/../include/Ente.h \
+ /home/andre/tec-prog-proj-final/src/Ente.h \
  /usr/include/SFML/Graphics.hpp /usr/include/SFML/Window.hpp \
  /usr/include/SFML/System.hpp /usr/include/SFML/Config.hpp \
  /usr/include/SFML/System/Clock.hpp /usr/include/SFML/System/Export.hpp \
@@ -233,5 +233,5 @@ CMakeFiles/game.dir/src/Entidade.cpp.o: \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp \
- /home/andre/tec-prog-proj-final/src/../include/GerenciadorGrafico.h \
- /home/andre/tec-prog-proj-final/src/../include/ID.h
+ /home/andre/tec-prog-proj-final/src/GerenciadorGrafico.h \
+ /home/andre/tec-prog-proj-final/src/ID.h

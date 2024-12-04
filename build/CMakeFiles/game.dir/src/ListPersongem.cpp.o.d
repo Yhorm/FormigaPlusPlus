@@ -142,7 +142,8 @@ CMakeFiles/game.dir/src/ListPersongem.cpp.o: \
  /usr/include/c++/14.2.1/bits/ostream.tcc /usr/include/c++/14.2.1/istream \
  /usr/include/c++/14.2.1/bits/istream.tcc \
  /home/andre/tec-prog-proj-final/src/Personagem.h \
- /home/andre/tec-prog-proj-final/src/GerenciadorGrafico.h \
+ /home/andre/tec-prog-proj-final/src/Entidade.h \
+ /home/andre/tec-prog-proj-final/src/Ente.h \
  /usr/include/SFML/Graphics.hpp /usr/include/SFML/Window.hpp \
  /usr/include/SFML/System.hpp /usr/include/SFML/Config.hpp \
  /usr/include/SFML/System/Clock.hpp /usr/include/SFML/System/Export.hpp \
@@ -234,4 +235,7 @@ CMakeFiles/game.dir/src/ListPersongem.cpp.o: \
  /usr/include/SFML/Graphics/Glsl.hpp /usr/include/SFML/Graphics/Glsl.inl \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
- /usr/include/SFML/Graphics/VertexBuffer.hpp
+ /usr/include/SFML/Graphics/VertexBuffer.hpp \
+ /home/andre/tec-prog-proj-final/src/GerenciadorGrafico.h \
+ /home/andre/tec-prog-proj-final/src/ID.h \
+ /home/andre/tec-prog-proj-final/src/Constants.h
