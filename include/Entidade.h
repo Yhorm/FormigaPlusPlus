@@ -15,7 +15,7 @@ namespace Entidades
         sf::Vector2f curPos;
         sf::Vector2f entitySize;
 
-        bool alive;
+        bool alive; // Entidade não tem vida, Personagem tem
 
 	public:
 		Entidade(Vector2f pos, Vector2f size, const Identifier::ID i = Identifier::ID::none);
