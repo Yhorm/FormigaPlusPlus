@@ -25,46 +25,58 @@ GerenciadorEventos* Gerenciadores::GerenciadorEventos::getGerEvent()
 
 void Gerenciadores::GerenciadorEventos::checaTeclaApertada(sf::Keyboard::Key key)
 {
-	switch(key) 
-	{
-	case (sf::Keyboard::A) :
-        pPlayer1->setDirection(left);
-		pPlayer1->move();
-		break;
-	case (sf::Keyboard::D) :
-        pPlayer1->setDirection(right);
-		pPlayer1->move();
-		break;
-	case (sf::Keyboard::W) :
-		pPlayer1->jump();
-		break;
-	case (sf::Keyboard::Left) :
-		pPlayer2->move();
-		break;
-	case (sf::Keyboard::Right) :
-		pPlayer2->move();
-		break;
-	case (sf::Keyboard::Up) :
-		pPlayer2->jump();
-		break;
-	case (sf::Keyboard::Escape) :
-		close();
-		break;
-	default:
-		break;
+	if(pPlayer1){
+		switch(key) 
+		{
+		case (sf::Keyboard::A) :
+	        pPlayer1->setDirection(left);
+			pPlayer1->move();
+			break;
+		case (sf::Keyboard::D) :
+	        pPlayer1->setDirection(right);
+			pPlayer1->move();
+			break;
+		case (sf::Keyboard::W) :
+			pPlayer1->jump();
+			break;
+		default:
+			break;
+		}
 	}
-
+	if(pPlayer2){
+		switch(key) 
+		{
+		case (sf::Keyboard::Left) :
+			pPlayer2->move();
+			break;
+		case (sf::Keyboard::Right) :
+			pPlayer2->move();
+			break;
+		case (sf::Keyboard::Up) :
+			pPlayer2->jump();
+			break;
+		case (sf::Keyboard::Escape) :
+			close();
+			break;
+		default:
+			break;
+		}
+	}
 }
 
 void Gerenciadores::GerenciadorEventos::checaTeclaSolta(sf::Keyboard::Key key)
 {
-	if (key == sf::Keyboard::A || key == sf::Keyboard::D) 
-	{
-		pPlayer1->stopMoving();
+	if(pPlayer1){
+		if (key == sf::Keyboard::A || key == sf::Keyboard::D) 
+		{
+			pPlayer1->stopMoving();
+		}
 	}
-	else if (key == sf::Keyboard::Left || key == sf::Keyboard::Right)
-	{
-		pPlayer2->stopMoving();
+	if(pPlayer2){
+		if (key == sf::Keyboard::Left || key == sf::Keyboard::Right)
+			{
+				pPlayer2->stopMoving();
+			}
 	}
 }
 
