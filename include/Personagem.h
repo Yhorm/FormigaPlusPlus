@@ -12,14 +12,11 @@ namespace Entidades
 		{
 		protected:
 			int hitpoints;
-
 			sf::Vector2f velFinal;
             sf::Clock timer;
-
-
+        	bool alive; // Entidade não tem vida, Personagem tem
 			bool inAir;
 			bool inMovement;
-
             short direction;
             enum {left = 1, right = 0, not_move = -1};
 
@@ -35,7 +32,8 @@ namespace Entidades
 			const sf::Vector2f getvelFinal() const { return velFinal; }
             void setDirection(const short dir = -1) {direction = dir;}
             void setInAir(const bool in) {inAir = in;}
-
+        	void setAlive(const bool a) { alive = a; }
+        	const bool getAlive() const { return alive; }
             virtual void refresh()=0; 
             virtual void colision(Entidades::Entidade* entity, sf::Vector2f distance) = 0;
 

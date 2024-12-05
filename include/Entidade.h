@@ -15,7 +15,6 @@ namespace Entidades
         sf::Vector2f curPos;
         sf::Vector2f entitySize;
 
-        bool alive; // Entidade não tem vida, Personagem tem
 
 	public:
 		Entidade(Vector2f pos, Vector2f size, const Identifier::ID i = Identifier::ID::none);
@@ -27,8 +26,6 @@ namespace Entidades
 		const Vector2f getPosition() const { return curPos; }
 		const Vector2f getEntSize() const { return entitySize; }
 
-        void setAlive(const bool a) { alive = a; }
-        const bool getAlive() const { return alive; }
 
 		void draw() { pGerGraf->draw(entity); }
 		virtual void refresh() = 0;
