@@ -16,4 +16,3 @@ Entidades::Personagens::Personagem::~Personagem()
 	pGerGraf->size(Vector2f(((float)pGerGraf->getWindow()->getSize().x),((float)pGerGraf->getWindow()->getSize().x))); 
 }
 
-
