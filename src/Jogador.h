@@ -19,7 +19,7 @@ namespace Entidades {
             Gerenciadores::GerenciadorEventos *EventManager;
             static unsigned int score;
             static unsigned int death_C;
-
+    		sf::Vector2f deltaSpeed;
             //DOUBLE JUMP P/ DEPOIS.
             bool doubleJumped;
 

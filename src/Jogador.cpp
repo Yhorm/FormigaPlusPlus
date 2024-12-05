@@ -4,6 +4,7 @@
 Entidades::Personagens::Jogador::Jogador(const sf::Vector2f pos, const sf::Vector2f size, const int hp, Identifier::ID i) :
         EventManager(EventManager->getGerEvent()),
         Personagem(pos, size, sf::Vector2f(Constants::VEL_PLAYER_X, Constants::VEL_PLAYER_Y), hp, i),
+		deltaSpeed(0.f,0.f),
         doubleJumped(false)
         {
                entity.setFillColor(sf::Color(0, 0, 255));
@@ -15,7 +16,15 @@ Entidades::Personagens::Jogador::~Jogador()
 
 
 void Entidades::Personagens::Jogador::move() {
-    this->inMovement = true;
+   inMovement = true;
+    if(inMovement)
+    {
+        deltaSpeed.x = velFinal.x * Constants::DELTATIME;
+        if(direction == left)
+        {
+            deltaSpeed.x *= -1;
+        }
+    }
 }
 
 void Entidades::Personagens::Jogador::jump() {
@@ -57,18 +66,10 @@ void Personagens::Jogador::colision(Entidades::Entidade *entity, sf::Vector2f di
 
 void Personagens::Jogador::refresh()
 {
-
+	if(!inMovement)
+			deltaSpeed=Vector2f(0.f,0.f);
 	//pGerGraf->size(Vector2f(((float)pGerGraf->getWindow()->getSize().x)/Constants::SCALE_CAM,((float)pGerGraf->getWindow()->getSize().x)/Constants::SCALE_CAM)); //TESTE DE CAMERA VALORES ARBITRARIOS
-    sf::Vector2f deltaSpeed(0.0f, 0.0f);
 
-    if(inMovement)
-    {
-        deltaSpeed.x = velFinal.x * Constants::DELTATIME;
-        if(direction == left)
-        {
-            deltaSpeed.x *= -1;
-        }
-    }
 
    // const float velY = velFinal.y;
  //   velFinal.y = velFinal.y + Constants::GRAVITY * Constants::DELTATIME;
