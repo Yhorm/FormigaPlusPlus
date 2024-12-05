@@ -74,12 +74,9 @@ void GerenciadorColisoes::execute()
         {
             while(obs != nullptr)
             {
-                if(static_cast<Personagens::Personagem*>(*obs)->getAlive())
-                {
                     ds = calcColission(*enemy, *obs);
                     if(ds.x < 0.0f && ds.y < 0.0f)
                         (*obs)->colision(*enemy, ds);
-                }
                 obs++;
             }
         }
