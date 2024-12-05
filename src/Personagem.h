@@ -15,8 +15,6 @@ namespace Entidades
 
 			sf::Vector2f velFinal;
             sf::Clock timer;
-
-
 			bool inAir;
 			bool inMovement;
 			bool alive;
@@ -37,8 +35,7 @@ namespace Entidades
             void setInAir(const bool in) {inAir = in;}
 		    void setAlive(const bool a) { alive = a; }
         	const bool getAlive() const { return alive; }
-
-
+			void setInMovemt(const bool move){inMovement=move;}
             virtual void refresh()=0; 
             virtual void colision(Entidades::Entidade* entity, sf::Vector2f distance) = 0;
 

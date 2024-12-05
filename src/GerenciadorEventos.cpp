@@ -30,10 +30,12 @@ void Gerenciadores::GerenciadorEventos::checaTeclaApertada(sf::Keyboard::Key key
 		{
 		case (sf::Keyboard::A) :
 	        pPlayer1->setDirection(left);
+			pPlayer1->setInMovemt(true);
 			pPlayer1->move();
 			break;
 		case (sf::Keyboard::D) :
 	        pPlayer1->setDirection(right);
+			pPlayer1->setInMovemt(true);
 			pPlayer1->move();
 			break;
 		case (sf::Keyboard::W) :

@@ -26,7 +26,11 @@ void Entidades::Personagens::Jogador::move() {
         }
     }
 }
-
+void Entidades::Personagens::Jogador::stopMoving() {
+						deltaSpeed=Vector2f(0.f,0.f);
+						inMovement = false;
+                        setDirection(not_move); 
+}
 void Entidades::Personagens::Jogador::jump() {
     if(!inAir)
     {
@@ -66,8 +70,6 @@ void Personagens::Jogador::colision(Entidades::Entidade *entity, sf::Vector2f di
 
 void Personagens::Jogador::refresh()
 {
-	if(!inMovement)
-			deltaSpeed=Vector2f(0.f,0.f);
 	//pGerGraf->size(Vector2f(((float)pGerGraf->getWindow()->getSize().x)/Constants::SCALE_CAM,((float)pGerGraf->getWindow()->getSize().x)/Constants::SCALE_CAM)); //TESTE DE CAMERA VALORES ARBITRARIOS
 
 

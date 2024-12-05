@@ -44,9 +44,7 @@ namespace Entidades {
             static const unsigned int getScore() { return score; }
 
             void move();
-            void stopMoving() {inMovement = false;
-                                setDirection(not_move); }
-
+            void stopMoving(); 
             void jump();
 			void refresh();
             void stopDJumping() { this->doubleJumped = false; }
