@@ -59,8 +59,6 @@ void Jogo::executar()
         pGerGraf->clean();
 
         lista.execute();
-        lista.execute();
-        lista.execute();
 
         ColMngr.execute();
 

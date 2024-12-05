@@ -49,19 +49,19 @@ void GerenciadorColisoes::execute()
 
        if(pJog1->getAlive())
         {
-		for(auto it=LIs.begin();it!=LIs.end();it++)
+		for(auto enemy=LIs.begin();enemy!=LIs.end();enemy++)
             {
-					if((*it)){
+					if((*enemy)){
 
-               	 		if(static_cast<Personagens::Personagem*>(*it)->getAlive())
+               	 		if(static_cast<Personagens::Personagem*>(*enemy)->getAlive())
                			 {
-               	    		 ds = calcColission(pJog1, (*it));
+               	    		 ds = calcColission(pJog1, (*enemy));
                	     		if(ds.x < 0.0f && ds.y < 0.0f)
-               	       	  pJog1->colision(*it, ds);
+               	       	  		pJog1->colision(*enemy, ds);
 							for(auto itO=LOs.begin();itO!=LOs.end();itO++){
-								ds=calcColission((*it),(*itO));	
+								ds=calcColission((*enemy),(*itO));	
                	     				if(ds.x < 0.0f && ds.y < 0.0f)
-											(*itO)->colision(*it,ds);
+											(*itO)->colision(*itO,ds);
 
                			 	}
                			 }
@@ -69,9 +69,9 @@ void GerenciadorColisoes::execute()
             }
 		for(auto it=LOs.begin();it!=LOs.end();it++){
 					if((*it)){
-                    	ds = calcColission(pJog1, *it);
-                   			 if(ds.x < 0.0f && ds.y < 0.0f)
-                    		    (*it)->colision(pJog1, ds);
+            			ds = calcColission(pJog1, *it);
+                   		if(ds.x < 0.0f && ds.y < 0.0f)
+                    		(*it)->colision(pJog1, ds);
         			}
 			}
 		}
