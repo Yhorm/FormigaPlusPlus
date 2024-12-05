@@ -15,7 +15,6 @@ namespace Entidades
         sf::Vector2f curPos;
         sf::Vector2f entitySize;
 
-
 	public:
 		Entidade(Vector2f pos, Vector2f size, const Identifier::ID i = Identifier::ID::none);
 		~Entidade();

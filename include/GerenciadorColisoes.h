@@ -5,9 +5,14 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 #include <iostream>
+#include <list>
 #include <cmath>
+#include "Entidade.h"
+#include "Obstaculo.h"
 #include "Personagem.h"
 #include "listEntidade.h"
+#include "Inimigo.h"
+#include "ID.h"
 
 using namespace std;
 
@@ -17,11 +22,13 @@ namespace Gerenciadores
     class GerenciadorColisoes
     {
     private:
-        Listas::listEntidade* listPers;
-        Listas::listEntidade* listEnemies;
-        Listas::listEntidade* listObstaculo;
+        Listas::listEntidade* lista;
+		std::vector<Entidades::Personagens::Inimigo::Inimigo*> LIs;
+		std::list<Obstaculos::Obstaculo*> LOs;
+		Entidades::Personagens::Jogador *pJog1;
+		
     public:
-        GerenciadorColisoes(Listas::listEntidade* listaPersonagens, Listas::listEntidade* listEne,Listas::listEntidade* listaObstac);
+        GerenciadorColisoes(Listas::listEntidade* list,Entidades::Personagens::Jogador *jog);
         ~GerenciadorColisoes();
 
         const sf::Vector2f calcColission(Entidades::Entidade* char1, Entidades::Entidade* char2);

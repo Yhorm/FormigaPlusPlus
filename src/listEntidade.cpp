@@ -21,13 +21,15 @@ const unsigned int listEntidade::getNumKilled()
     Listas::List<Entidades::Entidade>::Iterator<Entidades::Entidade> aux = EntityObjList.getPrim();
 
     while(aux != nullptr)
-    {
-        if(!(static_cast<Personagens::Personagem*>(*aux)->getAlive()))
-        {
-            nKilled++;
-        }
-        aux++;
-    }
+   	 {
+   	 	if((*aux)->getId()!=ID::platform){
+   	 	    if(!(static_cast<Personagens::Personagem*>(*aux)->getAlive()))
+   	 	    {
+   	 	        nKilled++;
+   	 	    }
+   	 	    aux++;
+   	 }
+	}
     return nKilled;
 }
 
