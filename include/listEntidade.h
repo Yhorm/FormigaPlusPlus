@@ -5,7 +5,7 @@
 #pragma once
 #include "list.h"
 #include "Entidade.h"
-
+#include "Personagem.h"
 namespace Listas
 {
     class listEntidade

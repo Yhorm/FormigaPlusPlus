@@ -44,11 +44,12 @@ void GerenciadorColisoes::execute()
 
     for(player = listPers->getPrim(); player != nullptr; player++)
     {
-        if((*player)->getAlive())
+			
+        if(static_cast<Personagens::Personagem*>(*player)->getAlive())
         {
             while(enemy != nullptr)
             {
-                if((*enemy)->getAlive())
+                if(static_cast<Personagens::Personagem*>(*enemy)->getAlive())
                 {
                     ds = calcColission(*player, *enemy);
                     if(ds.x < 0.0f && ds.y < 0.0f)
@@ -59,12 +60,9 @@ void GerenciadorColisoes::execute()
 
             while(obs != nullptr)
             {
-                if((*obs)->getAlive())
-                {
                     ds = calcColission(*player, *obs);
                     if(ds.x < 0.0f && ds.y < 0.0f)
                         (*obs)->colision(*player, ds);
-                }
                 obs++;
             }
         }
@@ -72,16 +70,13 @@ void GerenciadorColisoes::execute()
 
     while(enemy != nullptr)
     {
-        if((*enemy)->getAlive())
+        if(static_cast<Personagens::Personagem*>(*enemy)->getAlive())
         {
             while(obs != nullptr)
             {
-                if((*obs)->getAlive())
-                {
                     ds = calcColission(*enemy, *obs);
                     if(ds.x < 0.0f && ds.y < 0.0f)
                         (*obs)->colision(*enemy, ds);
-                }
                 obs++;
             }
         }

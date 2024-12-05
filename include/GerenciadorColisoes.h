@@ -6,6 +6,7 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
 #include <cmath>
+#include "Personagem.h"
 #include "listEntidade.h"
 
 using namespace std;

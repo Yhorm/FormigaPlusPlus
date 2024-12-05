@@ -23,9 +23,6 @@ namespace Entidades {
             //DOUBLE JUMP P/ DEPOIS.
             bool doubleJumped;
 
-            short direction;
-            enum {left = 1, right = 0, not_move = -1};
-
         public:
             Jogador(sf::Vector2f pos = sf::Vector2f(0.f, 0.f), sf::Vector2f size = sf::Vector2f(0.f, 0.f),
                     const int hp = 3, Identifier::ID i = Identifier::ID::player);
@@ -51,8 +48,7 @@ namespace Entidades {
                                 setDirection(not_move); }
 
             void jump();
-
-
+			void refresh();
             void stopDJumping() { this->doubleJumped = false; }
 
             void colision(Entidades::Entidade* entity, sf::Vector2f distance);
