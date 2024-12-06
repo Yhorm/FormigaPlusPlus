@@ -22,7 +22,7 @@ const unsigned int listEntidade::getNumKilled()
 
     while(aux != nullptr)
    	 {
-   	 	if((*aux)->getId()!=ID::platform){
+   	 	if((*aux)->getId()==ID::enemy){
    	 	    if(!(static_cast<Personagens::Personagem*>(*aux)->getAlive()))
    	 	    {
    	 	        nKilled++;
@@ -37,14 +37,15 @@ void listEntidade::execute()
 {
     Listas::List<Entidades::Entidade>::Iterator<Entidades::Entidade> aux = EntityObjList.getPrim();//auto 
     while(aux != nullptr)
-    {
+    {	
+		if((*aux)->getId()==ID::enemy){
+   	 	   	if(!(static_cast<Personagens::Personagem*>(*aux)->getAlive()))
+   	 	    {
+					EntityObjList.remove(*aux);
+			}
+		}
         (*aux)->draw();
         (*aux)->refresh();
         aux++;
     }
 }
-
-
-
-
-
