@@ -25,6 +25,7 @@ namespace Gerenciadores
         Listas::listEntidade* lista;
 		std::vector<Entidades::Personagens::Inimigo::Inimigo*> LIs;
 		std::list<Obstaculos::Obstaculo*> LOs;
+		//falta projeteis
 		Entidades::Personagens::Jogador *pJog1;
 		
     public:
@@ -32,7 +33,12 @@ namespace Gerenciadores
         ~GerenciadorColisoes();
 
         const sf::Vector2f calcColission(Entidades::Entidade* char1, Entidades::Entidade* char2);
-        void execute();
+		void tratarColisoesJogsObstacs(); 
+		void tratarColisoesJogsInimgs(); 
+		//falta projeteis
+		void IncluirInimigo(Entidades::Entidade *pi);
+	   	void IncluirObstcaulo(Entidades::Entidade *po);
+		void execute();
     };
 }
 
