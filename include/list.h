@@ -100,8 +100,10 @@ namespace Listas
             {
                 aux = pPrim;
                 pPrim = pPrim->getProx();
-                if(aux)
+				if(aux){
+					delete aux->getInfo();
                     delete aux;
+				}
             }
             tamanho = 0;
             pPrim = NULL;
@@ -167,9 +169,8 @@ namespace Listas
 	        // Se atual é o último elemento
 	        pAtual = atual->getAnt();
 	    }
-	
 	    // Deleta o elemento
-	    delete atual;
+	    	delete atual->getInfo();
 	
 	    // Diminui o tamanho da lista
 	    tamanho--;

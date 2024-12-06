@@ -6,7 +6,7 @@
 
 
 Personagens::Inimigo::Inimigo::Inimigo(const sf::Vector2f pos, const sf::Vector2f size, Personagens::Jogador *pP) :
-    Personagens::Personagem(pos, size, sf::Vector2f(Constants::VEL_ENEMY_X, Constants::VEL_ENEMY_Y)),
+    Personagens::Personagem(pos, size, sf::Vector2f(Constants::VEL_ENEMY_X, Constants::VEL_ENEMY_Y),10,Identifier::ID::enemy),
     jogador(pP),
     //timer(),
     hasFired(false)
@@ -46,6 +46,7 @@ void Personagens::Inimigo::Inimigo::randomMovement()
     switch(movement_dir)
     {
         case(up) :
+			setAlive(false);
             entity.move(0.0f, -Constants::VEL_ENEMY_Y);
             break;
         case(down) :

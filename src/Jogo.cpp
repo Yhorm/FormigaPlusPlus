@@ -36,12 +36,6 @@ void Jogo::instanceEntities()
     Entidades::Entidade* e5 = static_cast<Entidades::Entidade*>(p3);
     Entidades::Entidade* e6 = static_cast<Entidades::Entidade*>(p4);
 
-	lista.addEntity(new Entidades::Personagens::Inimigo::Inimigo(sf::Vector2f(800.0f, 700.0f),sf::Vector2f(Constants::SIZE_ENEMY_W, Constants::SIZE_ENEMY_H),player1));
-	lista.addEntity(new Entidades::Personagens::Inimigo::Inimigo(sf::Vector2f(800.0f, 700.0f),sf::Vector2f(Constants::SIZE_ENEMY_W, Constants::SIZE_ENEMY_H),player1));
-	lista.addEntity(new Entidades::Personagens::Inimigo::Inimigo(sf::Vector2f(800.0f, 700.0f),sf::Vector2f(Constants::SIZE_ENEMY_W, Constants::SIZE_ENEMY_H),player1));
-	lista.addEntity(new Entidades::Personagens::Inimigo::Inimigo(sf::Vector2f(800.0f, 700.0f),sf::Vector2f(Constants::SIZE_ENEMY_W, Constants::SIZE_ENEMY_H),player1));
-	lista.addEntity(new Entidades::Personagens::Inimigo::Inimigo(sf::Vector2f(800.0f, 700.0f),sf::Vector2f(Constants::SIZE_ENEMY_W, Constants::SIZE_ENEMY_H),player1));
-	lista.addEntity(new Entidades::Personagens::Inimigo::Inimigo(sf::Vector2f(800.0f, 700.0f),sf::Vector2f(Constants::SIZE_ENEMY_W, Constants::SIZE_ENEMY_H),player1));
 	lista.addEntity(e1);
     lista.addEntity(e2);
     lista.addEntity(e3);
@@ -63,11 +57,8 @@ void Jogo::executar()
 
         EventManager->executar();
         pGerGraf->clean();
-
         lista.execute();
-
         ColMngr.execute();
-
         pGerGraf->display();
     }
 }
