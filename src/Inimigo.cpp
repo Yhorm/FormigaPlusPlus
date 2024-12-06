@@ -6,7 +6,7 @@
 
 
 Personagens::Inimigo::Inimigo::Inimigo(const sf::Vector2f pos, const sf::Vector2f size, Personagens::Jogador *pP) :
-    Personagens::Personagem(pos, size, sf::Vector2f(Constants::VEL_ENEMY_X, Constants::VEL_ENEMY_Y)),
+    Personagens::Personagem(pos, size, sf::Vector2f(Constants::VEL_ENEMY_X, Constants::VEL_ENEMY_Y),10,Identifier::ID::enemy),
     jogador(pP),
     //timer(),
     hasFired(false)
@@ -17,7 +17,10 @@ Personagens::Inimigo::Inimigo::Inimigo(const sf::Vector2f pos, const sf::Vector2
 }
 
 Personagens::Inimigo::Inimigo::~Inimigo()
-{}
+{
+		jogador=nullptr;
+}
+
 
 
 bool Personagens::Inimigo::Inimigo::CheckRadius(sf::Vector2f posPlayer, sf::Vector2f posEnemy)

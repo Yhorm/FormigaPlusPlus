@@ -54,12 +54,9 @@ void GerenciadorColisoes::tratarColisoesJogsInimgs(){
                	    		 ds = calcColission(pJog1, (*enemy));
                	     		if(ds.x < 0.0f && ds.y < 0.0f)
                	       	  		pJog1->colision(*enemy, ds);
-							for(auto itO=LOs.begin();itO!=LOs.end();itO++){
-								ds=calcColission((*enemy),(*itO));	
-               	     				if(ds.x < 0.0f && ds.y < 0.0f)
-											(*itO)->colision(*itO,ds);
 
-               			 	}
+							//tava travando muito quando analisava o enemy com a plataforma
+							//sla nao entendi (?????)
                			 }
 					}
             }
