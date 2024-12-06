@@ -20,11 +20,5 @@ namespace States
         PLAYER_DOUBLE_JUMPING,
         PLAYER_DASHING
     };
-
-    enum Enemy_State
-    {
-        ENEMY_IDLE,
-        ENEMY_CHASING,
-        ENEMY_ATTACKING
-    };
+    
 }
