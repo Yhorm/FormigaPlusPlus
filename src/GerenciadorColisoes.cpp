@@ -8,8 +8,8 @@ GerenciadorColisoes::GerenciadorColisoes(Listas::listEntidade *list,Entidades::P
     lista(list),
 	pJog1(jog)
 {
-		LIs.clear();
-		LOs.clear();
+	LIs.clear();
+	LOs.clear();
 }
 
 GerenciadorColisoes::~GerenciadorColisoes()
@@ -34,26 +34,22 @@ const sf::Vector2f GerenciadorColisoes::calcColission(Entidades::Entidade *char1
     sf::Vector2f somaDasMetades((size1.x/2.0f) + (size2.x/2.0f), (size1.y/2.0f) + (size2.y/2.0f));
     return sf::Vector2f((distanceCenter.x - somaDasMetades.x), (distanceCenter.y - somaDasMetades.y));
 }
-
-void GerenciadorColisoes::execute()
-{
-		for(auto it=lista->getPrim();it!=nullptr;it++){
-				if((*it)->getId()==ID::enemy){
-						LIs.push_back(static_cast<Entidades::Personagens::Inimigo::Inimigo*>(*it));
-				}
-				else if((*it)->getId()==ID::platform){
-						LOs.push_back(static_cast<Entidades::Obstaculos::Obstaculo*>(*it));		
-					}
-		}
+void GerenciadorColisoes::tratarColisoesJogsObstacs(){
     sf::Vector2f ds = sf::Vector2f(0.0f, 0.0f);
-
-       if(pJog1->getAlive())
-        {
+	for(auto it=LOs.begin();it!=LOs.end();it++){
+					if((*it)){
+            			ds = calcColission(pJog1, *it);
+                   		if(ds.x < 0.0f && ds.y < 0.0f)
+                    		(*it)->colision(pJog1, ds);
+        			}
+			}
+}
+void GerenciadorColisoes::tratarColisoesJogsInimgs(){
+    	sf::Vector2f ds = sf::Vector2f(0.0f, 0.0f);
 		for(auto enemy=LIs.begin();enemy!=LIs.end();enemy++)
             {
 					if((*enemy)){
-
-               	 		if(static_cast<Personagens::Personagem*>(*enemy)->getAlive())
+               	 		if((*enemy)->getAlive())
                			 {
                	    		 ds = calcColission(pJog1, (*enemy));
                	     		if(ds.x < 0.0f && ds.y < 0.0f)
@@ -67,12 +63,27 @@ void GerenciadorColisoes::execute()
                			 }
 					}
             }
-		for(auto it=LOs.begin();it!=LOs.end();it++){
-					if((*it)){
-            			ds = calcColission(pJog1, *it);
-                   		if(ds.x < 0.0f && ds.y < 0.0f)
-                    		(*it)->colision(pJog1, ds);
-        			}
-			}
+}
+void GerenciadorColisoes::IncluirInimigo(Entidades::Entidade *pi){
+	if((pi)->getId()==ID::enemy){
+		LIs.push_back(static_cast<Entidades::Personagens::Inimigo::Inimigo*>(pi));
+	}
+}
+void GerenciadorColisoes::IncluirObstcaulo(Entidades::Entidade *po){
+	if((po)->getId()==ID::platform){
+		LOs.push_back(static_cast<Entidades::Obstaculos::Obstaculo*>(po));		
+	}	
+}
+void GerenciadorColisoes::execute()
+{
+		for(auto it=lista->getPrim();it!=nullptr;it++){
+				IncluirInimigo(*it);
+				IncluirObstcaulo(*it);
+		}
+
+       if(pJog1->getAlive())
+        {
+				tratarColisoesJogsInimgs();
+				tratarColisoesJogsObstacs();
 		}
 }
