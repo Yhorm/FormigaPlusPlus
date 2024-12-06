@@ -27,25 +27,31 @@ const unsigned int listEntidade::getNumKilled()
    	 	    {
    	 	        nKilled++;
    	 	    }
-   	 	    aux++;
    	 }
+   	 	    aux++;
 	}
     return nKilled;
 }
 
 void listEntidade::execute()
 {
-    Listas::List<Entidades::Entidade>::Iterator<Entidades::Entidade> aux = EntityObjList.getPrim();//auto 
+    auto aux = EntityObjList.getPrim();//auto 
     while(aux != nullptr)
     {	
+		auto next=aux;
+		next++;
 		if((*aux)->getId()==ID::enemy){
    	 	   	if(!(static_cast<Personagens::Personagem*>(*aux)->getAlive()))
    	 	    {
 					EntityObjList.remove(*aux);
+					delete *aux;
+					aux=next;
+					continue;
 			}
 		}
         (*aux)->draw();
         (*aux)->refresh();
         aux++;
+		aux=next;
     }
 }

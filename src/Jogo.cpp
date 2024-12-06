@@ -40,6 +40,7 @@ void Jogo::instanceEntities()
     lista.addEntity(e2);
     lista.addEntity(e3);
     
+	lista.addEntity(new Entidades::Personagens::Inimigo::Inimigo(sf::Vector2f(800.0f, 700.0f),sf::Vector2f(Constants::SIZE_ENEMY_W, Constants::SIZE_ENEMY_H),player1));
     lista.addEntity(e4);
     lista.addEntity(e5);
     lista.addEntity(e6);

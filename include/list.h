@@ -101,7 +101,6 @@ namespace Listas
                 aux = pPrim;
                 pPrim = pPrim->getProx();
 				if(aux){
-					delete aux->getInfo();
                     delete aux;
 				}
             }
@@ -115,6 +114,12 @@ namespace Listas
         {
             if(Element)
             {
+			Elemento<TYPE>* atual = pPrim;
+    		while (atual) {
+       			 if (atual->getInfo() == Element)
+           			 return; // Já existe, não adiciona novamente
+       			 atual = atual->getProx();
+   				}
                 Elemento<TYPE>* aux = new Elemento<TYPE>();
                 if(aux)
                 {
@@ -143,7 +148,6 @@ namespace Listas
 		    if (!Element) {
        			 return; // Se o elemento não for válido, não faz nada.
     		}
-
    		 Elemento<TYPE>* atual = pPrim;
     	 // Percorre a lista para encontrar o elemento a ser removido
    		 while (atual != nullptr && atual->getInfo() != Element) {
@@ -170,8 +174,7 @@ namespace Listas
 	        pAtual = atual->getAnt();
 	    }
 	    // Deleta o elemento
-	    	delete atual->getInfo();
-	
+		delete atual;
 	    // Diminui o tamanho da lista
 	    tamanho--;
 		}
