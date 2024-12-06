@@ -20,9 +20,7 @@ private:
     Entidades::Personagens::Inimigo::Inimigo* enemy;
     Entidades::Obstaculos::Plataforma* platform;
 
-    Listas::listEntidade listaPersonagens;
-    Listas::listEntidade listaInimigos;
-    Listas::listEntidade listaObstaculos;
+    Listas::listEntidade lista;
 
     Gerenciadores::GerenciadorColisoes ColMngr; // PROBLEMA ESTA NO GERENCIADOR DE COLISOES
     Gerenciadores::GerenciadorGrafico *pGerGraf;

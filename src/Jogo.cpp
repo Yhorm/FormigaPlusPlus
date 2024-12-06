@@ -3,10 +3,9 @@
 Jogo::Jogo() :
         pGerGraf(pGerGraf->getGerGraf()),
         EventManager(EventManager->getGerEvent()),
-        listaPersonagens(),
-        listaObstaculos(),
-        listaInimigos(),
-        ColMngr(&listaPersonagens, &listaInimigos, &listaObstaculos)
+		player1(new Entidades::Personagens::Jogador(sf::Vector2f(500.0f, 100.0f),sf::Vector2f(Constants::SIZE_PLYR_W, Constants::SIZE_PLYR_H),1, Identifier::ID::player)),
+        lista(),
+        ColMngr(&lista,player1)
         {
 			executar();
         }
@@ -17,9 +16,6 @@ Jogo::~Jogo()
 
 void Jogo::instanceEntities()
 {
-    player1 = new Entidades::Personagens::Jogador(sf::Vector2f(500.0f, 100.0f),
-                                                                                   sf::Vector2f(Constants::SIZE_PLYR_W, Constants::SIZE_PLYR_H),
-                                                                                  1, Identifier::ID::player);
 
     enemy = new Entidades::Personagens::Inimigo::Inimigo(sf::Vector2f(800.0f, 700.0f),
             sf::Vector2f(Constants::SIZE_ENEMY_W, Constants::SIZE_ENEMY_H),
@@ -40,13 +36,13 @@ void Jogo::instanceEntities()
     Entidades::Entidade* e5 = static_cast<Entidades::Entidade*>(p3);
     Entidades::Entidade* e6 = static_cast<Entidades::Entidade*>(p4);
 
-	listaPersonagens.addEntity(e1);
-    listaInimigos.addEntity(e2);
-    listaObstaculos.addEntity(e3);
+	lista.addEntity(e1);
+    lista.addEntity(e2);
+    lista.addEntity(e3);
     
-    listaObstaculos.addEntity(e4);
-    listaObstaculos.addEntity(e5);
-    listaObstaculos.addEntity(e6);
+    lista.addEntity(e4);
+    lista.addEntity(e5);
+    lista.addEntity(e6);
    
   EventManager->setPlayer1(player1);
 
@@ -62,9 +58,7 @@ void Jogo::executar()
         EventManager->executar();
         pGerGraf->clean();
 
-        listaObstaculos.execute();
-        listaPersonagens.execute();
-        listaInimigos.execute();
+        lista.execute();
 
         ColMngr.execute();
 
