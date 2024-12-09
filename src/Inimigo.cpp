@@ -40,27 +40,29 @@ void Personagens::Inimigo::Inimigo::move()
 void Personagens::Inimigo::Inimigo::randomMovement()
 {
 	Vector2f motion(0,0);
-    switch(movement_dir)
-    {
-        case(up) :
-			motion=entity.getPosition();
-            setPosition(motion+Vector2f(0.0f, -Constants::VEL_ENEMY_Y));
-            break;
-        case(down) :
-			motion=entity.getPosition();
-            setPosition(motion+Vector2f(0.0f,Constants::VEL_ENEMY_Y));
-            break;
-        case(left) :
-			motion=entity.getPosition();
-            setPosition(motion+Vector2f(-Constants::VEL_ENEMY_X, 0.0f));
-            break;
-        case(right) :
-			motion=entity.getPosition();
-            setPosition(motion+Vector2f(Constants::VEL_ENEMY_X, 0.0f));
-            break;
-        default:
-            break;
-    }
+//    switch(movement_dir)
+//    {
+//        case(up) :
+//			motion=entity.getPosition();
+//            setPosition(motion+Vector2f(0.0f, -Constants::VEL_ENEMY_Y));
+//            break;
+//        case(down) :
+//			motion=entity.getPosition();
+//            setPosition(motion+Vector2f(0.0f,Constants::VEL_ENEMY_Y));
+//            break;
+//        case(left) :
+//			motion=entity.getPosition();
+//            setPosition(motion+Vector2f(-Constants::VEL_ENEMY_X, 0.0f));
+//            break;
+//        case(right) :
+//			motion=entity.getPosition();
+//            setPosition(motion+Vector2f(Constants::VEL_ENEMY_X, 0.0f));
+//            break;
+//        default:
+//            break;
+//
+//    }
+	followPlayer();
     float dt = timer.getElapsedTime().asSeconds();
     if(dt >= 1.0f)
     {
@@ -72,23 +74,21 @@ void Personagens::Inimigo::Inimigo::randomMovement()
 
 void Personagens::Inimigo::Inimigo::followPlayer()
 {
-    if(jogador->getPosition().x - getPosition().x > 0.0f)
-    {
-        entity.move(Constants::VEL_ENEMY_X, 0.0f);
-    }
-    else
-    {
-        entity.move(-Constants::VEL_ENEMY_X, 0.0f);
-    }
-
-    if(jogador->getPosition().y - getPosition().y > 0.0f)
-    {
-        entity.move(0.0f, Constants::VEL_ENEMY_Y);
-    }
-    else
-    {
-        entity.move(0.0f, -Constants::VEL_ENEMY_Y);
-    }
+		Vector2f motion(getPosition());
+		if(jogador->getPosition().x>getPosition().x) //para fazer que um tiro siga 
+													 //provavelmente é so fazer ele ficar
+													 //parado
+		{
+            motion+=Vector2f(Constants::VEL_ENEMY_X, 0.0f);
+		}
+		else
+            motion+=Vector2f(-Constants::VEL_ENEMY_X, 0.0f);
+        setPosition(motion);
+		if(jogador->getPosition().y>getPosition().y)
+            motion+=Vector2f(0.0f, Constants::VEL_ENEMY_Y);
+		else
+            motion+=Vector2f(0.0f,-Constants::VEL_ENEMY_Y);
+          setPosition(motion);
 }
 
 void Personagens::Inimigo::Inimigo::refresh()

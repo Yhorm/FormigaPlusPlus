@@ -40,35 +40,35 @@ void Jogo::instanceEntities()
     lista.addEntity(e2);
     lista.addEntity(e3);
     lista.addEntity(
-    new Entidades::Personagens::Inimigo::Inimigo(sf::Vector2f(209.0f, 100.0f),
+    new Entidades::Personagens::Inimigo::Inimigo(sf::Vector2f(209.0f, 200.0f),
             sf::Vector2f(Constants::SIZE_ENEMY_W, Constants::SIZE_ENEMY_H),
             player1));
     lista.addEntity(
-    new Entidades::Personagens::Inimigo::Inimigo(sf::Vector2f(209.0f, 100.0f),
+    new Entidades::Personagens::Inimigo::Inimigo(sf::Vector2f(109.0f, 100.0f),
             sf::Vector2f(Constants::SIZE_ENEMY_W, Constants::SIZE_ENEMY_H),
             player1));
     lista.addEntity(
-    new Entidades::Personagens::Inimigo::Inimigo(sf::Vector2f(209.0f, 100.0f),
+    new Entidades::Personagens::Inimigo::Inimigo(sf::Vector2f(309.0f, 300.0f),
             sf::Vector2f(Constants::SIZE_ENEMY_W, Constants::SIZE_ENEMY_H),
             player1));
     lista.addEntity(
-    new Entidades::Personagens::Inimigo::Inimigo(sf::Vector2f(209.0f, 100.0f),
+    new Entidades::Personagens::Inimigo::Inimigo(sf::Vector2f(209.0f, -300.0f),
             sf::Vector2f(Constants::SIZE_ENEMY_W, Constants::SIZE_ENEMY_H),
             player1));
     lista.addEntity(
-    new Entidades::Personagens::Inimigo::Inimigo(sf::Vector2f(209.0f, 100.0f),
+    new Entidades::Personagens::Inimigo::Inimigo(sf::Vector2f(209.0f, 600.0f),
             sf::Vector2f(Constants::SIZE_ENEMY_W, Constants::SIZE_ENEMY_H),
             player1));
     lista.addEntity(
-    new Entidades::Personagens::Inimigo::Inimigo(sf::Vector2f(209.0f, 100.0f),
+    new Entidades::Personagens::Inimigo::Inimigo(sf::Vector2f(209.0f, 400.0f),
             sf::Vector2f(Constants::SIZE_ENEMY_W, Constants::SIZE_ENEMY_H),
             player1));
     lista.addEntity(
-    new Entidades::Personagens::Inimigo::Inimigo(sf::Vector2f(209.0f, 100.0f),
+    new Entidades::Personagens::Inimigo::Inimigo(sf::Vector2f(209.0f, 800.0f),
             sf::Vector2f(Constants::SIZE_ENEMY_W, Constants::SIZE_ENEMY_H),
             player1));
     lista.addEntity(
-    new Entidades::Personagens::Inimigo::Inimigo(sf::Vector2f(209.0f, 100.0f),
+    new Entidades::Personagens::Inimigo::Inimigo(sf::Vector2f(-171.0f, 100.0f),
             sf::Vector2f(Constants::SIZE_ENEMY_W, Constants::SIZE_ENEMY_H),
             player1));
     lista.addEntity(e4);

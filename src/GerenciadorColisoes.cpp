@@ -11,7 +11,6 @@ GerenciadorColisoes::GerenciadorColisoes(Listas::listEntidade *list,Entidades::P
 	LIs.clear();
 	LOs.clear();
 }
-
 GerenciadorColisoes::~GerenciadorColisoes()
 {
 		
