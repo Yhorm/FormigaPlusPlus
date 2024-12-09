@@ -11,7 +11,6 @@ GerenciadorColisoes::GerenciadorColisoes(Listas::listEntidade *list,Entidades::P
 	LIs.clear();
 	LOs.clear();
 }
-
 GerenciadorColisoes::~GerenciadorColisoes()
 {
 		
@@ -51,7 +50,7 @@ void GerenciadorColisoes::tratarColisoesJogsInimgs(){
 					if((*enemy)){
                	 		if((*enemy)->getAlive())
                			 {
-               	    		 ds = calcColission(pJog1, (*enemy));
+               	    		ds = calcColission(pJog1, (*enemy));
                	     		if(ds.x < 0.0f && ds.y < 0.0f)
                	       	  		pJog1->colision(*enemy, ds);
 
