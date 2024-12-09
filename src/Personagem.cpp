@@ -13,6 +13,6 @@ Entidades::Personagens::Personagem::Personagem(const sf::Vector2f pos, const sf:
 
 Entidades::Personagens::Personagem::~Personagem()
 {
-	pGerGraf->size(Vector2f(((float)pGerGraf->getWindow()->getSize().x),((float)pGerGraf->getWindow()->getSize().x))); 
+		//não fazia sentido 
 }
 

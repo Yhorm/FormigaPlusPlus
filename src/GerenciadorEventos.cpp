@@ -82,7 +82,6 @@ void Gerenciadores::GerenciadorEventos::checaTeclaSolta(sf::Keyboard::Key key)
 
 void Gerenciadores::GerenciadorEventos::executar() {
     sf::Event evento;
-
     while (pWindow->pollEvent(evento)) {
         switch (evento.type) {
             case (sf::Event::Closed) :

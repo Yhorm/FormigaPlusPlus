@@ -17,7 +17,10 @@ Personagens::Inimigo::Inimigo::Inimigo(const sf::Vector2f pos, const sf::Vector2
 }
 
 Personagens::Inimigo::Inimigo::~Inimigo()
-{}
+{
+		jogador=nullptr;
+}
+
 
 
 bool Personagens::Inimigo::Inimigo::CheckRadius(sf::Vector2f posPlayer, sf::Vector2f posEnemy)

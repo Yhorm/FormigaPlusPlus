@@ -22,7 +22,7 @@ namespace Entidades
 
 		public:
 			Personagem(const sf::Vector2f pos, const sf::Vector2f size, const sf::Vector2f vel, const int hp = 1, const Identifier::ID i = Identifier::ID::none);
-			~Personagem();
+			virtual ~Personagem();
 
 
 			void setHP(const int hp) { hitpoints = hp; }

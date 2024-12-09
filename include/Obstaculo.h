@@ -22,7 +22,7 @@ namespace Entidades
                       sf::Vector2f tam = sf::Vector2f(Constants::SIZE_PLTFORM_W, Constants::SIZE_PLTFORM_H),
                       sf::Vector2f s = sf::Vector2f(Constants::SCALE_PLTFRM, Constants::SCALE_PLTFRM),
                       const Identifier::ID i = Identifier::ID::platform);
-            ~Obstaculo();
+            virtual ~Obstaculo();
 
             virtual void colision(Entidades::Entidade* entity,
                                   sf::Vector2f distance) = 0;
