@@ -16,22 +16,6 @@ listEntidade::~listEntidade()
 
 const unsigned int listEntidade::getNumKilled()
 {
-<<<<<<< HEAD
-    unsigned int nKilled = 0;
-    Listas::List<Entidades::Entidade>::Iterator<Entidades::Entidade> aux = EntityObjList.getPrim();
-
-    while(aux != nullptr)
-   	 {
-   	 	if((*aux)->getId()==ID::enemy){
-   	 	    if(!(static_cast<Personagens::Personagem*>(*aux)->getAlive()))
-   	 	    {
-   	 	        nKilled++;
-   	 	    }
-   	 }
-   	 	    aux++;
-	}
-=======
->>>>>>> master
     return nKilled;
 }
 
@@ -53,26 +37,11 @@ void listEntidade::execute()
     {	
 		auto next=aux;
 		next++;
-<<<<<<< HEAD
-		if((*aux)->getId()==ID::enemy){
-   	 	   	if(!(static_cast<Personagens::Personagem*>(*aux)->getAlive()))
-   	 	    {
-					EntityObjList.remove(*aux);
-					delete *aux;
-					aux=next;
-					continue;
-			}
-		}
-        (*aux)->draw();
-        (*aux)->refresh();
-        aux++;
-=======
 		if(CleanAlive(*aux)){
 			aux=next;
 		}
    		(*aux)->draw();
         (*aux)->refresh();
->>>>>>> master
 		aux=next;
     }
 }

@@ -6,7 +6,6 @@
 #include "list.h"
 #include "Entidade.h"
 #include "Personagem.h"
-#include "ID.h"
 namespace Listas
 {
     class listEntidade

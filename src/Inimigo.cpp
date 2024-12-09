@@ -49,7 +49,6 @@ void Personagens::Inimigo::Inimigo::randomMovement()
     switch(movement_dir)
     {
         case(up) :
-			setAlive(false);
             entity.move(0.0f, -Constants::VEL_ENEMY_Y);
             break;
         case(down) :

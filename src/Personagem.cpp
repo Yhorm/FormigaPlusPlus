@@ -16,3 +16,4 @@ Entidades::Personagens::Personagem::~Personagem()
 		//não fazia sentido 
 }
 
+
