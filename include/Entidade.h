@@ -18,7 +18,7 @@ namespace Entidades
 
 	public:
 		Entidade(Vector2f pos, Vector2f size, const Identifier::ID i = Identifier::ID::none);
-		~Entidade();
+		virtual ~Entidade();
 
 		void setPosition(Vector2f pos) { entity.setPosition(pos); this->curPos = pos; }
 		void setSize(Vector2f size) { entity.setSize(size); this->entitySize = size; }
