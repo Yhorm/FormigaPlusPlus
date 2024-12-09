@@ -33,9 +33,9 @@ void Personagens::Jogador::colision(Entidades::Entidade *entity, sf::Vector2f di
     {
         case(Identifier::ID::enemy) :
         {
-            operator--();
-            if(hitpoints <= 0)
-                setAlive(false);
+			Personagem *aux = static_cast<Personagem*>(entity);
+				aux->setAlive(false);
+//                setAlive(false);
             break;
         }
         case(Identifier::ID::platform) :

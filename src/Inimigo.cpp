@@ -33,32 +33,30 @@ bool Personagens::Inimigo::Inimigo::CheckRadius(sf::Vector2f posPlayer, sf::Vect
 
 void Personagens::Inimigo::Inimigo::move()
 {
-    if(CheckRadius(jogador->getPosition(), getPosition()))
-    {
-        followPlayer();
-    }
-    else
-    {
         randomMovement();
-    }
 }
 
 
 void Personagens::Inimigo::Inimigo::randomMovement()
 {
+	Vector2f motion(0,0);
     switch(movement_dir)
     {
         case(up) :
-            entity.move(0.0f, -Constants::VEL_ENEMY_Y);
+			motion=entity.getPosition();
+            setPosition(motion+Vector2f(0.0f, -Constants::VEL_ENEMY_Y));
             break;
         case(down) :
-            entity.move(0.0f, Constants::VEL_ENEMY_Y);
+			motion=entity.getPosition();
+            setPosition(motion+Vector2f(0.0f,Constants::VEL_ENEMY_Y));
             break;
         case(left) :
-            entity.move(-Constants::VEL_ENEMY_X, 0.0f);
+			motion=entity.getPosition();
+            setPosition(motion+Vector2f(-Constants::VEL_ENEMY_X, 0.0f));
             break;
         case(right) :
-            entity.move(Constants::VEL_ENEMY_X, 0.0f);
+			motion=entity.getPosition();
+            setPosition(motion+Vector2f(Constants::VEL_ENEMY_X, 0.0f));
             break;
         default:
             break;
