@@ -15,13 +15,13 @@ Entidades::Personagens::Jogador::~Jogador()
 
 
 void Entidades::Personagens::Jogador::move() {
-    this->inMovement = true;
+    inMovement = true;
 }
 
 void Entidades::Personagens::Jogador::jump() {
     if(!inAir)
     {
-        this->inAir = true;
+        inAir = true;
         velFinal.y = -sqrt((2.0f * Constants::GRAVITY * Constants::JMP_HEIGHT));
     }
 }
@@ -58,7 +58,6 @@ void Personagens::Jogador::colision(Entidades::Entidade *entity, sf::Vector2f di
 void Personagens::Jogador::refresh()
 {
 
-	pGerGraf->size(Vector2f(((float)pGerGraf->getWindow()->getSize().x),((float)pGerGraf->getWindow()->getSize().x))); //TESTE DE CAMERA VALORES ARBITRARIOS
     sf::Vector2f deltaSpeed(0.0f, 0.0f);
 
     if(inMovement)
@@ -72,13 +71,15 @@ void Personagens::Jogador::refresh()
 
     const float velY = velFinal.y;
     velFinal.y = velFinal.y + Constants::GRAVITY * Constants::DELTATIME;
-    deltaSpeed.y = velY * Constants::DELTATIME + (Constants::GRAVITY * Constants::DELTATIME * Constants::DELTATIME) / 2.0f;
-
+   	deltaSpeed.y = velY * Constants::DELTATIME + (Constants::GRAVITY * Constants::DELTATIME * Constants::DELTATIME) / 2.0f;
+	if(deltaSpeed.y>30){
+			deltaSpeed.y=30;
+	}
     setPosition(sf::Vector2f(getPosition().x + deltaSpeed.x, getPosition().y + deltaSpeed.y));
 
     velFinal.x = Constants::VEL_PLAYER_X;
 
-	pGerGraf->centralize(getPosition());
+	pGerGraf->centralize(Vector2f(getPosition()));
     draw();
 }
 unsigned int Entidades::Personagens::Jogador::score(0);

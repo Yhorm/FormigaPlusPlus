@@ -2,7 +2,7 @@
 #include <vector>
 using namespace Fases;
 Fase::Fase():
-		player1(new Entidades::Personagens::Jogador(sf::Vector2f(500.0f, 100.0f),sf::Vector2f(Constants::SIZE_PLYR_W, Constants::SIZE_PLYR_H),1, Identifier::ID::player)),
+		player1(new Entidades::Personagens::Jogador(sf::Vector2f(500.0f, 200.0f),sf::Vector2f(Constants::SIZE_PLYR_W, Constants::SIZE_PLYR_H),1, Identifier::ID::player)),
 		lista(),
 		ColMngr(&lista,player1){
 				lista.addEntity(player1);
@@ -78,6 +78,6 @@ void Fase::CriarPlataforma(std::vector<std::pair<int,std::string>> Num_Fase){
 								aux++;
 		}
 		for(auto x : variaveis){
-				lista.addEntity(new Entidades::Obstaculos::Plataforma(Vector2f(x.y*10,x.x*30),Vector2f((x.z-x.y)*10,50)));
+				lista.addEntity(new Entidades::Obstaculos::Plataforma(Vector2f(x.y*10,x.x*35),Vector2f((x.z-x.y)*10,50)));
 		}
 }

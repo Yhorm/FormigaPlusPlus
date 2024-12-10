@@ -21,7 +21,7 @@ Obstaculo::~Obstaculo()
 void Obstaculo::colisionObstacle(sf::Vector2f ds, Personagens::Personagem *pChar)
 {
     sf::Vector2f charCurPos = pChar->getPosition();
-    sf::Vector2f charCurVel = pChar->getvelFinal();
+    sf::Vector2f charCurVel = pChar->getvelFinal(); //se colocar 0.f 0.f ele fica preso igual cola dá pra fazer o obstaculo medio
     sf::Vector2f charSize = pChar->getEntSize();
 
     if(ds.x < 0.0f && ds.y < 0.0f)
@@ -33,13 +33,13 @@ void Obstaculo::colisionObstacle(sf::Vector2f ds, Personagens::Personagem *pChar
             else
                 charCurPos.x-=ds.x;
             charCurVel.x = 0.0f;
+            pChar->setPosition(charCurPos);
         }
         else
         {
             if(charCurPos.y < position.y)
             {
                 charCurPos.y+=ds.y;
-
                 if(pChar->getId() == Identifier::ID::player)
                 {
                     Entidades::Personagens::Jogador *pPlyr = static_cast<Entidades::Personagens::Jogador *>(pChar);
@@ -51,8 +51,8 @@ void Obstaculo::colisionObstacle(sf::Vector2f ds, Personagens::Personagem *pChar
                 charCurPos.y-=ds.y;
             }
             charCurVel.y = 0.0f;
-            pChar->setPosition(charCurPos);
             pChar->setVelFinal(charCurVel);
+            pChar->setPosition(charCurPos);
         }
     }
 }

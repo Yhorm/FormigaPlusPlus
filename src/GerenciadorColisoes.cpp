@@ -76,7 +76,6 @@ void GerenciadorColisoes::execute()
 				IncluirInimigo(*it);
 				IncluirObstcaulo(*it);
 		}
-
        if(pJog1->getAlive())
         {
 				tratarColisoesJogsInimgs();

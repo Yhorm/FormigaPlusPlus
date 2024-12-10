@@ -71,7 +71,7 @@ void Jogo::instanceEntities()
  //   lista.addEntity(e5);
  //   lista.addEntity(e6);
  //  
-  EventManager->setPlayer1(fase.getPlayer());
+//  EventManager->setPlayer1(fase.getPlayer());
 
 }
 void Jogo::executar()
@@ -84,7 +84,6 @@ void Jogo::executar()
 
         EventManager->executar();
         pGerGraf->clean();
-
 		fase.executar();
         pGerGraf->display();
     }
