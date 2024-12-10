@@ -1,5 +1,4 @@
 #include "../include/Jogo.h"
-
 Jogo::Jogo() :
         pGerGraf(pGerGraf->getGerGraf()),
         EventManager(EventManager->getGerEvent()),
@@ -82,7 +81,7 @@ void Jogo::executar()
 {
 
     instanceEntities();
-
+	fase.LerArquivo();
     while (pGerGraf->getOpen())
     {
 
