@@ -1,5 +1,6 @@
 #pragma once 
 #include "GerenciadorColisoes.h"
+#include "Jogador.h"
 #include "listEntidade.h"
 #include "GerenciadorGrafico.h"
 #include "Plataforma.h"
@@ -10,7 +11,7 @@
 namespace Fases{
 		class Fase{
 				private:
-				GerenciadorGrafico *pGerGraf;
+				Entidades::Personagens::Jogador *player1;
 				Gerenciadores::GerenciadorColisoes ColMngr; 
 				Listas::listEntidade lista;
 				public:
@@ -27,5 +28,6 @@ namespace Fases{
 					void CriarCenario();
 					bool LerArquivo();
 					void TratarArquivo(FILE *T);
+					Entidades::Personagens::Jogador* getPlayer(){return player1;};
 		};
 }

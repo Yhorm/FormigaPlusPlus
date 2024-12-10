@@ -1,11 +1,17 @@
 #include "../include/Fase.h"
 #include <vector>
 using namespace Fases;
-Fase::Fase(){
-}
+Fase::Fase():
+		player1(new Entidades::Personagens::Jogador(sf::Vector2f(500.0f, 100.0f),sf::Vector2f(Constants::SIZE_PLYR_W, Constants::SIZE_PLYR_H),1, Identifier::ID::player)),
+		lista(),
+		ColMngr(&lista,player1){
+				lista.addEntity(player1);
+		}
 Fase::~Fase(){
 }
 void Fase::executar(){
+		lista.execute();
+		ColMngr.execute();
 }
 void Fase::CriarInimigos(){
 }
@@ -14,14 +20,21 @@ void Fase::CriarObstaculo(){
 bool Fase::LerArquivo(){
 	FILE *T;
 	T=fopen("fase.txt","r");
-	if(T!=nullptr){
-		TratarArquivo(T);
-		fclose(T);
-		return true;
-	}
-	std::cerr<<"ERRO AO INCIALIZAR FASE"<<std::endl;
-	fclose(T);
-	return false;
+	try {
+    if (T == nullptr) {
+        	throw std::runtime_error("Erro ao inicializar fase: arquivo é nulo.");
+    }
+    TratarArquivo(T);
+    fclose(T);
+    return true;
+} catch (const std::exception& e) {
+    std::cerr << "Exceção capturada: " << e.what() << std::endl;
+    if (T != nullptr) {
+        fclose(T); // Fecha o arquivo caso tenha sido aberto.
+    }
+    return false;
+}
+
 };
 void Fase::TratarArquivo(FILE *T){
 		char buffer[1024];
@@ -34,9 +47,6 @@ void Fase::TratarArquivo(FILE *T){
 		for(auto x : fase)
 			std::cout<<x.first<<" "<<x.second;
 		CriarPlataforma(fase);
-
-
-
 }
 void Fase::CriarPlataforma(std::vector<std::pair<int,std::string>> Num_Fase){
 		int cont=0;
@@ -68,9 +78,6 @@ void Fase::CriarPlataforma(std::vector<std::pair<int,std::string>> Num_Fase){
 								aux++;
 		}
 		for(auto x : variaveis){
-				new Entidades::Obstaculos::Plataforma(Vector2f(x.y*10,x.x*10),Vector2f((x.z-x.y)*10,200));
+				lista.addEntity(new Entidades::Obstaculos::Plataforma(Vector2f(x.y*10,x.x*30),Vector2f((x.z-x.y)*10,50)));
 		}
-}
-void executar(){
-
 }

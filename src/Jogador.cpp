@@ -58,7 +58,7 @@ void Personagens::Jogador::colision(Entidades::Entidade *entity, sf::Vector2f di
 void Personagens::Jogador::refresh()
 {
 
-	pGerGraf->size(Vector2f(((float)pGerGraf->getWindow()->getSize().x)/Constants::SCALE_CAM,((float)pGerGraf->getWindow()->getSize().x)/Constants::SCALE_CAM)); //TESTE DE CAMERA VALORES ARBITRARIOS
+	pGerGraf->size(Vector2f(((float)pGerGraf->getWindow()->getSize().x),((float)pGerGraf->getWindow()->getSize().x))); //TESTE DE CAMERA VALORES ARBITRARIOS
     sf::Vector2f deltaSpeed(0.0f, 0.0f);
 
     if(inMovement)
