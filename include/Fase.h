@@ -1,6 +1,7 @@
 #pragma once 
 #include "GerenciadorColisoes.h"
 #include "listEntidade.h"
+#include "GerenciadorGrafico.h"
 #include "Plataforma.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -9,7 +10,9 @@
 namespace Fases{
 		class Fase{
 				private:
-				//	Gerenciadores::GerenciadorColisoes ColMngr; 
+				GerenciadorGrafico *pGerGraf;
+				Gerenciadores::GerenciadorColisoes ColMngr; 
+				Listas::listEntidade lista;
 				public:
 					Fase();
 					virtual ~Fase();

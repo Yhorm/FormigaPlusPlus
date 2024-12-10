@@ -34,6 +34,9 @@ void Fase::TratarArquivo(FILE *T){
 		for(auto x : fase)
 			std::cout<<x.first<<" "<<x.second;
 		CriarPlataforma(fase);
+
+
+
 }
 void Fase::CriarPlataforma(std::vector<std::pair<int,std::string>> Num_Fase){
 		int cont=0;
@@ -56,18 +59,7 @@ void Fase::CriarPlataforma(std::vector<std::pair<int,std::string>> Num_Fase){
 														finalz=j;
 														coluna=aux;
 														variaveis.push_back(Vector3i(coluna,comeco,finalz));
-												}
-										}
-								}
-						}
-						if(stingAuxLinha[i]=='1'){
-								if(Num_Fase[aux+1].second[i]=='1'){
-										comeco=aux;
-										for(int j=aux+1;j<tamanho;j++){
-												if(Num_Fase[j].second[i]!='1'){
-														finalz=j;
-														linha=i;
-														variaveis.push_back(Vector3i(linha,comeco,finalz));
+														break;
 												}
 										}
 								}
@@ -76,6 +68,9 @@ void Fase::CriarPlataforma(std::vector<std::pair<int,std::string>> Num_Fase){
 								aux++;
 		}
 		for(auto x : variaveis){
-				cout<<x.x<<" "<<x.y<<" "<<x.z<<endl;
+				new Entidades::Obstaculos::Plataforma(Vector2f(x.y*10,x.x*10),Vector2f((x.z-x.y)*10,200));
 		}
+}
+void executar(){
+
 }
