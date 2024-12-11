@@ -8,6 +8,8 @@ Jogo::Jogo() :
 
 Jogo::~Jogo()
 {
+		pGerGraf=nullptr;
+		EventManager=nullptr;
 }
 
 void Jogo::instanceEntities()

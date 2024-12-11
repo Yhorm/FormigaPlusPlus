@@ -17,7 +17,10 @@ Projetil::Projetil::Projetil(const sf::Vector2f pos,
 {
 }
 
-Projetil::Projetil::~Projetil() {}
+Projetil::Projetil::~Projetil() {
+		ProjectileOwner = nullptr;
+		pPlayer=nullptr;
+}
 
 void Projetil::Projetil::move()
 {

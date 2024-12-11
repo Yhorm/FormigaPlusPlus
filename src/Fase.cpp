@@ -2,12 +2,13 @@
 #include <vector>
 using namespace Fases;
 Fase::Fase():
-		player1(new Entidades::Personagens::Jogador(sf::Vector2f(500.0f, 200.0f),sf::Vector2f(Constants::SIZE_PLYR_W, Constants::SIZE_PLYR_H),1, Identifier::ID::player)),
+		player1(new Entidades::Personagens::Jogador(sf::Vector2f(500.0f, 100.0f),sf::Vector2f(Constants::SIZE_PLYR_W, Constants::SIZE_PLYR_H),1, Identifier::ID::player)),
 		lista(),
 		ColMngr(&lista,player1){
 				lista.addEntity(player1);
 		}
 Fase::~Fase(){
+		player1=nullptr;
 }
 void Fase::executar(){
 		lista.execute();
@@ -44,8 +45,6 @@ void Fase::TratarArquivo(FILE *T){
 			std::string linha(buffer);
 			fase.push_back(make_pair(i++,linha));	
 		}
-		for(auto x : fase)
-			std::cout<<x.first<<" "<<x.second;
 		CriarPlataforma(fase);
 }
 void Fase::CriarPlataforma(std::vector<std::pair<int,std::string>> Num_Fase){

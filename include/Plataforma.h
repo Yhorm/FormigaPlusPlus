@@ -25,7 +25,7 @@ namespace Entidades
             virtual void colision(Entidades::Entidade* entity,
                                   sf::Vector2f distance);
 
-            virtual void refresh() {};
+            virtual void refresh();
 
         };
     }
