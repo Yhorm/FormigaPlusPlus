@@ -13,7 +13,8 @@ GerenciadorColisoes::GerenciadorColisoes(Listas::listEntidade *list,Entidades::P
 }
 GerenciadorColisoes::~GerenciadorColisoes()
 {
-		
+	lista=nullptr;		
+	pJog1=nullptr;
 		//Não faz sentido deletar era o problema de FREE()
 		// Era um objeto estatico não teria necessidade
 }
@@ -61,12 +62,12 @@ void GerenciadorColisoes::tratarColisoesJogsInimgs(){
             }
 }
 void GerenciadorColisoes::IncluirInimigo(Entidades::Entidade *pi){
-	if((pi)->getId()==ID::enemy){
+	if(((pi)->getId()==ID::enemy)&& !(std::find(LIs.begin(),LIs.end(),pi)!=LIs.end())){
 		LIs.push_back(static_cast<Entidades::Personagens::Inimigo::Inimigo*>(pi));
 	}
 }
 void GerenciadorColisoes::IncluirObstcaulo(Entidades::Entidade *po){
-	if((po)->getId()==ID::platform){
+	if(((po)->getId()==ID::platform)&& !(std::find(LOs.begin(),LOs.end(),po)!=LOs.end())){
 		LOs.push_back(static_cast<Entidades::Obstaculos::Obstaculo*>(po));		
 	}	
 }
@@ -76,7 +77,6 @@ void GerenciadorColisoes::execute()
 				IncluirInimigo(*it);
 				IncluirObstcaulo(*it);
 		}
-
        if(pJog1->getAlive())
         {
 				tratarColisoesJogsInimgs();

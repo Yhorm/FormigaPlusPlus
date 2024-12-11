@@ -10,6 +10,8 @@ listEntidade::listEntidade() : EntityObjList(),nKilled(0) {}
 
 listEntidade::~listEntidade()
 {
+		for(auto i=EntityObjList.getPrim();i!=nullptr;i++)
+				delete (*i);
         EntityObjList.clear();//mudei 
 }
 

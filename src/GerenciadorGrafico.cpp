@@ -23,7 +23,6 @@ Gerenciadores::GerenciadorGrafico::GerenciadorGrafico() :
      if (window != nullptr)
      {
          delete(window);
-         window = nullptr;
      }
  }
  GerenciadorGrafico* Gerenciadores::GerenciadorGrafico::getGerGraf()
