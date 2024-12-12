@@ -14,6 +14,7 @@ namespace Fases{
 				Entidades::Personagens::Jogador *player1;
 				Gerenciadores::GerenciadorColisoes ColMngr; 
 				Listas::listEntidade lista;
+				vector <pair<int,string>> fase;
 				public:
 					Fase();
 					virtual ~Fase();
@@ -22,7 +23,7 @@ namespace Fases{
 					void CriarInimigosF();
 					void CriarInimigosM();
 					void CriarInimigosD();
-					void CriarPlataforma(std::vector<std::pair<int,std::string>> Num_Fase);
+					void CriarPlataforma();
 					virtual void CriarInimigos();
 					virtual void CriarObstaculo();
 					void CriarCenario();
