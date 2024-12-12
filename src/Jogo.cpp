@@ -81,12 +81,14 @@ void Jogo::executar()
 
   	EventManager->setPlayer1(fase.getPlayer());
 	fase.LerArquivo();
+	fase.CriarPlataforma();
     while (pGerGraf->getOpen())
     {
 
         EventManager->executar();
         pGerGraf->clean();
 		fase.executar();
+		fase.Gerenciar_colisoes();
         pGerGraf->display();
     }
 }

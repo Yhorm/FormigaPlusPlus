@@ -5,6 +5,7 @@ Fase::Fase():
 		player1(new Entidades::Personagens::Jogador(sf::Vector2f(500.0f, 100.0f),sf::Vector2f(Constants::SIZE_PLYR_W, Constants::SIZE_PLYR_H),1, Identifier::ID::player)),
 		lista(),
 		ColMngr(&lista,player1){
+				fase.clear();
 				lista.addEntity(player1);
 		}
 Fase::~Fase(){
@@ -12,10 +13,12 @@ Fase::~Fase(){
 }
 void Fase::executar(){
 		lista.execute();
+}
+void Fase::Gerenciar_colisoes(){
 		ColMngr.execute();
 }
 void Fase::CriarInimigos(){
-}
+		}
 void Fase::CriarObstaculo(){
 }
 bool Fase::LerArquivo(){
@@ -39,28 +42,23 @@ bool Fase::LerArquivo(){
 };
 void Fase::TratarArquivo(FILE *T){
 		char buffer[1024];
-		std::vector<pair<int,std::string>> fase;
 		int i=0;
 		while(fgets(buffer,sizeof(buffer),T)){
 			std::string linha(buffer);
 			fase.push_back(make_pair(i++,linha));	
 		}
-		CriarPlataforma(fase);
 }
-void Fase::CriarPlataforma(std::vector<std::pair<int,std::string>> Num_Fase){
-		int cont=0;
+void Fase::CriarPlataforma(){
 		int aux=0;
-		int tamanho=Num_Fase[Num_Fase.size()-1].first;
+		int tamanho=fase[fase.size()-1].first;
 		int comeco=0;
 		int finalz=0;
 		int coluna=0;
-		int linha=0;
 		vector<Vector3i> variaveis;
 		while(aux<=tamanho){
-				std::string stingAuxLinha= Num_Fase[aux].second;
+				std::string stingAuxLinha= fase[aux].second;
 				for(int i=0;i<stingAuxLinha.length();i++){
-						if(stingAuxLinha[i]=='1'){
-								if(stingAuxLinha[i+1]=='1'){
+						if(stingAuxLinha[i]=='1' && stingAuxLinha[i+1]=='1'){
 										comeco=i;
 										for(int j=i+1;j<stingAuxLinha.length();j++){
 												if(stingAuxLinha[j]!='1'){
@@ -71,7 +69,6 @@ void Fase::CriarPlataforma(std::vector<std::pair<int,std::string>> Num_Fase){
 														break;
 												}
 										}
-								}
 						}
 				}
 								aux++;
