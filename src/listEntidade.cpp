@@ -4,8 +4,6 @@
 
 #include "../include/listEntidade.h"
 
-using Entidades::Entidade;
-
 listEntidade::listEntidade() : EntityObjList(),nKilled(0) {}
 
 listEntidade::~listEntidade()
@@ -24,7 +22,7 @@ const unsigned int listEntidade::getNumKilled()
 const bool listEntidade::CleanAlive(Entidade *aux) {
   if ((aux)->getId() == ID::enemy) {
     if (!(static_cast<Personagens::Personagem *>(aux)->getAlive())) {
-   		nKilled++;
+  		nKilled++;
      	EntityObjList.remove(aux);
 		delete aux;
      	return true;
@@ -44,6 +42,6 @@ void listEntidade::execute()
 		}
    		(*aux)->draw();
         (*aux)->refresh();
-		aux=next;
+		aux++;
     }
 }

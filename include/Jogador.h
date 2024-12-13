@@ -19,9 +19,7 @@ namespace Entidades {
             Gerenciadores::GerenciadorEventos *EventManager;
             static unsigned int score;
             static unsigned int death_C;
-
-            //DOUBLE JUMP P/ DEPOIS.
-            bool doubleJumped;
+            bool damage;
 
         public:
             Jogador(sf::Vector2f pos = sf::Vector2f(0.f, 0.f), sf::Vector2f size = sf::Vector2f(0.f, 0.f),
@@ -35,22 +33,12 @@ namespace Entidades {
                 return *this;
             }
 
-            Jogador &operator--()
-            {
-                setHP(hitpoints - 1);
-                return *this;
-            }
-
             static const unsigned int getScore() { return score; }
 
             void move();
-            void stopMoving() {inMovement = false;
-                                setDirection(not_move); }
 
             void jump();
 			void refresh();
-            void stopDJumping() { this->doubleJumped = false; }
-
             void colision(Entidades::Entidade* entity, sf::Vector2f distance);
 
         };

@@ -49,6 +49,9 @@ void Fase::TratarArquivo(FILE *T){
 		}
 }
 void Fase::CriarPlataforma(){
+		lista.addEntity(new Entidades::Personagens::Inimigo::Inimigo(Vector2f(-100,965),Vector2f(200,200)));
+		lista.addEntity(new Entidades::Personagens::Inimigo::Inimigo(Vector2f(-100,965),Vector2f(200,200)));
+		lista.addEntity(new Entidades::Personagens::Inimigo::Inimigo(Vector2f(-100,965),Vector2f(200,200)));
 		int aux=0;
 		int tamanho=fase[fase.size()-1].first;
 		int comeco=0;
