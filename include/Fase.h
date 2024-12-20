@@ -4,6 +4,7 @@
 #include "listEntidade.h"
 #include "GerenciadorGrafico.h"
 #include "Plataforma.h"
+#include "Cola.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <vector>
