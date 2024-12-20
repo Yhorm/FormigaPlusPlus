@@ -23,8 +23,6 @@ const bool listEntidade::CleanAlive(Entidade *aux) {
   if ((aux)->getId() == ID::enemy) {
     if (!(static_cast<Personagens::Personagem *>(aux)->getAlive())) {
   		nKilled++;
-     	EntityObjList.remove(aux);
-		delete aux;
      	return true;
     }
   }
@@ -35,13 +33,10 @@ void listEntidade::execute()
     auto aux = EntityObjList.getPrim();//auto 
     while(aux != nullptr)
     {	
-		auto next=aux;
-		next++;
-		if(CleanAlive(*aux)){
-			aux=next;
-		}
-   		(*aux)->draw();
+		if(!CleanAlive(*aux)){
+		(*aux)->draw();
         (*aux)->refresh();
-		aux++;
+		}
+   		aux++;
     }
 }

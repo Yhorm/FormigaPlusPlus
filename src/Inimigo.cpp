@@ -11,7 +11,6 @@ Personagens::Inimigo::Inimigo::Inimigo(const sf::Vector2f pos, const sf::Vector2
     //timer(),
     hasFired(false)
 {
-    entity.setFillColor(sf::Color::Cyan);
 }
 
 Personagens::Inimigo::Inimigo::~Inimigo()
@@ -50,13 +49,6 @@ bool Personagens::Inimigo::Inimigo::CheckRadius(sf::Vector2f posPlayer, sf::Vect
 //	          setPosition(motion);
 //	}
 
-void Personagens::Inimigo::Inimigo::refresh()
-{
-   	draw();
-   	move();
-    if(hitpoints == 0 && getAlive())
-        setAlive(false);
-}
 
 
 void Personagens::Inimigo::Inimigo::colision(Entidades::Entidade *entity, sf::Vector2f distance)
@@ -76,5 +68,3 @@ void Personagens::Inimigo::Inimigo::colision(Entidades::Entidade *entity, sf::Ve
             break;
     }
 }
-
-int Entidades::Personagens::Inimigo::Inimigo::damage(1);

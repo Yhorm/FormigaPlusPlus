@@ -35,7 +35,7 @@ namespace Entidades
         	const bool getAlive() const { return alive; }
             void stopMoving() {inMovement = false;
                                 setDirection(-1); }
-			virtual void move();
+			virtual void move()=0;
             virtual void refresh()=0; 
             virtual void colision(Entidades::Entidade* entity, sf::Vector2f distance) = 0;
 				void operator--(){hitpoints--;

@@ -1,5 +1,4 @@
 #include "../include/Fase.h"
-#include <vector>
 using namespace Fases;
 Fase::Fase():
 		player1(new Entidades::Personagens::Jogador(sf::Vector2f(500.0f, 100.0f),sf::Vector2f(Constants::SIZE_PLYR_W, Constants::SIZE_PLYR_H),1, Identifier::ID::player)),
@@ -47,9 +46,9 @@ void Fase::TratarArquivo(FILE *T){
 		}
 }
 void Fase::CriarPlataforma(){
-		lista.addEntity(new Entidades::Personagens::Inimigo::Inimigo(Vector2f(-100,965),Vector2f(200,200)));
-		lista.addEntity(new Entidades::Personagens::Inimigo::Inimigo(Vector2f(-100,965),Vector2f(200,200)));
-		lista.addEntity(new Entidades::Personagens::Inimigo::Inimigo(Vector2f(-100,965),Vector2f(200,200)));
+		lista.addEntity(new Entidades::Personagens::Inimigo::Fantasminhas(Vector2f(-100,965),Vector2f(200,200),player1));
+		lista.addEntity(new Entidades::Personagens::Inimigo::Fantasminhas(Vector2f(-100,965),Vector2f(200,200),player1));
+		lista.addEntity(new Entidades::Personagens::Inimigo::Fantasminhas(Vector2f(-100,965),Vector2f(200,200),player1));
 		int aux=0;
 		int tamanho=fase[fase.size()-1].first;
 		int comeco=0;
