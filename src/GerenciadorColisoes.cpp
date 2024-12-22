@@ -42,7 +42,14 @@ void GerenciadorColisoes::tratarColisoesJogsObstacs(){
                    		if(ds.x < 0.0f && ds.y < 0.0f)
                     		(*it)->colision(pJog1, ds);
         			}
-			}
+					for(auto enemy=LIs.begin();enemy!=LIs.end();enemy++){
+						if((*enemy)){
+               	    		ds = calcColission((*it), (*enemy));
+                   			if(ds.x < 0.0f && ds.y < 0.0f)
+                    			(*it)->colision(*enemy, ds);
+						}
+					}
+	}
 }
 void GerenciadorColisoes::tratarColisoesJogsInimgs(){
     	sf::Vector2f ds = sf::Vector2f(0.0f, 0.0f);
@@ -53,10 +60,10 @@ void GerenciadorColisoes::tratarColisoesJogsInimgs(){
                			 {
                	    		ds = calcColission(pJog1, (*enemy));
                	     		if(ds.x < 0.0f && ds.y < 0.0f)
+							{
                	       	  		pJog1->colision(*enemy, ds);
-
-							//tava travando muito quando analisava o enemy com a plataforma
-							//sla nao entendi (?????)
+								(*enemy)->colision(pJog1,ds);
+							}
                			 }
 					}
             }

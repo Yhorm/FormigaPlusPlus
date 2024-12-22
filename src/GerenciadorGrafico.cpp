@@ -4,7 +4,7 @@ GerenciadorGrafico* Gerenciadores::GerenciadorGrafico::pGerGraf(nullptr);
 
 Gerenciadores::GerenciadorGrafico::GerenciadorGrafico() :
     window(new RenderWindow(VideoMode(1280, 720), "Jogasso", Style::Default)),
-	cam(sf::Vector2f(((float)window->getSize().x)/2,((float)window->getSize().y)/2),Vector2f(window->getSize()))
+	cam(sf::Vector2f(((float)window->getSize().x)*2,((float)window->getSize().y)*2),Vector2f(window->getSize().x*3,window->getSize().y*3))
 {
     if (window == nullptr)
     {

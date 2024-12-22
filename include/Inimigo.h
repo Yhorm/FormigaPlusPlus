@@ -24,7 +24,7 @@ namespace Entidades
             public:
                 Inimigo(const sf::Vector2f pos,
 			       	const sf::Vector2f size,
-			       	Jogador* pP = NULL);
+			       	Jogador* pP = NULL,int hp=4);
                 ~Inimigo();
 
                 bool CheckRadius(sf::Vector2f posPlayer, sf::Vector2f posEnemy);

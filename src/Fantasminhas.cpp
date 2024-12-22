@@ -1,6 +1,6 @@
 #include "../include/Fantasminhas.h"
 Entidades::Personagens::Inimigo::Fantasminhas::Fantasminhas(const sf::Vector2f pos, const sf::Vector2f size, Personagens::Jogador *pP):
-	Inimigo(pos,size,pP)	
+	Inimigo(pos,size,pP,1)	
 {
     entity.setFillColor(sf::Color::Cyan);
 }
@@ -13,11 +13,7 @@ Entidades::Personagens::Inimigo::Fantasminhas::Fantasminhas::~Fantasminhas()
 void Entidades::Personagens::Inimigo::Fantasminhas::move()
 {
     float dt = timer.getElapsedTime().asSeconds();
-    if(dt >= 1.0f)
-    {
-        movement_dir = rand()%4;
-        timer.restart();
-    }	enum {up = 3, down = 2, left = 1, right = 0, not_move = -1};
+	enum {up = 3, down = 2, left = 1, right = 0, not_move = -1};
 	Vector2f motion=getPosition();
     switch(movement_dir)
     {
@@ -37,11 +33,15 @@ void Entidades::Personagens::Inimigo::Fantasminhas::move()
             break;
 
     }
-
+    if(dt-previous >= 1.4f)
+    {
+		previous=dt;
+        movement_dir = rand()%4;
+		dt=dt-timer.getElapsedTime().asSeconds();
+    }
 }
 void Entidades::Personagens::Inimigo::Fantasminhas::Fantasminhas::refresh()
 {
-   	draw();
    	move();
     if(hitpoints == 0 && getAlive())
         setAlive(false);
@@ -50,11 +50,17 @@ void Entidades::Personagens::Inimigo::Fantasminhas::Fantasminhas::refresh()
 
 void Entidades::Personagens::Inimigo::Fantasminhas::Fantasminhas::colision(Entidades::Entidade *entity, sf::Vector2f distance)
 {
+    float dt = timer.getElapsedTime().asSeconds();
     Identifier::ID id = entity->getId();
     switch(id)
     {
         case(Identifier::ID::player) :
         {
+				if(!jogador->getInAir()&&dt-animation>=1.3){
+					animation=dt;
+					danificar(jogador);
+					dt=dt-timer.getElapsedTime().asSeconds();
+				}
             break;
         }
         case(Identifier::ID::platform) :

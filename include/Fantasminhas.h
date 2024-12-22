@@ -23,8 +23,8 @@ namespace Entidades
 
                 void refresh();
 				void move();
-				void danificar(Jogador *p);
                 void colision(Entidades::Entidade* entity, sf::Vector2f distance);
+				void danificar(Jogador *p);
             };
         }
     }

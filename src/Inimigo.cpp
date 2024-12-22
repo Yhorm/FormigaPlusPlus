@@ -5,8 +5,8 @@
 #include "../include/Inimigo.h"
 
 
-Personagens::Inimigo::Inimigo::Inimigo(const sf::Vector2f pos, const sf::Vector2f size, Personagens::Jogador *pP) :
-    Personagens::Personagem(pos, size, sf::Vector2f(Constants::VEL_ENEMY_X, Constants::VEL_ENEMY_Y),10,Identifier::ID::enemy),
+Personagens::Inimigo::Inimigo::Inimigo(const sf::Vector2f pos, const sf::Vector2f size, Personagens::Jogador *pP,int hp) :
+    Personagens::Personagem(pos, size, sf::Vector2f(Constants::VEL_ENEMY_X, Constants::VEL_ENEMY_Y),hp,Identifier::ID::enemy),
     jogador(pP),
     //timer(),
     hasFired(false)

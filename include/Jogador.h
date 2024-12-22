@@ -34,13 +34,10 @@ namespace Entidades {
             }
 
             static const unsigned int getScore() { return score; }
-
             void move();
-
             void jump();
 			void refresh();
             void colision(Entidades::Entidade* entity, sf::Vector2f distance);
-
         };
     }
 }

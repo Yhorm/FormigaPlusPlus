@@ -35,15 +35,14 @@ void Personagens::Jogador::colision(Entidades::Entidade *entity, sf::Vector2f di
         case(Identifier::ID::enemy) :
         {
 				if(inAir && damage){
-			Personagem *aux = static_cast<Personagem*>(entity);
-			aux->operator--();
-			damage=false;
+				Personagem *aux = static_cast<Personagem*>(entity);
+				aux->operator--();
+				damage=false;
 				}
             break;
         }
         case(Identifier::ID::platform) :
         {
-            colision(this, distance);
             break;
         }
         case(Identifier::ID::projectile) :
@@ -56,9 +55,7 @@ void Personagens::Jogador::colision(Entidades::Entidade *entity, sf::Vector2f di
 
 void Personagens::Jogador::refresh()
 {
-
     sf::Vector2f deltaSpeed(0.0f, 0.0f);
-
     if(inMovement)
     {
         deltaSpeed.x = velFinal.x * Constants::DELTATIME;
@@ -79,7 +76,8 @@ void Personagens::Jogador::refresh()
     velFinal.x = Constants::VEL_PLAYER_X;
 
 	pGerGraf->centralize(Vector2f(getPosition()));
-    draw();
+	if(hitpoints==0 && getAlive())
+			setAlive(false);
 }
 unsigned int Entidades::Personagens::Jogador::score(0);
 unsigned int Entidades::Personagens::Jogador::death_C(0);

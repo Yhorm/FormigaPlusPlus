@@ -22,9 +22,9 @@ void Jogo::executar()
 	fase.LerArquivo();
 	fase.CriarPlataforma();
 	fase.CriarObstaculo();
+	fase.CriarInimigosF();
     while (pGerGraf->getOpen())
     {
-
         EventManager->executar();
         pGerGraf->clean();
 		fase.executar();
