@@ -1,7 +1,3 @@
-//
-// Created by Felipe on 02/11/2023.
-//
-
 #pragma once
 #include <iostream>
 #include <stdlib.h>
@@ -20,34 +16,25 @@ namespace Entidades
             {
             protected:
                 Jogador* jogador;
-                short movement_dir;
-
-                //Todos os inimigos darão 1 de dano ao player:
-                static int damage;
 
                 //Estados possíveis de cada inimigo:
                 bool hasProjectile;
                 bool hasFired;
                 bool canMove;
-
-                enum {up = 3, down = 2, left = 1, right = 0, not_move = -1};
-
             public:
                 Inimigo(const sf::Vector2f pos,
 			       	const sf::Vector2f size,
-			       	Jogador* pP = NULL);
+			       	Jogador* pP = NULL,int hp=4);
                 ~Inimigo();
 
                 bool CheckRadius(sf::Vector2f posPlayer, sf::Vector2f posEnemy);
 
-                void move();
-                void refresh();
-                void colision(Entidades::Entidade* entity, sf::Vector2f distance);
-                void randomMovement();
-                void followPlayer();
-
-                void setCanMove(bool can) { canMove = can; }
+                virtual void refresh()=0;
+				virtual void danificar(Jogador *p)=0;
+                virtual void colision(Entidades::Entidade* entity, sf::Vector2f distance);
+                virtual void move()=0;
                 void setHasProj(bool hasPrj) { hasProjectile = hasPrj; }
+
             };
         }
     }
