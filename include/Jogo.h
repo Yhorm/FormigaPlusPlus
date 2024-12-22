@@ -8,33 +8,41 @@
 #include "Plataforma.h"
 #include "Inimigo.h"
 #include "listEntidade.h"
-
+#include "menu.h"
+#include "States.h"
 
 using namespace std;
 using namespace sf;
 
-class Jogo {
-private:
-    Entidades::Personagens::Jogador* player1;
-    //Entidades::Personagens::Jogador* player2;
-    Entidades::Personagens::Inimigo::Inimigo* enemy;
-    Entidades::Obstaculos::Plataforma* platform;
+class Jogo 
+{
+    private:
 
-    Listas::listEntidade listaPersonagens;
-    Listas::listEntidade listaInimigos;
-    Listas::listEntidade listaObstaculos;
+        Entidades::Personagens::Jogador* player1;
+        //Entidades::Personagens::Jogador* player2;
+        Entidades::Personagens::Inimigo::Inimigo* enemy;
+        Entidades::Obstaculos::Plataforma* platform;
 
-    Gerenciadores::GerenciadorColisoes ColMngr; // PROBLEMA ESTA NO GERENCIADOR DE COLISOES
-    Gerenciadores::GerenciadorGrafico *pGerGraf;
-    Gerenciadores::GerenciadorEventos *EventManager;
-public:
-    Jogo();
+        Listas::listEntidade listaPersonagens;
+        Listas::listEntidade listaInimigos;
+        Listas::listEntidade listaObstaculos;
 
-    ~Jogo();
+        Gerenciadores::GerenciadorColisoes ColMngr; // PROBLEMA ESTA NO GERENCIADOR DE COLISOES
+        Gerenciadores::GerenciadorGrafico *pGerGraf;
+        Gerenciadores::GerenciadorEventos *EventManager;
 
-    void instanceEntities();
+        States::State curState;
 
-    void executar();
+        Menus::Menu* pMenu;
+
+    public:
+        Jogo();
+
+        ~Jogo();
+
+        void instanceEntities();
+
+        void executar();
 
 };
 

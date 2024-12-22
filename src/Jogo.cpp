@@ -24,6 +24,7 @@ void Jogo::instanceEntities()
     enemy = new Entidades::Personagens::Inimigo::Inimigo(sf::Vector2f(800.0f, 700.0f),
             sf::Vector2f(Constants::SIZE_ENEMY_W, Constants::SIZE_ENEMY_H),
             player1);
+
     Entidades::Obstaculos::Plataforma* p1 = new Entidades::Obstaculos::Plataforma(sf::Vector2f(100.0f, 0.0f),
                                                                                   sf::Vector2f(Constants::SIZE_PLTFORM_W, Constants::SIZE_PLTFORM_H));
     Entidades::Obstaculos::Plataforma* p2 = new Entidades::Obstaculos::Plataforma(Vector2f(100.0f, 200.0f),
@@ -54,19 +55,37 @@ void Jogo::instanceEntities()
 void Jogo::executar()
 {
 
-    instanceEntities();
+    
 
     while (pGerGraf->getOpen())
     {
-
         EventManager->executar();
         pGerGraf->clean();
 
-        listaObstaculos.execute();
-        listaPersonagens.execute();
-        listaInimigos.execute();
+        switch(curState.getState())  
+        {
+            case(States::States::STATE_IN_MENU) :
+            {
+                pMenu->draw();
+                pMenu->refresh();
+                continue;
+            };
 
-        ColMngr.execute();
+            case(States::States::STATE_IN_GAME) :
+            {
+                        instanceEntities();
+                        listaObstaculos.execute();
+                        listaPersonagens.execute();
+                        listaInimigos.execute();
+                        ColMngr.execute();
+                        continue;
+            };
+
+            case(States::States::STATE_PAUSED) :
+            {
+                continue;
+            };
+        };
 
         pGerGraf->display();
     }

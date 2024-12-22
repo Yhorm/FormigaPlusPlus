@@ -20,8 +20,11 @@ namespace Entidades {
             static unsigned int score;
             static unsigned int death_C;
 
-            //DOUBLE JUMP P/ DEPOIS.
-            bool doubleJumped;
+            enum { left = 1, right = 2}; 
+            int direction;
+
+            bool inMovement;
+            bool canJump;
 
         public:
             Jogador(sf::Vector2f pos = sf::Vector2f(0.f, 0.f), sf::Vector2f size = sf::Vector2f(0.f, 0.f),
@@ -44,12 +47,13 @@ namespace Entidades {
             static const unsigned int getScore() { return score; }
 
             void move();
-            void stopMoving() {inMovement = false;
-                                setDirection(not_move); }
+            void stopMoving() { inMovement = false; }
 
             void jump();
 			void refresh();
-            void stopDJumping() { this->doubleJumped = false; }
+
+            void setDirection(int dir) { direction = dir; };
+            void setCanJump(bool jmp) { canJump = jmp; };
 
             void colision(Entidades::Entidade* entity, sf::Vector2f distance);
 

@@ -44,7 +44,7 @@ void Obstaculo::colisionObstacle(sf::Vector2f ds, Personagens::Personagem *pChar
                 if(pChar->getId() == Identifier::ID::player)
                 {
                     Entidades::Personagens::Jogador *pPlyr = static_cast<Entidades::Personagens::Jogador *>(pChar);
-                    pPlyr->setInAir(false);
+                    pPlyr->setCanJump(true);
                 }
             }
             else
