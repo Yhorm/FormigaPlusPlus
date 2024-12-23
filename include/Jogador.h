@@ -22,11 +22,10 @@ namespace Entidades {
 
             static unsigned int score;
             static unsigned int death_C;
-
+            bool damage;
             enum { left = 1, right = 2}; 
             int direction;
-            bool damage;
-            bool isPlayer2;
+            bool Player2;
             bool inMovement;
             bool canJump;
 
@@ -41,25 +40,17 @@ namespace Entidades {
                 return *this;
             }
 
-            Jogador &operator--()
-            {
-                setHP(hitpoints - 1);
-                return *this;
-            }
-
             static const unsigned int getScore() { return score; }
-
             void move();
             void stopMoving() { inMovement = false; }
 
             void jump();
-			void refresh();
+			      void refresh();
 
             void setDirection(int dir) { direction = dir; };
             void setCanJump(bool jmp) { canJump = jmp; };
 
             void colision(Entidades::Entidade* entity, sf::Vector2f distance);
-
         };
     }
 }

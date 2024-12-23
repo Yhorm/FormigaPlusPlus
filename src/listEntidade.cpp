@@ -4,45 +4,51 @@
 
 #include "../include/listEntidade.h"
 
-listEntidade::listEntidade() :
-        EntityObjList()
-{
-}
+listEntidade::listEntidade() : EntityObjList(),nKilled(0) {}
 
 listEntidade::~listEntidade()
 {
+		for(auto i=EntityObjList.getPrim();i!=nullptr;i++)
+				delete (*i);
         EntityObjList.clear();//mudei 
 }
 
 
 const unsigned int listEntidade::getNumKilled()
 {
-    unsigned int nKilled = 0;
-    Listas::List<Entidades::Entidade>::Iterator<Entidades::Entidade> aux = EntityObjList.getPrim();
-
-    while(aux != nullptr)
-    {
-        if(!(static_cast<Personagens::Personagem*>(*aux)->getAlive()))
-        {
-            nKilled++;
-        }
-        aux++;
-    }
     return nKilled;
 }
 
+const bool listEntidade::CleanAlive(Entidade *aux) {
+		if ((aux)->getId() == ID::player){
+    		if (!(static_cast<Personagens::Personagem *>(aux)->getAlive())) {
+				restart();		
+			}
+		} 
+	if ((aux)->getId() == ID::enemy) {
+    	if (!(static_cast<Personagens::Personagem *>(aux)->getAlive())) {
+  			nKilled++;
+     	return true;
+    }
+  }
+  return false;
+}
+void listEntidade::restart(){
+		for(auto aux = EntityObjList.getPrim();aux!=nullptr;aux++){
+  		if ((*aux)->getId() == ID::enemy || (*aux)->getId() == ID::player ) {
+			static_cast<Personagens::Personagem *>(*aux)->restart();
+		}
+	}
+}
 void listEntidade::execute()
 {
-    Listas::List<Entidades::Entidade>::Iterator<Entidades::Entidade> aux = EntityObjList.getPrim();//auto 
+    auto aux = EntityObjList.getPrim();//auto 
     while(aux != nullptr)
-    {
-        (*aux)->draw();
-        (*aux)->refresh();
-        aux++;
+    {	
+		if(!CleanAlive(*aux)){
+			(*aux)->draw();
+    	    (*aux)->refresh();
+		}
+   		aux++;
     }
 }
-
-
-
-
-

@@ -7,36 +7,17 @@
 #include "GerenciadorColisoes.h"
 #include "Plataforma.h"
 #include "Inimigo.h"
-#include "listEntidade.h"
-//#include "menu.h"
-//#include "States.h"
-
+#include "Fase.h"
 using namespace std;
 using namespace sf;
 
-class Jogo 
-{
-    private:
-
-        Entidades::Personagens::Jogador* player1;
-        //Entidades::Personagens::Jogador* player2;
-        Entidades::Personagens::Inimigo::Inimigo* enemy;
-        Entidades::Obstaculos::Plataforma* platform;
-
-        Listas::listEntidade listaPersonagens;
-        Listas::listEntidade listaInimigos;
-        Listas::listEntidade listaObstaculos;
-
-        Gerenciadores::GerenciadorColisoes ColMngr; // PROBLEMA ESTA NO GERENCIADOR DE COLISOES
-        Gerenciadores::GerenciadorGrafico *pGerGraf;
-        Gerenciadores::GerenciadorEventos *EventManager;
-
-        //States::State curState;
-
-        //Menus::Menu* pMenu;
-
-    public:
-        Jogo();
+class Jogo {
+private:
+    Gerenciadores::GerenciadorGrafico *pGerGraf;
+    Gerenciadores::GerenciadorEventos *EventManager;
+	Fases::Fase fase;
+public:
+    Jogo();
 
         ~Jogo();
 

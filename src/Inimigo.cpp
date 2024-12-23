@@ -5,19 +5,19 @@
 #include "../include/Inimigo.h"
 
 
-Personagens::Inimigo::Inimigo::Inimigo(const sf::Vector2f pos, const sf::Vector2f size, Personagens::Jogador *pP) :
-    Personagens::Personagem(pos, size, sf::Vector2f(Constants::VEL_ENEMY_X, Constants::VEL_ENEMY_Y)),
+Personagens::Inimigo::Inimigo::Inimigo(const sf::Vector2f pos, const sf::Vector2f size, Personagens::Jogador *pP,int hp) :
+    Personagens::Personagem(pos, size, sf::Vector2f(Constants::VEL_ENEMY_X, Constants::VEL_ENEMY_Y),hp,Identifier::ID::enemy),
     jogador(pP),
     //timer(),
     hasFired(false)
 {
-    srand(time(NULL));
-    movement_dir = rand()%4;
-    entity.setFillColor(sf::Color::Cyan);
 }
 
 Personagens::Inimigo::Inimigo::~Inimigo()
-{}
+{
+		jogador=nullptr;
+}
+
 
 
 bool Personagens::Inimigo::Inimigo::CheckRadius(sf::Vector2f posPlayer, sf::Vector2f posEnemy)
@@ -28,75 +28,27 @@ bool Personagens::Inimigo::Inimigo::CheckRadius(sf::Vector2f posPlayer, sf::Vect
         return false;
 }
 
-void Personagens::Inimigo::Inimigo::move()
-{
-    if(CheckRadius(jogador->getPosition(), getPosition()))
-    {
-        followPlayer();
-    }
-    else
-    {
-        randomMovement();
-    }
-}
 
 
-void Personagens::Inimigo::Inimigo::randomMovement()
-{
-    switch(movement_dir)
-    {
-        case(up) :
-            entity.move(0.0f, -Constants::VEL_ENEMY_Y);
-            break;
-        case(down) :
-            entity.move(0.0f, Constants::VEL_ENEMY_Y);
-            break;
-        case(left) :
-            entity.move(-Constants::VEL_ENEMY_X, 0.0f);
-            break;
-        case(right) :
-            entity.move(Constants::VEL_ENEMY_X, 0.0f);
-            break;
-        default:
-            break;
-    }
-    float dt = timer.getElapsedTime().asSeconds();
-    if(dt >= 1.0f)
-    {
-        movement_dir = rand()%4;
-        timer.restart();
-    }
-}
+//	void Personagens::Inimigo::Inimigo::followPlayer()
+//	{
+//			Vector2f motion(getPosition());
+//			if(jogador->getPosition().x>getPosition().x) //para fazer que um tiro siga 
+//														 //provavelmente é so fazer ele ficar
+//														 //parado
+//			{
+//	            motion+=Vector2f(Constants::VEL_ENEMY_X, 0.0f);
+//			}
+//			else
+//	            motion+=Vector2f(-Constants::VEL_ENEMY_X, 0.0f);
+//	        setPosition(motion);
+//			if(jogador->getPosition().y>getPosition().y)
+//	            motion+=Vector2f(0.0f, Constants::VEL_ENEMY_Y);
+//			else
+//	            motion+=Vector2f(0.0f,-Constants::VEL_ENEMY_Y);
+//	          setPosition(motion);
+//	}
 
-
-void Personagens::Inimigo::Inimigo::followPlayer()
-{
-    if(jogador->getPosition().x - getPosition().x > 0.0f)
-    {
-        entity.move(Constants::VEL_ENEMY_X, 0.0f);
-    }
-    else
-    {
-        entity.move(-Constants::VEL_ENEMY_X, 0.0f);
-    }
-
-    if(jogador->getPosition().y - getPosition().y > 0.0f)
-    {
-        entity.move(0.0f, Constants::VEL_ENEMY_Y);
-    }
-    else
-    {
-        entity.move(0.0f, -Constants::VEL_ENEMY_Y);
-    }
-}
-
-void Personagens::Inimigo::Inimigo::refresh()
-{
-    this->draw();
-    this->move();
-    if(hitpoints == 0 && getAlive())
-        setAlive(false);
-}
 
 
 void Personagens::Inimigo::Inimigo::colision(Entidades::Entidade *entity, sf::Vector2f distance)
@@ -116,5 +68,3 @@ void Personagens::Inimigo::Inimigo::colision(Entidades::Entidade *entity, sf::Ve
             break;
     }
 }
-
-int Entidades::Personagens::Inimigo::Inimigo::damage(1);

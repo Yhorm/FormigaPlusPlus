@@ -12,6 +12,7 @@ namespace Listas
     {
     private:
         List<Entidades::Entidade> EntityObjList;
+		unsigned int nKilled;
     public:
         listEntidade();
         ~listEntidade();
@@ -27,6 +28,8 @@ namespace Listas
 
         //executar chama o draw de cada entidade, o que faz com que todos se movam e se desenhem.
 
+		const bool CleanAlive(Entidades::Entidade* aux);
+		void restart();
         void execute();
         Listas::List<Entidades::Entidade>::Iterator <Entidades::Entidade> getPrim() { return EntityObjList.getPrim(); }
     };

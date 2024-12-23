@@ -4,16 +4,17 @@
 
 #include "../include/GerenciadorColisoes.h"
 
-GerenciadorColisoes::GerenciadorColisoes(Listas::listEntidade *listaPersonagens, Listas::listEntidade* listEne, Listas::listEntidade *listaObstac) :
-    listPers(listaPersonagens),
-    listEnemies(listEne),
-    listObstaculo(listaObstac)
+GerenciadorColisoes::GerenciadorColisoes(Listas::listEntidade *list,Entidades::Personagens::Jogador *jog) :
+    lista(list),
+	pJog1(jog)
 {
+	LIs.clear();
+	LOs.clear();
 }
-
 GerenciadorColisoes::~GerenciadorColisoes()
 {
-		
+	lista=nullptr;		
+	pJog1=nullptr;
 		//Não faz sentido deletar era o problema de FREE()
 		// Era um objeto estatico não teria necessidade
 }
@@ -33,53 +34,59 @@ const sf::Vector2f GerenciadorColisoes::calcColission(Entidades::Entidade *char1
     sf::Vector2f somaDasMetades((size1.x/2.0f) + (size2.x/2.0f), (size1.y/2.0f) + (size2.y/2.0f));
     return sf::Vector2f((distanceCenter.x - somaDasMetades.x), (distanceCenter.y - somaDasMetades.y));
 }
-
+void GerenciadorColisoes::tratarColisoesJogsObstacs(){
+    sf::Vector2f ds = sf::Vector2f(0.0f, 0.0f);
+	for(auto it=LOs.begin();it!=LOs.end();it++){
+					if((*it)){
+            			ds = calcColission(pJog1, *it);
+                   		if(ds.x < 0.0f && ds.y < 0.0f)
+                    		(*it)->colision(pJog1, ds);
+        			}
+					for(auto enemy=LIs.begin();enemy!=LIs.end();enemy++){
+						if((*enemy)){
+               	    		ds = calcColission((*it), (*enemy));
+                   			if(ds.x < 0.0f && ds.y < 0.0f)
+                    			(*it)->colision(*enemy, ds);
+						}
+					}
+	}
+}
+void GerenciadorColisoes::tratarColisoesJogsInimgs(){
+    	sf::Vector2f ds = sf::Vector2f(0.0f, 0.0f);
+		for(auto enemy=LIs.begin();enemy!=LIs.end();enemy++)
+            {
+					if((*enemy)){
+               	 		if((*enemy)->getAlive())
+               			 {
+               	    		ds = calcColission(pJog1, (*enemy));
+               	     		if(ds.x < 0.0f && ds.y < 0.0f)
+							{
+               	       	  		pJog1->colision(*enemy, ds);
+								(*enemy)->colision(pJog1,ds);
+							}
+               			 }
+					}
+            }
+}
+void GerenciadorColisoes::IncluirInimigo(Entidades::Entidade *pi){
+	if(((pi)->getId()==ID::enemy)&& !(std::find(LIs.begin(),LIs.end(),pi)!=LIs.end())){
+		LIs.push_back(static_cast<Entidades::Personagens::Inimigo::Inimigo*>(pi));
+	}
+}
+void GerenciadorColisoes::IncluirObstcaulo(Entidades::Entidade *po){
+	if(((po)->getId()==ID::platform)&& !(std::find(LOs.begin(),LOs.end(),po)!=LOs.end())){
+		LOs.push_back(static_cast<Entidades::Obstaculos::Obstaculo*>(po));		
+	}	
+}
 void GerenciadorColisoes::execute()
 {
-    Listas::List<Entidades::Entidade> aux;
-    Listas::List<Entidades::Entidade>::Iterator<Entidades::Entidade> obs = listObstaculo->getPrim();
-    Listas::List<Entidades::Entidade>::Iterator<Entidades::Entidade> enemy = listEnemies->getPrim();
-    Listas::List<Entidades::Entidade>::Iterator<Entidades::Entidade> player;
-    sf::Vector2f ds = sf::Vector2f(0.0f, 0.0f);
-
-    for(player = listPers->getPrim(); player != nullptr; player++)
-    {
-			
-        if(static_cast<Personagens::Personagem*>(*player)->getAlive())
+		for(auto it=lista->getPrim();it!=nullptr;it++){
+				IncluirInimigo(*it);
+				IncluirObstcaulo(*it);
+		}
+       if(pJog1->getAlive())
         {
-            while(enemy != nullptr)
-            {
-                if(static_cast<Personagens::Personagem*>(*enemy)->getAlive())
-                {
-                    ds = calcColission(*player, *enemy);
-                    if(ds.x < 0.0f && ds.y < 0.0f)
-                        (*player)->colision(*enemy, ds);
-                }
-                enemy++;
-            }
-
-            while(obs != nullptr)
-            {
-                    ds = calcColission(*player, *obs);
-                    if(ds.x < 0.0f && ds.y < 0.0f)
-                        (*obs)->colision(*player, ds);
-                obs++;
-            }
-        }
-    }
-
-    while(enemy != nullptr)
-    {
-        if(static_cast<Personagens::Personagem*>(*enemy)->getAlive())
-        {
-            while(obs != nullptr)
-            {
-                    ds = calcColission(*enemy, *obs);
-                    if(ds.x < 0.0f && ds.y < 0.0f)
-                        (*obs)->colision(*enemy, ds);
-                obs++;
-            }
-        }
-        enemy++;
-    }
+				tratarColisoesJogsInimgs();
+				tratarColisoesJogsObstacs();
+		}
 }

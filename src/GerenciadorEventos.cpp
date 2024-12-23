@@ -71,11 +71,12 @@ Gerenciadores::GerenciadorEventos::GerenciadorEventos() :
 
 Gerenciadores::GerenciadorEventos::~GerenciadorEventos()
 {
+		delete pGerGraf;
 }
 
 GerenciadorEventos* Gerenciadores::GerenciadorEventos::getGerEvent()
 {
-	if (pGerEvent == NULL)
+	if (!pGerEvent)
 	{
 		pGerEvent = new GerenciadorEventos();
 	}
@@ -156,7 +157,6 @@ void Gerenciadores::GerenciadorEventos::checaTeclaSolta(sf::Keyboard::Key key)
 
 void Gerenciadores::GerenciadorEventos::executar() {
     sf::Event evento;
-
     while (pWindow->pollEvent(evento)) {
         switch (evento.type) 
 		{

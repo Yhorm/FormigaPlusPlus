@@ -14,15 +14,13 @@ namespace Gerenciadores
 	private:
 		RenderWindow* window;
 		View cam;
-		static GerenciadorGrafico* pGerGraf;
 		GerenciadorGrafico();
+		static GerenciadorGrafico* pGerGraf;
 	public:
-		static GerenciadorGrafico* getGerGraf();
 		~GerenciadorGrafico();
-		RenderWindow* getWindow() { return window; }
-		
+		static GerenciadorGrafico* getGerGraf();
+		RenderWindow* getWindow() const { return window; }
 		const bool getOpen() const { return window->isOpen(); }
-
 		void draw(Drawable &entity) { window->draw(entity); } // não é uma boa ideia deixar como RectangleShape, usar Drawble &entity 
 		void close() { window->close(); }
 		void display() { window->display(); }

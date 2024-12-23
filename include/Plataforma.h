@@ -1,7 +1,3 @@
-//
-// Created by Felipe on 07/11/2023.
-//
-
 #pragma once
 #include "Obstaculo.h"
 #include "Jogador.h"
@@ -22,10 +18,11 @@ namespace Entidades
                        const Identifier::ID i = Identifier::ID::platform);
             ~Plataforma();
 
-            virtual void colision(Entidades::Entidade* entity,
+            void colision(Entidades::Entidade* entity,
                                   sf::Vector2f distance);
 
-            virtual void refresh() {};
+            void colisionObstacle(sf::Vector2f ds, Personagens::Personagem* pChar);
+            void refresh();
 
         };
     }
