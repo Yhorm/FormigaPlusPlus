@@ -6,6 +6,7 @@
 Entidades::Personagens::Jogador::Jogador(const sf::Vector2f pos, const sf::Vector2f size, const int hp, Identifier::ID i) :
         EventManager(EventManager->getGerEvent()),
         Personagem(pos, size, sf::Vector2f(Constants::VEL_PLAYER_X, Constants::VEL_PLAYER_Y), hp, i),
+		canJump(true),
         damage(true)
         {
                entity.setFillColor(sf::Color(0, 0, 255));
@@ -21,9 +22,10 @@ void Entidades::Personagens::Jogador::move() {
 }
 
 void Entidades::Personagens::Jogador::jump() {
-    if(!inAir)
+    if(canJump)
     {
-        inAir = true;
+		inAir=true;
+		canJump=false;
 		damage=true;
         velFinal.y = -sqrt((2.0f * Constants::GRAVITY * Constants::JMP_HEIGHT));
     }
@@ -36,7 +38,7 @@ void Personagens::Jogador::colision(Entidades::Entidade *entity, sf::Vector2f di
     {
         case(Identifier::ID::enemy) :
         {
-				if(inAir && damage){
+				if(!canJump && damage){
 				Personagem *aux = static_cast<Personagem*>(entity);
 				aux->operator--();
 				damage=false;

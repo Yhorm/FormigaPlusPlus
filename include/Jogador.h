@@ -1,6 +1,4 @@
 #pragma once
-
-
 #include "Personagem.h"
 #include "Constants.h"
 #include <cmath>
@@ -20,6 +18,7 @@ namespace Entidades {
             static unsigned int score;
             static unsigned int death_C;
             bool damage;
+			bool canJump;
 
         public:
             Jogador(sf::Vector2f pos = sf::Vector2f(0.f, 0.f), sf::Vector2f size = sf::Vector2f(0.f, 0.f),
@@ -38,6 +37,7 @@ namespace Entidades {
             void jump();
 			void refresh();
             void colision(Entidades::Entidade* entity, sf::Vector2f distance);
+			void setCanJump(bool jmp) { canJump = jmp; };
 			void showlife();
         };
     }
