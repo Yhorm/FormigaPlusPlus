@@ -19,11 +19,11 @@ private:
 public:
     Jogo();
 
-    ~Jogo();
+        ~Jogo();
 
-    void instanceEntities();
+        void instanceEntities();
 
-    void executar();
+        void executar();
 
 };
 

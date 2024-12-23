@@ -1,11 +1,12 @@
 #pragma once
 
-
 #include "Personagem.h"
+#include "../include/playerObserver.h"
 #include "Constants.h"
 #include <cmath>
 
 using namespace std;
+
 
 namespace Gerenciadores
 {
@@ -16,14 +17,20 @@ namespace Entidades {
     namespace Personagens {
         class Jogador : public Personagem {
         private:
-            Gerenciadores::GerenciadorEventos *EventManager;
+
+            Observers::playerObserver Controlador;
+
             static unsigned int score;
             static unsigned int death_C;
             bool damage;
+            enum { left = 1, right = 2}; 
+            int direction;
+            bool Player2;
+            bool inMovement;
+            bool canJump;
 
         public:
-            Jogador(sf::Vector2f pos = sf::Vector2f(0.f, 0.f), sf::Vector2f size = sf::Vector2f(0.f, 0.f),
-                    const int hp = 3, Identifier::ID i = Identifier::ID::player);
+            Jogador(sf::Vector2f pos = sf::Vector2f(0.0f, 0.0f), bool isPlayer2 = false , Gerenciadores::GerenciadorEventos* pGE = nullptr);
 
             ~Jogador();
 
@@ -35,8 +42,14 @@ namespace Entidades {
 
             static const unsigned int getScore() { return score; }
             void move();
+            void stopMoving() { inMovement = false; }
+
             void jump();
-			void refresh();
+			      void refresh();
+
+            void setDirection(int dir) { direction = dir; };
+            void setCanJump(bool jmp) { canJump = jmp; };
+
             void colision(Entidades::Entidade* entity, sf::Vector2f distance);
         };
     }

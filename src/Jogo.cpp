@@ -27,8 +27,8 @@ void Jogo::executar()
     {
         EventManager->executar();
         pGerGraf->clean();
-		fase.executar();
-		fase.Gerenciar_colisoes();
+		    fase.executar();
+		    fase.Gerenciar_colisoes();
         pGerGraf->display();
     }
 }
