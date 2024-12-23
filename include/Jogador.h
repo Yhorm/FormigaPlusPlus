@@ -38,6 +38,7 @@ namespace Entidades {
             void jump();
 			void refresh();
             void colision(Entidades::Entidade* entity, sf::Vector2f distance);
+			void showlife();
         };
     }
 }
