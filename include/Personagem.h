@@ -16,14 +16,11 @@ namespace Entidades
 		protected:
 			int hitpoints;
 			sf::Vector2f velFinal;
-            sf::Clock timer;
         	bool alive; // Entidade não tem vida, Personagem tem
 			bool inAir;
 			bool inMovement;
             short direction;
     		short movement_dir;
-			float previous;
-			float animation;
 		public:
 			Personagem(const sf::Vector2f pos, const sf::Vector2f size, const sf::Vector2f vel, const int hp = 5, const Identifier::ID i = Identifier::ID::none);
 			virtual ~Personagem();

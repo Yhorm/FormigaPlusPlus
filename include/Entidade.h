@@ -14,6 +14,9 @@ namespace Entidades
 		sf::RectangleShape entity;
         sf::Vector2f curPos;
         sf::Vector2f entitySize;
+		sf::Clock timer;
+		float previous;
+		float animation;
 
 
 	public:
