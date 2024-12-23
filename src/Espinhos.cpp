@@ -13,7 +13,7 @@ Entidades::Obstaculos::Espinhos::~Espinhos()
 void Espinhos::colision(Entidades::Entidade *entity, sf::Vector2f distance)
 {
     Identifier::ID id = entity->getId();
-    if(id == ID::player)
+    if(id != ID::projectile)
     {
         colisionObstacle(distance, static_cast<Entidades::Personagens::Personagem*>(entity));
     }
@@ -39,7 +39,8 @@ void Espinhos::colisionObstacle(sf::Vector2f ds, Personagens::Personagem *pChar)
     sf::Vector2f charCurPos = pChar->getPosition();
     sf::Vector2f charCurVel = pChar->getvelFinal(); 
 	sf::Vector2f charSize = pChar->getEntSize();
-
+    Identifier::ID id = pChar->getId();
+    if(id != ID::projectile)
 
     if(ds.x < 0.0f && ds.y < 0.0f)
     {
@@ -72,7 +73,7 @@ void Espinhos::colisionObstacle(sf::Vector2f ds, Personagens::Personagem *pChar)
             pChar->setPosition(charCurPos);
         }
     }
-	if(danoso){
+	if(danoso && id==ID::player){
 			pChar->setAlive(false);
 	}
 }
