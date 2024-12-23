@@ -22,8 +22,9 @@ void Plataforma::colision(Entidades::Entidade *entity, sf::Vector2f distance)
 }
 void Plataforma::refresh()
 {
+    
     sf::Vector2f curPos = getPosition();
-    sf::Vector2f applyGravidade = curPos + sf::Vector2f(curPos.x, Constants::GRAVITY + Constants::F_NORMAL);
+    sf::Vector2f applyGravidade = sf::Vector2f(curPos.x, (curPos.y - (Constants::GRAVITY + Constants::F_NORMAL)));
     setPosition(applyGravidade);
 
 }
