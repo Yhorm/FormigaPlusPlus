@@ -18,7 +18,12 @@ void Espinhos::colision(Entidades::Entidade *entity, sf::Vector2f distance)
         colisionObstacle(distance, static_cast<Entidades::Personagens::Personagem*>(entity));
     }
 }
-void Espinhos::refresh(){
+void Espinhos::refresh()
+{
+    sf::Vector2f curPos = getPosition();
+    sf::Vector2f applyGravidade = curPos + sf::Vector2f(curPos.x, Constants::GRAVITY + Constants::F_NORMAL);
+    setPosition(applyGravidade);
+
     float dt = timer.getElapsedTime().asSeconds();
     if(dt-previous >= 4.0)
     {

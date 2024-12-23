@@ -1,154 +1,82 @@
 #include "../include/playerObserver.h"
 #include "../include/Jogador.h"
 
-Observers::playerObserver::playerObserver(Gerenciadores::GerenciadorEventos* pGm, Entidades::Personagens::Jogador* pP1, Entidades::Personagens::Jogador* pP2) :
+Observers::playerObserver::playerObserver(Gerenciadores::GerenciadorEventos* pGm, Entidades::Personagens::Jogador* pP) :
     Observer(pGm),
-    pPlayer1(pP1),
-    pPlayer2(pP2),
-    jump1("W"),
-    left1("A"),
-    right1("D"),
-    jump2("Up"),
-    left2("Left"),
-    right2("Right"),
+    pPlayer(pP),
+    jump("W"),
+    left("A"),
+    right("D"),
     keysPressed()
 {
-    keysPressed.insert(std::pair<std::string, bool>(jump1, false));
-    keysPressed.insert(std::pair<std::string, bool>(right1, false));
-    keysPressed.insert(std::pair<std::string, bool>(left1, false));
-    keysPressed.insert(std::pair<std::string, bool>(jump1, false));
-    keysPressed.insert(std::pair<std::string, bool>(right1, false));
-    keysPressed.insert(std::pair<std::string, bool>(left1, false));
+    keysPressed.insert(std::pair<std::string, bool>(jump, false));
+    keysPressed.insert(std::pair<std::string, bool>(right, false));
+    keysPressed.insert(std::pair<std::string, bool>(left, false));
 }
 
 Observers::playerObserver::~playerObserver()
 {
-    pPlayer1 = nullptr;
-    pPlayer2 = nullptr;
+    pPlayer = nullptr;
 }
 
 void Observers::playerObserver::notifyKeyPress(std::string key)
 {
-    if(pPlayer1 == nullptr)
+    if(pPlayer == nullptr)
     {
         std:: cout << "Erro: Pplayer1 é nulo em playerObserver." << endl;
         exit(1);
     }
 
-    if(pPlayer2 == nullptr)
+    if(key == jump)
     {
-        std:: cout << "Erro: Pplayer2 é nulo em playerObserver." << endl;
-        exit(1);
+       keysPressed[jump] = true;
+        pPlayer->jump();
     }
 
-    if(pPlayer1)
+
+    if(key == left)
     {
-
-        if(key == jump1)
-        {
-            keysPressed[jump1] = true;
-            pPlayer1->jump();
-        }
-
-
-        if(key == left1)
-        {
-            keysPressed[left1] = true;
-            pPlayer1->move();
-            pPlayer1->setDirection(1);
-        }
-        if(key == right1)
-        {
-            keysPressed[right1] = true;
-            pPlayer1->move();
-            pPlayer1->setDirection(2);
-        }
-
+        keysPressed[left] = true;
+        pPlayer->move();
+        pPlayer->setDirection(1);
+    }
+    if(key == right)
+    {
+        keysPressed[right] = true;
+        pPlayer->move();
+        pPlayer->setDirection(2);
     }
 
-    if(pPlayer2)
-    {
-        if(key == jump2)
-        {
-            keysPressed[jump2] = true;
-            pPlayer2->jump();
-        }
-
-
-        if(key == left2)
-        {
-            keysPressed[left2] = true;
-            pPlayer2->move();
-            pPlayer2->setDirection(1);
-        }
-        if(key == right2)
-        {
-            keysPressed[right2] = true;
-            pPlayer2->move();
-            pPlayer2->setDirection(2);
-        }
-    }
-
-    
 }
 
 void Observers::playerObserver::notifyKeyReleased(std::string key)
 {
-    if(pPlayer1 == nullptr || pPlayer2 == nullptr)
+    if(pPlayer == nullptr )
     {
-        std:: cout << "Erro: pPlayer1 ou pPlayer2 é nulo em playerObserver." << endl;
+        std:: cout << "Erro: pPlayer é nulo em playerObserver." << endl;
         exit(1);
     }
 
-    if(pPlayer1)
+    if(key == jump)
     {
-        if(key == jump1)
-        {
-            keysPressed[jump1] = false;
+        keysPressed[jump] = false;
             
-        }
-        if(key == left1)
-        {
-            keysPressed[left1] = false;
-            pPlayer1->stopMoving();
-        }
-        if(key == right1)
-        {
-            keysPressed[right1] = false;
-            pPlayer1->stopMoving();
-        }
     }
-
-    if(pPlayer2)
+    if(key == left)
     {
-        if(key == jump2)
-        {
-            keysPressed[jump2] = false;
-            
-        }
-        if(key == left2)
-        {
-            keysPressed[left2] = false;
-            pPlayer2->stopMoving();
-        }
-        if(key == right2)
-        {
-            keysPressed[right2] = false;
-            pPlayer2->stopMoving();
-        }
+        keysPressed[left] = false;
+        pPlayer->stopMoving();
+    }
+    if(key == right)
+    {
+        keysPressed[right] = false;
+        pPlayer->stopMoving();
     }
 }
 
-void Observers::playerObserver::setKeysP1(std::string jmp, std::string l, std::string r)
+void Observers::playerObserver::setKeys(std::string jmp, std::string l, std::string r)
 {
-    this->jump1 = jmp;
-    this->left1 = l;
-    this->right1 = r;
-}
-
-void Observers::playerObserver::setKeysP2(std::string jmp, std::string l, std::string r)
-{
-    this->jump2 = jmp;
-    this->left2 = l;
-    this->right2 = r;
+    this->jump = jmp;
+    this->left = l;
+    this->right = r;
 }

@@ -4,13 +4,14 @@
 
 
 Entidades::Personagens::Jogador::Jogador(sf::Vector2f pos, bool isPlayer2, Gerenciadores::GerenciadorEventos* pGE) :
-        Controlador(pGE, this, nullptr),
+        Controlador(pGE, this),
         Personagem(pos, sf::Vector2f(Constants::SIZE_PLYR_H, Constants::SIZE_PLYR_W), sf::Vector2f(Constants::VEL_PLAYER_X, Constants::VEL_PLAYER_Y), 3, Identifier::ID::player),
         direction(left),
         damage(true),
         Player2(isPlayer2),
         inMovement(false),
-        canJump(true)
+        canJump(true),
+        inAir(false)
         {
                entity.setFillColor(sf::Color(0, 0, 255));
         }
@@ -26,7 +27,7 @@ void Entidades::Personagens::Jogador::move() {
 void Entidades::Personagens::Jogador::jump() {
     if(canJump)
     {
-		    damage=true;
+		damage=true;
         this->canJump = false;
         velFinal.y = -sqrt((2.0f * Constants::GRAVITY * Constants::JMP_HEIGHT));
     }
@@ -40,7 +41,7 @@ void Personagens::Jogador::colision(Entidades::Entidade *entity, sf::Vector2f di
     {
         case(Identifier::ID::enemy) :
         {
-				if(inAir && damage){
+				if(!canJump && damage){
 				Personagem *aux = static_cast<Personagem*>(entity);
 				aux->operator--();
 				damage=false;

@@ -1,7 +1,7 @@
 #include "../include/Fase.h"
 using namespace Fases;
 Fase::Fase():
-		player1(new Entidades::Personagens::Jogador(sf::Vector2f(2200.0f, 100.0f),sf::Vector2f(Constants::SIZE_PLYR_W, Constants::SIZE_PLYR_H),4, Identifier::ID::player)),
+		player1(new Entidades::Personagens::Jogador(sf::Vector2f(2200.0f, 100.0f))),
 		lista(),
 		ColMngr(&lista,player1){
 				fase.clear();

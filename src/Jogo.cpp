@@ -17,8 +17,6 @@ void Jogo::instanceEntities()
 }
 void Jogo::executar()
 {
-
-  	EventManager->setPlayer1(fase.getPlayer());
 	fase.LerArquivo();
 	fase.CriarPlataforma();
 	fase.CriarObstaculo();

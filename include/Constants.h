@@ -2,7 +2,8 @@
 
 namespace Constants
 {
-	constexpr float GRAVITY = 8.81  ;
+	constexpr float GRAVITY = 5.0  ;
+    constexpr float F_NORMAL = -5.0 ;
 	constexpr float DELTATIME = 0.8  ;
     constexpr float STRT_VEL_PLYR_X = 2.5;
 	constexpr float VEL_PLAYER_X = 8.0;

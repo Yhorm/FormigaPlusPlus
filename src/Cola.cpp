@@ -20,7 +20,11 @@ void Cola::colision(Entidades::Entidade *entity, sf::Vector2f distance)
         colisionObstacle(distance, static_cast<Entidades::Personagens::Personagem*>(entity));
     }
 }
-void Cola::refresh(){
+void Cola::refresh()
+{
+    sf::Vector2f curPos = getPosition();
+    sf::Vector2f applyGravidade = curPos + sf::Vector2f(curPos.x, Constants::GRAVITY + Constants::F_NORMAL);
+    setPosition(applyGravidade);
 }
 void Cola::colisionObstacle(sf::Vector2f ds, Personagens::Personagem *pChar)
 {

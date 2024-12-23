@@ -28,6 +28,7 @@ namespace Entidades {
             bool Player2;
             bool inMovement;
             bool canJump;
+            bool inAir;
 
         public:
             Jogador(sf::Vector2f pos = sf::Vector2f(0.0f, 0.0f), bool isPlayer2 = false , Gerenciadores::GerenciadorEventos* pGE = nullptr);
