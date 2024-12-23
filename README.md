@@ -2,9 +2,10 @@
 ###### revisar isso pq foi o chat que fez 
 
 ## Contexto e Planejamento
-- [ ] Escolher o jogo de plataforma a ser desenvolvido.
-- [ ] Validar a escolha do jogo com o professor.
-- [ ] Planejar as fases, obstáculos, inimigos e funcionalidades.
+- [X] Escolher o jogo de plataforma a ser desenvolvido.
+      ## Casa fantasma com inimigos
+- [X] Validar a escolha do jogo com o professor.
+- [x] Planejar as fases, obstáculos, inimigos e funcionalidades.
 
 ## Requisitos Funcionais do Jogo
 - [ ] Criar menu gráfico com:
