@@ -1,7 +1,3 @@
-//
-// Created by Felipe on 05/11/2023.
-//
-
 #pragma once
 #include "Jogador.h"
 #include "Constants.h"

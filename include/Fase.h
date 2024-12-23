@@ -6,6 +6,7 @@
 #include "Plataforma.h"
 #include "Fantasminhas.h"
 #include "Cola.h"
+#include "Espinhos.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <vector>

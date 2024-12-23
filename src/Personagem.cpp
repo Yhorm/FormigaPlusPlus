@@ -2,9 +2,6 @@
 Entidades::Personagens::Personagem::Personagem(const sf::Vector2f pos, const sf::Vector2f size, const sf::Vector2f vel, const int hp, const Identifier::ID i) :
 	Entidade(pos, size, i),
 	velFinal(vel),
-	previous(0),
-	animation(0),
-    timer(),
 	hitpoints(hp),
     alive(true),
 	inMovement(false),
