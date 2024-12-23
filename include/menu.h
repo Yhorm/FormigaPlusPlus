@@ -10,10 +10,8 @@ namespace Menus
     class Menu : public Ente
     {
         private:
-            Gerenciadores::GerenciadorEventos* EventManager;
-
-            sf::RenderWindow* pWindow;
-        
+            RenderWindow* pWindow;
+            
             States::State curMenu;
         
             //sf::Font fonte;

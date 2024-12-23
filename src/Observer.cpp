@@ -1,13 +1,13 @@
 #include "../include/Observer.h"
 
-using namespace Observers;
 
-Observer::Observer() :
-    pEventos(pEventos->getGerEvent())
+Observers::Observer::Observer(Gerenciadores::GerenciadorEventos* event) :
+    pEventos(event->getGerEvent())
 {
+    pEventos->attach(this);
 }
 
-Observer::~Observer()
+Observers::Observer::~Observer()
 {
     pEventos = nullptr;
 }

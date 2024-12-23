@@ -2,9 +2,15 @@
 
 #include <iostream>
 #include "Observer.h"
-#include "Jogador.h"
 #include <map>
 
+namespace Entidades
+{
+    namespace Personagens
+    {
+        class Jogador;  
+    }
+}
 
 namespace Observers
 {
@@ -25,7 +31,7 @@ namespace Observers
             std::string right2;
 
         public:
-            playerObserver(Entidades::Personagens::Jogador* pP1 = nullptr, Entidades::Personagens::Jogador* pP2 = nullptr);
+            playerObserver(Gerenciadores::GerenciadorEventos* pGm, Entidades::Personagens::Jogador* pP1 = nullptr, Entidades::Personagens::Jogador* pP2 = nullptr);
             ~playerObserver();
 
             void notifyKeyPress(std::string key);

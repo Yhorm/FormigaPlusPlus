@@ -1,13 +1,11 @@
-#include "../include/GerenciadorEventos.h"
 #include "../include/Observer.h"
+#include "../include/GerenciadorEventos.h"
+
 
 GerenciadorEventos* Gerenciadores::GerenciadorEventos::pGerEvent(nullptr);
 
 Gerenciadores::GerenciadorEventos::GerenciadorEventos() :
 	pGerGraf(pGerGraf->getGerGraf()),
-	keyMap(),
-	observadores(),
-
 	//pPlayer1(nullptr),
 	//pPlayer2(nullptr),
 	//pMenu(nullptr),
@@ -127,9 +125,9 @@ void Gerenciadores::GerenciadorEventos::checaTeclaApertada(sf::Keyboard::Key key
 		}
 	}
 	*/
-	for(it = observadores.begin(); it != observadores.end(); ++it)
+	for(iterador = observadores.begin(); iterador != observadores.end(); ++iterador)
 	{
-		(*it)->notifyKeyPress(getKeyAsString(key));
+		(*iterador)->notifyKeyPress(getKeyAsString(key));
 	}
 }
 
@@ -150,9 +148,9 @@ void Gerenciadores::GerenciadorEventos::checaTeclaSolta(sf::Keyboard::Key key)
 	}
 	*/
 
-	for(it = observadores.begin(); it != observadores.end(); ++it)
+	for(iterador = observadores.begin(); iterador != observadores.end(); ++iterador)
 	{
-		(*it)->notifyKeyReleased(getKeyAsString(key));
+		(*iterador)->notifyKeyReleased(getKeyAsString(key));
 	}
 }
 

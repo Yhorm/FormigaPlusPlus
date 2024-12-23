@@ -1,9 +1,8 @@
 #include "../include/playerObserver.h"
+#include "../include/Jogador.h"
 
-using namespace Observers;
-
-playerObserver::playerObserver(Entidades::Personagens::Jogador* pP1, Entidades::Personagens::Jogador* pP2) :
-    Observer(),
+Observers::playerObserver::playerObserver(Gerenciadores::GerenciadorEventos* pGm, Entidades::Personagens::Jogador* pP1, Entidades::Personagens::Jogador* pP2) :
+    Observer(pGm),
     pPlayer1(pP1),
     pPlayer2(pP2),
     jump1("W"),
@@ -22,14 +21,13 @@ playerObserver::playerObserver(Entidades::Personagens::Jogador* pP1, Entidades::
     keysPressed.insert(std::pair<std::string, bool>(left1, false));
 }
 
-playerObserver::~playerObserver()
+Observers::playerObserver::~playerObserver()
 {
     pPlayer1 = nullptr;
     pPlayer2 = nullptr;
 }
 
-
-void playerObserver::notifyKeyPress(std::string key)
+void Observers::playerObserver::notifyKeyPress(std::string key)
 {
     if(pPlayer1 == nullptr)
     {
@@ -94,7 +92,7 @@ void playerObserver::notifyKeyPress(std::string key)
     
 }
 
-void playerObserver::notifyKeyReleased(std::string key)
+void Observers::playerObserver::notifyKeyReleased(std::string key)
 {
     if(pPlayer1 == nullptr || pPlayer2 == nullptr)
     {
@@ -141,14 +139,14 @@ void playerObserver::notifyKeyReleased(std::string key)
     }
 }
 
-void playerObserver::setKeysP1(std::string jmp, std::string l, std::string r)
+void Observers::playerObserver::setKeysP1(std::string jmp, std::string l, std::string r)
 {
     this->jump1 = jmp;
     this->left1 = l;
     this->right1 = r;
 }
 
-void playerObserver::setKeysP2(std::string jmp, std::string l, std::string r)
+void Observers::playerObserver::setKeysP2(std::string jmp, std::string l, std::string r)
 {
     this->jump2 = jmp;
     this->left2 = l;

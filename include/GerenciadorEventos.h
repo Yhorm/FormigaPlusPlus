@@ -1,16 +1,15 @@
 #pragma once
 
 #include <iostream>
-#include <SFML/Graphics.hpp>
-#include "GerenciadorGrafico.h"
-#include "Jogador.h"
-#include "menu.h"
 #include <list>
-
-
 #include <map>
 
-using namespace std;
+#include "GerenciadorGrafico.h"
+
+namespace Observers
+{
+    class Observer;
+}
 
 namespace Gerenciadores {
     class GerenciadorEventos {
@@ -22,8 +21,9 @@ namespace Gerenciadores {
         //Ponteiro p/ o menu:
         //Menus::Menu* pMenu;
         //lista de observadores
+
         std::list<Observers::Observer*> observadores;
-        std::list<Observers::Observer*>::iterator it;
+        std::list<Observers::Observer*>::iterator iterador;
 
         //Gerenciador gr�fico:
         GerenciadorGrafico *pGerGraf;

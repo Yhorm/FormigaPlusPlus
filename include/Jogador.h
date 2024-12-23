@@ -1,11 +1,12 @@
 #pragma once
 
-
 #include "Personagem.h"
+#include "../include/playerObserver.h"
 #include "Constants.h"
 #include <cmath>
 
 using namespace std;
+
 
 namespace Gerenciadores
 {
@@ -16,19 +17,21 @@ namespace Entidades {
     namespace Personagens {
         class Jogador : public Personagem {
         private:
-            Gerenciadores::GerenciadorEventos *EventManager;
+
+            Observers::playerObserver Controlador;
+
             static unsigned int score;
             static unsigned int death_C;
 
             enum { left = 1, right = 2}; 
             int direction;
-
+            bool damage;
+            bool isPlayer2;
             bool inMovement;
             bool canJump;
 
         public:
-            Jogador(sf::Vector2f pos = sf::Vector2f(0.f, 0.f), sf::Vector2f size = sf::Vector2f(0.f, 0.f),
-                    const int hp = 3, Identifier::ID i = Identifier::ID::player);
+            Jogador(sf::Vector2f pos = sf::Vector2f(0.0f, 0.0f), bool isPlayer2 = false , Gerenciadores::GerenciadorEventos* pGE = nullptr);
 
             ~Jogador();
 

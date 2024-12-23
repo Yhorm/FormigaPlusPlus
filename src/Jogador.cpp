@@ -1,10 +1,13 @@
 #include "../include/Jogador.h"
+
 #include "../include/GerenciadorEventos.h"
 
-Entidades::Personagens::Jogador::Jogador(const sf::Vector2f pos, const sf::Vector2f size, const int hp, Identifier::ID i) :
-        EventManager(EventManager->getGerEvent()),
-        Personagem(pos, size, sf::Vector2f(Constants::VEL_PLAYER_X, Constants::VEL_PLAYER_Y), hp, i),
+Entidades::Personagens::Jogador::Jogador(sf::Vector2f pos, bool isPlayer2, Gerenciadores::GerenciadorEventos* pGE) :
+        Controlador(pGE, this, nullptr),
+        Personagem(pos, sf::Vector2f(Constants::SIZE_PLYR_H, Constants::SIZE_PLYR_W), sf::Vector2f(Constants::VEL_PLAYER_X, Constants::VEL_PLAYER_Y), 3, Identifier::ID::player),
         direction(left),
+        damage(false),
+        isPlayer2(),
         inMovement(false),
         canJump(true)
         {

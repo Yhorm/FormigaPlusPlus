@@ -8,8 +8,8 @@
 #include "Plataforma.h"
 #include "Inimigo.h"
 #include "listEntidade.h"
-#include "menu.h"
-#include "States.h"
+//#include "menu.h"
+//#include "States.h"
 
 using namespace std;
 using namespace sf;
@@ -31,9 +31,9 @@ class Jogo
         Gerenciadores::GerenciadorGrafico *pGerGraf;
         Gerenciadores::GerenciadorEventos *EventManager;
 
-        States::State curState;
+        //States::State curState;
 
-        Menus::Menu* pMenu;
+        //Menus::Menu* pMenu;
 
     public:
         Jogo();
