@@ -65,4 +65,3 @@ void Cola::colisionObstacle(sf::Vector2f ds, Personagens::Personagem *pChar)
         }
     }
 }
-

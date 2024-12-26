@@ -1,6 +1,6 @@
 #include "../include/Fantasminhas.h"
-Entidades::Personagens::Inimigo::Fantasminhas::Fantasminhas(const sf::Vector2f pos, const sf::Vector2f size, Personagens::Jogador *pP):
-	Inimigo(pos,size,pP,1)	
+Entidades::Personagens::Inimigo::Fantasminhas::Fantasminhas(const sf::Vector2f pos, Personagens::Jogador *pP):
+	Inimigo(pos,Vector2f(20,20),pP,1)	
 {
     entity.setFillColor(sf::Color::Cyan);
 }

@@ -2,6 +2,7 @@
 #include "GerenciadorColisoes.h"
 #include "Jogador.h"
 #include "listEntidade.h"
+#include "Aranhas.h"
 #include "GerenciadorGrafico.h"
 #include "Plataforma.h"
 #include "Fantasminhas.h"

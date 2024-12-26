@@ -13,15 +13,18 @@ namespace Entidades
     {
         namespace Inimigo
         {
-            class Fantasminhas : public Inimigo
+            class Aranhas: public Inimigo
             {
+			private:
+					bool bigger;
             public:
-                Fantasminhas(const sf::Vector2f pos,
-			       	Jogador* pP = NULL);
-                ~Fantasminhas();
+                Aranhas(const sf::Vector2f pos,
+			       	Jogador* pP = nullptr);
+                ~Aranhas();
 
                 void refresh();
 				void move();
+				void changeSize();
                 void colision(Entidades::Entidade* entity, sf::Vector2f distance);
 				void danificar(Jogador *p);
             };

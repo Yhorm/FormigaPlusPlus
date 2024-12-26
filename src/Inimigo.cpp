@@ -30,27 +30,6 @@ bool Personagens::Inimigo::Inimigo::CheckRadius(sf::Vector2f posPlayer, sf::Vect
 
 
 
-//	void Personagens::Inimigo::Inimigo::followPlayer()
-//	{
-//			Vector2f motion(getPosition());
-//			if(jogador->getPosition().x>getPosition().x) //para fazer que um tiro siga 
-//														 //provavelmente é so fazer ele ficar
-//														 //parado
-//			{
-//	            motion+=Vector2f(Constants::VEL_ENEMY_X, 0.0f);
-//			}
-//			else
-//	            motion+=Vector2f(-Constants::VEL_ENEMY_X, 0.0f);
-//	        setPosition(motion);
-//			if(jogador->getPosition().y>getPosition().y)
-//	            motion+=Vector2f(0.0f, Constants::VEL_ENEMY_Y);
-//			else
-//	            motion+=Vector2f(0.0f,-Constants::VEL_ENEMY_Y);
-//	          setPosition(motion);
-//	}
-
-
-
 void Personagens::Inimigo::Inimigo::colision(Entidades::Entidade *entity, sf::Vector2f distance)
 {
     Identifier::ID id = entity->getId();
