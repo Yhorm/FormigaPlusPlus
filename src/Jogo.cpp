@@ -23,6 +23,7 @@ void Jogo::executar()
 	fase.CriarPlataforma();
 	fase.CriarObstaculo();
 	fase.CriarInimigosF();
+	fase.CriarInimigosM();
     while (pGerGraf->getOpen())
     {
         EventManager->executar();

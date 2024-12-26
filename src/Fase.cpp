@@ -155,8 +155,7 @@ void Fase::CriarInimigosF(){
 			}
 		for(auto x : variaveis){
 				if(rand()%10<3 || numeromin<3){
-					//lista.addEntity(new Entidades::Personagens::Inimigo::Fantasminhas(Vector2f(x.y*10,x.x*35),player1));
-					lista.addEntity(new Entidades::Personagens::Inimigo::Aranhas(Vector2f(x.y*10,x.x*35),player1));
+					lista.addEntity(new Entidades::Personagens::Inimigo::Fantasminhas(Vector2f(x.y*10,x.x*35),player1));
 					numeromin++;
 				}
 		}
