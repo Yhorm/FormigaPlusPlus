@@ -100,9 +100,36 @@ void Entidades::Personagens::Inimigo::Aranhas::Aranhas::colision(Entidades::Enti
 		}
            break;
         }
-        case(Identifier::ID::platform) :
+        case(Identifier::ID::enemy) :
         {
-            break;
+			auto pChar = static_cast<Personagens::Personagem*>(entity);
+   			sf::Vector2f charCurPos = pChar->getPosition();
+    		sf::Vector2f charCurVel = pChar->getvelFinal(); //se colocar 0.f 0.f ele fica preso igual cola dá pra fazer o obstaculo medio
+			sf::Vector2f charSize = pChar->getEntSize();
+    		    if(distance.x > distance.y)
+    		    {
+    		        if(charCurPos.x < getPosition().x)
+    		            charCurPos.x+=distance.x;
+    		        else
+    		            charCurPos.x-=distance.x;
+    		        charCurVel.x = 0.0f;
+    		        pChar->setPosition(charCurPos);
+    		    }
+    		    else
+    		    {
+    		        if(charCurPos.y < getPosition().y)
+    		        {
+    		        	    charCurPos.y+=distance.y;
+    		        }
+    		        else
+    		        {
+    		            charCurPos.y-=getPosition().y;
+    		        }
+    		        charCurVel.y = 0.0f;
+    		        pChar->setVelFinal(charCurVel);
+    		        pChar->setPosition(charCurPos);
+    		    }
+    	        break;
         }
         default:
             break;
