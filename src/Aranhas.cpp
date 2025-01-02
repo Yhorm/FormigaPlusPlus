@@ -37,13 +37,15 @@ void Entidades::Personagens::Inimigo::Aranhas::Aranhas::refresh()
 
 void Entidades::Personagens::Inimigo::Aranhas::Aranhas::changeSize(){
 	float dt = timer.getElapsedTime().asSeconds();
-	if(dt-previous<2.1){
-			bigger=true;
-	}
-	else{
-			bigger=false;
-	}
-	if(dt-previous>6){
+	if(dt-previous>4.1){
+			{
+			if(rand()%2==0)
+			{
+				bigger=true;
+			}
+			else
+				bigger=false;
+			}			
 			previous=dt;
 	}
 	if(bigger){

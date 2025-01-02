@@ -35,6 +35,7 @@ namespace Gerenciadores
         const sf::Vector2f calcColission(Entidades::Entidade* char1, Entidades::Entidade* char2);
 		void tratarColisoesJogsObstacs(); 
 		void tratarColisoesJogsInimgs(); 
+		void tratarColisoesInimigsInimigs();
 		//falta projeteis
 		void IncluirInimigo(Entidades::Entidade *pi);
 	   	void IncluirObstcaulo(Entidades::Entidade *po);

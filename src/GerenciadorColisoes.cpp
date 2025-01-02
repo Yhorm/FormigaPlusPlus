@@ -68,6 +68,26 @@ void GerenciadorColisoes::tratarColisoesJogsInimgs(){
 					}
             }
 }
+void GerenciadorColisoes::tratarColisoesInimigsInimigs(){
+    	sf::Vector2f ds = sf::Vector2f(0.0f, 0.0f);
+		for(int i=1;i<LIs.size();i++){
+                  auto placeholder = LIs[i-1]; //isso ta mt feio mas ta funcional mas não vale a pena 
+                  if (placeholder && placeholder->getAlive()) { //desenvolver outro metodo para colisão entres os inimigos
+                  	auto enemy = LIs[i];
+					if((enemy)){
+               	 		if((enemy)->getAlive())
+               			 {
+               	    		ds = calcColission(placeholder, (enemy));
+               	     		if(ds.x < 0.0f && ds.y < 0.0f)
+							{
+               	       	  		placeholder->colision(enemy, ds);
+								(enemy)->colision(placeholder,ds);
+							}
+               	}
+			}
+         }
+       }
+}
 void GerenciadorColisoes::IncluirInimigo(Entidades::Entidade *pi){
 	if(((pi)->getId()==ID::enemy)&& !(std::find(LIs.begin(),LIs.end(),pi)!=LIs.end())){
 		LIs.push_back(static_cast<Entidades::Personagens::Inimigo::Inimigo*>(pi));
@@ -88,5 +108,6 @@ void GerenciadorColisoes::execute()
         {
 				tratarColisoesJogsInimgs();
 				tratarColisoesJogsObstacs();
+				tratarColisoesInimigsInimigs();
 		}
 }
