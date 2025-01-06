@@ -16,7 +16,7 @@ namespace Entidades
             class Aranhas: public Inimigo
             {
 			private:
-					bool bigger;
+				bool bigger;
             public:
                 Aranhas(const sf::Vector2f pos,
 			       	Jogador* pP = nullptr);

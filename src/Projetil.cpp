@@ -1,65 +1,48 @@
-//
-// Created by Felipe on 13/11/2023.
-//
-
 #include "../include/Projetil.h"
+#include <SFML/Graphics/Color.hpp>
 
 Projetil::Projetil::Projetil(const sf::Vector2f pos,
                              const sf::Vector2f s,
                              const Identifier::ID i,
-                             const short type,
                              Identifier::ID frdFrom,
                              const int damage) :
                              Entidade(pos, s, i),
-                             ProjectileDamage(damage),
-                             ProjectileType(type),
-                             firedFrom(frdFrom)
+							 ativo(true)
 {
+		entity.setFillColor(sf::Color::Magenta);
+		entity.setSize(Vector2f(200,200));
 }
 
 Projetil::Projetil::~Projetil() {}
-
+void Projetil::Projetil::refresh(){
+		if(ativo){
+				move();
+		}
+}
 void Projetil::Projetil::move()
-{
-    short type = getProjType();
-    switch(type)
+{   
+	float dt = timer.getElapsedTime().asSeconds();
+	float x = getPosition().x + 200*dt;
+	float y = getPosition().x - 0.5f*200*Constants::GRAVITY*dt*dt;
+	setPosition(Vector2f(x,y));
+}
+void Projetil::Projetil::colision(Entidades::Entidade* entity, sf::Vector2f distance){
+    Identifier::ID id = entity->getId();
+    switch(id)
     {
-        case(HOMING) :
+        case(Identifier::ID::player) :
         {
-            chasePlayer();
             break;
         }
-        case(STRAIGHT) :
+        case(Identifier::ID::platform) :
         {
-            sf::Vector2f deltaSpeed(0.0f, 0.0f);
-            deltaSpeed.x = Constants::VEL_PROJECTILE * Constants::DELTATIME;
             break;
         }
+        default:
+            break;
     }
+
 }
-
-void Projetil::Projetil::chasePlayer()
-{
-    if(pPlayer->getPosition().x - getPosition().x > 0.0f)
-    {
-        entity.move(Constants::VEL_PROJECTILE, 0.0f);
-    }
-    else
-    {
-        entity.move(-Constants::VEL_PROJECTILE, 0.0f);
-    }
-
-    if(pPlayer->getPosition().y - getPosition().y > 0.0f)
-    {
-        entity.move(0.0f, Constants::VEL_PROJECTILE);
-    }
-    else
-    {
-        entity.move(0.0f, -Constants::VEL_PROJECTILE);
-    }
+void Projetil::Projetil::fire(){
+		ativo=true;
 }
-
-
-
-
-
