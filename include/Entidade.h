@@ -23,8 +23,8 @@ namespace Entidades
 		Entidade(Vector2f pos, Vector2f size, const Identifier::ID i = Identifier::ID::none);
 		virtual ~Entidade();
 
-		void setPosition(Vector2f pos) { entity.setPosition(pos); this->curPos = pos; }
-		void setSize(Vector2f size) { entity.setSize(size); this->entitySize = size; }
+		void setPosition(Vector2f pos) { entity.setPosition(pos); curPos = pos; }
+		void setSize(Vector2f size) { entity.setSize(size); entitySize = size; }
 
 		const Vector2f getPosition() const { return curPos; }
 		const Vector2f getEntSize() const { return entitySize; }

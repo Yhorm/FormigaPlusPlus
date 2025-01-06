@@ -19,8 +19,7 @@ namespace Entidades
 
                 //Estados possíveis de cada inimigo:
                 bool hasProjectile;
-                bool hasFired;
-                bool canMove;
+				bool hasFired;
             public:
                 Inimigo(const sf::Vector2f pos,
 			       	const sf::Vector2f size,
@@ -28,7 +27,6 @@ namespace Entidades
                 ~Inimigo();
 
                 bool CheckRadius(sf::Vector2f posPlayer, sf::Vector2f posEnemy);
-
                 virtual void refresh()=0;
 				virtual void danificar(Jogador *p)=0;
                 virtual void colision(Entidades::Entidade* entity, sf::Vector2f distance);

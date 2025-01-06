@@ -6,7 +6,7 @@ namespace Entidades
     {
         class Espinhos: public Obstaculo
         {
-        protected:
+		private:
 				bool danoso;
         public:
             Espinhos(const sf::Vector2f pos,
