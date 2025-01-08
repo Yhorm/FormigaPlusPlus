@@ -1,11 +1,19 @@
 #include "../include/Plataforma.h"
+#include <SFML/Graphics/Rect.hpp>
 
 
 Entidades::Obstaculos::Plataforma::Plataforma(const sf::Vector2f pos, const sf::Vector2f size, const std::string t, const sf::Vector2f scale, const Identifier::ID i) :
     Obstaculo(pos, size, scale, i),
     type(t)
 {
-		entity.setFillColor(Color::White);
+		sf::Texture* textura = new sf::Texture();
+
+	if (!textura->loadFromFile("sprites/Group7.png")) {
+		std::cout << "Falha ao carregar textura!" << std::endl;
+	}
+	textura->setRepeated(true);
+	entity.setTexture(textura);
+	entity.setTextureRect(sf::IntRect(0,0,size.x,size.y));
 }
 
 Entidades::Obstaculos::Plataforma::~Plataforma()
