@@ -28,5 +28,4 @@ namespace Constants
     constexpr float PROJECTILE_DMG_ENEMY = 1;
     constexpr float SCALE_CAM = 2;
     constexpr float FONT_SIZE = 35.0;
-
 }

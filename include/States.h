@@ -5,41 +5,39 @@ namespace States
 {
     class StateMachine; 
 
-    enum States
+    enum StateType
     {
-        NULL_STATE,
-        STATE_IN_GAME,
-        STATE_PAUSED,
-        STATE_IN_MENU,
+        NULL_STATE = -1,
     
-        STATE_MAIN_MENU,
-        STATE_SCORE_MENU,
-        STATE_SAVE_MENU,
-        STATE_STAGE_SELECTION,
+        STATE_MAIN_MENU = 0,
+        STATE_SCORE_MENU = 1,
+        STATE_SAVE_MENU = 2,
+        STATE_STAGE_SELECTION = 3,
+        STATE_NEWGAME = 4,
+        STATE_IN_GAME = 5,
+        STATE_PAUSED = 6,
+        STATE_GAMEOVER = 7
 
-        PLAYER_IN_MOVEMENT,
-        PLAYER_IDLE,
-        PLAYER_JUMPING,
-        PLAYER_DOUBLE_JUMPING,
-        PLAYER_DASHING,
-    
-        ENEMY_IDLE,
-        ENEMY_CHASING,
-        ENEMY_SHOOTING
     };
     
     class State 
     {
         private: 
-            StateMachine* pSM;
-            States curState;
+            StateMachine *pSM;
+            StateType m_stType;
         public:
-            State(StateMachine* SM = nullptr, States stt = NULL_STATE);
+            State(StateMachine* SM = nullptr, StateType stt = NULL_STATE);
             virtual ~State();
 
-            const States getState() const { return curState; };
-            void setState(const States stt) { curState = stt; };
+            const StateType getState() const { return m_stType; };
+            void changeState(const StateType stt);
 
-            
+            void setStateMachine(StateMachine *aux_pSM) { pSM = aux_pSM;  };
+
+            virtual void update() = 0;
+            virtual void render() = 0;
+
+            virtual void resetState() = 0;
+
     };
 }
