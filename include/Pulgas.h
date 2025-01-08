@@ -13,12 +13,12 @@ namespace Entidades
     {
         namespace Inimigo
         {
-            class Fantasminhas : public Inimigo
+            class Pulgas : public Inimigo
             {
             public:
-                Fantasminhas(const sf::Vector2f pos,
+                Pulgas(const sf::Vector2f pos,
 			       	Jogador* pP = NULL);
-                ~Fantasminhas();
+                ~Pulgas();
 
                 void refresh();
 				void move();

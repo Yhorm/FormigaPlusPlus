@@ -29,8 +29,13 @@ const bool listEntidade::CleanAlive(Entidade *aux) {
     	if (!(static_cast<Personagens::Personagem *>(aux)->getAlive())) {
   			nKilled++;
      	return true;
-    }
-  }
+    	}
+	}
+	if ((aux)->getId() == ID::projectile) {
+    	if (!(static_cast<Entidades::Projetil::Projetil*>(aux)->getAtivo())) {
+     		return true;
+	   }
+	}
   return false;
 }
 void listEntidade::restart(){

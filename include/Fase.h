@@ -1,12 +1,13 @@
 #pragma once 
 #include "GerenciadorColisoes.h"
+#include "Projetil.h"
 #include "Jogador.h"
 #include "listEntidade.h"
 #include "Aranhas.h"
 #include "GerenciadorGrafico.h"
 #include "Plataforma.h"
-#include "Fantasminhas.h"
-#include "Cola.h"
+#include "Pulgas.h"
+#include "Teia.h"
 #include "Espinhos.h"
 #include <stdio.h>
 #include <stdlib.h>

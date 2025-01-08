@@ -128,7 +128,7 @@ coluna=0;aux=0;comeco=0;finalz=0;numeromin=0;
 		}
 		for(auto x : variaveis){
 				if(rand()%10<3 || numeromin<3){
-					lista.addEntity(new Entidades::Obstaculos::Cola(Vector2f(x.y*10,x.x*35),Vector2f((x.z-x.y)*10,50)));
+					lista.addEntity(new Entidades::Obstaculos::Teia(Vector2f(x.y*10,x.x*35),Vector2f((x.z-x.y)*10,50)));
 					numeromin++;
 				}
 		}
@@ -155,10 +155,13 @@ void Fase::CriarInimigosF(){
 			}
 		for(auto x : variaveis){
 				if(rand()%10<3 || numeromin<3){
-					lista.addEntity(new Entidades::Personagens::Inimigo::Fantasminhas(Vector2f(x.y*10,x.x*35),player1));
+					lista.addEntity(new Entidades::Personagens::Inimigo::Pulgas(Vector2f(x.y*10,x.x*35),player1));
 					numeromin++;
 				}
 		}
+		Entidades::Projetil::Projetil *a= new Entidades::Projetil::Projetil(Vector2f(0,0),player1);
+		a->fire(Vector2f(800,800));
+		lista.addEntity(a);
 }
 void Fase::CriarInimigosM(){
 		int aux=0;

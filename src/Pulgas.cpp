@@ -1,16 +1,16 @@
-#include "../include/Fantasminhas.h"
-Entidades::Personagens::Inimigo::Fantasminhas::Fantasminhas(const sf::Vector2f pos, Personagens::Jogador *pP):
+#include "../include/Pulgas.h"
+Entidades::Personagens::Inimigo::Pulgas::Pulgas(const sf::Vector2f pos, Personagens::Jogador *pP):
 	Inimigo(pos,Vector2f(20,20),pP,1)	
 {
     entity.setFillColor(sf::Color::Cyan);
 }
 
-Entidades::Personagens::Inimigo::Fantasminhas::Fantasminhas::~Fantasminhas()
+Entidades::Personagens::Inimigo::Pulgas::Pulgas::~Pulgas()
 {
 		jogador=nullptr;
 }
 
-void Entidades::Personagens::Inimigo::Fantasminhas::move()
+void Entidades::Personagens::Inimigo::Pulgas::move()
 {
     float dt = timer.getElapsedTime().asSeconds();
 	enum {up = 3, down = 2, left = 1, right = 0, not_move = -1};
@@ -40,7 +40,7 @@ void Entidades::Personagens::Inimigo::Fantasminhas::move()
 		dt=dt-timer.getElapsedTime().asSeconds();
     }
 }
-void Entidades::Personagens::Inimigo::Fantasminhas::Fantasminhas::refresh()
+void Entidades::Personagens::Inimigo::Pulgas::Pulgas::refresh()
 {
    	move();
     if(hitpoints == 0 && getAlive())
@@ -48,7 +48,7 @@ void Entidades::Personagens::Inimigo::Fantasminhas::Fantasminhas::refresh()
 }
 
 
-void Entidades::Personagens::Inimigo::Fantasminhas::Fantasminhas::colision(Entidades::Entidade *entity, sf::Vector2f distance)
+void Entidades::Personagens::Inimigo::Pulgas::Pulgas::colision(Entidades::Entidade *entity, sf::Vector2f distance)
 {
     float dt = timer.getElapsedTime().asSeconds();
     Identifier::ID id = entity->getId();
@@ -71,6 +71,6 @@ void Entidades::Personagens::Inimigo::Fantasminhas::Fantasminhas::colision(Entid
             break;
     }
 }
-void Entidades::Personagens::Inimigo::Fantasminhas::danificar(Jogador* p){
+void Entidades::Personagens::Inimigo::Pulgas::danificar(Jogador* p){
 		p->operator--();
 }

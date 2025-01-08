@@ -1,18 +1,18 @@
-#include "../include/Cola.h"
+#include "../include/Teia.h"
 
 
-Entidades::Obstaculos::Cola::Cola(const sf::Vector2f pos, const sf::Vector2f size, const std::string t, const sf::Vector2f scale, const Identifier::ID i) :
+Entidades::Obstaculos::Teia::Teia(const sf::Vector2f pos, const sf::Vector2f size, const std::string t, const sf::Vector2f scale, const Identifier::ID i) :
     Obstaculo(pos, size, scale, i),
     type(t)
 {
 		entity.setFillColor(Color::Yellow);
 }
 
-Entidades::Obstaculos::Cola::~Cola()
+Entidades::Obstaculos::Teia::~Teia()
 {
 }
 
-void Cola::colision(Entidades::Entidade *entity, sf::Vector2f distance)
+void Teia::colision(Entidades::Entidade *entity, sf::Vector2f distance)
 {
     Identifier::ID id = entity->getId();
     if(id != Identifier::ID::projectile)
@@ -20,13 +20,13 @@ void Cola::colision(Entidades::Entidade *entity, sf::Vector2f distance)
         colisionObstacle(distance, static_cast<Entidades::Personagens::Personagem*>(entity));
     }
 }
-void Cola::refresh()
+void Teia::refresh()
 {
     sf::Vector2f curPos = getPosition();
     sf::Vector2f applyGravidade = sf::Vector2f(curPos.x, (curPos.y - (Constants::GRAVITY + Constants::F_NORMAL)));
     setPosition(applyGravidade);
 }
-void Cola::colisionObstacle(sf::Vector2f ds, Personagens::Personagem *pChar)
+void Teia::colisionObstacle(sf::Vector2f ds, Personagens::Personagem *pChar)
 {
     sf::Vector2f charCurPos = pChar->getPosition();
     sf::Vector2f charCurVel = Vector2f(0.f,0.f);//se colocar 0.f 0.f ele fica preso igual cola dá pra fazer o obstaculo medio
