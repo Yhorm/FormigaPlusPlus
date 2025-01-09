@@ -1,6 +1,7 @@
 #include "../include/Jogador.h"
 #include "../include/GerenciadorEventos.h"
 #include <SFML/Graphics/Color.hpp>
+#include <SFML/Graphics/Rect.hpp>
 #include <SFML/Graphics/RectangleShape.hpp>
 
 Entidades::Personagens::Jogador::Jogador(const sf::Vector2f pos, const sf::Vector2f size, const int hp, Identifier::ID i) :
@@ -9,7 +10,12 @@ Entidades::Personagens::Jogador::Jogador(const sf::Vector2f pos, const sf::Vecto
 		canJump(true),
         damage(true)
         {
-               entity.setFillColor(sf::Color(0, 0, 255));
+		sf::Texture* textura = new sf::Texture();
+
+		if (!textura->loadFromFile("sprites/Group5.png")) {
+			std::cout << "Falha ao carregar textura!" << std::endl;
+		}
+		entity.setTexture(textura);
         }
 
 Entidades::Personagens::Jogador::~Jogador()
@@ -60,14 +66,30 @@ void Personagens::Jogador::colision(Entidades::Entidade *entity, sf::Vector2f di
 void Personagens::Jogador::refresh()
 {	
 	
+	const sf::Texture *texture = entity.getTexture();
 	sf::Vector2f deltaSpeed(0.0f, 0.0f);
     if(inMovement)
     {
+
         deltaSpeed.x = velFinal.x * Constants::DELTATIME;
         if(direction == 1)//left
         {
+    entity.setTextureRect(sf::IntRect(
+        texture->getSize().x,  // Posição inicial X: final da textura (direita)
+        0,                   // Posição inicial Y: topo da textura
+        -static_cast<int>(texture->getSize().x), // Largura negativa para inverter horizontalmente
+        static_cast<int>(texture->getSize().y)  // Altura positiva (não inverte verticalmente)
+    ));
             deltaSpeed.x *= -1;
-        }
+        }	else{
+		entity.setTextureRect(sf::IntRect(
+    	    0,                                    // Posição inicial X: começo da textura
+       	 0,                                    // Posição inicial Y: topo da textura
+       	 static_cast<int>(texture->getSize().x), // Largura positiva
+       	static_cast<int>(texture->getSize().y)  // Altura positiva
+   		 ));
+		}
+	
     }
     const float velY = velFinal.y;
     velFinal.y = velFinal.y + Constants::GRAVITY * Constants::DELTATIME;
