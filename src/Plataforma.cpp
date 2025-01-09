@@ -8,7 +8,7 @@ Entidades::Obstaculos::Plataforma::Plataforma(const sf::Vector2f pos, const sf::
 {
 		sf::Texture* textura = new sf::Texture();
 
-	if (!textura->loadFromFile("sprites/Group7.png")) {
+	if (!textura->loadFromFile("../sprites/Group7.png")) {
 		std::cout << "Falha ao carregar textura!" << std::endl;
 	}
 	textura->setRepeated(true);

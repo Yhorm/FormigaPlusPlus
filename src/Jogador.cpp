@@ -12,7 +12,7 @@ Entidades::Personagens::Jogador::Jogador(const sf::Vector2f pos, const sf::Vecto
         {
 		sf::Texture* textura = new sf::Texture();
 
-		if (!textura->loadFromFile("sprites/Group5.png")) {
+		if (!textura->loadFromFile("../sprites/Group5.png")) {
 			std::cout << "Falha ao carregar textura!" << std::endl;
 		}
 		entity.setTexture(textura);
