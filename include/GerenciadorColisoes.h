@@ -37,7 +37,7 @@ namespace Gerenciadores
 		void tratarColisoesJogsObstacs(); 
 		void tratarColisoesJogsInimgs(); 
 		void tratarColisoesInimigsInimigs();
-		//falta projeteis
+		void tratarColisoesProjetil();
 		void IncluirInimigo(Entidades::Entidade *pi);
 	   	void IncluirObstcaulo(Entidades::Entidade *po);
 	   	void IncluirProjetil(Entidades::Entidade *po);
