@@ -43,7 +43,7 @@ void Entidades::Personagens::Inimigo::Pulgas::move()
 void Entidades::Personagens::Inimigo::Pulgas::Pulgas::refresh()
 {
    	move();
-    if(hitpoints == 0 && getAlive())
+    if(hitpoints <= 0 && getAlive())
         setAlive(false);
 }
 

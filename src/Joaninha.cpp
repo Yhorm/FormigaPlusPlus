@@ -1,17 +1,17 @@
-#include "../include/Aranhas.h"
-Entidades::Personagens::Inimigo::Aranhas::Aranhas(const sf::Vector2f pos,Personagens::Jogador *pP):
-	Inimigo(pos,Vector2f(100,100),pP,5),
-	bigger(false)	
+#include "../include/Joaninha.h"
+Entidades::Personagens::Inimigo::Joaninha::Joaninha(const sf::Vector2f pos,const sf::Vector2f size, Personagens::Jogador *pP,Projetil::Projetil *p):
+	Inimigo(pos,size,pP),
+		P(p)
 {
-    entity.setFillColor(sf::Color::Magenta);
+    entity.setFillColor(sf::Color::Green);
 }
 
-Entidades::Personagens::Inimigo::Aranhas::Aranhas::~Aranhas()
+Entidades::Personagens::Inimigo::Joaninha::Joaninha::~Joaninha()
 {
 		jogador=nullptr;
 }
 
-void Entidades::Personagens::Inimigo::Aranhas::move()
+void Entidades::Personagens::Inimigo::Joaninha::move()
 {
 	sf::Vector2f deltaSpeed(0.0f, 0.0f);
    	const float velY = velFinal.y;
@@ -20,42 +20,34 @@ void Entidades::Personagens::Inimigo::Aranhas::move()
 	Vector2f motion(getPosition());
    	if(jogador->getPosition().x>getPosition().x) 
    	{
-           motion+=Vector2f(Constants::VEL_ENEMY_X, 0.0f);
+           motion+=Vector2f(Constants::VEL_ENEMY_X+1, 0.0f);
    	}
    	else
-           motion+=Vector2f(-Constants::VEL_ENEMY_X, 0.0f);
+           motion+=Vector2f(-Constants::VEL_ENEMY_X+1, 0.0f);
     setPosition(sf::Vector2f(motion.x + deltaSpeed.x, motion.y + deltaSpeed.y));
 }
-void Entidades::Personagens::Inimigo::Aranhas::Aranhas::refresh()
+void Entidades::Personagens::Inimigo::Joaninha::Joaninha::refresh()
 {
-	changeSize();
+	fire();
    	move();
     if(hitpoints <= 0 && getAlive())
         setAlive(false);
 }
 
 
-void Entidades::Personagens::Inimigo::Aranhas::Aranhas::changeSize(){
+void Entidades::Personagens::Inimigo::Joaninha::Joaninha::fire(){
 	float dt = timer.getElapsedTime().asSeconds();
 	if(dt-previous>4.1){
 			{
 			if(rand()%2==0)
 			{
-				bigger=true;
+					P->fire(getPosition());
 			}
-			else
-				bigger=false;
-			}			
 			previous=dt;
-	}
-	if(bigger){
-			setSize(Vector2f(200,200));
-	}
-	else{
-			setSize(Vector2f(100,100));
+		}
 	}
 }
-void Entidades::Personagens::Inimigo::Aranhas::Aranhas::colision(Entidades::Entidade *entity, sf::Vector2f distance)
+void Entidades::Personagens::Inimigo::Joaninha::Joaninha::colision(Entidades::Entidade *entity, sf::Vector2f distance)
 {
     float dt = timer.getElapsedTime().asSeconds();
     Identifier::ID id = entity->getId();
@@ -137,6 +129,6 @@ void Entidades::Personagens::Inimigo::Aranhas::Aranhas::colision(Entidades::Enti
             break;
     }
 }
-void Entidades::Personagens::Inimigo::Aranhas::danificar(Jogador* p){
+void Entidades::Personagens::Inimigo::Joaninha::danificar(Jogador* p){
 		p->operator--();
 }

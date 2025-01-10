@@ -10,6 +10,7 @@ GerenciadorColisoes::GerenciadorColisoes(Listas::listEntidade *list,Entidades::P
 {
 	LIs.clear();
 	LOs.clear();
+	LP.clear();
 }
 GerenciadorColisoes::~GerenciadorColisoes()
 {
@@ -98,11 +99,17 @@ void GerenciadorColisoes::IncluirObstcaulo(Entidades::Entidade *po){
 		LOs.push_back(static_cast<Entidades::Obstaculos::Obstaculo*>(po));		
 	}	
 }
+void GerenciadorColisoes::IncluirProjetil(Entidades::Entidade *po){
+	if(((po)->getId()==ID::projectile)&& !(std::find(LP.begin(),LP.end(),po)!=LP.end())){
+		LP.insert(static_cast<Entidades::Projetil::Projetil*>(po));		
+	}	
+}
 void GerenciadorColisoes::execute()
 {
 		for(auto it=lista->getPrim();it!=nullptr;it++){
 				IncluirInimigo(*it);
 				IncluirObstcaulo(*it);
+				IncluirProjetil(*it);
 		}
        if(pJog1->getAlive())
         {

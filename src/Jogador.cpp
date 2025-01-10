@@ -103,7 +103,7 @@ void Personagens::Jogador::refresh()
 
 	pGerGraf->centralize(Vector2f(getPosition()));
 	showlife();
-	if(hitpoints==0 && getAlive())
+	if(hitpoints<=0 && getAlive())
 			setAlive(false);
 
 }
