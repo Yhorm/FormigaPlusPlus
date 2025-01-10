@@ -8,6 +8,7 @@
 #include "Plataforma.h"
 #include "Pulgas.h"
 #include "Teia.h"
+#include "Joaninha.h"
 #include "Espinhos.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -19,6 +20,7 @@ namespace Fases{
 				Entidades::Personagens::Jogador *player1;
 				Gerenciadores::GerenciadorColisoes ColMngr; 
 				Listas::listEntidade lista;
+				Entidades::Projetil::Projetil *proje;
 				vector <pair<int,string>> fase;
 				public:
 					Fase();

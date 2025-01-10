@@ -27,6 +27,7 @@ void Plataforma::colision(Entidades::Entidade *entity, sf::Vector2f distance)
     {
         colisionObstacle(distance, static_cast<Entidades::Personagens::Personagem*>(entity));
     }
+	
 }
 void Plataforma::refresh()
 {

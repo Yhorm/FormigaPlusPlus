@@ -2,10 +2,13 @@
 using namespace Fases;
 Fase::Fase():
 		player1(new Entidades::Personagens::Jogador(sf::Vector2f(2200.0f, 100.0f),sf::Vector2f(Constants::SIZE_PLYR_W, Constants::SIZE_PLYR_H),4, Identifier::ID::player)),
+		ColMngr(&lista,player1),
 		lista(),
-		ColMngr(&lista,player1){
+		proje(new Entidades::Projetil::Projetil(Vector2f(0,0),player1))
+		{
 				fase.clear();
 				lista.addEntity(player1);
+				lista.addEntity(proje);
 		}
 Fase::~Fase(){
 		player1=nullptr;
@@ -159,9 +162,6 @@ void Fase::CriarInimigosF(){
 					numeromin++;
 				}
 		}
-		Entidades::Projetil::Projetil *a= new Entidades::Projetil::Projetil(Vector2f(0,0),player1);
-		a->fire(Vector2f(800,800));
-		lista.addEntity(a);
 }
 void Fase::CriarInimigosM(){
 		int aux=0;
@@ -184,6 +184,31 @@ void Fase::CriarInimigosM(){
 		for(auto x : variaveis){
 				if(rand()%10<3 || numeromin<3){
 					lista.addEntity(new Entidades::Personagens::Inimigo::Aranhas(Vector2f(x.y*10,x.x*35),player1));
+					numeromin++;
+				}
+		}
+}
+void Fase::CriarInimigosD(){
+		int aux=0;
+		int tamanho=fase[fase.size()-1].first;
+		int comeco=0;
+		int coluna=0;
+		int numeromin=0;
+		vector<Vector2i> variaveis;
+		while(aux<=tamanho){
+				std::string stingAuxLinha= fase[aux].second;
+				for(int i=0;i<stingAuxLinha.length();i++){
+						if(stingAuxLinha[i]=='8'){
+										comeco=i;
+										coluna=aux;
+										variaveis.push_back(Vector2i(coluna,comeco));
+									}
+							}
+						aux++;
+			}
+		for(auto x : variaveis){
+				if(rand()%10<3 || numeromin<3){
+					lista.addEntity(new Entidades::Personagens::Inimigo::Joaninha(Vector2f(x.y*10,x.x*35),Vector2f(100,100),player1,proje));
 					numeromin++;
 				}
 		}

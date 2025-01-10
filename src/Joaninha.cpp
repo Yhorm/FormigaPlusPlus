@@ -20,10 +20,10 @@ void Entidades::Personagens::Inimigo::Joaninha::move()
 	Vector2f motion(getPosition());
    	if(jogador->getPosition().x>getPosition().x) 
    	{
-           motion+=Vector2f(Constants::VEL_ENEMY_X+1, 0.0f);
+           motion+=Vector2f(Constants::VEL_ENEMY_X, 0.0f);
    	}
    	else
-           motion+=Vector2f(-Constants::VEL_ENEMY_X+1, 0.0f);
+           motion+=Vector2f(-Constants::VEL_ENEMY_X, 0.0f);
     setPosition(sf::Vector2f(motion.x + deltaSpeed.x, motion.y + deltaSpeed.y));
 }
 void Entidades::Personagens::Inimigo::Joaninha::Joaninha::refresh()
@@ -37,13 +37,15 @@ void Entidades::Personagens::Inimigo::Joaninha::Joaninha::refresh()
 
 void Entidades::Personagens::Inimigo::Joaninha::Joaninha::fire(){
 	float dt = timer.getElapsedTime().asSeconds();
-	if(dt-previous>4.1){
-			{
-			if(rand()%2==0)
-			{
-					P->fire(getPosition());
-			}
-			previous=dt;
+	if(dt-previous>1.1){
+				{
+				if(rand()%2==0)
+				{
+					if(!P->getAtivo()){
+						P->fire(getPosition());
+					}
+				}
+				previous=dt;
 		}
 	}
 }

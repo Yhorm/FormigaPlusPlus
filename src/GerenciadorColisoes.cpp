@@ -52,9 +52,9 @@ void GerenciadorColisoes::tratarColisoesJogsObstacs(){
 					}
 						for(auto projec=LP.begin();projec!=LP.end();projec++){
 							if((*projec)){
-               	    		ds = calcColission((*it), (*projec));
-                   			if(ds.x < 0.0f && ds.y < 0.0f)
-                    			(*it)->colision(*projec, ds);
+               	    			ds = calcColission((*it), (*projec));
+                   				if(ds.x < 0.0f && ds.y < 0.0f)
+                    				(*projec)->colision(*it, ds);
 							}
 						}
 	}
@@ -75,6 +75,13 @@ void GerenciadorColisoes::tratarColisoesJogsInimgs(){
                			 }
 					}
             }
+			for(auto projec=LP.begin();projec!=LP.end();projec++){
+							if((*projec)){
+               	    			ds = calcColission(pJog1, (*projec));
+                   				if(ds.x < 0.0f && ds.y < 0.0f)
+                    				(*projec)->colision(pJog1, ds);
+							}
+						}
 }
 void GerenciadorColisoes::tratarColisoesInimigsInimigs(){
     	sf::Vector2f ds = sf::Vector2f(0.0f, 0.0f);
@@ -95,23 +102,6 @@ void GerenciadorColisoes::tratarColisoesInimigsInimigs(){
 			}
          }
        }
-}
-void GerenciadorColisoes::tratarColisoesProjetil(){
-    	sf::Vector2f ds = sf::Vector2f(0.0f, 0.0f);
-		for(auto enemy=LIs.begin();enemy!=LIs.end();enemy++)
-            {
-					if((*enemy)){
-               	 		if((*enemy)->getAlive())
-               			 {
-               	    		ds = calcColission(pJog1, (*enemy));
-               	     		if(ds.x < 0.0f && ds.y < 0.0f)
-							{
-               	       	  		pJog1->colision(*enemy, ds);
-								(*enemy)->colision(pJog1,ds);
-							}
-               			 }
-					}
-            }
 }
 void GerenciadorColisoes::IncluirInimigo(Entidades::Entidade *pi){
 	if(((pi)->getId()==ID::enemy)&& !(std::find(LIs.begin(),LIs.end(),pi)!=LIs.end())){

@@ -6,13 +6,12 @@ Projetil::Projetil::Projetil(const sf::Vector2f pos,
                              Identifier::ID frdFrom,
                              const int damage) :
                              Entidade(pos, s, i),
-							 ativo(true),
+							 ativo(false),
 							 p(p1),
 							 inicial(Vector2f(0,0)),
 							 positionPlayer(Vector2f(0,0))
 {
 		entity.setFillColor(sf::Color::Green);
-		entity.setSize(Vector2f(20,20));
 }
 
 Projetil::Projetil::~Projetil() {}
@@ -23,10 +22,11 @@ void Projetil::Projetil::refresh(){
 }
 void Projetil::Projetil::move()
 {   
+	sf::Vector2f deltaSpeed(0.0f, 0.0f);
 	Vector2f motion(getPosition());
    	if(positionPlayer.x>inicial.x) 
    	{
-           motion+=Vector2f(Constants::VEL_PROJECTILE, 0.0f);
+		motion+=Vector2f(Constants::VEL_PROJECTILE, 0.0f);
    	}
    	else
            motion+=Vector2f(-Constants::VEL_PROJECTILE, 0.0f);
@@ -46,6 +46,7 @@ void Projetil::Projetil::colision(Entidades::Entidade* entity, sf::Vector2f dist
         {
 			static_cast<Personagens::Jogador*>(entity)->operator--();
 			static_cast<Personagens::Jogador*>(entity)->operator--();
+			ativo=false;
             break;
         }
         case(Identifier::ID::platform) :
