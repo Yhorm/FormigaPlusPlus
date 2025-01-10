@@ -22,21 +22,19 @@ void Projetil::Projetil::refresh(){
 }
 void Projetil::Projetil::move()
 {   
-	sf::Vector2f deltaSpeed(0.0f, 0.0f);
-	Vector2f motion(getPosition());
-   	if(positionPlayer.x>inicial.x) 
-   	{
-		motion+=Vector2f(Constants::VEL_PROJECTILE, 0.0f);
-   	}
-   	else
-           motion+=Vector2f(-Constants::VEL_PROJECTILE, 0.0f);
+	sf::Vector2f motion = getPosition();
+	sf::Vector2f direction = positionPlayer - inicial;
 
-	if(positionPlayer.y>inicial.y) 
-   	{
-           motion+=Vector2f( 0.0f ,Constants::VEL_PROJECTILE);
-   	}else
-           motion+=Vector2f( 0.0f ,-Constants::VEL_PROJECTILE);
-    setPosition(sf::Vector2f(motion.x, motion.y));
+	float magnitude = std::sqrt(direction.x * direction.x + direction.y * direction.y);
+
+	if (magnitude != 0)
+    	direction /= magnitude;
+
+	sf::Vector2f velocity = direction * Constants::VEL_PROJECTILE;
+
+	motion += velocity;
+
+	setPosition(motion);
 }
 void Projetil::Projetil::colision(Entidades::Entidade* entity, sf::Vector2f distance){
     Identifier::ID id = entity->getId();
