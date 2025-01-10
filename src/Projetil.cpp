@@ -42,9 +42,8 @@ void Projetil::Projetil::colision(Entidades::Entidade* entity, sf::Vector2f dist
     {
         case(Identifier::ID::player) :
         {
-			static_cast<Personagens::Jogador*>(entity)->operator--();
-			static_cast<Personagens::Jogador*>(entity)->operator--();
 			ativo=false;
+			static_cast<Personagens::Jogador*>(entity)->operator--();
             break;
         }
         case(Identifier::ID::platform) :

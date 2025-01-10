@@ -77,9 +77,11 @@ void GerenciadorColisoes::tratarColisoesJogsInimgs(){
             }
 			for(auto projec=LP.begin();projec!=LP.end();projec++){
 							if((*projec)){
-               	    			ds = calcColission(pJog1, (*projec));
-                   				if(ds.x < 0.0f && ds.y < 0.0f)
-                    				(*projec)->colision(pJog1, ds);
+									if((*projec)->getAtivo()){
+               	    					ds = calcColission(pJog1, (*projec));
+                   						if(ds.x < 0.0f && ds.y < 0.0f)
+                    						(*projec)->colision(pJog1, ds);
+									}
 							}
 						}
 }
