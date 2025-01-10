@@ -2,6 +2,6 @@
 
 int main()
 {
-    Jogo j;
+    States::Jogo j;
     return 0;
 }

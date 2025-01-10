@@ -22,7 +22,7 @@ namespace States
     
     class State 
     {
-        private: 
+        protected: 
             StateMachine *pSM;
             StateType m_stType;
         public:

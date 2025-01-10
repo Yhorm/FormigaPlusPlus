@@ -40,3 +40,13 @@ void Gerenciadores::GerenciadorGrafico::size(const Vector2f tam){
 		cam.setSize(sf::Vector2f(tam.x,tam.y));
 		window->setView(cam);
 }
+
+sf::Texture Gerenciadores::GerenciadorGrafico::getTexture(const char* path)
+{
+    std::map<const char*, sf::Texture>::iterator it;
+}
+
+sf::Font Gerenciadores::GerenciadorGrafico::getFont(const char* path)
+{
+    std::map<const char*, sf::Font>::iterator it;
+}

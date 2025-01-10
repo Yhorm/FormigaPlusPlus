@@ -9,7 +9,7 @@ namespace States
 {
     class StateMachine
     {
-        private:
+        protected:
             States::StateType curState;
 
             std::map<States::StateType, State*> m_mapStates;

@@ -25,7 +25,7 @@ namespace Observers
             std::string right;
 
         public:
-            playerObserver(Gerenciadores::GerenciadorEventos* pGm, Entidades::Personagens::Jogador* pP);
+            playerObserver(Entidades::Personagens::Jogador* pP);
             ~playerObserver();
 
             void notifyKeyPress(std::string key);

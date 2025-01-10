@@ -1,32 +1,37 @@
 #include "../include/Jogo.h"
-Jogo::Jogo() :
-        pGerGraf(pGerGraf->getGerGraf()),
-        EventManager(EventManager->getGerEvent())
-        {
-			executar();
-        }
+namespace States
+{
 
-Jogo::~Jogo()
-{
-		pGerGraf=nullptr;
-		EventManager=nullptr;
-}
+    Jogo::Jogo() :
+            pGerGraf(pGerGraf->getGerGraf()),
+            EventManager(EventManager->getGerEvent())
 
-void Jogo::instanceEntities()
-{
-}
-void Jogo::executar()
-{
-	fase.LerArquivo();
-	fase.CriarPlataforma();
-	fase.CriarObstaculo();
-	fase.CriarInimigosF();
-    while (pGerGraf->getOpen())
+            {
+                executar();
+            }
+
+    Jogo::~Jogo()
     {
-        EventManager->executar();
-        pGerGraf->clean();
-		    fase.executar();
-		    fase.Gerenciar_colisoes();
-        pGerGraf->display();
+            pGerGraf=nullptr;
+            EventManager=nullptr;
+    }
+
+    void Jogo::instanceEntities()
+    {
+    }
+    void Jogo::executar()
+    {
+        fase.LerArquivo();
+        fase.CriarPlataforma();
+        fase.CriarObstaculo();
+        fase.CriarInimigosF();
+        while (pGerGraf->getOpen())
+        {
+            EventManager->executar();
+            pGerGraf->clean();
+                fase.executar();
+                fase.Gerenciar_colisoes();
+            pGerGraf->display();
+        }
     }
 }

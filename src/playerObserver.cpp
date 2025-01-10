@@ -1,8 +1,8 @@
 #include "../include/playerObserver.h"
 #include "../include/Jogador.h"
 
-Observers::playerObserver::playerObserver(Gerenciadores::GerenciadorEventos* pGm, Entidades::Personagens::Jogador* pP) :
-    Observer(pGm),
+Observers::playerObserver::playerObserver(Entidades::Personagens::Jogador* pP) :
+    Observer(),
     pPlayer(pP),
     jump("W"),
     left("A"),

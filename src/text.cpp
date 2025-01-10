@@ -11,6 +11,7 @@ namespace ElemGraf
         m_texto.setString(info);
         m_texto.setPosition(startPos);
         m_texto.setFillColor(sf::Color::White);
+        m_texto.setOrigin(0, 0);
 
         setFontSize(Constants::FONT_SIZE);
     }

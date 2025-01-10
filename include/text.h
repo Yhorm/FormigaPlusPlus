@@ -20,7 +20,7 @@ namespace ElemGraf
             static Gerenciadores::GerenciadorGrafico *m_pGerGraf;
 
         public:
-            Text(sf::Vector2f startPos,std::string info = "");
+            Text(sf::Vector2f startPos = sf::Vector2f(0.0, 0.0),std::string info = "");
             ~Text();
 
             void setInfo(std::string i) {m_info = i; m_texto.setString(i);};
