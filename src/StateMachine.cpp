@@ -4,7 +4,7 @@ namespace States
 {
     StateMachine::StateMachine() :
         curState(NULL_STATE),
-        m_mapStates()
+        lastState(NULL_STATE)
     {
     }
 
@@ -19,15 +19,15 @@ namespace States
     }
 
     void StateMachine::changeCurState(States::StateType stt)
-    {
+    {  
+        lastState = curState;
         curState = stt;
         m_mapStates[curState]->resetState();
     }
 
     void StateMachine::execState()
     {
-        m_mapStates[curState]->update();
-        m_mapStates[curState]->render();
+        m_mapStates[curState]->draw();
     }
 
     void StateMachine::insertState(States::State* pSt) 

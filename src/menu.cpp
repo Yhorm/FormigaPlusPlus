@@ -11,7 +11,6 @@ namespace Menus
     m_pGerGraf(m_pGerGraf->getGerGraf())
     //cor(sf::Color::Black)
     {
-        body.setSize(m_pGerGraf->getWinSize());
         body.setFillColor(sf::Color::Black);
 
         botoes.clear();
@@ -30,6 +29,11 @@ namespace Menus
         }
 
         botoes.clear();
+    }
+
+    void Menu::updateView()
+    {
+        m_pGerGraf->centralize(sf::Vector2f(m_pGerGraf->getWinSize().x/2, m_pGerGraf->getWinSize().x/2));
     }
 
     void Menu::selectUp()

@@ -14,12 +14,7 @@ namespace Observers
 namespace Gerenciadores {
     class GerenciadorEventos {
     private:
-        //Ponteiros para os jogadores:
-        //Entidades::Personagens::Jogador *pPlayer1;
-        //Entidades::Personagens::Jogador *pPlayer2;
 
-        //Ponteiro p/ o menu:
-        //Menus::Menu* pMenu;
         //lista de observadores
 
         std::list<Observers::Observer*> observadores;
@@ -45,10 +40,6 @@ namespace Gerenciadores {
         static GerenciadorEventos *getGerEvent();
 
         ~GerenciadorEventos();
-
-        //void setPlayer1(Entidades::Personagens::Jogador *pP) { pPlayer1 = pP; }
-
-        //void setPlayer2(Entidades::Personagens::Jogador *pP) { pPlayer2 = pP; }
 
         void attach(Observers::Observer* pObs) { if (pObs) { observadores.push_back(pObs); } };
 

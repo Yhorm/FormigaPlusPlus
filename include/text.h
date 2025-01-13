@@ -29,8 +29,12 @@ namespace ElemGraf
             void setFontSize(const float fSize) {m_texto.setCharacterSize(fSize); };
             void setFontColor(unsigned int R, unsigned int G, unsigned int B) { m_texto.setFillColor(sf::Color(R, G, B)); };
 
+            sf::Vector2f getSize();
+
             void setTextPosition(sf::Vector2f position) {m_pos = position; m_texto.setPosition(m_pos);};
             sf::Vector2f getPosition() { return m_pos; }
+            
+            
             void draw();
 
     };

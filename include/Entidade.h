@@ -29,7 +29,6 @@ namespace Entidades
 		const Vector2f getPosition() const { return curPos; }
 		const Vector2f getEntSize() const { return entitySize; }
 
-
 		void draw() { pGerGraf->draw(entity); }
 		virtual void refresh() = 0;
         virtual void colision(Entidades::Entidade* entity, sf::Vector2f distance) = 0;

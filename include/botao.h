@@ -10,11 +10,9 @@ namespace ElemGraf
             Text m_texto;
             bool m_selected;
             
-            sf::RectangleShape corpo;
             sf::RectangleShape highlight;
 
             static Gerenciadores::GerenciadorGrafico* m_pGerGraf;
-            sf::Texture* m_defaultTexture;
             sf::Texture* m_selectedHighlight;
 
         public:

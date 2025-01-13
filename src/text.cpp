@@ -15,7 +15,7 @@ namespace ElemGraf
         setFontSize(Constants::FONT_SIZE);
         
         m_texto.setFillColor(sf::Color::White);
-        m_texto.setOrigin(0, 0);
+        m_texto.setOrigin(getSize().x/2, getSize().y/2);
 
 
     }
@@ -27,5 +27,13 @@ namespace ElemGraf
     void Text::draw()
     {
         m_pGerGraf->draw(m_texto);
+    }
+
+    sf::Vector2f Text::getSize() 
+    {
+        sf::FloatRect textBounds = m_texto.getLocalBounds();
+
+        return sf::Vector2f(textBounds.getSize().x, textBounds.getSize().y);
+
     }
 }

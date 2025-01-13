@@ -1,12 +1,23 @@
 #include "../include/Jogo.h"
+#include "../include/Fase.h"
+
 namespace States
 {
 
     Jogo::Jogo() :
             pGerGraf(pGerGraf->getGerGraf()),
             EventManager(EventManager->getGerEvent())
-
             {
+                States::State* auxState;
+                auxState = new Fases::Fase(this);
+                insertState(auxState);
+                auxState = static_cast<State*>(new Menus::MainMenuState(this));
+                insertState(auxState);
+
+                auxState = NULL;
+
+                changeCurState(States::StateType::STATE_MAIN_MENU);
+
                 executar();
             }
 
@@ -16,21 +27,16 @@ namespace States
             EventManager=nullptr;
     }
 
-    void Jogo::instanceEntities()
-    {
-    }
     void Jogo::executar()
     {
-        fase.LerArquivo();
-        fase.CriarPlataforma();
-        fase.CriarObstaculo();
-        fase.CriarInimigosF();
         while (pGerGraf->getOpen())
         {
             EventManager->executar();
             pGerGraf->clean();
-                fase.executar();
-                fase.Gerenciar_colisoes();
+
+            updateState();
+            execState();
+
             pGerGraf->display();
         }
     }

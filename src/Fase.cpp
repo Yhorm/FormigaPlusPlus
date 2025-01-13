@@ -1,16 +1,25 @@
 #include "../include/Fase.h"
 using namespace Fases;
-Fase::Fase():
+Fase::Fase(States::StateMachine* pSm):
+		States::State(pSm, States::StateType::STATE_IN_GAME),
 		player1(new Entidades::Personagens::Jogador(sf::Vector2f(2200.0f, 100.0f))),
 		lista(),
-		ColMngr(&lista,player1){
+		ColMngr(&lista,player1)
+		{
 				fase.clear();
 				lista.addEntity(player1);
+				
+				LerArquivo();
+    			CriarPlataforma();
+    			CriarObstaculo();
+    			CriarInimigosF();
 		}
 Fase::~Fase(){
 		player1=nullptr;
 }
-void Fase::executar(){
+void Fase::executar()
+{
+		
 		lista.execute();
 }
 void Fase::Gerenciar_colisoes(){
@@ -131,5 +140,14 @@ void Fase::CriarInimigosF(){
 		lista.addEntity(new Entidades::Personagens::Inimigo::Fantasminhas(Vector2f(x.y*10,x.x*35),Vector2f(20,20),player1));
 					numeromin++;
 				}
+
 		}
+
 }
+void Fase::draw() 
+{
+	this->executar();
+	this->Gerenciar_colisoes();
+}
+void Fase::update() {}
+void Fase::resetState() {}

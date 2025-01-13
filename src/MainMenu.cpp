@@ -9,17 +9,20 @@ namespace Menus
     pJogo(pJ),
     Titulo()
     {
-        Gerenciadores::GerenciadorGrafico* pGG = pGG->getGerGraf();
         ElemGraf::Botao* aux = NULL;
 
-        aux = new ElemGraf::Botao(sf::Vector2f(pGG->getWinSize().x/2.0, pGG->getWinSize().y/2.0), "PLAY");
+        aux = new ElemGraf::Botao(sf::Vector2f(Constants::RES_X/2.0, Constants::RES_Y/2.0), "PLAY");
         botoes.push_back(aux);
-        aux = new ElemGraf::Botao(sf::Vector2f(pGG->getWinSize().x/2.0, pGG->getWinSize().y/2.0 + 100), "EXIT GAME");
+        
+        aux = new ElemGraf::Botao(sf::Vector2f(Constants::RES_X/2.0, Constants::RES_Y/2.0 + 200), "EXIT GAME");
         botoes.push_back(aux);
 
         Titulo.setInfo("Formiga++");
+        
         Titulo.setFontSize(Constants::FONT_SIZE*3);
-        Titulo.setTextPosition(sf::Vector2f(pGG->getWinSize().x/2.0, 0.0f - pGG->getWinSize().y/2.0));
+
+        Titulo.setTextPosition(sf::Vector2f(m_pGerGraf->getWinSize().x/2.0, 0.0f - Titulo.getSize().y/2));
+        
 
         max = 1;   
     }
@@ -53,9 +56,12 @@ namespace Menus
 
     void MainMenuState::draw() 
     {
+        updateView();
+
         m_pGerGraf->draw(body);
         Titulo.draw();
-        for(iterator = botoes.begin(); iterator != botoes.end(); ++iterator)
+
+        for(iterator = botoes.begin(); iterator != botoes.end(); iterator++)
         {
             (*iterator)->draw();
         }

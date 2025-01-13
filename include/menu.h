@@ -31,7 +31,8 @@ namespace Menus
 
             virtual void executar() = 0;
             //void refresh();
-
+            void updateView();
+            
             void selectUp();
             void selectDown();
 

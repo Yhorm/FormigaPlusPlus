@@ -11,15 +11,19 @@
 #include <stdlib.h>
 #include <vector>
 #include <string>
-namespace Fases{
-		class Fase{
+#include "StateMachine.h"
+
+namespace Fases
+{
+		class Fase : public States::State
+		{
 				private:
 				Entidades::Personagens::Jogador *player1;
 				Gerenciadores::GerenciadorColisoes ColMngr; 
 				Listas::listEntidade lista;
 				vector <pair<int,string>> fase;
 				public:
-					Fase();
+					Fase(States::StateMachine* pSm = nullptr);
 					virtual ~Fase();
 					virtual void executar();
 					void Gerenciar_colisoes();
@@ -33,5 +37,9 @@ namespace Fases{
 					bool LerArquivo();
 					void TratarArquivo(FILE *T);
 					Entidades::Personagens::Jogador* getPlayer(){return player1;};
+
+					void draw();
+					void update();
+					void resetState();
 		};
 }

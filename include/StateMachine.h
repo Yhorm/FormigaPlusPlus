@@ -11,8 +11,10 @@ namespace States
     {
         protected:
             States::StateType curState;
+            States::StateType lastState;
 
             std::map<States::StateType, State*> m_mapStates;
+
         public:
             StateMachine();
             
@@ -20,8 +22,12 @@ namespace States
 
             void changeCurState(States::StateType stt) ;
             void execState();
+            void updateState() { m_mapStates[curState]->update(); };
 
             States::StateType getCurState() { return curState; };
+            States::StateType getLastState() { return lastState; };
+
+
             void insertState(States::State* pSt);
     };
 

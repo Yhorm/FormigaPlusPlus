@@ -29,7 +29,7 @@ namespace Constants
     constexpr float PROJECTILE_HOMING_RADIUS = 300.50;
     constexpr float PROJECTILE_DMG_ENEMY = 1;
     constexpr float SCALE_CAM = 2;
-    constexpr float FONT_SIZE = 35.0;
+    constexpr float FONT_SIZE = 100.0;
 
     constexpr float BUTTON_X = 312.0;
     constexpr float BUTTON_Y = 84.0;
