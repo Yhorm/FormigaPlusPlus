@@ -41,12 +41,51 @@ void Gerenciadores::GerenciadorGrafico::size(const Vector2f tam){
 		window->setView(cam);
 }
 
-sf::Texture Gerenciadores::GerenciadorGrafico::getTexture(const char* path)
+sf::Texture* Gerenciadores::GerenciadorGrafico::getTexture(const char* path)
 {
-    std::map<const char*, sf::Texture>::iterator it;
+    std::map<const char*, sf::Texture*>::iterator iterator = m_textureMap.begin();
+    for(iterator; iterator != m_textureMap.end(); ++iterator)
+    {
+        if(!strcmp(iterator->first, path))
+        {
+            return iterator->second;
+        }
+    }
+
+    sf::Texture* newTexture = new sf::Texture();
+
+    if(!newTexture->loadFromFile(path))
+    {
+        std::cout << "ERRO EM CARREGAR A TEXTURA." << endl;
+        exit(1);
+    }
+
+    m_textureMap.insert(std::pair<const char*, sf::Texture*>(path, newTexture));
+
+    return newTexture;
 }
 
-sf::Font Gerenciadores::GerenciadorGrafico::getFont(const char* path)
+sf::Font* Gerenciadores::GerenciadorGrafico::getFont(const char* path)
 {
-    std::map<const char*, sf::Font>::iterator it;
+    std::map<const char*, sf::Font*>::iterator iterator = m_fontMap.begin();
+
+    for(iterator; iterator != m_fontMap.end(); ++iterator)
+    {
+        if(!strcmp(iterator->first, path))
+        {
+            return iterator->second;
+        }
+    }
+
+    sf::Font* newFont = new sf::Font();
+
+    if(!newFont->loadFromFile(path))
+    {
+        std::cout << "ERRO EM CARREGAR A FONTE." << endl;
+        exit(1);
+    }
+
+    m_fontMap.insert(std::pair<const char*, sf::Font*>(path, newFont));
+    
+    return newFont;
 }

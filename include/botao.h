@@ -11,9 +11,11 @@ namespace ElemGraf
             bool m_selected;
             
             sf::RectangleShape corpo;
+            sf::RectangleShape highlight;
+
             static Gerenciadores::GerenciadorGrafico* m_pGerGraf;
-            //sf::Texture *m_defaultTexture;
-            //sf::Texture *m_selectedTexture;
+            sf::Texture* m_defaultTexture;
+            sf::Texture* m_selectedHighlight;
 
         public:
             Botao(sf::Vector2f pos, std::string info = "");

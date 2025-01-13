@@ -3,6 +3,7 @@
 #include <vector>
 #include "botao.h"
 #include "menuObserver.h"
+#include "GerenciadorGrafico.h"
 
 namespace Menus
 {
@@ -19,8 +20,11 @@ namespace Menus
             bool active;
 
             Observers::menuObserver observadorMenu;
-            //sf::Texture background;
-            sf::Color cor;
+
+            Gerenciadores::GerenciadorGrafico* m_pGerGraf;
+           // sf::Texture* background;
+            sf::RectangleShape body;
+
         public:
             Menu();
             virtual ~Menu();

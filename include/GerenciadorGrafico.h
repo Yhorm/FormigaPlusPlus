@@ -2,8 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
 #include <map>
-
-//Feito utilizando singleton:
+#include <string.h>
 
 using namespace std;
 using namespace sf;
@@ -18,8 +17,8 @@ namespace Gerenciadores
 		GerenciadorGrafico();
 		static GerenciadorGrafico* pGerGraf;
 
-		std::map<const char*, sf::Texture> m_textureMap;
-		std::map<const char*, sf::Font> m_fontMap;
+		std::map<const char*, sf::Texture*> m_textureMap;
+		std::map<const char*, sf::Font*> m_fontMap;
 
 	public:
 		~GerenciadorGrafico();
@@ -33,9 +32,10 @@ namespace Gerenciadores
 		void centralize(const Vector2f pos);
 		void size(const Vector2f tam);
 		sf::Vector2f getWinSize() { return static_cast<sf::Vector2f>(window->getSize()); };
+		
 
-		sf::Texture getTexture(const char* path);
-		sf::Font getFont(const char* path);
+		sf::Texture* getTexture(const char* path);
+		sf::Font* getFont(const char* path);
 	};
 
 

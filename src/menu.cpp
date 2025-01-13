@@ -8,10 +8,15 @@ namespace Menus
     max(2),
     active(false),
     observadorMenu(this),
-    cor(sf::Color::Black)
+    m_pGerGraf(m_pGerGraf->getGerGraf())
+    //cor(sf::Color::Black)
     {
+        body.setSize(m_pGerGraf->getWinSize());
+        body.setFillColor(sf::Color::Black);
+
         botoes.clear();
         iterator = botoes.begin();
+
     }
 
     Menu::~Menu()

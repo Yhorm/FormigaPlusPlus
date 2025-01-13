@@ -46,7 +46,7 @@ namespace Entidades {
             void stopMoving() { inMovement = false; }
 
             void jump();
-			      void refresh();
+			void refresh();
 
             void setDirection(int dir) { direction = dir; };
             void setCanJump(bool jmp) { canJump = jmp; };

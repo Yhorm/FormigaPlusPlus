@@ -10,10 +10,14 @@ namespace ElemGraf
     {   
         m_texto.setString(info);
         m_texto.setPosition(startPos);
+        
+        m_texto.setFont(*m_pGerGraf->getFont(Constants::FONT_FILE_PATH));
+        setFontSize(Constants::FONT_SIZE);
+        
         m_texto.setFillColor(sf::Color::White);
         m_texto.setOrigin(0, 0);
 
-        setFontSize(Constants::FONT_SIZE);
+
     }
 
     Text::~Text()

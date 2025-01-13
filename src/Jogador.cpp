@@ -4,7 +4,7 @@
 
 
 Entidades::Personagens::Jogador::Jogador(sf::Vector2f pos, bool isPlayer2, Gerenciadores::GerenciadorEventos* pGE) :
-        Controlador(pGE, this),
+        Controlador(this),
         Personagem(pos, sf::Vector2f(Constants::SIZE_PLYR_H, Constants::SIZE_PLYR_W), sf::Vector2f(Constants::VEL_PLAYER_X, Constants::VEL_PLAYER_Y), 3, Identifier::ID::player),
         direction(left),
         damage(true),

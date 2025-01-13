@@ -17,7 +17,7 @@ namespace Menus
         aux = new ElemGraf::Botao(sf::Vector2f(pGG->getWinSize().x/2.0, pGG->getWinSize().y/2.0 + 100), "EXIT GAME");
         botoes.push_back(aux);
 
-        Titulo.setInfo("JOGASSO");
+        Titulo.setInfo("Formiga++");
         Titulo.setFontSize(Constants::FONT_SIZE*3);
         Titulo.setTextPosition(sf::Vector2f(pGG->getWinSize().x/2.0, 0.0f - pGG->getWinSize().y/2.0));
 
@@ -48,14 +48,23 @@ namespace Menus
     void MainMenuState::update() 
     {
         active = true;
+
     }
+
     void MainMenuState::draw() 
     {
+        m_pGerGraf->draw(body);
+        Titulo.draw();
         for(iterator = botoes.begin(); iterator != botoes.end(); ++iterator)
         {
             (*iterator)->draw();
         }
     }
 
-    void MainMenuState::resetState() {}
+    void MainMenuState::resetState() 
+    {
+        botoes[selected]->select(false);
+        selected = 0;
+        botoes[selected]->select(true);
+    }
 }
