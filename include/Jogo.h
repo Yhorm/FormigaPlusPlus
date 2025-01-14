@@ -7,7 +7,7 @@
 #include "GerenciadorColisoes.h"
 #include "Plataforma.h"
 #include "Inimigo.h"
-#include "Fase.h"
+#include "PrimeiraFase.h"
 using namespace std;
 using namespace sf;
 
@@ -15,7 +15,7 @@ class Jogo {
 private:
     Gerenciadores::GerenciadorGrafico *pGerGraf;
     Gerenciadores::GerenciadorEventos *EventManager;
-	Fases::Fase fase;
+	Fases::PrimeiraFase fase;
 public:
     Jogo();
 

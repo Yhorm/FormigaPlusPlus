@@ -20,11 +20,8 @@ void Jogo::executar()
 
   	EventManager->setPlayer1(fase.getPlayer());
 	fase.LerArquivo();
-	fase.CriarPlataforma();
 	fase.CriarObstaculo();
-	fase.CriarInimigosF();
-	fase.CriarInimigosM();
-	fase.CriarInimigosD();
+	fase.CriarInimigos();
     while (pGerGraf->getOpen())
     {
         EventManager->executar();

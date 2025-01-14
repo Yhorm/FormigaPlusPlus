@@ -16,10 +16,11 @@
 #include <string>
 namespace Fases{
 		class Fase{
-				private:
+				protected:
 				Entidades::Personagens::Jogador *player1;
 				Gerenciadores::GerenciadorColisoes ColMngr; 
 				Listas::listEntidade lista;
+
 				Entidades::Projetil::Projetil *proje;
 				vector <pair<int,string>> fase;
 				public:
@@ -28,13 +29,12 @@ namespace Fases{
 					virtual void executar();
 					void Gerenciar_colisoes();
 					void CriarInimigosF();
-					void CriarInimigosM();
 					void CriarInimigosD();
 					void CriarPlataforma();
-					virtual void CriarInimigos();
-					virtual void CriarObstaculo();
+					virtual void CriarInimigos()=0;
+					virtual void CriarObstaculo()=0;
 					void CriarCenario();
-					bool LerArquivo();
+					virtual bool LerArquivo()=0;
 					void TratarArquivo(FILE *T);
 					Entidades::Personagens::Jogador* getPlayer(){return player1;};
 		};
