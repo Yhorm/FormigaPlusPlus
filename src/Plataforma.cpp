@@ -1,11 +1,15 @@
 #include "../include/Plataforma.h"
+#include <SFML/Graphics/Rect.hpp>
 
 
 Entidades::Obstaculos::Plataforma::Plataforma(const sf::Vector2f pos, const sf::Vector2f size, const std::string t, const sf::Vector2f scale, const Identifier::ID i) :
     Obstaculo(pos, size, scale, i),
     type(t)
 {
-		entity.setFillColor(Color::White);
+		sf::Texture* textura = pGerGraf->getTexture(PLATFORM_TEXTURE_FILE_PATH);
+		textura->setRepeated(true);
+		entity.setTexture(textura);
+		entity.setTextureRect(sf::IntRect(0,0,size.x,size.y));
 }
 
 Entidades::Obstaculos::Plataforma::~Plataforma()
@@ -19,6 +23,7 @@ void Plataforma::colision(Entidades::Entidade *entity, sf::Vector2f distance)
     {
         colisionObstacle(distance, static_cast<Entidades::Personagens::Personagem*>(entity));
     }
+	
 }
 void Plataforma::refresh()
 {

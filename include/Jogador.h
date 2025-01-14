@@ -19,7 +19,6 @@ namespace Entidades {
         private:
 
             Observers::playerObserver Controlador;
-
             static unsigned int score;
             static unsigned int death_C;
             bool damage;
@@ -28,10 +27,9 @@ namespace Entidades {
             bool Player2;
             bool inMovement;
             bool canJump;
-            bool inAir;
 
         public:
-            Jogador(sf::Vector2f pos = sf::Vector2f(0.0f, 0.0f), bool isPlayer2 = false , Gerenciadores::GerenciadorEventos* pGE = nullptr);
+            Jogador(sf::Vector2f pos = sf::Vector2f(0.0f, 0.0f), bool isPlayer2 = false);
 
             ~Jogador();
 
@@ -52,6 +50,7 @@ namespace Entidades {
             void setCanJump(bool jmp) { canJump = jmp; };
 
             void colision(Entidades::Entidade* entity, sf::Vector2f distance);
+			void showlife();
         };
     }
 }

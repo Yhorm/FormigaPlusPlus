@@ -4,7 +4,8 @@
 #include <SFML/Graphics.hpp>
 #include "GerenciadorEventos.h"
 #include "GerenciadorGrafico.h"
-#include "Fase.h"
+#include "PrimeiraFase.h"
+#include "SegundaFase.h"
 #include "StateMachine.h"
 #include "MainMenu.h"
 
@@ -18,17 +19,17 @@ namespace States
         private:
             Gerenciadores::GerenciadorGrafico *pGerGraf;
             Gerenciadores::GerenciadorEventos *EventManager;
-            Fases::Fase fase;
-
+            Fases::Fase fase;	
+			Fases::SegundaFase fase;
 
         public:
                 Jogo();
+ 
+				~Jogo();
 
-                ~Jogo();
+				void executar();
 
-                void executar();
-
-                void endGame() {pGerGraf->close();};
+				void endGame() {pGerGraf->close();};
     };
 }
 

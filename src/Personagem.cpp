@@ -23,5 +23,3 @@ void Entidades::Personagens::Personagem::restart(){
 		setHP(HPinicial);
 		setPosition(restartPos);
 }
-
-

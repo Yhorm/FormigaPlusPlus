@@ -1,11 +1,14 @@
 #pragma once 
 #include "GerenciadorColisoes.h"
+#include "Projetil.h"
 #include "Jogador.h"
 #include "listEntidade.h"
+#include "Aranhas.h"
 #include "GerenciadorGrafico.h"
 #include "Plataforma.h"
-#include "Fantasminhas.h"
-#include "Cola.h"
+#include "Pulgas.h"
+#include "Teia.h"
+#include "Joaninha.h"
 #include "Espinhos.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -31,15 +34,15 @@ namespace Fases
 					void CriarInimigosM();
 					void CriarInimigosD();
 					void CriarPlataforma();
-					virtual void CriarInimigos();
-					virtual void CriarObstaculo();
+					virtual void CriarInimigos() = 0;
+					virtual void CriarObstaculo() = 0;
 					void CriarCenario();
-					bool LerArquivo();
+					virtual bool LerArquivo() = 0;
 					void TratarArquivo(FILE *T);
 					Entidades::Personagens::Jogador* getPlayer(){return player1;};
 
 					void draw();
 					void update();
 					void resetState();
-		};
+		}
 }

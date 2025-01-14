@@ -9,7 +9,7 @@ namespace Entidades
     {
         class Plataforma : public Obstaculo
         {
-        protected:
+		private:
             std::string type;
         public:
             Plataforma(const sf::Vector2f pos,

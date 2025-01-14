@@ -23,9 +23,9 @@ namespace Constants
     constexpr float SIZE_PLTFORM_W = 1280.0;
     constexpr float DMG_SPIKES = 999;
     constexpr float SCALE_PLTFRM = 1.0;
-    constexpr float VEL_PROJECTILE = 3.5;
-    constexpr float SIZE_PROJECTILE_X = 50;
-    constexpr float SIZE_PROJECTILE_Y = 100;
+    constexpr float VEL_PROJECTILE = 10.5;
+    constexpr float SIZE_PROJECTILE_X = 20;
+    constexpr float SIZE_PROJECTILE_Y = 20;
     constexpr float PROJECTILE_HOMING_RADIUS = 300.50;
     constexpr float PROJECTILE_DMG_ENEMY = 1;
     constexpr float SCALE_CAM = 2;
@@ -35,7 +35,9 @@ namespace Constants
     constexpr float BUTTON_Y = 84.0;
     constexpr float BUTTON_HIGHLIGHT_X = 360.0;
     constexpr float BUTTON_HIGHLIGHT_Y = 138.0;
-
+	
+	constexpr const char* PLYR_TEXTURE_FILE_PATH = "../sprites/Group5.png"
+	constexpr const char* PLATFORM_TEXTURE_FILE_PATH = "../sprites/Group7.png"
     constexpr const char* FONT_FILE_PATH = "../assets/monogram.ttf";
     constexpr const char* BUTTON_SELECTED_FILE_PATH = "../assets/Button_Highlight.png";
     constexpr const char* BUTTON_DEFAULT_FILE_PATH = "../assets/Button_basic.png";

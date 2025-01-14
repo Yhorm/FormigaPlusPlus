@@ -6,6 +6,7 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
 #include <list>
+#include <set>
 #include <cmath>
 #include "Entidade.h"
 #include "Obstaculo.h"
@@ -13,7 +14,7 @@
 #include "listEntidade.h"
 #include "Inimigo.h"
 #include "ID.h"
-
+#include "Projetil.h"
 using namespace std;
 
 
@@ -25,7 +26,7 @@ namespace Gerenciadores
         Listas::listEntidade* lista;
 		std::vector<Entidades::Personagens::Inimigo::Inimigo*> LIs;
 		std::list<Obstaculos::Obstaculo*> LOs;
-		//falta projeteis
+		std::set<Projetil::Projetil*> LP;
 		Entidades::Personagens::Jogador *pJog1;
 		
     public:
@@ -35,9 +36,10 @@ namespace Gerenciadores
         const sf::Vector2f calcColission(Entidades::Entidade* char1, Entidades::Entidade* char2);
 		void tratarColisoesJogsObstacs(); 
 		void tratarColisoesJogsInimgs(); 
-		//falta projeteis
+		void tratarColisoesInimigsInimigs();
 		void IncluirInimigo(Entidades::Entidade *pi);
 	   	void IncluirObstcaulo(Entidades::Entidade *po);
+	   	void IncluirProjetil(Entidades::Entidade *po);
 		void execute();
     };
 }
