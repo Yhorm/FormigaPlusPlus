@@ -1,8 +1,8 @@
 #include "../include/Fase.h"
 using namespace Fases;
 
-Fase::Fase(States::StateMachine* pSm):
-		States::State(pSm, States::StateType::STATE_IN_GAME),
+Fase::Fase(States::StateMachine* pSm, States::StateType faseAtual):
+		States::State(pSm, faseAtual),
 		player1(new Entidades::Personagens::Jogador(sf::Vector2f(2200.0f, 100.0f))),
 		lista(),
 		ColMngr(&lista,player1)

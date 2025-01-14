@@ -8,12 +8,10 @@ namespace ElemGraf
     {
         protected:
             Text m_texto;
+            Text m_selected_Text;
             bool m_selected;
-            
-            sf::RectangleShape highlight;
 
             static Gerenciadores::GerenciadorGrafico* m_pGerGraf;
-            sf::Texture* m_selectedHighlight;
 
         public:
             Botao(sf::Vector2f pos, std::string info = "");

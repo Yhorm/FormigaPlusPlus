@@ -8,7 +8,7 @@
 #include "SegundaFase.h"
 #include "StateMachine.h"
 #include "MainMenu.h"
-
+#include "StageSelection.h"
 
 using namespace std;
 using namespace sf;

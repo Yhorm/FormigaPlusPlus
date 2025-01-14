@@ -6,8 +6,15 @@
 #include "Constants.h"
 
 
+
 namespace ElemGraf
 {
+    enum StyleType
+    {
+        DefaultStyle = sf::Text::Regular,
+        Bold = sf::Text::Bold 
+    };
+
     class Text
     {
         private:
@@ -34,7 +41,8 @@ namespace ElemGraf
             void setTextPosition(sf::Vector2f position) {m_pos = position; m_texto.setPosition(m_pos);};
             sf::Vector2f getPosition() { return m_pos; }
             
-            
+            void setStyle(StyleType t) { m_texto.setStyle(t); }; 
+
             void draw();
 
     };

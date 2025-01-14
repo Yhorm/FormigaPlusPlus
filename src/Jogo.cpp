@@ -15,7 +15,8 @@ namespace States
                 insertState(auxState);
                 auxState = static_cast<State*>(new Menus::MainMenuState(this));
                 insertState(auxState);
-                
+                auxState = static_cast<State*>(new Menus::StageSelection(this));
+                insertState(auxState);
 
                 auxState = NULL;
 

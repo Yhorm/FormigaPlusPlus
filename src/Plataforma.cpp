@@ -6,7 +6,7 @@ Entidades::Obstaculos::Plataforma::Plataforma(const sf::Vector2f pos, const sf::
     Obstaculo(pos, size, scale, i),
     type(t)
 {
-		sf::Texture* textura = pGerGraf->getTexture(PLATFORM_TEXTURE_FILE_PATH);
+		sf::Texture* textura = pGerGraf->getTexture(Constants::PLATFORM_TEXTURE_FILE_PATH);
 		textura->setRepeated(true);
 		entity.setTexture(textura);
 		entity.setTextureRect(sf::IntRect(0,0,size.x,size.y));

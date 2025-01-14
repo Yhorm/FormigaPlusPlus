@@ -1,7 +1,7 @@
 #include "../include/SegundaFase.h"
 using namespace Fases;
 SegundaFase::SegundaFase(States::StateMachine* pSm) :
-	Fase(pSm)
+	Fase(pSm, States::StateType::STATE_FASE_2)
 {
 		LerArquivo();
     	CriarObstaculo();

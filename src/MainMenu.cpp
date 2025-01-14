@@ -21,8 +21,9 @@ namespace Menus
         
         Titulo.setFontSize(Constants::FONT_SIZE*3);
 
-        Titulo.setTextPosition(sf::Vector2f(m_pGerGraf->getWinSize().x/2.0, 0.0f - Titulo.getSize().y/2));
+        Titulo.setTextPosition(sf::Vector2f(m_pGerGraf->getWinSize().x/2.0, 0.0f - Titulo.getSize().y));
         
+        Titulo.setStyle(ElemGraf::StyleType::Bold);
 
         max = 1;   
     }
@@ -37,7 +38,7 @@ namespace Menus
             switch(selected)
             {
                 case(0) :
-                    changeState(States::StateType::STATE_IN_GAME);
+                    changeState(States::StateType::STATE_STAGE_SELECTION);
                     break;
                 case(1) :
                     pJogo->endGame();
@@ -51,7 +52,6 @@ namespace Menus
     void MainMenuState::update() 
     {
         active = true;
-
     }
 
     void MainMenuState::draw() 

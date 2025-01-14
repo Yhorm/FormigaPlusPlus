@@ -8,22 +8,11 @@ namespace ElemGraf
     Botao::Botao(sf::Vector2f pos, std::string info) :
         m_texto(pos, info),
         m_selected(false),
-        m_selectedHighlight(NULL)
+        m_selected_Text(pos, info)
     {
-        m_selectedHighlight = m_pGerGraf->getTexture(Constants::BUTTON_SELECTED_FILE_PATH);
-
-        highlight.setSize(sf::Vector2f(Constants::BUTTON_HIGHLIGHT_X, Constants::BUTTON_HIGHLIGHT_Y));
-
-        highlight.setOrigin(sf::Vector2f(Constants::BUTTON_HIGHLIGHT_X/2, Constants::BUTTON_HIGHLIGHT_Y/2));
-        
-        highlight.setPosition(m_texto.getPosition());
-
-        highlight.setTexture(m_selectedHighlight);
-
         m_texto.setFontSize(Constants::FONT_SIZE);
 
         m_texto.setTextPosition(pos);
-
     }
 
     Botao::~Botao()
@@ -33,14 +22,14 @@ namespace ElemGraf
     void Botao::select(bool isSelected)
     {
         m_selected = isSelected;
+        if(m_selected)
+            m_texto.setStyle(ElemGraf::Bold);
+        else
+            m_texto.setStyle(ElemGraf::DefaultStyle);
     }
 
     void Botao::draw() 
     {
-        if(m_selected)
-        {
-            m_pGerGraf->draw(highlight);
-        }
         m_texto.draw();
     }
 
