@@ -18,10 +18,10 @@ void Entidades::Personagens::Inimigo::Fantasminhas::move()
     switch(movement_dir)
     {
         case(up) :
-            setPosition(motion+Vector2f(0.0f, -Constants::VEL_ENEMY_Y));
+            setPosition(motion+Vector2f(0.0f, (Constants::GRAVITY + Constants::F_NORMAL) -Constants::VEL_ENEMY_Y));
             break;
         case(down) :
-            setPosition(motion+Vector2f(0.0f,Constants::VEL_ENEMY_Y));
+            setPosition(motion+Vector2f(0.0f, Constants::VEL_ENEMY_Y + (Constants::GRAVITY*0.1)));
             break;
         case(left) :
             setPosition(motion+Vector2f(-Constants::VEL_ENEMY_X, 0.0f));

@@ -4,26 +4,31 @@
 #include <SFML/Graphics.hpp>
 #include "GerenciadorEventos.h"
 #include "GerenciadorGrafico.h"
-#include "GerenciadorColisoes.h"
-#include "Plataforma.h"
-#include "Inimigo.h"
 #include "Fase.h"
+#include "StateMachine.h"
+#include "MainMenu.h"
+
 using namespace std;
 using namespace sf;
 
-class Jogo {
-private:
-    Gerenciadores::GerenciadorGrafico *pGerGraf;
-    Gerenciadores::GerenciadorEventos *EventManager;
-	Fases::Fase fase;
-public:
-    Jogo();
+namespace States
+{
+    class Jogo : public StateMachine 
+    {
+        private:
+            Gerenciadores::GerenciadorGrafico *pGerGraf;
+            Gerenciadores::GerenciadorEventos *EventManager;
+            Fases::Fase fase;
 
-    ~Jogo();
 
-    void instanceEntities();
+        public:
+                Jogo();
 
-    void executar();
+                ~Jogo();
 
-};
+                void executar();
+
+                void endGame() {pGerGraf->close();};
+    };
+}
 

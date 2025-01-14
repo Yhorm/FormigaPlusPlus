@@ -24,3 +24,4 @@ void Entidades::Personagens::Personagem::restart(){
 		setPosition(restartPos);
 }
 
+

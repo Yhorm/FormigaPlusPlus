@@ -1,34 +1,43 @@
 #include "../include/Jogo.h"
-Jogo::Jogo() :
-        pGerGraf(pGerGraf->getGerGraf()),
-        EventManager(EventManager->getGerEvent())
-        {
-			executar();
-        }
+#include "../include/Fase.h"
 
-Jogo::~Jogo()
-{
-		pGerGraf=nullptr;
-		EventManager=nullptr;
-}
-
-void Jogo::instanceEntities()
-{
-}
-void Jogo::executar()
+namespace States
 {
 
-  	EventManager->setPlayer1(fase.getPlayer());
-	fase.LerArquivo();
-	fase.CriarPlataforma();
-	fase.CriarObstaculo();
-	fase.CriarInimigosF();
-    while (pGerGraf->getOpen())
+    Jogo::Jogo() :
+            pGerGraf(pGerGraf->getGerGraf()),
+            EventManager(EventManager->getGerEvent())
+            {
+                States::State* auxState;
+                auxState = new Fases::Fase(this);
+                insertState(auxState);
+                auxState = static_cast<State*>(new Menus::MainMenuState(this));
+                insertState(auxState);
+
+                auxState = NULL;
+
+                changeCurState(States::StateType::STATE_MAIN_MENU);
+
+                executar();
+            }
+
+    Jogo::~Jogo()
     {
-        EventManager->executar();
-        pGerGraf->clean();
-		fase.executar();
-		fase.Gerenciar_colisoes();
-        pGerGraf->display();
+            pGerGraf=nullptr;
+            EventManager=nullptr;
+    }
+
+    void Jogo::executar()
+    {
+        while (pGerGraf->getOpen())
+        {
+            EventManager->executar();
+            pGerGraf->clean();
+
+            updateState();
+            execState();
+
+            pGerGraf->display();
+        }
     }
 }

@@ -20,7 +20,11 @@ void Cola::colision(Entidades::Entidade *entity, sf::Vector2f distance)
         colisionObstacle(distance, static_cast<Entidades::Personagens::Personagem*>(entity));
     }
 }
-void Cola::refresh(){
+void Cola::refresh()
+{
+    sf::Vector2f curPos = getPosition();
+    sf::Vector2f applyGravidade = sf::Vector2f(curPos.x, (curPos.y - (Constants::GRAVITY + Constants::F_NORMAL)));
+    setPosition(applyGravidade);
 }
 void Cola::colisionObstacle(sf::Vector2f ds, Personagens::Personagem *pChar)
 {
@@ -48,6 +52,7 @@ void Cola::colisionObstacle(sf::Vector2f ds, Personagens::Personagem *pChar)
                 {
                     Entidades::Personagens::Jogador *pPlyr = static_cast<Entidades::Personagens::Jogador *>(pChar);
                     pPlyr->setInAir(false);
+                    pPlyr->setCanJump(true);
                 }
             }
             else

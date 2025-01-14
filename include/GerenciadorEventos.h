@@ -1,49 +1,55 @@
 #pragma once
 
 #include <iostream>
-#include <SFML/Graphics.hpp>
-#include "GerenciadorGrafico.h"
-#include "Jogador.h"
+#include <list>
+#include <map>
 
-using namespace std;
+#include "GerenciadorGrafico.h"
+
+namespace Observers
+{
+    class Observer;
+}
 
 namespace Gerenciadores {
     class GerenciadorEventos {
     private:
-        //Ponteiros para os jogadores:
-        Entidades::Personagens::Jogador *pPlayer1;
-        Entidades::Personagens::Jogador *pPlayer2;
 
-        //Gerenciador gráfico:
+        //lista de observadores
+
+        std::list<Observers::Observer*> observadores;
+        std::list<Observers::Observer*>::iterator iterador;
+
+        //Gerenciador grï¿½fico:
         GerenciadorGrafico *pGerGraf;
 
         //Window:
         RenderWindow *pWindow;
 
+        //keymap
+        std::map<sf::Keyboard::Key, std::string> keyMap;
 
         //singleton
         static GerenciadorEventos *pGerEvent;
 
         GerenciadorEventos();
 
-        enum {up = 3, down = 2, left = 1, right = 0, not_move = -1};
+        enum { left = 1, right = 2 };
 
     public:
         static GerenciadorEventos *getGerEvent();
 
         ~GerenciadorEventos();
 
-        void setPlayer1(Entidades::Personagens::Jogador *pP) { pPlayer1 = pP; }
+        void attach(Observers::Observer* pObs) { if (pObs) { observadores.push_back(pObs); } };
 
-        void setPlayer2(Entidades::Personagens::Jogador *pP) { pPlayer2 = pP; }
-
-        //Checa evento e age de acordo:
-        // Se é uma tecla de movimento: chama a função movimentar do jogador;
-        //Esc -> fecha a janela obs: depois mudar p/ opção de um menu.
+        void detach(Observers::Observer* pObs) { if (pObs) { observadores.remove(pObs); } }
 
         void checaTeclaApertada(sf::Keyboard::Key key);
 
         void checaTeclaSolta(sf::Keyboard::Key key);
+
+        std::string getKeyAsString(sf::Keyboard::Key key) { return keyMap[key] == ""? "Unknown" : keyMap[key]; };
 
         void close() { pGerGraf->close(); }
 

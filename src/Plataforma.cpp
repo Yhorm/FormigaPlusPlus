@@ -20,7 +20,13 @@ void Plataforma::colision(Entidades::Entidade *entity, sf::Vector2f distance)
         colisionObstacle(distance, static_cast<Entidades::Personagens::Personagem*>(entity));
     }
 }
-void Plataforma::refresh(){
+void Plataforma::refresh()
+{
+    
+    sf::Vector2f curPos = getPosition();
+    sf::Vector2f applyGravidade = sf::Vector2f(curPos.x, (curPos.y - (Constants::GRAVITY + Constants::F_NORMAL)));
+    setPosition(applyGravidade);
+
 }
 void Plataforma::colisionObstacle(sf::Vector2f ds, Personagens::Personagem *pChar)
 {
@@ -48,6 +54,7 @@ void Plataforma::colisionObstacle(sf::Vector2f ds, Personagens::Personagem *pCha
                 {
                     Entidades::Personagens::Jogador *pPlyr = static_cast<Entidades::Personagens::Jogador *>(pChar);
                     pPlyr->setInAir(false);
+                    pPlyr->setCanJump(true);
                 }
             }
             else
