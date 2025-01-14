@@ -36,8 +36,8 @@ namespace Constants
     constexpr float BUTTON_HIGHLIGHT_X = 360.0;
     constexpr float BUTTON_HIGHLIGHT_Y = 138.0;
 	
-	constexpr const char* PLYR_TEXTURE_FILE_PATH = "../sprites/Group5.png"
-	constexpr const char* PLATFORM_TEXTURE_FILE_PATH = "../sprites/Group7.png"
+	constexpr const char* PLYR_TEXTURE_FILE_PATH = "../assets/Group5.png";
+	constexpr const char* PLATFORM_TEXTURE_FILE_PATH = "../assets/Group7.png";
     constexpr const char* FONT_FILE_PATH = "../assets/monogram.ttf";
     constexpr const char* BUTTON_SELECTED_FILE_PATH = "../assets/Button_Highlight.png";
     constexpr const char* BUTTON_DEFAULT_FILE_PATH = "../assets/Button_basic.png";
