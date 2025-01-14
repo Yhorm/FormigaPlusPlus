@@ -21,15 +21,13 @@ namespace Fases{
 				Gerenciadores::GerenciadorColisoes ColMngr; 
 				Listas::listEntidade lista;
 
-				Entidades::Projetil::Projetil *proje;
 				vector <pair<int,string>> fase;
 				public:
 					Fase();
 					virtual ~Fase();
-					virtual void executar();
+					void executar();
 					void Gerenciar_colisoes();
 					void CriarInimigosF();
-					void CriarInimigosD();
 					void CriarPlataforma();
 					virtual void CriarInimigos()=0;
 					virtual void CriarObstaculo()=0;

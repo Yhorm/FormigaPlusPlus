@@ -8,6 +8,7 @@
 #include "Plataforma.h"
 #include "Inimigo.h"
 #include "PrimeiraFase.h"
+#include "SegundaFase.h"
 using namespace std;
 using namespace sf;
 
@@ -15,7 +16,7 @@ class Jogo {
 private:
     Gerenciadores::GerenciadorGrafico *pGerGraf;
     Gerenciadores::GerenciadorEventos *EventManager;
-	Fases::PrimeiraFase fase;
+	Fases::SegundaFase fase;
 public:
     Jogo();
 
