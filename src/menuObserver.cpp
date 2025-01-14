@@ -22,14 +22,16 @@ namespace Observers
             exit(1);
         }
 
-        if(key == "Up")
+        if(key == "Up" || key == "W")
         {
             p_menu->selectUp();
         }
-        if(key == "Down")
+
+        if(key == "Down" || key == "S")
         {
             p_menu->selectDown();
         }
+
         if(key == "Enter")
         {
             p_menu->executar();

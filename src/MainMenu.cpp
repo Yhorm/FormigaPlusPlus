@@ -21,7 +21,8 @@ namespace Menus
         
         Titulo.setFontSize(Constants::FONT_SIZE*3);
 
-        Titulo.setTextPosition(sf::Vector2f(m_pGerGraf->getWinSize().x/2.0, 0.0f - Titulo.getSize().y));
+        Titulo.setTextPosition(sf::Vector2f(Constants::RES_X - Titulo.getSize().x, 0.0f - Titulo.getSize().y));
+
         
         Titulo.setStyle(ElemGraf::StyleType::Bold);
 

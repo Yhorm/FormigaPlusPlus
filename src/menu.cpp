@@ -41,10 +41,10 @@ namespace Menus
         if(active)
         {
             botoes[selected]->select(false);
-            selected++;
-            if(selected > max)
+            selected--;
+            if(selected < min)
             {
-                selected = min;
+                selected = max;
             }
             botoes[selected]->select(true);
         }
@@ -55,10 +55,10 @@ namespace Menus
         if(active)
         {
             botoes[selected]->select(false);
-            selected--;
-            if(selected < min)
+            selected++;
+            if(selected > max)
             {
-                selected = max;
+                selected = min;
             }
             botoes[selected]->select(true);
         }

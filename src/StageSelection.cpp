@@ -22,7 +22,7 @@ namespace Menus
         
         Cabecalho.setFontSize(Constants::FONT_SIZE*3);
 
-        Cabecalho.setTextPosition(sf::Vector2f(m_pGerGraf->getWinSize().x/2.0, 0.0f - Cabecalho.getSize().y));
+        Cabecalho.setTextPosition(sf::Vector2f(Constants::RES_X - Cabecalho.getSize().x + 400, 0.0f - Cabecalho.getSize().y));
         
         Cabecalho.setStyle(ElemGraf::StyleType::Bold);
 
