@@ -23,7 +23,7 @@ namespace Entidades
             ~Projetil();
 			void refresh();
             void move();
-            void setPlayer(Entidades::Personagens::Jogador* pP) { if(pP) {pPlayer = pP;} }
+            void setPlayer(Entidades::Personagens::Jogador* pP) { if(pP) {p = pP;} }
             void chasePlayer();
 			void fire(Vector2f pos);
             void colision(Entidades::Entidade* entity, sf::Vector2f distance);

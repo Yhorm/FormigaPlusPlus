@@ -6,7 +6,7 @@ namespace Fases{
 			private:
 			Entidades::Projetil::Projetil *proje;
 			public:
-			SegundaFase();
+			SegundaFase(States::StateMachine* pSm);
 			~SegundaFase();
 			void CriarProjetil();
 			void CriarInimigosD();

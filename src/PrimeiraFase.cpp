@@ -1,6 +1,11 @@
 #include "../include/PrimeiraFase.h"
 using namespace Fases;
-PrimeiraFase::PrimeiraFase(){
+PrimeiraFase::PrimeiraFase(States::StateMachine* pSm) :
+	Fase(pSm)
+{
+		LerArquivo();
+    	CriarObstaculo();
+    	CriarInimigos();
 }
 PrimeiraFase::~PrimeiraFase(){
 

@@ -9,10 +9,7 @@ Fase::Fase(States::StateMachine* pSm):
 		{
 				fase.clear();
 				lista.addEntity(player1);
-				
-				LerArquivo();
-    			CriarObstaculo();
-    			CriarInimigos();
+			
 		}
 		
 Fase::~Fase()

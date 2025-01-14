@@ -1,6 +1,11 @@
 #include "../include/SegundaFase.h"
 using namespace Fases;
-SegundaFase::SegundaFase(){
+SegundaFase::SegundaFase(States::StateMachine* pSm) :
+	Fase(pSm)
+{
+		LerArquivo();
+    	CriarObstaculo();
+    	CriarInimigos();
 		CriarProjetil();
 }
 SegundaFase::~SegundaFase(){

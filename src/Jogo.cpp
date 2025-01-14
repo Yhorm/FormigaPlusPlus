@@ -9,10 +9,13 @@ namespace States
             EventManager(EventManager->getGerEvent())
             {
                 States::State* auxState;
-                auxState = new Fases::Fase(this);
+                auxState = new Fases::PrimeiraFase(this);
+                insertState(auxState);
+                auxState = new Fases::SegundaFase(this);
                 insertState(auxState);
                 auxState = static_cast<State*>(new Menus::MainMenuState(this));
                 insertState(auxState);
+                
 
                 auxState = NULL;
 

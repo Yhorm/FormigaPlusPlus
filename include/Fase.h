@@ -20,7 +20,7 @@ namespace Fases
 {
 		class Fase : public States::State
 		{
-				private:
+				protected:
 				Entidades::Personagens::Jogador *player1;
 				Gerenciadores::GerenciadorColisoes ColMngr; 
 				Listas::listEntidade lista;
@@ -44,5 +44,5 @@ namespace Fases
 					void draw();
 					void update();
 					void resetState();
-		}
+		};
 }

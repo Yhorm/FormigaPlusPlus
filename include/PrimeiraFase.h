@@ -4,7 +4,7 @@ namespace Fases{
 		class PrimeiraFase : public Fase
 		{
 			public:
-			PrimeiraFase();
+			PrimeiraFase(States::StateMachine* pSm);
 			~PrimeiraFase();
 			void CriarInimigosM();
 			void CriarObstMedios();

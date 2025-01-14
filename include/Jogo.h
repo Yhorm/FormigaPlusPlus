@@ -9,6 +9,7 @@
 #include "StateMachine.h"
 #include "MainMenu.h"
 
+
 using namespace std;
 using namespace sf;
 
@@ -19,8 +20,6 @@ namespace States
         private:
             Gerenciadores::GerenciadorGrafico *pGerGraf;
             Gerenciadores::GerenciadorEventos *EventManager;
-            Fases::Fase fase;	
-			Fases::SegundaFase fase;
 
         public:
                 Jogo();
