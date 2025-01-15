@@ -9,7 +9,7 @@ Entidades::Personagens::Jogador::Jogador(sf::Vector2f pos, bool isPlayer2) :
         inMovement(false),
         canJump(true)
         {
-			sf::Texture* textura = pGerGraf->getTexture(Constants::PLYR_TEXTURE_FILE_PATH);
+			textura = pGerGraf->getTexture(Constants::PLYR_TEXTURE_FILE_PATH);
 			entity.setTexture(textura);
         }
 

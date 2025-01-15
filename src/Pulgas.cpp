@@ -2,7 +2,7 @@
 Entidades::Personagens::Inimigo::Pulgas::Pulgas(const sf::Vector2f pos, Personagens::Jogador *pP):
 	Inimigo(pos,Vector2f(40,35),pP,1)	
 {
-			sf::Texture* textura = pGerGraf->getTexture(Constants::PULGAS_TEXTURE_FILE_PATH);
+			textura = pGerGraf->getTexture(Constants::PULGAS_TEXTURE_FILE_PATH);
 			entity.setTexture(textura);
  
 }

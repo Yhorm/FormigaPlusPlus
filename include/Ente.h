@@ -13,7 +13,7 @@ class Ente
 {
 protected:
 	static Gerenciadores::GerenciadorGrafico* pGerGraf;
-
+	sf::Texture* textura; 
 public:
 	Ente();
 	~Ente();

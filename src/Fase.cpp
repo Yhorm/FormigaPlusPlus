@@ -7,6 +7,12 @@ Fase::Fase(States::StateMachine* pSm, States::StateType faseAtual):
 		lista(),
 		ColMngr(&lista,player1)
 		{
+				textura = pGerGraf->getTexture(Constants::SCENERY_TEXTURE_FILE_PATH);
+				textura->setRepeated(true);
+				textura->setSmooth(false);
+  				sprite.setTexture(*textura);
+				sprite.setTextureRect(sf::IntRect(0, 0, 3000000, 3000000));
+				sprite.setPosition(-900,-900);
 				fase.clear();
 				lista.addEntity(player1);
 			
@@ -36,6 +42,9 @@ void Fase::TratarArquivo(FILE *T)
 			std::string linha(buffer);
 			fase.push_back(make_pair(i++,linha));	
 		}
+}
+void Fase::CriarCenario(){
+	pGerGraf->draw(sprite);
 }
 void Fase::CriarPlataforma()
 {
@@ -109,9 +118,12 @@ void Fase::CriarInimigosF()
 
 void Fase::draw() 
 {
-	this->executar();
-	this->Gerenciar_colisoes();
-	
+	CriarCenario();
+	executar();
+	Gerenciar_colisoes();
+}
+void Fase::refresh(){
+
 }
 void Fase::update() {}
 

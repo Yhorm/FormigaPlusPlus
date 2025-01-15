@@ -15,11 +15,13 @@
 #include <vector>
 #include <string>
 #include "StateMachine.h"
-
+#include "GerenciadorGrafico.h"
 namespace Fases
 {
-		class Fase : public States::State
+		class Fase : public States::State,public Ente
 		{
+				private:
+    			sf::Sprite sprite;
 				protected:
 				Entidades::Personagens::Jogador *player1;
 				Gerenciadores::GerenciadorColisoes ColMngr; 
@@ -42,6 +44,7 @@ namespace Fases
 					Entidades::Personagens::Jogador* getPlayer(){return player1;};
 
 					void draw();
+					void refresh();
 					void update();
 					void resetState();
 		};
