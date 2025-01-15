@@ -9,46 +9,46 @@
 
 ## Requisitos Funcionais do Jogo
 - [ ] Criar menu gráfico com:
-  - [ ] Opções de seleção de fases.
+  - [X] Opções de seleção de fases.
   - [ ] Exibição do ranking de jogadores.
   - [ ] Outras funcionalidades pertinentes.
 - [ ] Implementar suporte para:
-  - [ ] Um jogador.
+  - [X] Um jogador.
   - [ ] Dois jogadores (opcional ou parcialmente realizado).
-- [ ] Desenvolver ao menos duas fases jogáveis:
-  - [ ] Fases com diferentes dificuldades.
-  - [ ] Fases com obstáculos e inimigos variados.
-- [ ] Incluir pelo menos três tipos de inimigos:
-  - [ ] Um inimigo capaz de lançar projéteis.
-  - [ ] Um chefão.
-- [ ] Adicionar no mínimo três tipos de obstáculos:
-  - [ ] Obstáculos que causem dano ao jogador.
-- [ ] Implementar física básica:
-  - [ ] Efeito de gravidade.
-  - [ ] Detecção de colisões entre jogadores, inimigos e obstáculos.
+- [X] Desenvolver ao menos duas fases jogáveis:
+  - [X] Fases com diferentes dificuldades.
+  - [X] Fases com obstáculos e inimigos variados.
+- [X] Incluir pelo menos três tipos de inimigos:
+  - [X] Um inimigo capaz de lançar projéteis.
+  - [X] Um chefão.
+- [X] Adicionar no mínimo três tipos de obstáculos:
+  - [X] Obstáculos que causem dano ao jogador.
+- [X] Implementar física básica:
+  - [X] Efeito de gravidade.
+  - [X] Detecção de colisões entre jogadores, inimigos e obstáculos.
 - [ ] Incluir persistência de dados:
   - [ ] Salvar nome do jogador e pontuação.
   - [ ] Salvar e recuperar estado do jogo.
   - [ ] Gerar ranking.
 
 ## Modelagem e Projeto
-- [ ] Elaborar diagrama de classes em UML:
-  - [ ] Baseado no modelo fornecido.
-  - [ ] Melhorar e expandir conforme necessário.
-- [ ] Validar o diagrama com o professor.
+- [X] Elaborar diagrama de classes em UML:
+  - [X] Baseado no modelo fornecido.
+  - [X] Melhorar e expandir conforme necessário.
+- [X] Validar o diagrama com o professor.
 
 ## Implementação
-- [ ] Desenvolver o jogo em C++.
-- [ ] Utilizar uma biblioteca gráfica (preferencialmente SFML).
-- [ ] Aplicar conceitos de orientação a objetos:
-  - [ ] Classes e objetos.
-  - [ ] Herança e polimorfismo.
-  - [ ] Encapsulamento e coesão.
-  - [ ] Desacoplamento.
-- [ ] Implementar funcionalidades gráficas e interativas.
+- [X] Desenvolver o jogo em C++.
+- [X] Utilizar uma biblioteca gráfica (preferencialmente SFML).
+- [X] Aplicar conceitos de orientação a objetos:
+  - [X] Classes e objetos.
+  - [X] Herança e polimorfismo.
+  - [X] Encapsulamento e coesão.
+  - [X] Desacoplamento.
+- [X] Implementar funcionalidades gráficas e interativas.
 
 ## Documentação
-- [ ] Seguir o modelo de formatação fornecido.
+- [X] Seguir o modelo de formatação fornecido.
 - [ ] Escrever as seguintes seções no documento:
   - [ ] Introdução:
     - [ ] Contexto e objetivo do trabalho.
@@ -72,7 +72,7 @@
 - [ ] Revisar o documento para evitar erros de português e formatação.
 
 ## Reuniões e Interações
-- [ ] Realizar pelo menos duas reuniões com o professor.
+- [X] Realizar pelo menos duas reuniões com o professor.
 - [ ] Realizar quatro reuniões com o monitor.
 - [ ] Registrar e enviar resumos das reuniões por e-mail.
 
