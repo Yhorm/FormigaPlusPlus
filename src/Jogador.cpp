@@ -1,11 +1,5 @@
 #include "../include/Jogador.h"
 
-#include "../include/GerenciadorEventos.h"
-#include <SFML/Graphics/Color.hpp>
-#include <SFML/Graphics/Rect.hpp>
-#include <SFML/Graphics/RectangleShape.hpp>
-
-
 Entidades::Personagens::Jogador::Jogador(sf::Vector2f pos, bool isPlayer2) :
         Controlador(this),
         Personagem(pos, sf::Vector2f(Constants::SIZE_PLYR_H, Constants::SIZE_PLYR_W), sf::Vector2f(Constants::VEL_PLAYER_X, Constants::VEL_PLAYER_Y), 3, Identifier::ID::player),
@@ -30,6 +24,7 @@ void Entidades::Personagens::Jogador::move() {
 void Entidades::Personagens::Jogador::jump() {
     if(canJump)
     {
+		inAir=true;
 		damage=true;
         canJump = false;
         velFinal.y = -sqrt((2.0f * Constants::GRAVITY * Constants::JMP_HEIGHT));
