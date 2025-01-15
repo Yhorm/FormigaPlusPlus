@@ -42,7 +42,7 @@ namespace Menus
                     changeState(States::StateType::STATE_FASE_1);
                     break;
                 case(1) :
-                    changeState(States::StateType::STATE_FASE_1);
+                    changeState(States::StateType::STATE_FASE_2);
                     break;
                 case(2) :
                     changeState(States::StateType::STATE_MAIN_MENU);

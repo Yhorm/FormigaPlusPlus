@@ -5,8 +5,8 @@ SegundaFase::SegundaFase(States::StateMachine* pSm) :
 {
 		LerArquivo();
     	CriarObstaculo();
-    	CriarInimigos();
 		CriarProjetil();
+    	CriarInimigos();
 }
 SegundaFase::~SegundaFase(){
 

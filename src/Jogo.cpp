@@ -1,5 +1,4 @@
 #include "../include/Jogo.h"
-#include "../include/Fase.h"
 
 namespace States
 {
@@ -20,6 +19,7 @@ namespace States
 
                 auxState = NULL;
 
+
                 changeCurState(States::StateType::STATE_MAIN_MENU);
 
                 executar();
@@ -37,10 +37,8 @@ namespace States
         {
             EventManager->executar();
             pGerGraf->clean();
-
             updateState();
             execState();
-
             pGerGraf->display();
         }
 	}
