@@ -1,8 +1,10 @@
 #include "../include/Pulgas.h"
 Entidades::Personagens::Inimigo::Pulgas::Pulgas(const sf::Vector2f pos, Personagens::Jogador *pP):
-	Inimigo(pos,Vector2f(20,20),pP,1)	
+	Inimigo(pos,Vector2f(40,35),pP,1)	
 {
-    entity.setFillColor(sf::Color::Cyan);
+			sf::Texture* textura = pGerGraf->getTexture(Constants::PULGAS_TEXTURE_FILE_PATH);
+			entity.setTexture(textura);
+ 
 }
 
 Entidades::Personagens::Inimigo::Pulgas::Pulgas::~Pulgas()
