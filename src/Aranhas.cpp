@@ -3,6 +3,7 @@ Entidades::Personagens::Inimigo::Aranhas::Aranhas(const sf::Vector2f pos,Persona
 	Inimigo(pos,Vector2f(100,100),pP,5),
 	bigger(false)	
 {
+	id=7;
     entity.setFillColor(sf::Color::Magenta);
 }
 

@@ -12,6 +12,7 @@ using namespace sf;
 class Ente
 {
 protected:
+	int8_t id;
 	static Gerenciadores::GerenciadorGrafico* pGerGraf;
 	sf::Texture* textura; 
 public:
@@ -20,5 +21,6 @@ public:
 
 	virtual void draw() = 0;
 	virtual void refresh() = 0;
+	int8_t getIdS(){return id;}
 };
 

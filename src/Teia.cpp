@@ -5,6 +5,7 @@ Entidades::Obstaculos::Teia::Teia(const sf::Vector2f pos, const sf::Vector2f siz
     Obstaculo(pos, size, scale, i),
     type(t)
 {
+		id=2;
 		entity.setFillColor(Color::Yellow);
 }
 

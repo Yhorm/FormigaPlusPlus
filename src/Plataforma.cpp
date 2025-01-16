@@ -6,6 +6,7 @@ Entidades::Obstaculos::Plataforma::Plataforma(const sf::Vector2f pos, const sf::
     Obstaculo(pos, size, scale, i),
     type(t)
 {
+		id=1;
 		textura = pGerGraf->getTexture(Constants::PLATFORM_TEXTURE_FILE_PATH);
 		textura->setRepeated(true);
 		textura->setSmooth(false);

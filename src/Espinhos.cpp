@@ -3,6 +3,7 @@ Entidades::Obstaculos::Espinhos::Espinhos(const sf::Vector2f pos, const sf::Vect
     Obstaculo(pos, size, scale, i),
 	danoso(false)
 {
+		id=3;
 		entity.setFillColor(Color::Yellow);
 }
 

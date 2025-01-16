@@ -3,6 +3,7 @@ Entidades::Personagens::Inimigo::Joaninha::Joaninha(const sf::Vector2f pos,const
 	Inimigo(pos,size,pP),
 		P(p)
 {
+	id=8;
     entity.setFillColor(sf::Color::Green);
 }
 
