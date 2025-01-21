@@ -62,27 +62,16 @@ void Personagens::Jogador::colision(Entidades::Entidade *entity, sf::Vector2f di
 void Personagens::Jogador::refresh()
 {
 	
-	const sf::Texture *texture = entity.getTexture();
 	sf::Vector2f deltaSpeed(0.0f, 0.0f);
     if(inMovement)
     {
         deltaSpeed.x = velFinal.x * Constants::DELTATIME;
         if(direction == 1)//left
         {
-    entity.setTextureRect(sf::IntRect(
-        texture->getSize().x,  // Posição inicial X: final da textura (direita)
-        0,                   // Posição inicial Y: topo da textura
-        -static_cast<int>(texture->getSize().x), // Largura negativa para inverter horizontalmente
-        static_cast<int>(texture->getSize().y)  // Altura positiva (não inverte verticalmente)
-    ));
-            deltaSpeed.x *= -1;
+ 			entity.setTextureRect(sf::IntRect(textura->getSize().x,0,-static_cast<int>(textura->getSize().x),static_cast<int>(textura->getSize().y)));
+           deltaSpeed.x *= -1;
         }	else{
-		entity.setTextureRect(sf::IntRect(
-    	    0,                                    // Posição inicial X: começo da textura
-       	 0,                                    // Posição inicial Y: topo da textura
-       	 static_cast<int>(texture->getSize().x), // Largura positiva
-       	static_cast<int>(texture->getSize().y)  // Altura positiva
-   		 ));
+ 			entity.setTextureRect(sf::IntRect(0, 0,static_cast<int>(textura->getSize().x),static_cast<int>(textura->getSize().y)));
 		}
 	
     }

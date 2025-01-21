@@ -27,9 +27,11 @@ void Entidades::Personagens::Inimigo::Pulgas::move()
             setPosition(motion+Vector2f(0.0f, Constants::VEL_ENEMY_Y + (Constants::GRAVITY*0.1)));
             break;
         case(left) :
+ 			entity.setTextureRect(sf::IntRect(textura->getSize().x,0,-static_cast<int>(textura->getSize().x),static_cast<int>(textura->getSize().y)));
             setPosition(motion+Vector2f(-Constants::VEL_ENEMY_X, 0.0f));
             break;
         case(right) :
+ 			entity.setTextureRect(sf::IntRect(0, 0,static_cast<int>(textura->getSize().x),static_cast<int>(textura->getSize().y)));
             setPosition(motion+Vector2f(Constants::VEL_ENEMY_X, 0.0f));
             break;
         default:

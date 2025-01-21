@@ -1,10 +1,11 @@
 #include "../include/Aranhas.h"
 Entidades::Personagens::Inimigo::Aranhas::Aranhas(const sf::Vector2f pos,Personagens::Jogador *pP):
-	Inimigo(pos,Vector2f(100,100),pP,5),
+	Inimigo(pos,Vector2f(226,121),pP,5),
 	bigger(false)	
 {
 	id=7;
-    entity.setFillColor(sf::Color::Magenta);
+	textura = pGerGraf->getTexture(Constants::ARANHAS_TEXTURE_FILE_PATH);
+	entity.setTexture(textura);
 }
 
 Entidades::Personagens::Inimigo::Aranhas::Aranhas::~Aranhas()
@@ -21,10 +22,16 @@ void Entidades::Personagens::Inimigo::Aranhas::move()
 	Vector2f motion(getPosition());
    	if(jogador->getPosition().x>getPosition().x) 
    	{
+ 	entity.setTextureRect(sf::IntRect(0, 0,static_cast<int>(textura->getSize().x),static_cast<int>(textura->getSize().y)));
+
            motion+=Vector2f(Constants::VEL_ENEMY_X, 0.0f);
    	}
    	else
-           motion+=Vector2f(-Constants::VEL_ENEMY_X, 0.0f);
+	{
+         motion+=Vector2f(-Constants::VEL_ENEMY_X, 0.0f);
+ entity.setTextureRect(sf::IntRect(textura->getSize().x,0,-static_cast<int>(textura->getSize().x),static_cast<int>(textura->getSize().y)));
+
+	}
     setPosition(sf::Vector2f(motion.x + deltaSpeed.x, motion.y + deltaSpeed.y));
 }
 void Entidades::Personagens::Inimigo::Aranhas::Aranhas::refresh()
@@ -50,10 +57,10 @@ void Entidades::Personagens::Inimigo::Aranhas::Aranhas::changeSize(){
 			previous=dt;
 	}
 	if(bigger){
-			setSize(Vector2f(200,200));
+			setSize(Vector2f(226,121));
 	}
 	else{
-			setSize(Vector2f(100,100));
+			setSize(Vector2f(286,181));
 	}
 }
 void Entidades::Personagens::Inimigo::Aranhas::Aranhas::colision(Entidades::Entidade *entity, sf::Vector2f distance)
@@ -89,9 +96,10 @@ void Entidades::Personagens::Inimigo::Aranhas::Aranhas::colision(Entidades::Enti
             }
             else
             {
-                charCurPos.y-=getPosition().y;
+                charCurPos.y-=distance.y;
             }
             charCurVel.y = 0.0f;
+
             pChar->setVelFinal(charCurVel);
             pChar->setPosition(charCurPos);
         }
@@ -126,7 +134,7 @@ void Entidades::Personagens::Inimigo::Aranhas::Aranhas::colision(Entidades::Enti
     		        }
     		        else
     		        {
-    		            charCurPos.y-=getPosition().y;
+    		            charCurPos.y-=distance.y;
     		        }
     		        charCurVel.y = 0.0f;
     		        pChar->setVelFinal(charCurVel);
