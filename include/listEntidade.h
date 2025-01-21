@@ -19,7 +19,9 @@ namespace Listas
         ~listEntidade();
 
         //Adicionar na lista:
-        void addEntity(Entidades::Entidade* pEntity) {EntityObjList.push(pEntity);}
+        void addEntity(Entidades::Entidade* pEntity) {EntityObjList.push(pEntity);
+		pEntity->salvar();
+		}
 
         //retorna seu tamanho
         const int getSize() const {return EntityObjList.getTamanho();};

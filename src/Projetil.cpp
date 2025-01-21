@@ -10,6 +10,7 @@ Projetil::Projetil::Projetil(const sf::Vector2f pos,
 							 p(p1),
 							 inicial(Vector2f(0,0)),
 							 positionPlayer(Vector2f(0,0))
+										
 {
 		entity.setFillColor(sf::Color::Green);
 }
@@ -64,4 +65,16 @@ void Projetil::Projetil::fire(Vector2f pos){
 		setPosition(pos);
 		inicial=pos;
 		ativo=true;
+}
+string Projetil::Projetil::salvar(){
+		string salvo;
+		salvo.clear();
+		salvo="";
+		salvo="AAAAAAAAAAAAAAAAAAAA:";
+		salvo+=getEntSize().y+'\n';
+		salvo+="FIMMM";
+		cout<<"oi:";
+		cout<<getEntSize().x<<endl;
+		return salvo;
+
 }

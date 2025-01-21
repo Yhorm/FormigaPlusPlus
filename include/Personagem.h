@@ -26,6 +26,7 @@ namespace Entidades
 			virtual ~Personagem();
 			void setHP(const int hp) { hitpoints = hp; }
 			const int getHP() const { return hitpoints; }
+			const Vector2f getRestartPos(){return restartPos;}
 			void setVelFinal(const sf::Vector2f vel) { velFinal = vel; }
 			const sf::Vector2f getvelFinal() const { return velFinal; }
             void setDirection(const short dir = -1) {direction = dir;}
@@ -40,6 +41,7 @@ namespace Entidades
             virtual void refresh()=0; 
             virtual void colision(Entidades::Entidade* entity, sf::Vector2f distance) = 0;
 				void operator--(){hitpoints--;}
+			 string salvar();
 		};
 
 	}

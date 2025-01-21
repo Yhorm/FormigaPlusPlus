@@ -19,5 +19,10 @@ Obstaculo::~Obstaculo()
 {
 }
 
-
-
+string Obstaculo::salvar(){
+		string salvo;
+		salvo.clear();
+		salvo+=getIdS()+','+getPosition().x+','+getPosition().y+','+getEntSize().x+','+getEntSize().y+'\n';
+		cout<<salvo;
+		return salvo;
+}

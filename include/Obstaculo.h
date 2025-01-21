@@ -27,6 +27,7 @@ namespace Entidades
 			const bool getDanoso(){return danoso;}
             void setScale(const sf::Vector2f s) {scale = s;}
             const sf::Vector2f getScale() const { return scale; }
+			string salvar();
         };
     }
 }

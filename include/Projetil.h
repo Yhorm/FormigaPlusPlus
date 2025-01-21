@@ -28,6 +28,7 @@ namespace Entidades
 			void fire(Vector2f pos);
             void colision(Entidades::Entidade* entity, sf::Vector2f distance);
 			const bool getAtivo(){return ativo;}
+			string salvar();
         };
     }
 }

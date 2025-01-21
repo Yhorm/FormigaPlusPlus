@@ -23,3 +23,11 @@ void Entidades::Personagens::Personagem::restart(){
 		setHP(HPinicial);
 		setPosition(restartPos);
 }
+string Entidades::Personagens::Personagem::salvar(){
+		string salvo;
+		salvo.clear();
+		salvo+=getIdS()+','+getPosition().x+','+getPosition().y+','+getEntSize().x+','+getEntSize().y+'\n';
+		cout<<salvo;
+		return salvo;
+
+}

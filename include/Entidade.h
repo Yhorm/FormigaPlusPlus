@@ -33,6 +33,7 @@ namespace Entidades
 		virtual void refresh() = 0;
         virtual void colision(Entidades::Entidade* entity, sf::Vector2f distance) = 0;
         const Identifier::ID getId() const {return ID;}
+		virtual string salvar()=0;
 	};
 }
 using namespace Entidades;
