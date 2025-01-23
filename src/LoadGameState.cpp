@@ -48,7 +48,7 @@ namespace States
         changeState(pFase1->getState());
        }
         else
-            std::cout << "NÃO CARREGOU A CARALHA DO SAVE" << std::endl;;
+            std::cout << "NÃO CARREGOU O SAVE" << std::endl;;
             
     }
     void LoadGame::update() 
