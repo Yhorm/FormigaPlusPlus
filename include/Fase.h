@@ -30,7 +30,7 @@ namespace Fases
 				Listas::listEntidade lista;
 				vector <pair<int,string>> fase;
 				public:
-					Fase(States::StateMachine* pSm = nullptr, States::StateType faseAtual = States::StateType::NULL_STATE);
+					Fase(States::StateMachine* pSm = nullptr, States::StateType faseAtual = States::StateType::NULL_STATE,bool CarregarFase=true);
 					virtual ~Fase();
 					virtual void executar();
 					void Gerenciar_colisoes();

@@ -1,12 +1,14 @@
 #include "../include/Fase.h"
 using namespace Fases;
 
-Fase::Fase(States::StateMachine* pSm, States::StateType faseAtual):
+Fase::Fase(States::StateMachine* pSm, States::StateType faseAtual,bool CarregarFase):
 		States::State(pSm, faseAtual),
 		player1(new Entidades::Personagens::Jogador(sf::Vector2f(2200.0f, 100.0f))),
 		lista(),
 		ColMngr(&lista,player1)
 		{
+				if(!CarregarFase){
+
 				textura = pGerGraf->getTexture(Constants::SCENERY_TEXTURE_FILE_PATH);
 				textura->setRepeated(true);
 				textura->setSmooth(false);
@@ -15,6 +17,10 @@ Fase::Fase(States::StateMachine* pSm, States::StateType faseAtual):
 				sprite.setPosition(-900,-900);
 				fase.clear();
 				lista.addEntity(player1);
+				}
+				else{
+					recuperar();
+				}
 		}
 		
 Fase::~Fase()
@@ -117,7 +123,6 @@ void Fase::CriarInimigosF()
 
 void Fase::draw() 
 {
-	recuperar();
 	CriarCenario();
 	executar();
 	Gerenciar_colisoes();
