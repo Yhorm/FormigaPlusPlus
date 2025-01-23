@@ -22,7 +22,7 @@ Obstaculo::~Obstaculo()
 string Obstaculo::salvar(){
 		string salvo;
 		salvo.clear();
-		salvo+=getIdS()+','+getPosition().x+','+getPosition().y+','+getEntSize().x+','+getEntSize().y+'\n';
+		salvo+=to_string(getIdS())+','+to_string(getPosition().x)+','+to_string(getPosition().y)+','+to_string(getEntSize().x)+','+to_string(getEntSize().y)+'\n';
 		cout<<salvo;
 		return salvo;
 }

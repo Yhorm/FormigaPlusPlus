@@ -57,3 +57,11 @@ void listEntidade::execute()
    		aux++;
     }
 }
+void listEntidade::save(){
+		FILE *file;
+		file=fopen("save.txt","w");
+		for(auto aux = EntityObjList.getPrim();aux!=nullptr;aux++){
+				fprintf(file,"%s",(*aux)->salvar().c_str());
+		}
+		fclose(file);
+}

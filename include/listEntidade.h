@@ -20,7 +20,6 @@ namespace Listas
 
         //Adicionar na lista:
         void addEntity(Entidades::Entidade* pEntity) {EntityObjList.push(pEntity);
-		pEntity->salvar();
 		}
 
         //retorna seu tamanho
@@ -34,6 +33,7 @@ namespace Listas
 		const bool CleanAlive(Entidades::Entidade* aux);
 		void restart();
         void execute();
+		void save();
         Listas::List<Entidades::Entidade>::Iterator <Entidades::Entidade> getPrim() { return EntityObjList.getPrim(); }
     };
 }

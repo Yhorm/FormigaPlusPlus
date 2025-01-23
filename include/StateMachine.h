@@ -26,8 +26,6 @@ namespace States
 
             States::StateType getCurState() { return curState; };
             States::StateType getLastState() { return lastState; };
-
-
             void insertState(States::State* pSt);
     };
 

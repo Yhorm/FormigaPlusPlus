@@ -15,7 +15,6 @@ Fase::Fase(States::StateMachine* pSm, States::StateType faseAtual):
 				sprite.setPosition(-900,-900);
 				fase.clear();
 				lista.addEntity(player1);
-			
 		}
 		
 Fase::~Fase()
@@ -118,13 +117,50 @@ void Fase::CriarInimigosF()
 
 void Fase::draw() 
 {
+	recuperar();
 	CriarCenario();
 	executar();
 	Gerenciar_colisoes();
 }
 void Fase::refresh(){
-
 }
 void Fase::update() {}
 
 void Fase::resetState() {}
+void Fase::recuperar(){
+		if(fopen("save.txt","r")){
+			ifstream input("save.txt");
+			string linha;
+			while(getline(input,linha)){
+					std::stringstream ss(linha);
+					string s;
+					vector<float> valores;
+					while(getline(ss,s,',')){
+							valores.push_back(stof(s));
+					}
+					switch((int)valores[0]){
+							case 0:
+									player1->setPosition(Vector2f(valores[5],valores[6]));
+									break;
+							case 1:
+				lista.addEntity(new Entidades::Obstaculos::Plataforma(Vector2f(valores[1],valores[2]),Vector2f(valores[3],valores[4])));
+									break;
+							case 2:
+				lista.addEntity(new Entidades::Obstaculos::Plataforma(Vector2f(valores[1],valores[2]),Vector2f(valores[3],valores[4])));
+									break;
+							case 3:
+									break;
+							case 4:
+									break;
+							case 6:
+									break;
+							case 7:
+									break;
+							case 8:
+									break;
+							default:
+									cerr<<"error carregar";
+					}
+			}		
+	}
+}

@@ -16,6 +16,8 @@
 #include <string>
 #include "StateMachine.h"
 #include "GerenciadorGrafico.h"
+#include "fstream"
+#include "sstream"
 namespace Fases
 {
 		class Fase : public States::State,public Ente
@@ -47,5 +49,6 @@ namespace Fases
 					void refresh();
 					void update();
 					void resetState();
+					void recuperar();
 		};
 }
