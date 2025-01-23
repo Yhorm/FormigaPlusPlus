@@ -17,10 +17,10 @@ namespace States
                 auxState = static_cast<State*>(new Menus::StageSelection(this));
                 insertState(auxState);
                 
+                auxState = new Fases::SaveFase(this);
+                insertState(auxState);
                 auxState = new LoadGame(this, 
-                dynamic_cast<Fases::PrimeiraFase*>(m_mapStates[States::STATE_FASE_1] ), 
-                dynamic_cast<Fases::SegundaFase*>(m_mapStates[States::STATE_FASE_2]) );
-
+                dynamic_cast<Fases::SaveFase*>(m_mapStates[States::STATE_SAVE_FASE] )); 
                 insertState(auxState);
                 auxState = static_cast<State*>(new Menus::PauseMenu( this, 
                 dynamic_cast<Fases::Fase*> ( m_mapStates[StateType::STATE_FASE_1] ), 

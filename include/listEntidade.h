@@ -1,7 +1,3 @@
-//
-// Created by Felipe on 04/11/2023.
-//
-
 #pragma once
 #include "list.h"
 #include "Entidade.h"

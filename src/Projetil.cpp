@@ -71,7 +71,6 @@ string Projetil::Projetil::salvar(){
 		string salvo;
 		salvo.clear();
 		salvo=to_string(getIdS())+'\n';
-		cout<<salvo;
 		return salvo;
 
 }

@@ -1,15 +1,11 @@
 #include "../include/LoadGameState.h"
-#include "../include/Fase.h"
-#include "../include/PrimeiraFase.h"
-#include "../include/SegundaFase.h"
 
 namespace States
 {
 
-    LoadGame::LoadGame(StateMachine* pSM, Fases::PrimeiraFase* p1, Fases::SegundaFase* p2) :
+    LoadGame::LoadGame(StateMachine* pSM, Fases::SaveFase* p1) :
         State(pSM, States::StateType::STATE_LOAD_GAME),
-        pFase1(p1),
-        pFase2(p2)
+        pFase1(p1)
     {
         /*
         Texto.setInfo("CARREGANDO SAVE");
@@ -29,25 +25,11 @@ namespace States
 
     void LoadGame::executar() 
     {   
-        /*
-        FILE* arquivo = fopen("faseSalvada.txt", "r");
-        if(arquivo == NULL)
-        {
-            std::cerr << "Falha em ler arquivo de salvamento." << endl;
-        }
-        
-        int fase;
-        fase = fscanf(arquivo, "%d");
-
-        fclose(arquivo);
-        pFase = NULL;
-        */
-
        if(pFase1->recuperar())
        {
         changeState(pFase1->getState());
        }
-        else
+       else
             std::cout << "NÃO CARREGOU O SAVE" << std::endl;;
             
     }

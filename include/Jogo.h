@@ -11,7 +11,7 @@
 #include "PauseMenu.h"
 #include "LoadGameState.h"
 #include "StageSelection.h"
-
+#include "SaveFase.h"
 
 using namespace std;
 using namespace sf;

@@ -1,12 +1,14 @@
 #include "../include/PrimeiraFase.h"
 using namespace Fases;
-PrimeiraFase::PrimeiraFase(States::StateMachine* pSm) :
+PrimeiraFase::PrimeiraFase(States::StateMachine* pSm,bool carregar) :
 	Fase(pSm, States::StateType::STATE_FASE_1)
 {
 		CriarCenario();
+		if(!carregar){
 		LerArquivo();
     	CriarObstaculo();
     	CriarInimigos();
+	}
 }
 PrimeiraFase::~PrimeiraFase(){
 

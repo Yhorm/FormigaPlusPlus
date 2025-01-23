@@ -86,7 +86,7 @@ namespace Menus
 
     void PauseMenu::TriggerMenu()
     {
-        if(pSM->getCurState() == States::StateType::STATE_FASE_1 || pSM->getCurState() == States::StateType::STATE_FASE_2)
+        if(pSM->getCurState() == States::StateType::STATE_FASE_1 || pSM->getCurState() == States::StateType::STATE_FASE_2 || pSM->getCurState() == States::StateType::STATE_SAVE_FASE)
         {
             changeState(States::StateType::STATE_PAUSED);
         }

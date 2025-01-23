@@ -15,7 +15,8 @@ namespace States
         STATE_STAGE_SELECTION = 4,
         STATE_LOAD_GAME = 5,
         STATE_PAUSED = 6,
-        STATE_GAMEOVER = 7
+        STATE_GAMEOVER = 7,
+        STATE_SAVE_FASE= 8
 
     };
     

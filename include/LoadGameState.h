@@ -1,6 +1,7 @@
 #pragma once
 #include "States.h"
 #include "text.h"
+#include "SaveFase.h"
 #include "fstream"
 #include "sstream"
 
@@ -16,12 +17,10 @@ namespace States
     class LoadGame : public State
     {
         private:
-            Fases::PrimeiraFase* pFase1;
-            Fases::SegundaFase* pFase2;
-            //ElemGraf::Text Texto;
+            Fases::SaveFase* pFase1;
 
         public:
-            LoadGame(StateMachine* pSM, Fases::PrimeiraFase* p1, Fases::SegundaFase* p2);
+            LoadGame(StateMachine* pSM, Fases::SaveFase* p1);
             ~LoadGame();
 
             void executar();
