@@ -66,7 +66,7 @@ namespace Menus
     }
     void PauseMenu::draw() 
     {
-			m_pGerGraf->centralize(Vector2f(m_pGerGraf->getWinSize().x/2,m_pGerGraf->getWinSize().y/2));
+		m_pGerGraf->centralize(Vector2f(m_pGerGraf->getWinSize().x/2,m_pGerGraf->getWinSize().y/2));
         m_pGerGraf->draw(body);
         Cabecalho.draw();
 
