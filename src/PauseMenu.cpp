@@ -4,7 +4,7 @@ namespace Menus
 {
     PauseMenu::PauseMenu(States::StateMachine* pSM, Fases::Fase* fase1, Fases::Fase* fase2) :
         Menu(),
-        States::State(pSM),
+        States::State(pSM,States::StateType::STATE_PAUSED),
         pFase1(fase1),
         pFase2(fase2)
     {          
@@ -51,6 +51,7 @@ namespace Menus
                     {
                         pFase2->salvar();
                     }
+                    changeState(pSM->getLastState());
                     break;
                 case(2) :
                     changeState(States::StateType::STATE_MAIN_MENU);
@@ -84,7 +85,7 @@ namespace Menus
 
     void PauseMenu::TriggerMenu()
     {
-        if(pSM->getCurState() != States::StateType::STATE_PAUSED)
+        if(pSM->getCurState() == States::StateType::STATE_FASE_1 || pSM->getCurState() == States::StateType::STATE_FASE_2)
         {
             changeState(States::StateType::STATE_PAUSED);
         }
