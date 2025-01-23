@@ -14,11 +14,13 @@ Fase::Fase(States::StateMachine* pSm, States::StateType faseAtual,bool CarregarF
   				sprite.setTexture(*textura);
 				sprite.setTextureRect(sf::IntRect(0, 0, 3000000, 3000000));
 				sprite.setPosition(-900,-900);
-				if(!CarregarFase){
+				if(!CarregarFase)
+				{
 					fase.clear();
 					lista.addEntity(player1);
 				}
-				else{
+				else
+				{
 					fase.clear();
 					recuperar();
 				}
@@ -186,6 +188,14 @@ bool Fase::recuperar(){
 	}
 		return false;
 }
-void Fase::salvar(){
+void Fase::salvar()
+{
+		FILE *file;
+		file=fopen("faseSalvada.txt","w");
+		
+		fprintf(file, "%d", getState());
+
+		fclose(file);
+
 		lista.save();
 }

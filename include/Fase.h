@@ -46,6 +46,8 @@ namespace Fases
 					void TratarArquivo(FILE *T);
 					Entidades::Personagens::Jogador* getPlayer(){return player1;};
 
+					States::StateType getFaseAtual() { return getState(); };
+
 					void draw();
 					void refresh();
 					void update();

@@ -2,6 +2,11 @@
 #include "menu.h"
 #include "States.h"
 
+namespace Fases
+{
+    class Fase;
+}
+
 namespace Menus
 {
     class StageSelection : public Menu, public States::State
@@ -17,6 +22,5 @@ namespace Menus
             void draw();
 
             void resetState();
-
     };
 }

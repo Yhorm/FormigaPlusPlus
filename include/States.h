@@ -13,7 +13,7 @@ namespace States
         STATE_MAIN_MENU = 2,
         STATE_SCORE_MENU = 3,
         STATE_STAGE_SELECTION = 4,
-        STATE_SAVE_MENU = 5,
+        STATE_LOAD_GAME = 5,
         STATE_PAUSED = 6,
         STATE_GAMEOVER = 7
 

@@ -39,6 +39,7 @@ namespace States
         }
 
         m_mapStates.insert(std::pair<States::StateType, State*>(pSt->getState(), pSt));
+
     }
 
     

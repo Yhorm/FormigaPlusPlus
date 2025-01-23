@@ -27,5 +27,6 @@ string Entidades::Personagens::Personagem::salvar(){
 		string salvo;
 		salvo.clear();
 		salvo+=to_string(getIdS())+','+to_string(getRestartPos().x)+','+to_string(getRestartPos().y)+','+to_string(getEntSize().x)+','+to_string(getEntSize().y)+','+to_string(getPosition().x)+','+to_string(getPosition().y)+'\n';
+		cout<<salvo;
 		return salvo;
 }

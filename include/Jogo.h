@@ -9,7 +9,7 @@
 #include "StateMachine.h"
 #include "MainMenu.h"
 #include "PauseMenu.h"
-//#include "LoadMenu.h"
+#include "LoadGameState.h"
 #include "StageSelection.h"
 
 

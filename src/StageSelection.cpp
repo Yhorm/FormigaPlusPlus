@@ -1,4 +1,8 @@
 #include "../include/StageSelection.h"
+#include "../include/Fase.h"
+#include "../include/PrimeiraFase.h"
+#include "../include/SegundaFase.h"
+
 
 namespace Menus
 {
@@ -15,7 +19,10 @@ namespace Menus
         aux = new ElemGraf::Botao(sf::Vector2f(Constants::RES_X/2.0, Constants::RES_Y/2.0 + 200), "FASE 2");
         botoes.push_back(aux);
 
-        aux = new ElemGraf::Botao(sf::Vector2f(Constants::RES_X/2.0, Constants::RES_Y/2.0 + 400), "VOLTAR");
+        aux = new ElemGraf::Botao(sf::Vector2f(Constants::RES_X/2.0, Constants::RES_Y/2.0 + 400), "CARREGAR JOGO");
+        botoes.push_back(aux);
+
+        aux = new ElemGraf::Botao(sf::Vector2f(Constants::RES_X/2.0, Constants::RES_Y/2.0 + 600), "VOLTAR");
         botoes.push_back(aux);
 
         Cabecalho.setInfo("SELECIONE UMA FASE");
@@ -26,13 +33,14 @@ namespace Menus
         
         Cabecalho.setStyle(ElemGraf::StyleType::Bold);
 
-        max = 2;   
+        max = 3;   
     }
 
     StageSelection::~StageSelection() {}
 
     void StageSelection::executar()
     {
+        States::State* auxState;
         if(active)
         {
             active = false;
@@ -45,12 +53,18 @@ namespace Menus
                     changeState(States::StateType::STATE_FASE_2);
                     break;
                 case(2) :
+                    changeState(States::StateType::STATE_LOAD_GAME);
+                    break;
+                case(3) :
                     changeState(States::StateType::STATE_MAIN_MENU);
                     break;
                 default :
+                    auxState = NULL;
                     break;
             }
         }
+        
+        auxState = NULL;
     }
 
     void StageSelection::update() { active = true; }
