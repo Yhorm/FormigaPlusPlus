@@ -3,8 +3,6 @@
 namespace Fases{
 		class SegundaFase : public Fase
 		{
-			private:
-			Entidades::Projetil::Projetil *proje;
 			public:
 			SegundaFase(States::StateMachine* pSm);
 			~SegundaFase();

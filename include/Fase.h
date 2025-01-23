@@ -29,6 +29,7 @@ namespace Fases
 				Gerenciadores::GerenciadorColisoes ColMngr; 
 				Listas::listEntidade lista;
 				vector <pair<int,string>> fase;
+				Entidades::Projetil::Projetil *proje;
 				public:
 					Fase(States::StateMachine* pSm = nullptr, States::StateType faseAtual = States::StateType::NULL_STATE,bool CarregarFase=true);
 					virtual ~Fase();

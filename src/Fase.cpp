@@ -5,10 +5,10 @@ Fase::Fase(States::StateMachine* pSm, States::StateType faseAtual,bool CarregarF
 		States::State(pSm, faseAtual),
 		player1(new Entidades::Personagens::Jogador(sf::Vector2f(2200.0f, 100.0f))),
 		lista(),
-		ColMngr(&lista,player1)
+		ColMngr(&lista,player1),
+		proje(nullptr)
 		{
 				if(!CarregarFase){
-
 				textura = pGerGraf->getTexture(Constants::SCENERY_TEXTURE_FILE_PATH);
 				textura->setRepeated(true);
 				textura->setSmooth(false);
@@ -36,8 +36,6 @@ void Fase::Gerenciar_colisoes()
 {
 		ColMngr.execute();
 }
-
-
 void Fase::TratarArquivo(FILE *T)
 {
 		char buffer[1024];
@@ -140,28 +138,44 @@ bool Fase::recuperar(){
 					std::stringstream ss(linha);
 					string s;
 					vector<float> valores;
+					Personagens::Inimigo::Pulgas *pulgaAux=nullptr;
+					Personagens::Inimigo::Aranhas *aranhaAux=nullptr;
+					Personagens::Inimigo::Joaninha *JoaninhaAux=nullptr;
 					while(getline(ss,s,',')){
 							valores.push_back(stof(s));
 					}
 					switch((int)valores[0]){
 							case 0:
-									player1->setPosition(Vector2f(valores[5],valores[6]));
+				player1->setPosition(Vector2f(valores[5],valores[6]));
+				lista.addEntity(player1);
 									break;
 							case 1:
 				lista.addEntity(new Entidades::Obstaculos::Plataforma(Vector2f(valores[1],valores[2]),Vector2f(valores[3],valores[4])));
 									break;
 							case 2:
-				lista.addEntity(new Entidades::Obstaculos::Plataforma(Vector2f(valores[1],valores[2]),Vector2f(valores[3],valores[4])));
+				lista.addEntity(new Entidades::Obstaculos::Teia(Vector2f(valores[1],valores[2]),Vector2f(valores[3],valores[4])));
 									break;
 							case 3:
+				lista.addEntity(new Entidades::Obstaculos::Teia(Vector2f(valores[1],valores[2]),Vector2f(valores[3],valores[4])));
 									break;
 							case 4:
+				proje=new Entidades::Projetil::Projetil(Vector2f(0,0),player1);
+				lista.addEntity(proje);
 									break;
 							case 6:
+				pulgaAux= new Personagens::Inimigo::Pulgas(Vector2f(valores[1],valores[2]),player1);
+				pulgaAux->setPosition(Vector2f(valores[5],valores[6]));
+				lista.addEntity(pulgaAux);
 									break;
 							case 7:
+				aranhaAux= new Personagens::Inimigo::Aranhas(Vector2f(valores[1],valores[2]),player1);
+				aranhaAux->setPosition(Vector2f(valores[5],valores[6]));
+				lista.addEntity(aranhaAux);
 									break;
 							case 8:
+				JoaninhaAux= new Personagens::Inimigo::Joaninha(Vector2f(valores[1],valores[2]),Vector2f(valores[3],valores[4]),player1,proje);
+				JoaninhaAux->setPosition(Vector2f(valores[5],valores[6]));
+				lista.addEntity(JoaninhaAux);
 									break;
 							default:
 									cerr<<"error carregar";
