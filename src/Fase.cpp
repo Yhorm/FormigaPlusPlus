@@ -127,7 +127,7 @@ void Fase::refresh(){
 void Fase::update() {}
 
 void Fase::resetState() {}
-void Fase::recuperar(){
+bool Fase::recuperar(){
 		if(fopen("save.txt","r")){
 			ifstream input("save.txt");
 			string linha;
@@ -162,5 +162,10 @@ void Fase::recuperar(){
 									cerr<<"error carregar";
 					}
 			}		
+			return true;
 	}
+		return false;
+}
+void Fase::salvar(){
+		lista.save();
 }
