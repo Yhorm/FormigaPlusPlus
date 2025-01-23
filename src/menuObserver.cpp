@@ -1,5 +1,6 @@
 #include "../include/menuObserver.h"
 #include "../include/menu.h"
+#include "../include/PauseMenu.h"
 
 namespace Observers
 {
@@ -37,6 +38,13 @@ namespace Observers
             p_menu->executar();
         }
         
+        if(key == "Escape")
+        {
+            if(dynamic_cast<Menus::PauseMenu*>(p_menu) != nullptr)
+            {
+                dynamic_cast<Menus::PauseMenu*>(p_menu)->TriggerMenu();
+            }
+        }
     }
 
     void menuObserver::notifyKeyReleased(std::string key)
