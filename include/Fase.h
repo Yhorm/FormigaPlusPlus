@@ -31,7 +31,7 @@ namespace Fases
 				vector <pair<int,string>> fase;
 				Entidades::Projetil::Projetil *proje;
 				public:
-					Fase(States::StateMachine* pSm = nullptr, States::StateType faseAtual = States::StateType::NULL_STATE,bool CarregarFase=true);
+					Fase(States::StateMachine* pSm = nullptr, States::StateType faseAtual = States::StateType::NULL_STATE,bool CarregarFase=false);
 					virtual ~Fase();
 					virtual void executar();
 					void Gerenciar_colisoes();

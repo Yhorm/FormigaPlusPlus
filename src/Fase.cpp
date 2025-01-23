@@ -8,17 +8,18 @@ Fase::Fase(States::StateMachine* pSm, States::StateType faseAtual,bool CarregarF
 		ColMngr(&lista,player1),
 		proje(nullptr)
 		{
-				if(!CarregarFase){
 				textura = pGerGraf->getTexture(Constants::SCENERY_TEXTURE_FILE_PATH);
 				textura->setRepeated(true);
 				textura->setSmooth(false);
   				sprite.setTexture(*textura);
 				sprite.setTextureRect(sf::IntRect(0, 0, 3000000, 3000000));
 				sprite.setPosition(-900,-900);
-				fase.clear();
-				lista.addEntity(player1);
+				if(!CarregarFase){
+					fase.clear();
+					lista.addEntity(player1);
 				}
 				else{
+					fase.clear();
 					recuperar();
 				}
 		}
