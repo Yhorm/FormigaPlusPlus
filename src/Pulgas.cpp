@@ -80,8 +80,6 @@ void Entidades::Personagens::Inimigo::Pulgas::Pulgas::colision(Entidades::Entida
             {
             	    charCurPos.y+=distance.y;
                     Entidades::Personagens::Jogador *pPlyr = static_cast<Entidades::Personagens::Jogador *>(pChar);
-                    pPlyr->setInAir(false);
-                    pPlyr->setCanJump(true);
             }
             else
             {

@@ -2,7 +2,7 @@
 
 Entidades::Personagens::Jogador::Jogador(sf::Vector2f pos, bool isPlayer2) :
         Controlador(this),
-        Personagem(pos, sf::Vector2f(Constants::SIZE_PLYR_H, Constants::SIZE_PLYR_W), sf::Vector2f(Constants::VEL_PLAYER_X, Constants::VEL_PLAYER_Y), 3, Identifier::ID::player),
+        Personagem(pos, sf::Vector2f(Constants::SIZE_PLYR_H, Constants::SIZE_PLYR_W), sf::Vector2f(Constants::VEL_PLAYER_X, Constants::VEL_PLAYER_Y), 5, Identifier::ID::player),
         direction(left),
         damage(true),
         Player2(isPlayer2),
