@@ -61,6 +61,38 @@ void Entidades::Personagens::Inimigo::Pulgas::Pulgas::colision(Entidades::Entida
     {
         case(Identifier::ID::player) :
         {
+		auto pChar = static_cast<Personagens::Personagem*>(entity);
+   		sf::Vector2f charCurPos = pChar->getPosition();
+    	sf::Vector2f charCurVel = pChar->getvelFinal(); //se colocar 0.f 0.f ele fica preso igual cola dá pra fazer o obstaculo medio
+		sf::Vector2f charSize = pChar->getEntSize();
+        if(distance.x > distance.y)
+        {
+            if(charCurPos.x < getPosition().x)
+                charCurPos.x+=distance.x;
+            else
+                charCurPos.x-=distance.x;
+            charCurVel.x = 0.0f;
+            pChar->setPosition(charCurPos);
+        }
+        else
+        {
+            if(charCurPos.y < getPosition().y)
+            {
+            	    charCurPos.y+=distance.y;
+                    Entidades::Personagens::Jogador *pPlyr = static_cast<Entidades::Personagens::Jogador *>(pChar);
+                    pPlyr->setInAir(false);
+                    pPlyr->setCanJump(true);
+            }
+            else
+            {
+                charCurPos.y-=distance.y;
+            }
+            charCurVel.y = 0.0f;
+
+            pChar->setVelFinal(charCurVel);
+            pChar->setPosition(charCurPos);
+        }
+	
 				if(!jogador->getInAir()&&dt-animation>=1.3){
 					animation=dt;
 					danificar(jogador);

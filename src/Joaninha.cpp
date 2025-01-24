@@ -83,7 +83,7 @@ void Entidades::Personagens::Inimigo::Joaninha::Joaninha::colision(Entidades::En
             }
             else
             {
-                charCurPos.y-=getPosition().y;
+                charCurPos.y-=distance.y;
             }
             charCurVel.y = 0.0f;
             pChar->setVelFinal(charCurVel);
@@ -120,7 +120,7 @@ void Entidades::Personagens::Inimigo::Joaninha::Joaninha::colision(Entidades::En
     		        }
     		        else
     		        {
-    		            charCurPos.y-=getPosition().y;
+    		            charCurPos.y-=distance.y;
     		        }
     		        charCurVel.y = 0.0f;
     		        pChar->setVelFinal(charCurVel);
