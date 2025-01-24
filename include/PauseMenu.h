@@ -12,10 +12,11 @@ namespace Menus
         private:
             Fases::Fase *pFase1;
             Fases::Fase *pFase2;
+            Fases::Fase *pSave;
             ElemGraf::Text Cabecalho;
         public:
         
-            PauseMenu(States::StateMachine* pSM, Fases::Fase* fase1, Fases::Fase* fase2);
+            PauseMenu(States::StateMachine* pSM, Fases::Fase* fase1, Fases::Fase* fase2,Fases::Fase* save);
             ~PauseMenu();
 
             void executar();

@@ -17,7 +17,7 @@ namespace States
     class LoadGame : public State
     {
         private:
-            Fases::SaveFase* pFase1;
+            Fases::SaveFase* pSave;
 
         public:
             LoadGame(StateMachine* pSM, Fases::SaveFase* p1);

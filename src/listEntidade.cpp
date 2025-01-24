@@ -65,3 +65,8 @@ void listEntidade::save(){
 		}
 		fclose(file);
 }
+void listEntidade::clear(){
+		for(auto i=EntityObjList.getPrim();i!=nullptr;i++)
+				delete (*i);
+        EntityObjList.clear();//mudei 
+}

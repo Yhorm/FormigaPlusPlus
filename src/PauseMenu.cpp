@@ -2,11 +2,12 @@
 
 namespace Menus
 {
-    PauseMenu::PauseMenu(States::StateMachine* pSM, Fases::Fase* fase1, Fases::Fase* fase2) :
+    PauseMenu::PauseMenu(States::StateMachine* pSM, Fases::Fase* fase1, Fases::Fase* fase2, Fases::Fase* save) :
         Menu(),
         States::State(pSM,States::StateType::STATE_PAUSED),
         pFase1(fase1),
-        pFase2(fase2)
+        pFase2(fase2),
+		pSave(save)
     {          
         ElemGraf::Botao* aux = NULL;
 
@@ -50,8 +51,10 @@ namespace Menus
                     else if(pSM->getLastState() == States::StateType::STATE_FASE_2)
                     {
                         pFase2->salvar();
-                    }
-                    changeState(pSM->getLastState());
+					}else{
+						pSave->salvar();	
+					}
+					changeState(pSM->getLastState());
                     break;
                 case(2) :
                     changeState(States::StateType::STATE_MAIN_MENU);

@@ -31,6 +31,7 @@ namespace Listas
         void execute();
 		void save();
         Listas::List<Entidades::Entidade>::Iterator <Entidades::Entidade> getPrim() { return EntityObjList.getPrim(); }
+		void clear();
     };
 }
 

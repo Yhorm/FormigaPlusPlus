@@ -1,7 +1,7 @@
 #include "../include/Fase.h"
 using namespace Fases;
 
-Fase::Fase(States::StateMachine* pSm, States::StateType faseAtual,bool CarregarFase):
+Fase::Fase(States::StateMachine* pSm, States::StateType faseAtual):
 		States::State(pSm, faseAtual),
 		player1(new Entidades::Personagens::Jogador(sf::Vector2f(2200.0f, 100.0f))),
 		lista(),
@@ -14,16 +14,8 @@ Fase::Fase(States::StateMachine* pSm, States::StateType faseAtual,bool CarregarF
   				sprite.setTexture(*textura);
 				sprite.setTextureRect(sf::IntRect(0, 0, 3000000, 3000000));
 				sprite.setPosition(-900,-900);
-				if(!CarregarFase)
-				{
-					fase.clear();
-					lista.addEntity(player1);
-				}
-				else
-				{
-					fase.clear();
-					recuperar();
-				}
+				fase.clear();
+				lista.addEntity(player1);
 		}
 		
 Fase::~Fase()
@@ -150,6 +142,7 @@ bool Fase::recuperar(){
 					switch((int)valores[0]){
 							case 0:
 				player1->setPosition(Vector2f(valores[5],valores[6]));
+				player1->setHP(valores[7]);
 				lista.addEntity(player1);
 									break;
 							case 1:
@@ -168,34 +161,30 @@ bool Fase::recuperar(){
 							case 6:
 				pulgaAux= new Personagens::Inimigo::Pulgas(Vector2f(valores[1],valores[2]),player1);
 				pulgaAux->setPosition(Vector2f(valores[5],valores[6]));
+				pulgaAux->setHP(valores[7]);
 				lista.addEntity(pulgaAux);
 									break;
 							case 7:
 				aranhaAux= new Personagens::Inimigo::Aranhas(Vector2f(valores[1],valores[2]),player1);
 				aranhaAux->setPosition(Vector2f(valores[5],valores[6]));
+				aranhaAux->setHP(valores[7]);
 				lista.addEntity(aranhaAux);
 									break;
 							case 8:
 				JoaninhaAux= new Personagens::Inimigo::Joaninha(Vector2f(valores[1],valores[2]),Vector2f(valores[3],valores[4]),player1,proje);
 				JoaninhaAux->setPosition(Vector2f(valores[5],valores[6]));
+				JoaninhaAux->setHP(valores[7]);
 				lista.addEntity(JoaninhaAux);
 									break;
 							default:
 									cerr<<"error carregar";
 					}
 			}		
-			return true;
+		return true;
 	}
-		return false;
+			return false;
 }
 void Fase::salvar()
 {
-		FILE *file;
-		file=fopen("faseSalvada.txt","w");
-		
-		fprintf(file, "%d", getState());
-
-		fclose(file);
-
 		lista.save();
 }

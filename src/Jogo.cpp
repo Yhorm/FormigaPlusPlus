@@ -24,7 +24,8 @@ namespace States
                 insertState(auxState);
                 auxState = static_cast<State*>(new Menus::PauseMenu( this, 
                 dynamic_cast<Fases::Fase*> ( m_mapStates[StateType::STATE_FASE_1] ), 
-                dynamic_cast<Fases::Fase*> ( m_mapStates[StateType::STATE_FASE_2] ) ) );
+                dynamic_cast<Fases::Fase*> ( m_mapStates[StateType::STATE_FASE_2] ),
+			  	dynamic_cast<Fases::SaveFase*>(m_mapStates[States::STATE_SAVE_FASE]) ));
 
                 insertState(auxState);
 

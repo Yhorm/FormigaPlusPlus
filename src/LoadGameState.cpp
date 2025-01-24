@@ -5,7 +5,7 @@ namespace States
 
     LoadGame::LoadGame(StateMachine* pSM, Fases::SaveFase* p1) :
         State(pSM, States::StateType::STATE_LOAD_GAME),
-        pFase1(p1)
+        pSave(p1)
     {
         /*
         Texto.setInfo("CARREGANDO SAVE");
@@ -25,9 +25,9 @@ namespace States
 
     void LoadGame::executar() 
     {   
-       if(pFase1->recuperar())
+       if(pSave->recuperar())
        {
-        changeState(pFase1->getState());
+        changeState(pSave->getState());
        }
        else
             std::cout << "NÃO CARREGOU O SAVE" << std::endl;;
