@@ -41,6 +41,7 @@ namespace Constants
 	constexpr const char* SCENERY_TEXTURE_FILE_PATH= "../assets/BackGround.png";
 	constexpr const char* PULGAS_TEXTURE_FILE_PATH = "../assets/Pulga.png";
 	constexpr const char* ARANHAS_TEXTURE_FILE_PATH = "../assets/Aranha.png";
+	constexpr const char* JOANINHA_TEXTURE_FILE_PATH = "../assets/Joaninha.png";
     constexpr const char* FONT_FILE_PATH = "../assets/monogram.ttf";
     constexpr const char* BUTTON_SELECTED_FILE_PATH = "../assets/Button_Highlight.png";
     constexpr const char* BUTTON_DEFAULT_FILE_PATH = "../assets/Button_basic.png";

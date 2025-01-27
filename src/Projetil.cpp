@@ -13,7 +13,7 @@ Projetil::Projetil::Projetil(const sf::Vector2f pos,
 										
 {
 		id=4;
-		entity.setFillColor(sf::Color::Green);
+		entity.setFillColor(sf::Color::Black);
 }
 
 

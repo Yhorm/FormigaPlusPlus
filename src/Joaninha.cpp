@@ -4,7 +4,8 @@ Entidades::Personagens::Inimigo::Joaninha::Joaninha(const sf::Vector2f pos,const
 		P(p)
 {
 	id=8;
-    entity.setFillColor(sf::Color::Green);
+	textura = pGerGraf->getTexture(Constants::JOANINHA_TEXTURE_FILE_PATH);
+	entity.setTexture(textura);
 }
 
 Entidades::Personagens::Inimigo::Joaninha::Joaninha::~Joaninha()
@@ -21,10 +22,12 @@ void Entidades::Personagens::Inimigo::Joaninha::move()
 	Vector2f motion(getPosition());
    	if(jogador->getPosition().x>getPosition().x) 
    	{
+		   entity.setTextureRect(sf::IntRect(textura->getSize().x,0,-static_cast<int>(textura->getSize().x),static_cast<int>(textura->getSize().y)));
            motion+=Vector2f(Constants::VEL_ENEMY_X, 0.0f);
-   	}
-   	else
-           motion+=Vector2f(-Constants::VEL_ENEMY_X, 0.0f);
+   	}else{
+         motion+=Vector2f(-Constants::VEL_ENEMY_X, 0.0f);
+ 		   entity.setTextureRect(sf::IntRect(0, 0,static_cast<int>(textura->getSize().x),static_cast<int>(textura->getSize().y)));
+	}
     setPosition(sf::Vector2f(motion.x + deltaSpeed.x, motion.y + deltaSpeed.y));
 }
 void Entidades::Personagens::Inimigo::Joaninha::Joaninha::refresh()

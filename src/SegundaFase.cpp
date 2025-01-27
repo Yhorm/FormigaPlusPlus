@@ -36,7 +36,7 @@ void SegundaFase::CriarInimigosD(){
 			}
 		for(auto x : variaveis){
 				if(rand()%10<3 || numeromin<3){
-					lista.addEntity(new Entidades::Personagens::Inimigo::Joaninha(Vector2f(x.y*10,x.x*35),Vector2f(100,100),player1,proje));
+					lista.addEntity(new Entidades::Personagens::Inimigo::Joaninha(Vector2f(x.y*10,x.x*35),Vector2f(146,104),player1,proje));
 					numeromin++;
 				}
 		}
