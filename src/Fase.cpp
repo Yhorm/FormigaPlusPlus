@@ -188,3 +188,12 @@ void Fase::salvar()
 {
 		lista.save();
 }
+bool Fase::EndFase(){
+
+		if(player1->getPosition().y+10>=lista.lastPla().y){
+				lista.restart();
+				return true;
+		}
+		else 
+				return false;
+}

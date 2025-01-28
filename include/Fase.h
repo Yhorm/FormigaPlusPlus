@@ -44,9 +44,9 @@ namespace Fases
 					void CriarCenario();
 					virtual bool LerArquivo() = 0;
 					void TratarArquivo(FILE *T);
-					Entidades::Personagens::Jogador* getPlayer(){return player1;};
+					Entidades::Personagens::Jogador* getPlayer() const{return player1;};
 
-					States::StateType getFaseAtual() { return getState(); };
+					States::StateType getFaseAtual()const { return getState(); };
 
 					void draw();
 					void refresh();
@@ -54,5 +54,6 @@ namespace Fases
 					void resetState();
 					bool recuperar();
 					void salvar();
+					bool EndFase();
 		};
 }

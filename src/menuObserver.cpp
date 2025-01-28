@@ -1,7 +1,7 @@
 #include "../include/menuObserver.h"
 #include "../include/menu.h"
 #include "../include/PauseMenu.h"
-
+#include "../include/Fase.h"
 namespace Observers
 {
     menuObserver::menuObserver(Menus::Menu* pM) :
@@ -45,6 +45,7 @@ namespace Observers
                 dynamic_cast<Menus::PauseMenu*>(p_menu)->TriggerMenu();
             }
         }
+
     }
 
     void menuObserver::notifyKeyReleased(std::string key)

@@ -65,8 +65,13 @@ void listEntidade::save(){
 		}
 		fclose(file);
 }
-void listEntidade::clear(){
-		for(auto i=EntityObjList.getPrim();i!=nullptr;i++)
-				delete (*i);
-        EntityObjList.clear();//mudei 
+
+const Vector2f listEntidade::lastPla(){
+	Vector2f ultima=Vector2f(-1,-1);
+	for(auto aux = EntityObjList.getPrim();aux!=nullptr;aux++){
+  		if ((*aux)->getId() == ID::platform) {
+			ultima=(*aux)->getPosition();	
+		}
+	}
+	return ultima;
 }

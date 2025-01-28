@@ -1,7 +1,4 @@
 #include "../include/StageSelection.h"
-#include "../include/Fase.h"
-#include "../include/PrimeiraFase.h"
-#include "../include/SegundaFase.h"
 
 
 namespace Menus
