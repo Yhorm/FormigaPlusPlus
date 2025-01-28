@@ -27,14 +27,19 @@ namespace States
 
     void StateMachine::execState()
     {
-		if(curState==0 || curState==1 || curState==8){
+		if(curState==0){
 				if(!static_cast<Fases::Fase*>(m_mapStates[curState])->EndFase()){
         			m_mapStates[curState]->draw();
 				}
 				else
-					changeCurState(STATE_MAIN_MENU);
-		}else
-			   m_mapStates[curState]->draw();
+					changeCurState(States::STATE_FASE_2);
+		}else if(curState==1 || curState==8){
+				if(!static_cast<Fases::Fase*>(m_mapStates[curState])->EndFase()){
+        			m_mapStates[curState]->draw();
+				}
+				else
+					changeCurState(States::STATE_MAIN_MENU);
+		}else m_mapStates[curState]->draw();
     }
 
     void StateMachine::insertState(States::State* pSt) 
