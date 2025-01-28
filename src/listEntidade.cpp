@@ -1,7 +1,3 @@
-//
-// Created by Felipe on 04/11/2023.
-//
-
 #include "../include/listEntidade.h"
 
 listEntidade::listEntidade() : EntityObjList(),nKilled(0) {}
@@ -69,7 +65,7 @@ void listEntidade::save(){
 const Vector2f listEntidade::lastPla(){
 	Vector2f ultima=Vector2f(-1,-1);
 	for(auto aux = EntityObjList.getPrim();aux!=nullptr;aux++){
-  		if ((*aux)->getId() == ID::platform) {
+  		if ((*aux)->getIdS() == 1) {
 			ultima=(*aux)->getPosition();	
 		}
 	}

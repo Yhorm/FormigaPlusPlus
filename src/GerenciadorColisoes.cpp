@@ -1,7 +1,3 @@
-//
-// Created by Felipe on 04/11/2023.
-//
-
 #include "../include/GerenciadorColisoes.h"
 
 GerenciadorColisoes::GerenciadorColisoes(Listas::listEntidade *list,Entidades::Personagens::Jogador *jog) :

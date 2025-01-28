@@ -190,7 +190,7 @@ void Fase::salvar()
 }
 bool Fase::EndFase(){
 
-		if(player1->getPosition().y+10>=lista.lastPla().y){
+		if(player1->getPosition().y>=lista.lastPla().y-80){
 				lista.restart();
 				return true;
 		}

@@ -1,5 +1,4 @@
 #include "../include/botao.h"
-#include "botao.h"
 
 namespace ElemGraf
 {

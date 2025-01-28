@@ -1,7 +1,3 @@
-//
-// Created by Felipe on 05/11/2023.
-//
-
 #include "../include/Obstaculo.h"
 
 

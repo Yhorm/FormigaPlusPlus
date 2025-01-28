@@ -1,5 +1,5 @@
 #include "../include/StateMachine.h"
-
+#include "../include/Fase.h"
 namespace States
 {
     StateMachine::StateMachine() :
@@ -27,7 +27,14 @@ namespace States
 
     void StateMachine::execState()
     {
-        m_mapStates[curState]->draw();
+		if(curState==0 || curState==1 || curState==8){
+				if(!static_cast<Fases::Fase*>(m_mapStates[curState])->EndFase()){
+        			m_mapStates[curState]->draw();
+				}
+				else
+					changeCurState(STATE_MAIN_MENU);
+		}else
+			   m_mapStates[curState]->draw();
     }
 
     void StateMachine::insertState(States::State* pSt) 

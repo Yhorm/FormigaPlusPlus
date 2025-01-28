@@ -1,7 +1,3 @@
-//
-// Created by Felipe on 02/11/2023.
-//
-
 #include "../include/Inimigo.h"
 
 
