@@ -4,7 +4,6 @@ Entidades::Obstaculos::Espinhos::Espinhos(const sf::Vector2f pos, const sf::Vect
 	danoso(false)
 {
 		id=3;
-		entity.setFillColor(Color::Yellow);
 }
 
 Entidades::Obstaculos::Espinhos::~Espinhos()
@@ -34,10 +33,18 @@ void Espinhos::refresh()
     }
 
 		if(danoso){
-			entity.setFillColor(Color::Red);
+		textura = pGerGraf->getTexture(Constants::ESPINHOS_TEXTURE_FILE_PATH);
+		entity.setTexture(textura);
+		textura->setRepeated(true);
+		textura->setSmooth(true);
+		entity.setTextureRect(sf::IntRect(0,0,size.x,size.y));
 		}
 		else{
-			entity.setFillColor(Color::Yellow);
+		textura = pGerGraf->getTexture(Constants::PLATFORM_TEXTURE_FILE_PATH);
+		entity.setTexture(textura);
+		textura->setRepeated(true);
+		textura->setSmooth(true);
+		entity.setTextureRect(sf::IntRect(0,0,size.x,size.y));
 		}
 }
 void Espinhos::colisionObstacle(sf::Vector2f ds, Personagens::Personagem *pChar)

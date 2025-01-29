@@ -6,7 +6,11 @@ Entidades::Obstaculos::Teia::Teia(const sf::Vector2f pos, const sf::Vector2f siz
     type(t)
 {
 		id=2;
-		entity.setFillColor(Color::Yellow);
+		textura = pGerGraf->getTexture(Constants::TEIA_TEXTURE_FILE_PATH);
+		entity.setTexture(textura);
+		textura->setRepeated(true);
+		textura->setSmooth(true);
+		entity.setTextureRect(sf::IntRect(0,0,size.x,size.y));
 }
 
 Entidades::Obstaculos::Teia::~Teia()
