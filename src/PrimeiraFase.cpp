@@ -1,7 +1,8 @@
 #include "../include/PrimeiraFase.h"
 using namespace Fases;
 PrimeiraFase::PrimeiraFase(States::StateMachine* pSm,bool carregar) :
-	Fase(pSm, States::StateType::STATE_FASE_1)
+	Fase(pSm, States::StateType::STATE_FASE_1),
+	maxAranhas(6)
 {
 		CriarCenario();
 		if(!carregar){
@@ -32,7 +33,7 @@ void PrimeiraFase::CriarInimigosM(){
 						aux++;
 			}
 		for(auto x : variaveis){
-				if(rand()%10<3 || numeromin<3){
+				if((rand()%10<3 || numeromin<3)&& numeromin<maxAranhas){
 					lista.addEntity(new Entidades::Personagens::Inimigo::Aranhas(Vector2f(x.y*10,x.x*35),player1));
 					numeromin++;
 				}
@@ -65,7 +66,7 @@ void PrimeiraFase::CriarObstMedios(){
 								aux++;
 		}
 		for(auto x : variaveis){
-				if(rand()%10<3 || numeromin<3){
+				if(rand()%10<6 || numeromin<3){
 					lista.addEntity(new Entidades::Obstaculos::Teia(Vector2f(x.y*10,x.x*35),Vector2f((x.z-x.y)*10,50)));
 					numeromin++;
 				}

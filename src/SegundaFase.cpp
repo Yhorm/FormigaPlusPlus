@@ -1,7 +1,8 @@
 #include "../include/SegundaFase.h"
 using namespace Fases;
 SegundaFase::SegundaFase(States::StateMachine* pSm) :
-	Fase(pSm, States::StateType::STATE_FASE_2)
+	Fase(pSm, States::StateType::STATE_FASE_2),
+	maxJoaninhas(7)
 {
 		CriarCenario();
 		LerArquivo();
@@ -35,7 +36,7 @@ void SegundaFase::CriarInimigosD(){
 						aux++;
 			}
 		for(auto x : variaveis){
-				if(rand()%10<3 || numeromin<3){
+				if((rand()%10<3 || numeromin<3)&& numeromin<maxJoaninhas){
 					lista.addEntity(new Entidades::Personagens::Inimigo::Joaninha(Vector2f(x.y*10,x.x*35),Vector2f(146,104),player1,proje));
 					numeromin++;
 				}

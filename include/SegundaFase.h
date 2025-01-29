@@ -3,6 +3,8 @@
 namespace Fases{
 		class SegundaFase : public Fase
 		{
+			private:
+			const int maxJoaninhas;
 			public:
 			SegundaFase(States::StateMachine* pSm);
 			~SegundaFase();
