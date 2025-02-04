@@ -1,4 +1,6 @@
+//Sprite feitos por Gabriela Freire Portugal
 #pragma once
+
 
 namespace Constants
 {
