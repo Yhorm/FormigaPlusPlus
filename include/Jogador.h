@@ -27,6 +27,7 @@ namespace Entidades {
             bool Player2;
             bool inMovement;
             bool canJump;
+			int pontos;
 
         public:
             Jogador(sf::Vector2f pos = sf::Vector2f(0.0f, 0.0f), bool isPlayer2 = false);
@@ -51,6 +52,8 @@ namespace Entidades {
 
             void colision(Entidades::Entidade* entity, sf::Vector2f distance);
 			void showlife();
+			const int getPontos(){return pontos;};
+			void setPotos(const int Ppontos){pontos=Ppontos;};
         };
     }
 }
