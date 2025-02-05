@@ -18,6 +18,10 @@ Entidades::Obstaculos::Plataforma::~Plataforma()
 {
 }
 
+void Plataforma::obstacular(Personagens::Jogador* j){
+                    j->setInAir(false);
+                    j->setCanJump(true);
+}
 void Plataforma::colision(Entidades::Entidade *entity, sf::Vector2f distance)
 {
     Identifier::ID id = entity->getId();
@@ -60,8 +64,7 @@ void Plataforma::colisionObstacle(sf::Vector2f ds, Personagens::Personagem *pCha
                 if(pChar->getId() == Identifier::ID::player)
                 {
                     Entidades::Personagens::Jogador *pPlyr = static_cast<Entidades::Personagens::Jogador *>(pChar);
-                    pPlyr->setInAir(false);
-                    pPlyr->setCanJump(true);
+					obstacular(pPlyr);
                 }
             }
             else

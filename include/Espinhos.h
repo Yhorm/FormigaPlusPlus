@@ -18,6 +18,7 @@ namespace Entidades
 				void colision(Entidades::Entidade* entity,
 									  sf::Vector2f distance);
 				void colisionObstacle(sf::Vector2f ds, Personagens::Personagem* pChar);
+            	void obstacular(Entidades::Personagens::Jogador* j);
 				void refresh();
         };
     }

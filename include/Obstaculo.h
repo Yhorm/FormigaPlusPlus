@@ -1,4 +1,5 @@
 #pragma once
+#include "Entidade.h"
 #include "Jogador.h"
 #include "Constants.h"
 
@@ -24,6 +25,7 @@ namespace Entidades
                                   sf::Vector2f distance) = 0;
             virtual void colisionObstacle(sf::Vector2f ds, Personagens::Personagem* pChar)=0;
             virtual void refresh() = 0;
+            virtual void obstacular(Entidades::Personagens::Jogador* j) = 0;
 			const bool getDanoso(){return danoso;}
             void setScale(const sf::Vector2f s) {scale = s;}
             const sf::Vector2f getScale() const { return scale; }

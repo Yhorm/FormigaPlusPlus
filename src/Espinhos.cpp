@@ -47,13 +47,17 @@ void Espinhos::refresh()
 		entity.setTextureRect(sf::IntRect(0,0,size.x,size.y));
 		}
 }
+void Espinhos::obstacular(Personagens::Jogador* j){
+                    j->setInAir(false);
+                    j->setCanJump(true);
+
+}
 void Espinhos::colisionObstacle(sf::Vector2f ds, Personagens::Personagem *pChar)
 {
     sf::Vector2f charCurPos = pChar->getPosition();
     sf::Vector2f charCurVel = pChar->getvelFinal(); 
 	sf::Vector2f charSize = pChar->getEntSize();
     Identifier::ID id = pChar->getId();
-    if(id != ID::projectile)
 
     if(ds.x < 0.0f && ds.y < 0.0f)
     {
@@ -74,8 +78,7 @@ void Espinhos::colisionObstacle(sf::Vector2f ds, Personagens::Personagem *pChar)
                 if(pChar->getId() == Identifier::ID::player)
                 {
                     Entidades::Personagens::Jogador *pPlyr = static_cast<Entidades::Personagens::Jogador *>(pChar);
-                    pPlyr->setInAir(false);
-                    pPlyr->setCanJump(true);
+					obstacular(pPlyr);
                 }
             }
             else
