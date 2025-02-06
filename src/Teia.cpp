@@ -1,9 +1,9 @@
 #include "../include/Teia.h"
 
 
-Entidades::Obstaculos::Teia::Teia(const sf::Vector2f pos, const sf::Vector2f size, const std::string t, const sf::Vector2f scale, const Identifier::ID i) :
+Entidades::Obstaculos::Teia::Teia(const sf::Vector2f pos, const sf::Vector2f size, const sf::Vector2f scale, const Identifier::ID i) :
     Obstaculo(pos, size, scale, i),
-    type(t)
+	forca(0)
 {
 		id=2;
 		textura = pGerGraf->getTexture(Constants::TEIA_TEXTURE_FILE_PATH);
@@ -12,7 +12,17 @@ Entidades::Obstaculos::Teia::Teia(const sf::Vector2f pos, const sf::Vector2f siz
 		textura->setSmooth(true);
 		entity.setTextureRect(sf::IntRect(0,0,size.x,size.y));
 }
-
+Entidades::Obstaculos::Teia::Teia(const sf::Vector2f pos, const sf::Vector2f size,const int f, const sf::Vector2f scale, const Identifier::ID i) :
+    Obstaculo(pos, size, scale, i),
+	forca(f)
+{
+		id=2;
+		textura = pGerGraf->getTexture(Constants::TEIA_TEXTURE_FILE_PATH);
+		entity.setTexture(textura);
+		textura->setRepeated(true);
+		textura->setSmooth(true);
+		entity.setTextureRect(sf::IntRect(0,0,size.x,size.y));
+}
 Entidades::Obstaculos::Teia::~Teia()
 {
 }
@@ -38,7 +48,7 @@ void Teia::refresh()
 void Teia::colisionObstacle(sf::Vector2f ds, Personagens::Personagem *pChar)
 {
     sf::Vector2f charCurPos = pChar->getPosition();
-    sf::Vector2f charCurVel = Vector2f(0.f,0.f);//se colocar 0.f 0.f ele fica preso igual cola dá pra fazer o obstaculo medio
+    sf::Vector2f charCurVel = Vector2f(forca,forca);//se colocar 0.f 0.f ele fica preso igual cola dá pra fazer o obstaculo medio
     sf::Vector2f charSize = pChar->getEntSize();
 
     if(ds.x < 0.0f && ds.y < 0.0f)

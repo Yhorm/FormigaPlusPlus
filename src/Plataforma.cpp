@@ -2,9 +2,9 @@
 #include <SFML/Graphics/Rect.hpp>
 
 
-Entidades::Obstaculos::Plataforma::Plataforma(const sf::Vector2f pos, const sf::Vector2f size, const std::string t, const sf::Vector2f scale, const Identifier::ID i) :
+Entidades::Obstaculos::Plataforma::Plataforma(const sf::Vector2f pos, const sf::Vector2f size,const bool Preal, const sf::Vector2f scale, const Identifier::ID i) :
     Obstaculo(pos, size, scale, i),
-    type(t)
+	real(Preal)
 {
 		id=1;
 		textura = pGerGraf->getTexture(Constants::PLATFORM_TEXTURE_FILE_PATH);
@@ -24,6 +24,7 @@ void Plataforma::obstacular(Personagens::Jogador* j){
 }
 void Plataforma::colision(Entidades::Entidade *entity, sf::Vector2f distance)
 {
+	
     Identifier::ID id = entity->getId();
     if(id != Identifier::ID::projectile)
     {
@@ -41,6 +42,7 @@ void Plataforma::refresh()
 }
 void Plataforma::colisionObstacle(sf::Vector2f ds, Personagens::Personagem *pChar)
 {
+	if(real){
     sf::Vector2f charCurPos = pChar->getPosition();
     sf::Vector2f charCurVel = pChar->getvelFinal(); //se colocar 0.f 0.f ele fica preso igual cola dá pra fazer o obstaculo medio
     sf::Vector2f charSize = pChar->getEntSize();
@@ -74,7 +76,8 @@ void Plataforma::colisionObstacle(sf::Vector2f ds, Personagens::Personagem *pCha
             charCurVel.y = 0.0f;
             pChar->setVelFinal(charCurVel);
             pChar->setPosition(charCurPos);
-        }
-    }
+        	}
+    	}
+	}
 }
 

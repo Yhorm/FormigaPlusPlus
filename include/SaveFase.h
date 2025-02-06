@@ -9,5 +9,6 @@ namespace Fases{
 			void CriarInimigos(){};
 			void CriarObstaculo(){};
 			bool LerArquivo(){return true;};
+			bool recuperar();
 		};
 }

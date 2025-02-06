@@ -32,6 +32,7 @@ namespace Listas
 		void save();
         Listas::List<Entidades::Entidade>::Iterator <Entidades::Entidade> getPrim() { return EntityObjList.getPrim(); }
 		const Vector2f lastPla();
+		void clear();
     };
 }
 

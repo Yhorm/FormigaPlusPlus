@@ -72,7 +72,6 @@ void Projetil::Projetil::fire(Vector2f pos){
 string Projetil::Projetil::salvar(){
 		string salvo;
 		salvo.clear();
-		salvo=to_string(getIdS())+'\n';
+		salvo=to_string(getIdS())+","+to_string(getPosition().x)+","+to_string(getPosition().y)+","+to_string(ativo)+'\n';
 		return salvo;
-
 }

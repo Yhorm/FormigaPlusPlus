@@ -52,7 +52,6 @@ namespace Fases
 					void refresh();
 					void update();
 					void resetState();
-					bool recuperar();
 					void salvar();
 					bool EndFase();
 		};

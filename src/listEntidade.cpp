@@ -71,3 +71,8 @@ const Vector2f listEntidade::lastPla(){
 	}
 	return ultima;
 }
+void listEntidade::clear(){
+		for(auto i=EntityObjList.getPrim();i!=nullptr;i++)
+				delete (*i);
+        EntityObjList.clear();//mudei 
+}

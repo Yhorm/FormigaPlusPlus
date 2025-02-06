@@ -7,12 +7,18 @@ namespace Entidades
         class Teia : public Obstaculo
         {
         protected:
-            std::string type;
+				const int forca;
         public:
             Teia(const sf::Vector2f pos,
-                       const sf::Vector2f size, const std::string t = "",
+                       const sf::Vector2f size,
                        const sf::Vector2f scale = sf::Vector2f(Constants::SCALE_PLTFRM, Constants::SCALE_PLTFRM),
                        const Identifier::ID i = Identifier::ID::platform);
+			Teia(const sf::Vector2f pos,
+                       const sf::Vector2f size,
+						const int f,
+                       const sf::Vector2f scale = sf::Vector2f(Constants::SCALE_PLTFRM, Constants::SCALE_PLTFRM),
+                       const Identifier::ID i = Identifier::ID::platform);
+
             ~Teia();
            	void colision(Entidades::Entidade* entity,
                                   sf::Vector2f distance);
