@@ -9,6 +9,7 @@ Observers::playerObserver::playerObserver(Entidades::Personagens::Jogador* pP) :
     right("D"),
     keysPressed()
 {
+    setKeys();
     keysPressed.insert(std::pair<std::string, bool>(jump, false));
     keysPressed.insert(std::pair<std::string, bool>(right, false));
     keysPressed.insert(std::pair<std::string, bool>(left, false));
@@ -74,6 +75,23 @@ void Observers::playerObserver::notifyKeyReleased(std::string key)
     }
 }
 
+void Observers::playerObserver::setKeys()
+{
+    if(pPlayer->getPlayer2() == true)
+    {
+        this->jump = "Up";
+        this->left = "Left";
+        this->right = "Right";
+    }
+
+    else
+
+    {
+        this->jump = "W";
+        this->left = "A";
+        this->right = "D";
+    }
+}
 void Observers::playerObserver::setKeys(std::string jmp, std::string l, std::string r)
 {
     this->jump = jmp;

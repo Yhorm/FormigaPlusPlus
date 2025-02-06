@@ -32,6 +32,7 @@ namespace Observers
             void notifyKeyReleased(std::string key);
 
             void setPlayer(Entidades::Personagens::Jogador* pP) { pPlayer = pP; };
+            void setKeys();
             void setKeys(std::string jmp, std::string l, std::string r);
     };
 }

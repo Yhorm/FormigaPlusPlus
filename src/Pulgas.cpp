@@ -1,6 +1,7 @@
 #include "../include/Pulgas.h"
 Entidades::Personagens::Inimigo::Pulgas::Pulgas(const sf::Vector2f pos, Personagens::Jogador *pP):
-	Inimigo(pos,Vector2f(40,35),pP,1)	
+	Inimigo(pos,Vector2f(40,35),pP,1),
+    goUp(false)
 {
 			id=6;
 			textura = pGerGraf->getTexture(Constants::PULGAS_TEXTURE_FILE_PATH);
@@ -22,9 +23,11 @@ void Entidades::Personagens::Inimigo::Pulgas::move()
     {
         case(up) :
             setPosition(motion+Vector2f(0.0f, (Constants::GRAVITY + Constants::F_NORMAL) -Constants::VEL_ENEMY_Y));
+            goUp = true;
             break;
         case(down) :
             setPosition(motion+Vector2f(0.0f, Constants::VEL_ENEMY_Y + (Constants::GRAVITY*0.1)));
+            goUp = false;
             break;
         case(left) :
  			entity.setTextureRect(sf::IntRect(textura->getSize().x,0,-static_cast<int>(textura->getSize().x),static_cast<int>(textura->getSize().y)));
@@ -106,6 +109,7 @@ void Entidades::Personagens::Inimigo::Pulgas::Pulgas::colision(Entidades::Entida
             break;
     }
 }
-void Entidades::Personagens::Inimigo::Pulgas::danificar(Jogador* p){
+void Entidades::Personagens::Inimigo::Pulgas::danificar(Jogador* p)
+{
 		p->operator--();
 }

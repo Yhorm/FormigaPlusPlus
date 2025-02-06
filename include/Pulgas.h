@@ -15,6 +15,8 @@ namespace Entidades
         {
             class Pulgas : public Inimigo
             {
+            private: 
+                bool goUp;
             public:
                 Pulgas(const sf::Vector2f pos,
 			       	Jogador* pP = NULL);

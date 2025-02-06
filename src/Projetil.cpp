@@ -18,6 +18,7 @@ Projetil::Projetil::Projetil(const sf::Vector2f pos,
 
 
 Projetil::Projetil::~Projetil() {}
+
 void Projetil::Projetil::refresh(){
 		if(ativo){
 				move();
@@ -25,7 +26,7 @@ void Projetil::Projetil::refresh(){
 }
 void Projetil::Projetil::move()
 {
-		//enriquecer
+	//enriquecer
 	sf::Vector2f motion = getPosition();
 	sf::Vector2f direction = positionPlayer - inicial;
 
@@ -41,6 +42,7 @@ void Projetil::Projetil::move()
 	setPosition(motion);
 	
 }
+
 void Projetil::Projetil::colision(Entidades::Entidade* entity, sf::Vector2f distance){
     Identifier::ID id = entity->getId();
     switch(id)
@@ -63,13 +65,15 @@ void Projetil::Projetil::colision(Entidades::Entidade* entity, sf::Vector2f dist
     }
 
 }
-void Projetil::Projetil::fire(Vector2f pos){
+void Projetil::Projetil::fire(Vector2f pos)
+{
 		positionPlayer=p->getPosition();
 		setPosition(pos);
 		inicial=pos;
 		ativo=true;
 }
-string Projetil::Projetil::salvar(){
+string Projetil::Projetil::salvar()
+{
 		string salvo;
 		salvo.clear();
 		salvo=to_string(getIdS())+","+to_string(getPosition().x)+","+to_string(getPosition().y)+","+to_string(ativo)+'\n';

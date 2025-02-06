@@ -20,7 +20,6 @@ namespace Entidades {
 
             Observers::playerObserver Controlador;
             static unsigned int score;
-            static unsigned int death_C;
             bool damage;
             enum { left = 1, right = 2}; 
             int direction;
@@ -54,6 +53,8 @@ namespace Entidades {
 			void showlife();
 			const int getPontos(){return pontos;};
 			void setPotos(const int Ppontos){pontos=Ppontos;};
+
+            bool getPlayer2() {return Player2;};
         };
     }
 }
