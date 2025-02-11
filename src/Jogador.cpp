@@ -104,4 +104,3 @@ void Personagens::Jogador::showlife(){
 }
 
 unsigned int Entidades::Personagens::Jogador::score(0);
-unsigned int Entidades::Personagens::Jogador::death_C(0);

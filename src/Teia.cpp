@@ -12,6 +12,7 @@ Entidades::Obstaculos::Teia::Teia(const sf::Vector2f pos, const sf::Vector2f siz
 		textura->setSmooth(true);
 		entity.setTextureRect(sf::IntRect(0,0,size.x,size.y));
 }
+
 Entidades::Obstaculos::Teia::Teia(const sf::Vector2f pos, const sf::Vector2f size,const int f, const sf::Vector2f scale, const Identifier::ID i) :
     Obstaculo(pos, size, scale, i),
 	forca(f)
