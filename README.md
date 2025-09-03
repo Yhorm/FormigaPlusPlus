@@ -4,7 +4,7 @@
 
 
 O jogo Formiga++ foi desenvolvido para a disciplina de Técnicas de Programação com o prof. Jean Marcelo Simão e foi desenvolvido utilizando a linguagem C++ e a biblioteca gráfica SFML. <br>
-O projeto foi desenvolvido seguindo um processo de engenharia de requisitos, onde seguimos um documento criado pelo professor com requisitos técnicos e funcionais.<br>
+O projeto foi desenvolvido seguindo processos de engenharia de requisitos, onde seguimos um documento criado pelo professor com requisitos técnicos e funcionais a serem implementados e cumpridos.<br>
 <br>
 <br>
 <br>
